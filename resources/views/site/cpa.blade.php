@@ -3,6 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
+@include('includes.logo')
     <div class="container clearfix">
         <h2 class="header">{{ trans('locale.cpa_program') }}</h2>
         <div>

@@ -2,6 +2,7 @@
 <html class="nojs html" lang="en-US">
     @include('includes.header')
     <body class="sliphover-active">
+        @include('includes.logo')
         @include('includes.sidebar')
         <div id="content">
             <div id="fixed-barrier"></div>
