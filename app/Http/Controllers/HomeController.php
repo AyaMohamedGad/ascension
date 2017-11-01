@@ -14,4 +14,8 @@ class HomeController extends Controller
         return view('site.cpa');
     }
 
+    public function ers(){
+        return view('site.ers');
+    }
+
 }

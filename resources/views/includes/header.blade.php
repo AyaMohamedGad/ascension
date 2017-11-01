@@ -5,16 +5,16 @@
     <title>Ascension | @yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="weibergmedia">
-    <meta name="Description" content="Sugarland – Contemporary Portfolio for Creatives that Stands Out" />
+    <meta name="description" content="" />
 
-    <link href="'css/reset.css'" rel="stylesheet" type="text/css" media="screen" />
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/contact.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen" />
+    {!! Html::style('css/reset.css') !!}
+    {!! Html::style('css/bootstrap.min.css') !!}
+    {!! Html::style('css/font-awesome.min.css') !!}
+    {!! Html::style('css/contact.css') !!}
+    {!! Html::style('css/styles.css') !!}
+    {!! Html::style('css/responsive.css') !!}
+    {!! Html::style('css/custom.css') !!}
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,600,700,800" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,600,400italic" rel="stylesheet" />
-    <script src="js/modernizr.js" type="text/javascript"></script>
+    {!! Html::script('js/modernizr.js') !!}
 </head>

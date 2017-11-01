@@ -7,6 +7,7 @@
         <div id="content">
             <div id="fixed-barrier"></div>
             @include('includes.top')
+            @include('includes.logo')
             @yield('content')
         </div>
         @include('includes.footer')
