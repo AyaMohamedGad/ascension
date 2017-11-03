@@ -18,4 +18,8 @@ class HomeController extends Controller
         return view('site.ers');
     }
 
+    public function bookkeeping(){
+        return view('site.bookkeeping');
+    }
+
 }

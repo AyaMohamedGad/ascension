@@ -1,6 +1,6 @@
 @extends('includes.main')
 
-@section('title', 'Home')
+@section('title', trans('locale.home'))
 
 @section('content')
     @include('includes.slider')
