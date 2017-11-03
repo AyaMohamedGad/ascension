@@ -470,7 +470,6 @@ header {
 	position: relative;
 	padding-left: 260px;
 	z-index: 100;
-	overflow-y: auto;
 }
 #white-background {
 	background: #fff;
@@ -1972,6 +1971,15 @@ h1 .circle-anim:after {
  -webkit-transform: rotate(140deg);
  transform: rotate(140deg);
 }
+}
+
+.ers{
+	background: url('../images/ers.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 25px;
+	color: #fff;
+	min-height: 330px;
 }
 
 /* End Circle Animation

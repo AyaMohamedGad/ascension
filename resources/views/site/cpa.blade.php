@@ -1,15 +1,15 @@
 @extends('includes.main')
 
-@section('title', 'Home')
+@section('title', trans('locale.cpa_program'))
 
 @section('content')
-    <div class="container clearfix">
+    <div class="container clearfix full-width">
         <h2 class="header">{{ trans('locale.cpa_program') }}</h2>
-        <div>
-            <div class="row">
+        <div class="tab-content">
+            <div class="col-sm-12">
                 <img src="{{ asset('images/cpa_logo.jpg') }}" >
             </div>
-            <div class="row">
+            <div class="col-sm-12">
                 <div class="col-sm-6">
                     <img src="{{ asset('images/cpa_img.jpg') }}" >
                 </div>
@@ -26,32 +26,34 @@
             </div>
         </div>
     </div>
-    <div class="container clearfix">
+    <div class="container clearfix full-width">
         <h2 class="header">6 {{ trans('locale.steps_to_become_cpa') }}</h2>
-        <div class="row">
-            <div class="col-sm-2">
-                <p><img src="{{ asset('images/qualify.png') }}"></p>
-                <p>{{ trans('locale.qualify') }}</p>
-            </div>
-            <div class="col-sm-2">
-                <p><img src="{{ asset('images/enroll.png') }}"></p>
-                <p>{{ trans('locale.enroll') }}</p>
-            </div>
-            <div class="col-sm-2">
-                <p><img src="{{ asset('images/prepare.png') }}"></p>
-                <p>{{ trans('locale.prepare') }}</p>
-            </div>
-            <div class="col-sm-2">
-                <p><img src="{{ asset('images/schedule.png') }}"></p>
-                <p>{{ trans('locale.schedule') }}</p>
-            </div>
-            <div class="col-sm-2">
-                <p><img src="{{ asset('images/exam.png') }}"></p>
-                <p>{{ trans('locale.exam') }}</p>
-            </div>
-            <div class="col-sm-2">
-                <p><img src="{{ asset('images/pass.png') }}"></p>
-                <p>{{ trans('locale.pass') }}</p>
+        <div class="tab-content">
+            <div class="col-sm-12">
+                <div class="col-sm-2">
+                    <p><img src="{{ asset('images/qualify.png') }}"></p>
+                    <p>{{ trans('locale.qualify') }}</p>
+                </div>
+                <div class="col-sm-2">
+                    <p><img src="{{ asset('images/enroll.png') }}"></p>
+                    <p>{{ trans('locale.enroll') }}</p>
+                </div>
+                <div class="col-sm-2">
+                    <p><img src="{{ asset('images/prepare.png') }}"></p>
+                    <p>{{ trans('locale.prepare') }}</p>
+                </div>
+                <div class="col-sm-2">
+                    <p><img src="{{ asset('images/schedule.png') }}"></p>
+                    <p>{{ trans('locale.schedule') }}</p>
+                </div>
+                <div class="col-sm-2">
+                    <p><img src="{{ asset('images/exam.png') }}"></p>
+                    <p>{{ trans('locale.exam') }}</p>
+                </div>
+                <div class="col-sm-2">
+                    <p><img src="{{ asset('images/pass.png') }}"></p>
+                    <p>{{ trans('locale.pass') }}</p>
+                </div>
             </div>
         </div>
     </div>

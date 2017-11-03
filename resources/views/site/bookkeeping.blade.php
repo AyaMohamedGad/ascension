@@ -1,10 +1,10 @@
 @extends('includes.main')
 
-@section('title', trans('locale.ascension').trans('locale.ers'))
+@section('title', trans('locale.bookkeeping'))
 
 @section('content')
     <div class="container clearfix full-width">
-        <h2 class="header">{{ trans('locale.ascension').trans('locale.ers') }}</h2>
+        <h2 class="header">{{ trans('locale.bookkeeping') }}</h2>
         <div class="tab-content">
             <div class="col-sm-12">
                 <div class="col-sm-6">
