@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="nojs html" lang="en-US">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     @include('includes.header')
     <body class="sliphover-active">
         @include('includes.logo')
@@ -7,7 +8,6 @@
         <div id="content">
             <div id="fixed-barrier"></div>
             @include('includes.top')
-            @include('includes.logo')
             @yield('content')
         </div>
         @include('includes.footer')
