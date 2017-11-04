@@ -21,7 +21,7 @@
                     <li><a href="{{ route('CPAPage') }}" class="control">{{ trans('locale.cpa') }}</a></li>
                     <li><a href="#" class="control">{{ trans('locale.cia') }}</a></li>
                     <li><a href="#" class="control">{{ trans('locale.cfa') }}</a></li>
-                    <li><a href="#" class="control">{{ trans('locale.ascension_courses') }}</a></li>
+                    <li><a href="{{ route('CoursePage') }}" class="control">{{ trans('locale.ascension_courses') }}</a></li>
                     <li><a href="{{ route('ERSPage') }}" class="control">{{ trans('locale.ascension').trans('locale.ers') }}</a></li>
                 </ul>
             </li>

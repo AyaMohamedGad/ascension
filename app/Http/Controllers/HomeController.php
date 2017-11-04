@@ -26,4 +26,8 @@ class HomeController extends Controller
         return view('site.contactus');
     }
 
+    public function an_course(){
+        return view('site.ascension_course');
+    }
+
 }

@@ -13,3 +13,4 @@ Route::group(['prefix' => 'consultancy'], function () {
 });
 
 Route::get('/contactus', 'HomeController@contact')->name('ContactPage');
+Route::get('/ascension_course', 'HomeController@an_course')->name('CoursePage');
