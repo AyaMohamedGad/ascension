@@ -9,14 +9,14 @@
         </div>
         <div class="tab-content">
             <div class="col-sm-12">
-                <img src="{{ asset('images/cpa_logo.jpg') }}" >
+                <img class="center" src="{{ asset('images/cpa_logo.jpg') }}" >
             </div>
-            <div class="col-sm-12">
+            <div class="col-sm-12 mt-20">
                 <div class="col-sm-6">
-                    <img src="{{ asset('images/cpa_img.jpg') }}" >
+                    <img class="center" src="{{ asset('images/cpa_img.jpg') }}" >
                 </div>
                 <div class="col-sm-6">
-                    <div class="block">
+                    <div class="block center">
                         <p><img src="{{ asset('images/arrow.png') }}"> {{ trans('locale.upcoming_cpa_courses') }}</p>
                         <ul>
                             <li><strong>{{ trans('locale.reg') }}:</strong> {{ trans('locale.reg_date') }}</li>
