@@ -11,3 +11,5 @@ Route::group(['prefix' => 'training'], function () {
 Route::group(['prefix' => 'consultancy'], function () {
     Route::get('/bookkeeping', 'HomeController@ers')->name('BookKeeping');
 });
+
+Route::get('/contactus', 'HomeController@contact')->name('ContactPage');

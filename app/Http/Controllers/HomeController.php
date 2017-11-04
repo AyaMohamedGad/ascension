@@ -22,4 +22,8 @@ class HomeController extends Controller
         return view('site.bookkeeping');
     }
 
+    public function contact(){
+        return view('site.contactus');
+    }
+
 }

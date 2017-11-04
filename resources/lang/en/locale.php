@@ -121,11 +121,17 @@ return [
     "eligiablity" => "Eligiablity",
     "required_documents" => "Required Documents",
     "the_fund_text" => "In April 2013, the Government has enacted law number 98 of 2013 to establish a National Fund for SME Development (the “SME Fund”). The law is intended to help the country make a major stride in the efforts to support the youth, combat unemployment, and enable the private sector to drive economic growth. As an independent public corporation, with a total capital of KD 2 billion, the SME Fund will finance up to 80% of capital for feasible small and medium projects submitted by Kuwaiti Citizens. The National Fund for SME Development focus on building an inclusive, collaborative, and innovative ecosystem for entrepreneurs to lay the foundation for economic opportunities in the State of Kuwait.",
-
-
-
-
-
-
+    "phone" => "Phone",
+    "mobile" => "Mobile",
+    "fax" => "Fax",
+    "email" => "Email",
+    "address" => "Address",
+    "mailings" => "Mailings",
+    "phone_no" => "+965 22479823",
+    "mobile_no" => "+965 98718144",
+    "fax_no" => "+965 22479824",
+    "email_no" => "info@ascension-kw.com",
+    "address_no" =>"Panasonic Tower Floor 23, Office 8 Fahad Al-Salem St Alquibla",
+    "mailings_no" => "P.O. Box 27724 Safat 13138 State of Kuwait",
 
 ];

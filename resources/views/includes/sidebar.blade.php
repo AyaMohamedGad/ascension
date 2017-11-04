@@ -31,12 +31,13 @@
                     <li><a href="#" class="control">{{ trans('locale.information_system') }}</a></li>
                     <li><a href="#" class="control">{{ trans('locale.feasibility_studies') }}</a></li>
                     <li><a href="#" class="control">{{ trans('locale.business_advisory') }}</a></li>
-                    <li><a href="#" class="control">{{ trans('locale.national_fund') }} <span><img src="{{ asset('images/national_fund.png') }}"></span></a></li>
+                    <li><a href="#" class="control">{{ trans('locale.national_fund') }} <span>
+                    <img src="{{ asset('images/national_fund.png') }}" style="width: 30px;"></span></a></li>
                 </ul>
             </li>
             <li><a href="#">{{ trans('locale.about_us') }}</a></li>
             <li><a href="#">{{ trans('locale.careers') }}</a></li>
-            <li><a href="#">{{ trans('locale.contacts') }}</a></li>
+            <li><a href="{{ route('ContactPage') }}">{{ trans('locale.contacts') }}</a></li>
         </ul>
     </nav>
 </header>
