@@ -8,4 +8,4 @@
     <img src="{{ asset('images/Picture4.png') }}" class="logo_pic4">
 </div>
 
-<script src="{{ asset('/js/logo_animation.js') }}"></script>   
+<script src="{{ asset('/js/logo_animation.js') }}"></script>

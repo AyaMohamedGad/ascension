@@ -2030,3 +2030,20 @@ h1 .circle-anim:after {
     position: relative;
     top: -30.5%;
 }
+
+.header_normal_cover{
+	background-image: url('../images/header.png'); 
+	height: 187px;
+	background-size: cover;
+}
+
+.header_ubnormal_cover{
+	background-image: url('../images/bg_ers.png'); 
+	height: 187px;
+	background-size: cover;
+}
+
+.header_normal_cover h2, .header_ubnormal_cover h2{
+	color: white; 
+	padding-top: 5%;
+}

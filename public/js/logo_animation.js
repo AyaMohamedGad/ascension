@@ -51,6 +51,5 @@ $('.logo_pic1')
 $('.bg_logo')
 .delay(5000)
 .animate({
-    opacity:0,
-    display:'none'
-}, 200);
+    opacity:0
+}, 200).fadeOut();

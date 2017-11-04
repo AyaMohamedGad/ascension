@@ -4,7 +4,9 @@
 
 @section('content')
     <div class="container clearfix full-width">
-        <h2 class="header">{{ trans('locale.cpa_program') }}</h2>
+        <div class="header_normal_cover">
+            <h2 class="header">{{ trans('locale.cpa_program') }}</h2>
+        </div>
         <div class="tab-content">
             <div class="col-sm-12">
                 <img src="{{ asset('images/cpa_logo.jpg') }}" >
