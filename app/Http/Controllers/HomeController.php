@@ -30,4 +30,29 @@ class HomeController extends Controller
         return view('site.ascension_course');
     }
 
+    public function informationSys(){
+        return view('site.information');
+    }
+
+    public function feasibilityStudy(){
+        return view('site.feasibility');
+    }
+
+    public function businessAdvisory(){
+        return view('site.business_advisory');
+    }
+
+    public function nationalFunds(){
+        return view('site.national_funds');
+    }
+
+    public function setLanguage($lang){
+        if($lang == 'ar'){
+            app()->setLocale('ar');
+        } else {
+            app()->setLocale('en');
+        }
+        return redirect()->back();
+    }
+
 }

@@ -1,4 +1,5 @@
 <?php
+
 return [
     "cma" => "CMA",
     "cpa" => "CPA",
@@ -131,7 +132,7 @@ return [
     "mobile_no" => "+965 98718144",
     "fax_no" => "+965 22479824",
     "email_no" => "info@ascension-kw.com",
-    "address_no" =>"Panasonic Tower Floor 23, Office 8 Fahad Al-Salem St Alquibla",
+    "address_no" => "Panasonic Tower Floor 23, Office 8 Fahad Al-Salem St Alquibla",
     "mailings_no" => "P.O. Box 27724 Safat 13138 State of Kuwait",
 
 ];

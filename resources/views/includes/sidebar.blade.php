@@ -28,10 +28,10 @@
             <li><a href="#" class="sub-nav-toggle">{{ trans('locale.consultancy') }}</a>
                 <ul id="options" class="sub-nav">
                     <li><a href="{{ route('BookKeeping') }}" class="control">{{ trans('locale.bookkeeping') }}</a></li>
-                    <li><a href="#" class="control">{{ trans('locale.information_system') }}</a></li>
-                    <li><a href="#" class="control">{{ trans('locale.feasibility_studies') }}</a></li>
-                    <li><a href="#" class="control">{{ trans('locale.business_advisory') }}</a></li>
-                    <li><a href="#" class="control">{{ trans('locale.national_fund') }} <span>
+                    <li><a href="{{ route('InformationSystem') }}" class="control">{{ trans('locale.information_system') }}</a></li>
+                    <li><a href="{{ route('FeasibilityStudy') }}" class="control">{{ trans('locale.feasibility_studies') }}</a></li>
+                    <li><a href="{{ route('BusinessAdvisory') }}" class="control">{{ trans('locale.business_advisory') }}</a></li>
+                    <li><a href="{{ route('NationalFunds') }}" class="control">{{ trans('locale.national_fund') }} <span>
                     <img src="{{ asset('images/national_fund.png') }}" style="width: 30px;"></span></a></li>
                 </ul>
             </li>
