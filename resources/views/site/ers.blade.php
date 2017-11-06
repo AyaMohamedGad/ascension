@@ -3,7 +3,7 @@
 @section('title', trans('locale.ascension').trans('locale.ers'))
 
 @section('content')
-    <div class="container clearfix full-width">
+    <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_ubnormal_cover">
             <h2 class="header">{{ trans('locale.ascension').trans('locale.ers') }}</h2>
         </div>
@@ -17,7 +17,7 @@
                         <p>{{ trans('locale.ers_paragraph.3') }}</p>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 ers_sec">
                     <img src="{{ asset('images/ascension_ers.png') }}">
                 </div>
             </div>

@@ -234,19 +234,19 @@ body {
 }
 }
 .social_media{
-	width: 100%;
 	text-align: right;
 }
 .social_media a{
-	float: left;
-	margin-right: 15px;
+	margin-left: 15px;
 }
 .social_media img{
 	width: 50px;
 	height: 50px;
 }
 
-.social_media i{
+.social_media a{
 	font-size: 45px;
+}
+.social_media i , .social_media a{
 	color:#092b67;
 }

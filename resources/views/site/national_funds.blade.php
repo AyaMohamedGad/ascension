@@ -3,7 +3,7 @@
 @section('title', trans('locale.national_fund'))
 
 @section('content')
-    <div class="container clearfix full-width">
+    <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_normal_cover">
             <h2 class="header">{{ trans('locale.national_fund') }}</h2>
         </div>

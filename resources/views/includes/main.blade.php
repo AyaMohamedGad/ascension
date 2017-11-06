@@ -4,6 +4,7 @@
 @include('includes.header')
 <body>
     <div class="wrapper">
+        @yield('logo')
         @include('includes.sidebar')
         <div id="content">
             <div id="fixed-barrier"></div>

@@ -3,7 +3,7 @@
 @section('title', trans('locale.ascension').trans('locale.ers'))
 
 @section('content')
-    <div class="container clearfix full-width">
+    <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_normal_cover">
             <h2 class="header">{{ trans('locale.ascension_courses') }}</h2>
         </div>

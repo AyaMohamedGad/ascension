@@ -2,8 +2,10 @@
 
 @section('title', trans('locale.home'))
 
-@section('content')
-        @include('includes.logo')
+@section('logo')
+    @include('includes.logo')
+@stop
 
+@section('content')
     @include('includes.slider')
 @stop
