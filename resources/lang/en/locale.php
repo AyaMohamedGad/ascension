@@ -134,5 +134,18 @@ return [
     "email_no" => "info@ascension-kw.com",
     "address_no" => "Panasonic Tower Floor 23, Office 8 Fahad Al-Salem St Alquibla",
     "mailings_no" => "P.O. Box 27724 Safat 13138 State of Kuwait",
+    "honesty" => "Honesty",
+    "integrity" => "Integrity",
+    "fairness" => "Fairness",
+    "honesty_text" => "As representatives of New Zealand's premium cleaning service, our franchisees are security checked and highly trained. We deliver a service you can trust.",
+    "integrity_text" => "Consistency is key. We carry out every request -- big or small -- with the same high standards od detail, care and expertise.",
+    "fairness_text" => "Together, We work with you to determine the best value option for your specific requirements, so you can feel justified of choosing our service.",
+    "careers_text" => [
+        "1" => "Thank you for your interest in registering your name in Ascension’s HR database. In order for us to learn more about you & see how your profile can meet our recruitment & selection policies, please register by filling out all fields of this form. If Ascension determines there is a match between your profile & our needs, we will contact you.",
+        "2" => "Please note that inclusion in our database does not guarantee an offer. If you need additional assistance or have any questions, please send an e-mail message to ",
+        "email" => "Careers@Ascension-kw.com"
+    ]
+
+
 
 ];

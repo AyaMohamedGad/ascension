@@ -7,5 +7,9 @@
 @stop
 
 @section('content')
-    @include('includes.slider')
+    <div class="container clearfix full-width" data-ref="mixitup-container">
+        <video width="100%" height="500" autoplay="autoplay" loop>
+            <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
+        </video>
+    </div>
 @stop

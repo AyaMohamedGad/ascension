@@ -60,6 +60,10 @@ class HomeController extends Controller
         return view('site.national_funds');
     }
 
+    public function careers(){
+        return view('site.careers');
+    }
+
     public function setLanguage($lang){
         if($lang == 'ar'){
             app()->setLocale('ar');

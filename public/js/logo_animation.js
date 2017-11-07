@@ -16,18 +16,15 @@ $( ".logo_pic2" )
 .delay(1000)
 .animate({
     opacity: 1,
-    top: "-19%",
+    top: "-21%",
     left: "0%"
       }, 700);
-
-
-
 
 $( ".logo_pic2" )
 .delay(1500)
 .animate({
     opacity: 0,
-    top: "-50%",
+    top: "-52%",
     left: "30%"
       }, 700);
 

@@ -37,7 +37,7 @@
                 </ul>
             </li>
             <li><a href="{{ route('AboutPage') }}" class="{{ Request::is('aboutus') ? 'active' : '' }}">{{ trans('locale.about_us') }}</a></li>
-            <li><a href="#" class="{{ Request::is('careers') ? 'active' : '' }}">{{ trans('locale.careers') }}</a></li>
+            <li><a href="{{ route('CareersPage') }}" class="{{ Request::is('careers') ? 'active' : '' }}">{{ trans('locale.careers') }}</a></li>
             <li><a href="{{ route('ContactPage') }}" class="{{ Request::is('contactus') ? 'active' : '' }}">{{ trans('locale.contacts') }}</a></li>
         </ul>
     </nav>

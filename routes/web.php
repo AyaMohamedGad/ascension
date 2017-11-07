@@ -4,6 +4,7 @@ Route::get('/', 'HomeController@index')->name('HomePage');
 Route::get('/home', 'HomeController@index');
 Route::get('/aboutus', 'HomeController@about')->name('AboutPage');
 Route::get('/contactus', 'HomeController@contact')->name('ContactPage');
+Route::get('/careers', 'HomeController@careers')->name('CareersPage');
 Route::get('/lang/{lang}', 'HomeController@setLanguage')->name('setLanguage');
 
 Route::group(['prefix' => 'training'], function () {
@@ -16,7 +17,7 @@ Route::group(['prefix' => 'training'], function () {
 });
 
 Route::group(['prefix' => 'consultancy'], function () {
-    Route::get('/bookkeeping', 'HomeController@ers')->name('BookKeeping');
+    Route::get('/bookkeeping', 'HomeController@bookkeeping')->name('BookKeeping');
     Route::get('/information_system', 'HomeController@informationSys')->name('InformationSystem');
     Route::get('/feasibility_study', 'HomeController@feasibilityStudy')->name('FeasibilityStudy');
     Route::get('/business_advisory', 'HomeController@businessAdvisory')->name('BusinessAdvisory');

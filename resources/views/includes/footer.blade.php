@@ -5,4 +5,3 @@
 {{ Html::script('js/mixitup.min.js') }}
 {{ Html::script('js/main.js') }}
 {{ Html::script('js/custom.js') }}
-{{ Html::script('js/jquery.sliphover.min.js') }}
