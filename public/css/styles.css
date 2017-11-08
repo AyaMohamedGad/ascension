@@ -2367,6 +2367,14 @@ h1 .circle-anim:after {
     left: 41.6%;
 }
 
+.arrow_right{
+	position:absolute; 
+	right: 100%;
+	top:100%; 
+	opacity: 0.3; 
+	float: left;
+}
+
 .header_normal_cover {
     background-image: url(../images/header.png);
     height: 150px;

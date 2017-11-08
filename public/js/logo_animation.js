@@ -52,3 +52,12 @@ $('.bg_logo')
 .animate({
     opacity:0
 }, 200).fadeOut();
+
+
+setTimeout(function(){ 
+  $(".arrow_right")
+    .animate({
+      right: "-1%",
+      top: "0%"
+    }, 700); 
+}, 5200);
