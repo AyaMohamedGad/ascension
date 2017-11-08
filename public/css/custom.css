@@ -293,7 +293,7 @@ body {
 }
 
 .video-container{
-	height: 422px;
+	height: 420px;
     overflow: hidden;
 }
 
@@ -350,4 +350,23 @@ video {
 
 .head img {
     margin-bottom: 15px;
+}
+.banner p {
+    color: #fff;
+    font-size: 30px;
+    z-index: 250;
+    font-weight: bold;
+}
+
+.banner .first, .banner .third{
+    right: 0;
+    text-align: right;
+    padding: 5% 5% 0;
+}
+
+.banner .second{
+    left: 0;
+    text-align: left;
+    padding-left: 6%;
+    width: 68%;
 }

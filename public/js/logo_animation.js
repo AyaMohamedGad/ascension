@@ -57,7 +57,10 @@ $('.bg_logo')
 setTimeout(function(){ 
   $(".arrow_right")
     .animate({
-      right: "-1%",
-      top: "0%"
+      right: "0px",
+      top: "75px"
     }, 700); 
 }, 5200);
+
+setTimeout(function(){
+  $(".banner p").animate(700);}, 5200);

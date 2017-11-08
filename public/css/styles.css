@@ -652,7 +652,7 @@ header {
 
 .full-width,
 .padding-0 {
-    z-index: 112;
+    /*z-index: 112;*/
     position: relative
 }
 
@@ -2371,8 +2371,9 @@ h1 .circle-anim:after {
 	position:absolute; 
 	right: 100%;
 	top:100%; 
-	opacity: 0.3; 
+	opacity: 0.5;
 	float: left;
+    z-index: 200;
 }
 
 .header_normal_cover {
