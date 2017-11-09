@@ -370,3 +370,68 @@ video {
     padding-left: 6%;
     width: 68%;
 }
+
+/*BOOK STYLING CSS*/
+
+#book_tabs .tabs-left {
+  margin-top: 3rem;
+}
+
+#book_tabs .nav-tabs-left {
+  float: left;
+  border-bottom: 0;
+}
+
+#book_tabs .nav-tabs-right {
+  float: right;
+  border-bottom: 0;
+}
+
+#book_tabs .nav-tabs li {
+  float: none;
+  margin: 0;
+}
+#book_tabs .nav-tabs li a {
+  margin-right: 0;
+  border: 0;
+  background-color: #333;
+}
+#book_tabs .nav-tabs li a:hover {
+  background-color: #444;
+}
+#book_tabs .nav-tabs .glyphicon {
+  color: #fff;
+}
+#book_tabs .nav-tabs .active .glyphicon {
+  color: #333;
+}
+
+#book_tabs .nav-tabs > li.active > a, #book_tabs .nav-tabs > li.active > a:hover, #book_tabs .nav-tabs > li.active > a:focus {
+  border: 0;
+}
+
+#book_tabs .tab-content {
+	margin-left: 45px;
+    margin-right: 45px;
+    background-image: url('../images/book.png');     
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#book_tabs .tab-content .tab-pane {
+  display: none;
+  padding: 1.6rem;
+  overflow-y: auto;
+}
+#book_tabs .tab-content .active {
+  display: block;
+}
+
+#book_tabs .list-group {
+  width: 100%;
+}
+#book_tabs .list-group .list-group-item {
+  height: 50px;
+}
+#book_tabs .list-group .list-group-item h4, #book_tabs .list-group .list-group-item span {
+  line-height: 11px;
+}
