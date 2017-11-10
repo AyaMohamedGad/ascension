@@ -380,6 +380,7 @@ video {
 #book_tabs .nav-tabs-left {
   float: left;
   border-bottom: 0;
+  margin-left: -85px;
 }
 
 #book_tabs .nav-tabs-right {
@@ -402,20 +403,18 @@ video {
 #book_tabs .nav-tabs .glyphicon {
   color: #fff;
 }
-#book_tabs .nav-tabs .active .glyphicon {
-  color: #333;
-}
 
 #book_tabs .nav-tabs > li.active > a, #book_tabs .nav-tabs > li.active > a:hover, #book_tabs .nav-tabs > li.active > a:focus {
   border: 0;
 }
 
 #book_tabs .tab-content {
-	margin-left: 45px;
-    margin-right: 45px;
+	/*margin-left: 70px;
+    margin-right: 70px;*/
     background-image: url('../images/book.png');     
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    height: 400px;
 }
 #book_tabs .tab-content .tab-pane {
   display: none;
@@ -434,4 +433,28 @@ video {
 }
 #book_tabs .list-group .list-group-item h4, #book_tabs .list-group .list-group-item span {
   line-height: 11px;
+}
+
+#book_tabs .nav>li>a{
+	background-color: black;
+    color: white;
+}
+
+#book_tabs .nav>li.active>a{
+	background-color: white;
+    color: black;
+}
+
+.right_tab{
+	position: absolute !important;
+    right: -7%;
+    width: 10%;
+}
+
+.exam_tab{
+	bottom:55%;
+}
+
+.pass_tab{
+	bottom: 44%;
 }

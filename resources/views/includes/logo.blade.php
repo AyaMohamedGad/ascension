@@ -4,5 +4,4 @@
     <img src="{{ asset('images/Picture3.png') }}" class="logo_pic3">
     <img src="{{ asset('images/Picture4.png') }}" class="logo_pic4">
 </div>
-
 {{ Html::script('js/logo_animation.js') }}
