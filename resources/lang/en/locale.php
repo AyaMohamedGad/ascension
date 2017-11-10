@@ -2,13 +2,13 @@
 
 return [
     "cma" => "CMA",
-    "cpa" => "CPA",
-    "cia" => "CIA",
-    "cfa" => "CFA",
+    "cpa" => "CPA ®",
+    "cia" => "CIA ®",
+    "cfa" => "CFA ®",
     "cpa_program" => "CPA Program",
     "ascension_courses" => "Ascension Courses",
     "ascension" => "Ascension",
-    "ers" => "ERS",
+    "ers" => "ERS ®",
     "home" => "Home",
     "training" => "Training",
     "consultancy" => "Consultancy",
@@ -144,7 +144,8 @@ return [
         "1" => "Thank you for your interest in registering your name in Ascension’s HR database. In order for us to learn more about you & see how your profile can meet our recruitment & selection policies, please register by filling out all fields of this form. If Ascension determines there is a match between your profile & our needs, we will contact you.",
         "2" => "Please note that inclusion in our database does not guarantee an offer. If you need additional assistance or have any questions, please send an e-mail message to ",
         "email" => "Careers@Ascension-kw.com"
-    ]
+    ],
+    "latest_news" => "Latest News"
 
 
 

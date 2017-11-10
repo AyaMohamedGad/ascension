@@ -8,12 +8,12 @@
             <h2 class="header">{{ trans('locale.feasibility_study') }}</h2>
         </div>
         <div class="tab-content">
-            <div class="col-sm-12">
+            <div class="col-sm-12 fixing">
                 <img src="{{ asset('images/feasibility_study.png') }}">
-            </div>
-            <div class="col-sm-12">
-                <p>{{ trans('locale.page_under_process') }}</p>
-                <p>{{ trans('locale.visit_us_again') }}</p>
+                <div>
+                    <p>{{ trans('locale.page_under_process') }}</p>
+                    <p>{{ trans('locale.visit_us_again') }}</p>
+                </div>
             </div>
         </div>
     </div>

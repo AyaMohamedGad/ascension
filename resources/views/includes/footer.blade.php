@@ -5,3 +5,4 @@
 {{ Html::script('js/mixitup.min.js') }}
 {{ Html::script('js/main.js') }}
 {{ Html::script('js/custom.js') }}
+@yield('scripts')

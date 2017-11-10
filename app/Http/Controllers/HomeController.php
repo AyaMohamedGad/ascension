@@ -2,10 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\News;
+
 class HomeController extends Controller
 {
     public function index(){
-        return view('site.home');
+        $news = News::with(['translations' => function ($q) {
+            $q->where('language', 'en');
+        }])->get();
+        return view('site.home', compact('news'));
     }
 
     public function cma(){

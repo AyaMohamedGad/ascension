@@ -6,6 +6,7 @@ Route::get('/aboutus', 'HomeController@about')->name('AboutPage');
 Route::get('/contactus', 'HomeController@contact')->name('ContactPage');
 Route::get('/careers', 'HomeController@careers')->name('CareersPage');
 Route::get('/lang/{lang}', 'HomeController@setLanguage')->name('setLanguage');
+Route::get('/new/{id}', 'HomeController@viewNew')->name('ViewNewPage');
 
 Route::group(['prefix' => 'training'], function () {
     Route::get('/cma', 'HomeController@cma')->name('CMAPage');

@@ -263,6 +263,11 @@ body {
     margin-left: 15px
 }
 
+.social_media a:last-child{
+    margin-right: -3%;
+    margin-left: 4%;
+}
+
 .social_media img {
     width: 50px;
     height: 50px
@@ -280,16 +285,6 @@ body {
 .header span {
     color: red;
     text-decoration: underline;
-}
-
-.about p {
-    font-size: 15px;
-    text-transform: none;
-}
-
-.about h4 {
-    font-size: 20px;
-    letter-spacing: 0px;
 }
 
 .video-container{
