@@ -69,6 +69,13 @@ class HomeController extends Controller
         return view('site.careers');
     }
 
+    public function viewNew($id){
+        $thenew = News::with(['translations' => function ($q) {
+            $q->where('language', 'en');
+        }])->find($id);
+        return view('site.indv_new', compact('thenew'));
+    }
+
     public function setLanguage($lang){
         if($lang == 'ar'){
             app()->setLocale('ar');

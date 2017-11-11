@@ -94,28 +94,28 @@ return [
     "financial_evaluations" => "Financial Evaluations",
     "other" => "Other",
     "accounting_text" => [
-        "1" => "Accounting Procedures & Authorities",
-        "2" => "Accounting Systems",
-        "3" => "Internal Control Development & Procedures",
-        "4" => "Liquidation Management"
+        "1" => "∙Accounting Procedures & Authorities",
+        "2" => "∙Accounting Systems",
+        "3" => "∙Internal Control Development & Procedures",
+        "4" => "∙Liquidation Management"
     ],
     "financial_text" => [
-        "1" => "Mergers & Acquisitions",
-        "2" => "Performance Assessments",
-        "3" => "Capital Structure",
-        "4" => "Firms Value & Evaluation"
+        "1" => "∙Mergers & Acquisitions",
+        "2" => "∙Performance Assessments",
+        "3" => "∙Capital Structure",
+        "4" => "∙Firms Value & Evaluation"
     ],
     "human_text" => [
-        "1" => "Organizations Structure",
-        "2" => "Salaries & Wages",
-        "3" => "Hiring Assessment",
-        "4" => "Residency"
+        "1" => "∙Organizations Structure",
+        "2" => "∙Salaries & Wages",
+        "3" => "∙Hiring Assessment",
+        "4" => "∙Residency"
     ],
     "other_text" => [
-        "1" => "Strategy & Long Term Plans",
-        "2" => "Marketing & Pricing",
-        "3" => "SME’s",
-        "4" => "Other"
+        "1" => "∙Strategy & Long Term Plans",
+        "2" => "∙Marketing & Pricing",
+        "3" => "∙SME’s",
+        "4" => "∙Other"
     ],
     "the_fund" => "The Fund",
     "benefits" => "Benefits",

@@ -2346,7 +2346,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic1 {
-    width: 220px;
+    width: 300px;
     transform: rotateY(0deg);
     display: table;
     margin: 0 auto;
@@ -2356,7 +2356,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic2 {
-    width: 220px;
+    width: 300px;
     display: table;
     margin: 0 auto;
     position: absolute;
@@ -2366,7 +2366,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic3 {
-    width: 220px;
+    width: 300px;
     display: none;
     margin: 0 auto;
     position: absolute;
@@ -2375,7 +2375,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic4 {
-    width: 220px;
+    width: 300px;
     display: none;
     margin: 0 auto;
     position: absolute;

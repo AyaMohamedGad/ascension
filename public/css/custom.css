@@ -453,3 +453,64 @@ video {
 .pass_tab{
 	bottom: 44%;
 }
+
+.newsticker li{
+    color: #4e4e4e;
+    background: #F2F2F2;
+    overflow: hidden;
+    height: 80px;
+    padding: 10px;
+    line-height: 30px;
+    list-style: none;
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 1px dotted #2c8162;
+}
+
+.newsticker li a{
+    color: #f85c37;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.orange_arrow{
+    position: relative;
+    top:500px;
+    left:500px;
+    opacity: 0;
+    transition: box-shadow .3s;
+}
+
+.blue_arrow{
+    position: relative;
+    top:-500px;
+    left:500px;
+    opacity: 0;
+    transition: box-shadow .3s;
+}
+
+.green_arrow{
+    position: relative;
+    top:500px;
+    left:-500px;
+    opacity: 0;
+    transition: filter .3s;
+}
+
+.yellow_arrow{
+    position: relative;
+    top:-500px;
+    left:-500px;
+    opacity: 0;
+    transition: drop-shadow .3s;
+}
+
+.orange_arrow:hover, .yellow_arrow:hover, .green_arrow:hover, .blue_arrow:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
+    filter:         drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
+    /*filter: opacity(25%);*/
+}
