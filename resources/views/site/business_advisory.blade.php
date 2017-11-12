@@ -16,51 +16,65 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <div class="orange_p">
-                        <p>{{ trans('locale.accounting_text.1') }}</p>
-                        <p>{{ trans('locale.accounting_text.2') }}</p>
-                        <p>{{ trans('locale.accounting_text.3') }}</p>
-                        <p>{{ trans('locale.accounting_text.4') }}</p>
+            <div class="business">
+                <div class="col-sm-12">
+                    <div class="col-xs-3">
+                        <div class="arrow_content orange_p">
+                            <ul>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.accounting_text.1') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.accounting_text.2') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.accounting_text.3') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.accounting_text.4') }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="orange col-xs-3">
+                        <p>{{ trans('locale.accounting') }}</p>
+                        <img class="orange_arrow" src="{{ asset('images/orange_arrow.png') }}">
+                    </div>
+                    <div class="green col-xs-3">
+                        <p>{{ trans('locale.human_resources') }}</p>
+                        <img class="green_arrow" src="{{ asset('images/green_arrow.png') }}">
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="arrow_content green_p">
+                            <ul>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.financial_text.1') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.financial_text.2') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.financial_text.3') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.financial_text.4') }}</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-3">
-                    <img class="orange_arrow" src="{{ asset('images/orange_arrow.png') }}">
-                </div>
-                <div class="col-xs-3">
-                    <img class="green_arrow" src="{{ asset('images/green_arrow.png') }}">
-                </div>
-                <div class="col-xs-3">
-                    <div class="green_p">
-                        <p>{{ trans('locale.financial_text.1') }}</p>
-                        <p>{{ trans('locale.financial_text.2') }}</p>
-                        <p>{{ trans('locale.financial_text.3') }}</p>
-                        <p>{{ trans('locale.financial_text.4') }}</p>
+                <div class="col-sm-12">
+                    <div class="col-xs-3">
+                        <div class="arrow_content blue_p">
+                            <ul>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.human_text.1') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.human_text.2') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.human_text.3') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.human_text.4') }}</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3">
-                    <div class="blue_p">
-                        <p>{{ trans('locale.human_text.1') }}</p>
-                        <p>{{ trans('locale.human_text.2') }}</p>
-                        <p>{{ trans('locale.human_text.3') }}</p>
-                        <p>{{ trans('locale.human_text.4') }}</p>
+                    <div class="blue col-xs-3">
+                        <p>{{ trans('locale.financial_evaluations') }}</p>
+                        <img class="blue_arrow" src="{{ asset('images/blue_arrow.png') }}">
                     </div>
-                </div>
-                <div class="col-xs-3">
-                    <img class="blue_arrow" src="{{ asset('images/blue_arrow.png') }}">
-                </div>
-                <div class="col-xs-3">
-                    <img class="yellow_arrow" src="{{ asset('images/yellow_arrow.png') }}">
-                </div>
-                <div class="col-xs-3">
-                    <div class="yellow_p">
-                        <p>{{ trans('locale.other_text.1') }}</p>
-                        <p>{{ trans('locale.other_text.2') }}</p>
-                        <p>{{ trans('locale.other_text.3') }}</p>
-                        <p>{{ trans('locale.other_text.4') }}</p>
+                    <div class="yellow col-xs-3">
+                        <p>{{ trans('locale.other') }}</p>
+                        <img class="yellow_arrow" src="{{ asset('images/yellow_arrow.png') }}">
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="arrow_content yellow_p">
+                            <ul>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.other_text.1') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.other_text.2') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.other_text.3') }}</li>
+                                <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.other_text.4') }}</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

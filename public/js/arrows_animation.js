@@ -5,7 +5,6 @@ $( ".orange_arrow" )
     left: "0px"
       }, 500);
 
-
 $( ".blue_arrow" )
 .delay(700)
 .animate({
@@ -36,33 +35,29 @@ $('.blue_p').hide();
 $('.yellow_p').hide();
 
 $(".orange_arrow").hover(function(){
-  $('.orange_p').fadeIn();
+    $('.green_p').fadeOut();
+    $('.yellow_p').fadeOut();
+    $('.blue_p').fadeOut();
+    $('.orange_p').fadeIn();
 });
 
 $(".green_arrow").hover(function(){
+    $('.orange_p').fadeOut();
+    $('.yellow_p').fadeOut();
+    $('.blue_p').fadeOut();
   $('.green_p').fadeIn();
 });
 
 $(".blue_arrow").hover(function(){
+    $('.orange_p').fadeOut();
+    $('.yellow_p').fadeOut();
+    $('.green_p').fadeOut();
   $('.blue_p').fadeIn();
 });
 
 $(".yellow_arrow").hover(function(){
+    $('.orange_p').fadeOut();
+    $('.blue_p').fadeOut();
+    $('.green_p').fadeOut();
   $('.yellow_p').fadeIn();
-});
-
-$(".orange_arrow").mouseleave(function(){
-  $('.orange_p').fadeOut();
-});
-
-$(".green_arrow").mouseleave(function(){
-  $('.green_p').fadeOut();
-});
-
-$(".blue_arrow").mouseleave(function(){
-  $('.blue_p').fadeOut();
-});
-
-$(".yellow_arrow").mouseleave(function(){
-  $('.yellow_p').fadeOut();
 });

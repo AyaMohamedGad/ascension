@@ -1,6 +1,12 @@
 @extends('includes.main')
 
-@section('title', trans('locale.business_advisory'))
+@section('title', $thenew->translations[0]->title)
+
+@section('styles')
+    <style>
+        h2.header{font-size:25px !important;}
+    </style>
+@stop
 
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
@@ -19,6 +25,5 @@
                 {{ $thenew->translations[0]->description }}
             </div>
         </div>
-
     </div>
 @stop

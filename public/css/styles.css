@@ -2598,13 +2598,7 @@ ul li a.active.sub-nav-toggle {
 .fixing p a:hover{
     text-decoration: underline;
 }
-@keyframes ticker {
-    0%   {margin-top: 0}
-    25%  {margin-top: -30px}
-    50%  {margin-top: -60px}
-    75%  {margin-top: -90px}
-    100% {margin-top: 0}
-}
+
 .news {
     box-shadow: inset 0 -5px 15px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
     width: 100%;
@@ -2619,12 +2613,10 @@ ul li a.active.sub-nav-toggle {
 
 .news span {
     float: left;
-    color: #fff;
+    color: #efe9e9;
     padding: 5px;
     position: relative;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.4);
-    -webkit-font-smoothing: antialiased;
-    -webkit-user-select: none;
     cursor: pointer;
     height: 100%;
     width: 15%;
@@ -2632,22 +2624,23 @@ ul li a.active.sub-nav-toggle {
     font-size: 18px;
 }
 
-.news ul {
-    float: left;
-    padding-left: 20px;
-    animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
-    -webkit-user-select: none
-}
-
-.news ul li {line-height: 30px; list-style: none }
-
-.news ul li a {
+.newsticker li{
     color: #fff;
-    font: 14px;
-    -webkit-font-smoothing: antialiased;
-    -webkit-user-select: none
+    overflow: hidden;
+    height: 70px;
+    padding: 10px;
+    line-height: 15px;
+    list-style: none;
+    font-size: 16px;
+    text-align: left;
 }
 
-.news ul:hover { animation-play-state: paused }
-.news span:hover+ul { animation-play-state: paused }
-
+.newsticker li a{
+    color: #fff;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}

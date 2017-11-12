@@ -454,28 +454,6 @@ video {
 	bottom: 44%;
 }
 
-.newsticker li{
-    color: #4e4e4e;
-    background: #F2F2F2;
-    overflow: hidden;
-    height: 80px;
-    padding: 10px;
-    line-height: 30px;
-    list-style: none;
-    font-size: 24px;
-    text-align: left;
-    border-bottom: 1px dotted #2c8162;
-}
-
-.newsticker li a{
-    color: #f85c37;
-    word-wrap: break-word;
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
 
 .orange_arrow{
     position: relative;
@@ -513,4 +491,67 @@ video {
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
     filter:         drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
     /*filter: opacity(25%);*/
+}
+.arrow_content{
+    background: #eaeaea;
+    padding: 10px 15px !important;
+    min-height: 210px;
+}
+.arrow_content ul li{
+    color: #092b67;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.arrow_content ul li i{
+    color: #092b67;
+}
+.business{
+    margin-top: 20px;
+}
+.business .col-sm-12 .col-xs-3:first-child,
+.business .col-sm-12 .col-xs-3:last-child{
+    padding: 0 !important;
+}
+.business .green p, .business .orange p, .business .yellow p, .business .blue p{
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+.business .orange p{
+    top: 72%;
+    left: 27%;
+    -webkit-transform: rotate(-315deg);
+    -moz-transform: rotate(-315deg);
+    -ms-transform: rotate(-315deg);
+    -o-transform: rotate(-315deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.business .green p{
+    top: 31%;
+    left: 10%;
+    -webkit-transform: rotate(-405deg);
+    -moz-transform: rotate(-405deg);
+    -ms-transform: rotate(-405deg);
+    -o-transform: rotate(-405deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.business .blue p{
+    top: 42%;
+    left: 0%;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.business .yellow p{
+    top: 58%;
+    left: 14%;
+    -webkit-transform: rotate(405deg);
+    -moz-transform: rotate(405deg);
+    -ms-transform: rotate(405deg);
+    -o-transform: rotate(405deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }

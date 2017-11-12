@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\News;
+use App\PhotoGallery;
 
 class HomeController extends Controller
 {
@@ -10,7 +11,8 @@ class HomeController extends Controller
         $news = News::with(['translations' => function ($q) {
             $q->where('language', 'en');
         }])->get();
-        return view('site.home', compact('news'));
+        $images = PhotoGallery::orderBy('order')->get();
+        return view('site.home', compact('news', 'images'));
     }
 
     public function cma(){
