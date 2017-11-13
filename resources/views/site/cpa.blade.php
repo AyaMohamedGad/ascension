@@ -3,18 +3,37 @@
 @section('title', trans('locale.cpa_program'))
 
 @section('content')
-    <div class="container clearfix" data-ref="mixitup-container">
+    <div class="container clearfix cpa_page" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft" style="visibility: hidden">
             <h2 class="header">{{ trans('locale.cpa_program') }}</h2>
         </div>
 
         <div class="tab-content row wow bounceInUp" style="visibility: hidden">
-            <div class="col-sm-12">
-                <img class="center" src="{{ asset('images/cpa_logo.jpg') }}" >
+            <div class="cpa col-sm-12">
+                <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
+                <div class="content">
+                    <p>{{ trans('locale.cpa') }}</p>
+                    <p>{{ trans('locale.cpa_word') }}</p>
+                </div>
             </div>
         </div>
 
-        <div class="row" id="book_tabs">
+        <div class="times row mt-20">
+            <div class="col-sm-6">
+                <video width="100%" autoplay="autoplay" loop>
+                    <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
+                </video>
+            </div>
+            <div class="col-sm-6">
+                <h4><i class="fa fa-bell icon-animated-bell"></i> {{ trans('locale.upcoming_cpa_courses') }}</h4>
+                <ul>
+                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cpa->reg)) }}</li>
+                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.far') }}: </strong> {{ date('d-m-Y', strtotime($cpa->far)) }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-20" id="book_tabs">
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="tabs-left wow bounceIn" data-wow-delay=".25s" style="visibility: hidden;">
                     <ul class="nav nav-tabs-left">

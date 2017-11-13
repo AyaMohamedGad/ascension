@@ -3,6 +3,7 @@
 return [
     "cma" => "CMA ®",
     "cpa" => "CPA ®",
+    "cpa_word" => "Certified Public Accountant",
     "cia" => "CIA ®",
     "cfa" => "CFA ®",
     "cpa_program" => "CPA Program",
@@ -36,8 +37,6 @@ return [
     "far" => "FAR",
     "aud" => "AUD",
     "to_be_announced" => "To be announced.",
-    "reg_date" => "2 Oct 2017",
-    "far_date" => "10 Feb 2018",
     "steps_to_become_cpa" => "Steps To Become a CPA",
     "passing_score_scale" => "Passing score is 75 on a 0-99 scale",
     "duration_new_cpa" => "The duration of the new CPA exam is 4 hours.",

@@ -1,6 +1,6 @@
 $('.logo_pic1').animate({  borderSpacing: -540 }, {
     step: function(now,fx) {
-      $(this).css('-webkit-transform','rotateY('+now+'deg)'); 
+      $(this).css('-webkit-transform','rotateY('+now+'deg)');
       $(this).css('-moz-transform','rotateY('+now+'deg)');
       $(this).css('transform','rotateY('+now+'deg)');
     },
@@ -24,11 +24,11 @@ $( ".logo_pic4" ).slideUp( 300 ).delay(1000).fadeIn(1000);
 
 $('.logo_pic1')
 .delay(3000)
-.animate({  
+.animate({
     opacity: 0,
     borderSpacing: -90 }, {
     step: function(now,fx) {
-      $(this).css('-webkit-transform','rotate('+now+'deg)'); 
+      $(this).css('-webkit-transform','rotate('+now+'deg)');
       $(this).css('-moz-transform','rotate('+now+'deg)');
       $(this).css('transform','rotate('+now+'deg)');
     },
@@ -54,12 +54,12 @@ $('.bg_logo')
 }, 200).fadeOut();
 
 
-setTimeout(function(){ 
+setTimeout(function(){
   $(".arrow_right")
     .animate({
       right: "0px",
       top: "0px"
-    }, 700); 
+    }, 700);
 }, 5200);
 
 setTimeout(function(){

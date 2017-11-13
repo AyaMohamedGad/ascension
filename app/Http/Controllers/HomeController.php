@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Course;
 use App\News;
 use App\PhotoGallery;
 
@@ -16,19 +17,23 @@ class HomeController extends Controller
     }
 
     public function cma(){
-        return view('site.cma');
+        $cma = Course::where('name', 'cma')->first();
+        return view('site.cma', compact('cma'));
     }
 
     public function cpa(){
-        return view('site.cpa');
+        $cpa = Course::where('name', 'cpa')->first();
+        return view('site.cpa', compact('cpa'));
     }
 
     public function cia(){
-        return view('site.cia');
+        $cia = Course::where('name', 'cia')->first();
+        return view('site.cia', compact('cia'));
     }
 
     public function cfa(){
-        return view('site.cfa');
+        $cfa = Course::where('name', 'cfa')->first();
+        return view('site.cfa', compact('cfa'));
     }
 
     public function ers(){
