@@ -277,6 +277,63 @@ return [
         "12" => "Risk Management",
         "13" => "Investment Decisions",
         "14" => "Professional Ethics",
+    ],
+    "cia_qualify" => [
+        "1" => "Bachelor’s Degree from an accredited college or university in any discipline (Candidates can take the exam before graduation in their last year).",
+        "2" => "The degree can be partially or fully waived with 2-7 years of working experience in internal audit",
+        "3" => "2 years of working experience in internal audit is required (Could be before or after you take the exam).",
+        "4" => "External audit, internal control, compliance, and quality assurance can normally be accepted as related professions. The experience must be verified by former or current manager, or someone holding an active IIA Global Certification (CIA, CGAP, CFSA, CCSA, CRMA)."
+    ],
+    "cia_enroll" => [
+        "1" => "Create an account in CCMS:",
+        "2" => "Pay the application fee and Membership fees if desired.",
+        "3" => "CIA fees breakdown:",
+        "4" => "IIA Membership fee (International member)",
+        "5" => "Application fee",
+        "6" => "CMA exam fee - Part 1",
+        "7" => "CMA exam fee - Part 2",
+        "8" => "CMA exam fee - Part 3",
+        "9" => "You must be a full time student in your senior (final) year and enrolled in at least 12 credit hours or full time graduate student and enrolled in at least 9 semester hours.",
+        "10" => "More details:",
+        "11" => "Being an IIA member is optional to take the CIA exam."
+    ],
+    "cia_schedule" => [
+        "1" => "The exam site is available in 500+ Pearson VUE centers around the world and there are 17 languages to choose from (Arabic is available). You can practically take the exam any time of the year.",
+        "2" => "You can schedule several exam parts on the same day.",
+        "3" => "If one fails one part of the exam, one has to wait for 90 days before taking that particular part again. Candidates, however, are welcome to take another part during this period.",
+        "4" => "You have 4 years to complete the CIA exam from the day you pass the first exam. However, if you could not complete the exams within 4 years, you can request for a one year extension which will cost $250. Note that this offer is not available to all IIA members! Click here for more info"
+    ],
+    "duration" => "Duration",
+    "mcqs" => "MCQs",
+    "exam_result" => "Exam result",
+    "hours" => "Hours",
+    "same_day" => "Same day",
+    "cia_exam" => [
+        "1" => "CIA Exam Part 1",
+        "2" => "CIA Exam Part 2",
+        "3" => "CIA Exam Part 3",
+    ],
+    "cia_pass" => [
+        "1" => "Once you’ve passed the exam it's time to be fully certified!",
+        "2" => "You must have 2 continuous years of working experience in internal audit and verified.",
+        "3" => "To order your certificate, you must log into your candidate record in CCMS and complete the certificate order form."
+    ],
+    "cia_content" => [
+        "1" => "Mandatory Guidance",
+        "2" => "Internal Control & Risk",
+        "3" => "Conducting Internal Audit Engagement",
+        "4" => "Fot content specification outlines:",
+        "5" => "Managing the Internal Audit Function",
+        "6" => "Managing Individual Engagements",
+        "7" => "Fraud Risks and Controls",
+        "8" => "Governance & Business Ethics",
+        "9" => "Risk Management",
+        "10" => "Business Processes and Risks",
+        "11" => "Communication",
+        "12" => "Management & Leadership Principles",
+        "13" => "IT & Business Continuity",
+        "14" => "Financial Management",
+        "15" => "Global Business Environment",
     ]
 
 
