@@ -334,6 +334,52 @@ return [
         "13" => "IT & Business Continuity",
         "14" => "Financial Management",
         "15" => "Global Business Environment",
+    ],
+    "cfa_qualify" => [
+        "1" => "An accredited bachelor degree in any discipline or Equivalent (4 years of working experience in any discipline).",
+        "2" => "Sign the Professional Conduct Statement and Candidate Responsibility Statement.",
+    ],
+    "cfa_enroll" => [
+        "1" => "Create an account with the CFA institute and follow their instructions:",
+        "2" => "After they approve your account, you can start registring for the exam.",
+        "3" => "A one-time program enrollment fee of $450 is required when you register for the first time",
+        "4" => "The exam fee depends on the date you register for the exam:",
+        "5" => "Early registration $650",
+        "6" => "Regular registration $930",
+        "7" => "Late registration $1,380",
+        "8" => "Please check the following link for registration dates"
+    ],
+    "cfa_schedule" => [
+        "1" => "The CFA exam is a 3 sequential exam. CFA Level I can be taken in June and December every year while Level II and III can be taken only in June.",
+        "2" => "For more details regarding registration days and deadlines"
+    ],
+    "cfa_exam" => [
+        "1" => "The duration of each of the 3 CFA levels  is 6 hours (3 hours in the morning and 3 hours in the afternoon session).",
+        "2" => "However, they differ in the structure and number of questions.",
+        "3" => "Level I: 240 independent MCQs (120 in the morning and 120 in the afternoon session).",
+        "4" => "Level II: 20 item sets, each consist of 6 related MCQs (10 sets in the morining and 10 in the afternoon session).",
+        "5" => "Level III: 8-12 essay questions in the morning session and 10 case studies with 6 MSQs each in the afternoon session.",
+        "6" => "Results of Level I exam is typically released within 60 days. Same goes usually with the Level II exam. Level III exam results Results are typically released within 90 days due to the inclusion of the essay questions."
+    ],
+    "cfa_pass" => [
+        "1" => "Once you pass all the levels, you have to accumlate 4 year of relevant working experience to obtain the charter. The experience can be gained before or after taking the exam.",
+        "2" => "CFA Institute provides this list of job titles that are typically considered relevant. The person must spend at least 50% of the time in investment decision making, or work that adds value to this process.",
+    ],
+    "cfa_content" => [
+        "1" => "Ethical and Professional Standards",
+        "2" => "Quantitative Methods",
+        "3" => "Economics",
+        "4" => "Financial Reporting and Analysis",
+        "5" => "Corporate Finance",
+        "6" => "Portfolio Management",
+        "7" => "Equity Investments",
+        "8" => "Fixed Income",
+        "9" => "Derivatives",
+        "10" => "Alternative Investments",
+        "11" => "Fot content specification outlines and other info:",
+        "12" => "CFA Level I",
+        "13" => "CFA Level II",
+        "14" => "CFA Level III",
     ]
 
 
