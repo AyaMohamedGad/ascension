@@ -3,14 +3,33 @@
 @section('title', trans('locale.cpa_program'))
 
 @section('content')
-    <div class="container clearfix" data-ref="mixitup-container">
+    <div class="container clearfix cpa_page" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.cpa_program') }}</h2>
         </div>
 
-        <div class="tab-content row wow bounceInUp">
-            <div class="col-sm-12">
-                <img class="center" src="{{ asset('images/cpa_logo.jpg') }}" >
+        <div class="tab-content row wow bounceInUp" style="visibility: hidden">
+            <div class="cpa col-sm-12">
+                <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
+                <div class="content">
+                    <p>{{ trans('locale.cpa') }}</p>
+                    <p>{{ trans('locale.cpa_word') }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="times row mt-20">
+            <div class="col-sm-6">
+                <video width="100%" autoplay="autoplay" loop>
+                    <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
+                </video>
+            </div>
+            <div class="col-sm-6">
+                <h4><i class="fa fa-bell icon-animated-bell"></i> {{ trans('locale.upcoming_cpa_courses') }}</h4>
+                <ul>
+                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cpa->reg)) }}</li>
+                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.far') }}: </strong> {{ date('d-m-Y', strtotime($cpa->far)) }}</li>
+                </ul>
             </div>
         </div>
 
@@ -67,32 +86,18 @@
             </ul>
         </div>
 
-
-        <div class="times row mt-20">
-            <div class="col-sm-6">
-                <video width="100%" autoplay="autoplay" loop>
-                    <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
-                </video>
-            </div>
-            <div class="col-sm-6">
-                <h4><i class="fa fa-bell icon-animated-bell"></i> {{ trans('locale.upcoming_cpa_courses') }}</h4>
-                <ul>
-                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cpa->reg)) }}</li>
-                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.far') }}: </strong> {{ date('d-m-Y', strtotime($cpa->far)) }}</li>
-                </ul>
-            </div>
-        </div>
-
         <div class="row mt-20" id="book_tabs">
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="tabs-left wow fadeInDown">
                     <ul class="nav nav-tabs-left">
-                      <li class="active"><a href="#a" data-toggle="tab">{{ trans('locale.qualify') }}</a></li>
-                      <li><a href="#b" data-toggle="tab">{{ trans('locale.enroll') }}</a></li>
-                      <li><a href="#c" data-toggle="tab">{{ trans('locale.prepare') }}</a></li>
-                      <li><a href="#d" data-toggle="tab">{{ trans('locale.schedule') }}</a></li>
-                      <li class="right_tab exam_tab"><a href="#e" data-toggle="tab">{{ trans('locale.exam') }}</a></li>
-                      <li class="right_tab pass_tab"><a href="#f" data-toggle="tab">{{ trans('locale.pass') }}</a></li>
+                        <li class="active"><a href="#a" data-toggle="tab">{{ trans('locale.qualify') }}</a></li>
+                        <li><a href="#b" data-toggle="tab">{{ trans('locale.enroll') }}</a></li>
+                        <li><a href="#c" data-toggle="tab">{{ trans('locale.prepare') }}</a></li>
+                        <li><a href="#d" data-toggle="tab">{{ trans('locale.schedule') }}</a></li>
+                        <li class="right_tab exam_tab"><a href="#e" data-toggle="tab">{{ trans('locale.exam') }}</a>
+                        </li>
+                        <li class="right_tab pass_tab"><a href="#f" data-toggle="tab">{{ trans('locale.pass') }}</a>
+                        </li>
                     </ul>
 
                     <div class="tab-content">
@@ -145,7 +150,7 @@
                             </div>
                         </div>
                     </div><!-- /tab-content -->
-              </div><!-- /tabbable -->
+                </div><!-- /tabbable -->
             </div><!-- /col -->
         </div>
     </div>
