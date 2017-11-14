@@ -58,5 +58,29 @@ class DatabaseSeeder extends Seeder
             'order' => 2,
         ]);
 
+        DB::table('courses')->insert([
+            'name' => 'cma',
+            'reg' => \Carbon\Carbon::now(),
+            'far' => \Carbon\Carbon::now(),
+        ]);
+
+        DB::table('courses')->insert([
+            'name' => 'cpa',
+            'reg' => \Carbon\Carbon::now(),
+            'far' => \Carbon\Carbon::now(),
+        ]);
+
+        DB::table('courses')->insert([
+            'name' => 'cia',
+            'reg' => \Carbon\Carbon::now(),
+            'far' => \Carbon\Carbon::now(),
+        ]);
+
+        DB::table('courses')->insert([
+            'name' => 'cfa',
+            'reg' => \Carbon\Carbon::now(),
+            'far' => \Carbon\Carbon::now(),
+        ]);
+
     }
 }

@@ -67,7 +67,23 @@
             </ul>
         </div>
 
-        <div class="row" id="book_tabs">
+
+        <div class="times row mt-20">
+            <div class="col-sm-6">
+                <video width="100%" autoplay="autoplay" loop>
+                    <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
+                </video>
+            </div>
+            <div class="col-sm-6">
+                <h4><i class="fa fa-bell icon-animated-bell"></i> {{ trans('locale.upcoming_cpa_courses') }}</h4>
+                <ul>
+                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cpa->reg)) }}</li>
+                    <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.far') }}: </strong> {{ date('d-m-Y', strtotime($cpa->far)) }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-20" id="book_tabs">
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="tabs-left wow fadeInDown">
                     <ul class="nav nav-tabs-left">
