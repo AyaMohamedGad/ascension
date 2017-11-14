@@ -42,7 +42,7 @@ return [
     "duration_new_cpa" => "The duration of the new CPA exam is 4 hours.",
     "auditing_attestation" => "Auditing & Attestation (AUD)",
     "business_environment_concepts" => "Business Environment & Concepts (BEC)",
-    "financial_account_reporting" => "Financial Account & Reporting (FAR)",
+    "financial_account_reporting" => "Financial Account and Reporting (FAR)",
     "regulation" => "Regulation (REG)",
     "cpa_content" => "CPA Content",
     "area" => "Area",
@@ -144,7 +144,244 @@ return [
         "2" => "Please note that inclusion in our database does not guarantee an offer. If you need additional assistance or have any questions, please send an e-mail message to ",
         "email" => "Careers@Ascension-kw.com"
     ],
-    "latest_news" => "Latest News"
+    "latest_news" => "Latest News",
+    "become_cma" => "6 Steps To Become a CMA",
+    "become_cpa" => "6 Steps To Become a CPA",
+    "become_cia" => "6 Steps To Become a CIA",
+    "become_cfa" => "6 Steps To Become a CFA",
+    "cpa_qualify" => [
+        "1" => "To qualify for the CPA Exam as an international candidate, you need to meet educational and other requirements specific to the state or jurisdiction in which you intend to be licensed to practice.",
+        "2" => "Most states require that you have a bachelor’s degree before you sit for the exam. However, some states require that you have 150 hours of coursework (the equivalent of a Master’s degree) before you qualify to sit.",
+        "3" => "Depending on your state requirement, here are two sources, IAU or AACSB, to check if your university is accredited:",
+        "4" => "International Association of Universities (IAU)",
+        "5" => "Association to Advance Collegiate Schools of Business (AACSB):",
+        "6" => "An evaluation of your certificate must be made in approved institutes by your state to count your total credit hours. We recommend to make the evaluation with NASBA International Evaluation Services (NIES) if your state in NIES list:",
+        "7" => "Generally, 1 year of working experience (full time) is required in the accouting or  auditing fields (Could be before or after you take the exam).",
+        "8" => "To get a full understanding of the new CPA exam, Please review the \"Candidate Bulletin\" by AICPA & NASBA here:"
+    ],
+    "cpa_enroll" => [
+        "1" => "To ease the process of applying and paying fees, we in Ascension prefer that international candidates apply with those available on NASBA online application sysetem.",
+        "2" => "Requirements vary by state/jurisdiction, please read & understand carefully your state requirements before choosing.",
+        "3" => "Important: ",
+        "4" => "The name on your application must appear exactly the same as it appears on the identification (Passport).",
+        "5" => "Note: ",
+        "6" => "Applications can be submitted at any time during the year. Application and evaluation fees range between $900-$1000.",
+        "7" => "You will receive a jurisdiction number once your application is evaluated.",
+    ],
+    "prepare_content" => [
+        "1" => "Ascension can help you with the exam preparations. Contact us for more details about our materials and courses."
+    ],
+    "cpa_schedule" => [
+        "1" => "Once your application has been processed by the state board, you’ll receive a Notice to Schedule (NTS) which is required for you to schedule your CPA Exam at a Prometric Test Center.",
+        "2" => "Generally, you’ll need to sit for your first exam within six months of receiving the NTS, although this can vary by jurisdiction.",
+        "3" => "You may schedule the exam parts in any order, and one at a time, if you prefer.",
+        "4" => "Testing is Available in the following exam widnows:",
+        "5" => "January and February (Extension of 10 days from 1st of March)",
+        "6" => "April and May",
+        "7" => "July and August (Extension of 10 days from 1st of September)",
+        "8" => "October and Novembe (Extension of 10 days from 1st of December)"
+    ],
+    "cpa_exam" => [
+        "1" => "Passing score is 75 on a 0-99 scale",
+        "2" => "The duration of the new CPA exam is 4 hours.",
+        "3" => "For score release dates please check AICPA page:",
+    ],
+    "cpa_pass" => [
+        "1" => "Once you’ve passed all the exams within the allowed period (Most jurisdictions allow a maximum of 18 months to pass all remaining sections in order to retain credit on the passed section).",
+        "2" => "You might need to verify your working experience by a CPA or equivalent depending on your state requirement. Reveiw the states requirements on this matter carefully and choose the one that matches your situation.",
+        "3" => "Some state require additional ethics exam to approve you.",
+        "4" => "As a CPA, you must meet the Continuing Professional Education (CPE) requirements which is typically 40 hours per year."
+    ],
+    "cpa_auditing_attestation" => [
+        "1" => "Ethics, Professional Responsibilities and General Principles",
+        "2" => "Assessing Risk and Developing a Planned Response",
+        "3" => "Performing Further Procedures and Obtaining Evidence",
+        "4" => "Forming Conclusions and Reporting",
+        "5" => "Skills Tested & Allocation",
+        "6" => "For more details"
+    ],
+    "page" => "Page:",
+    "cpa_business_environment_concepts" => [
+        "1" => "Corporate Governance",
+        "2" => "Economic Concepts and Analysis",
+        "3" => "Financial Management",
+        "4" => "Information Technology",
+        "5" => "Operations Management"
+    ],
+    "cpa_financial_account" => [
+        "1" => "Conceptual Framework, Standard-Setting and Financial Reporting",
+        "2" => "Select Financial Statements Accounts",
+        "3" => "Select Transactions",
+        "4" => "State and Local Governments"
+    ],
+    "cpa_regulation" => [
+        "1" => "Ethics, Professional Responsibilities, and Federal Tax Procedures",
+        "2" => "Business Law",
+        "3" => "Federal Taxation of Property Transactions",
+        "4" => "Federal Taxation of Individuals",
+        "5" => "Federal Taxation of Entities"
+    ],
+    "cma_qualify" => [
+        "1" => "Bachelor’s Degree from an accredited college or university in any discipline.",
+        "2" => "A partial listing of accredited International and US institutions is available here:",
+        "3" => "2 years of working experience is required (Could be before or after you take the exam).",
+        "4" => "For more details about the kind of accepted working experience fields",
+        "5" => "IMA membership."
+    ],
+    "cma_enroll" => [
+        "1" => "Applying for the CMA exam is very easy and straightforward relevant to other certificates.",
+        "2" => "Visit the IMA site and pay their membership fee and CMA entrance fee and you are all set!",
+        "3" => "CMA fees breakdown:",
+        "4" => "IMA membership",
+        "5" => "IMA first time registration application fees",
+        "6" => "CMA entrance fee",
+        "7" => "Part 1 Exam Registration",
+        "8" => "Part 2 Exam Registration",
+        "9" => "Student discount is for current student only",
+        "10" => "Mandatory annual payment",
+        "11" => "Candidates must complete the CMA program within three years from the date of entry into the program. If both exam parts are not successfully completed within three years of entering the certification program, any passed part will expire and the CMA entrance fee will have to be repaid.",
+        "12" => "Request from your University an original transcript to be sent directly to the IMA. This step can be done before or after taking the exams."
+    ],
+    "cma_schedule" => [
+        "1" => "The CMA Exam is offered in 3 testing widows:",
+        "2" => "January & February",
+        "3" => "May & June",
+        "4" => "September & October",
+        "5" => "Part 1 & 2 are independent exams and there's no specific order in taking them."
+    ],
+    "cma_exam" => [
+        "1" => "Parts 1 and 2 are four-hour exams and each contains 100 multiple-choice questions (3 hours) and 2 essay questions (1 hour). You will only get the essay part if you manage to score 50% of the total score correctly.",
+        "2" => "Total exam score is 500.",
+        "3" => "You need to score at least 250 in MCQs to be able to reach the essay part and a total of 360 to pass the exam (72%).",
+        "4" => "For the essay questions, both written and quantitative responses will be required.",
+        "5" => "There is no official break during the CMA exam.",
+        "6" => "Exam results can be expected 40 days after the month you took the exam."
+    ],
+    "cma_pass" => [
+        "1" => "Once you’ve passed the exam it's time to be fully certified! You must have 2 continuous years of professional experience.",
+        "2" => "Fill the experience form in the link below and send it to the IMA.",
+        "3" => "As a CMA you need to maintain your license with active IMA membership and 30 hours (including two in ethics training) of CPE credits annually."
+    ],
+    "cma_exam_content" => [
+        "1" => "Part 1: Financial Reporting, Planning, Performance, and Control",
+        "2" => "External Financial Reporting Decisions",
+        "3" => "Planning, Budgeting, and Forecasting",
+        "4" => "Performance Management",
+        "5" => "Cost Management",
+        "6" => "Internal Controls",
+        "7" => "Fot content specification outlines:",
+        "8" => "Part 2: Financial Decision Making",
+        "9" => "Financial Statement Analysis",
+        "10" => "Corporate Finance",
+        "11" => "Decision Analysis",
+        "12" => "Risk Management",
+        "13" => "Investment Decisions",
+        "14" => "Professional Ethics",
+    ],
+    "cia_qualify" => [
+        "1" => "Bachelor’s Degree from an accredited college or university in any discipline (Candidates can take the exam before graduation in their last year).",
+        "2" => "The degree can be partially or fully waived with 2-7 years of working experience in internal audit",
+        "3" => "2 years of working experience in internal audit is required (Could be before or after you take the exam).",
+        "4" => "External audit, internal control, compliance, and quality assurance can normally be accepted as related professions. The experience must be verified by former or current manager, or someone holding an active IIA Global Certification (CIA, CGAP, CFSA, CCSA, CRMA)."
+    ],
+    "cia_enroll" => [
+        "1" => "Create an account in CCMS:",
+        "2" => "Pay the application fee and Membership fees if desired.",
+        "3" => "CIA fees breakdown:",
+        "4" => "IIA Membership fee (International member)",
+        "5" => "Application fee",
+        "6" => "CMA exam fee - Part 1",
+        "7" => "CMA exam fee - Part 2",
+        "8" => "CMA exam fee - Part 3",
+        "9" => "You must be a full time student in your senior (final) year and enrolled in at least 12 credit hours or full time graduate student and enrolled in at least 9 semester hours.",
+        "10" => "More details:",
+        "11" => "Being an IIA member is optional to take the CIA exam."
+    ],
+    "cia_schedule" => [
+        "1" => "The exam site is available in 500+ Pearson VUE centers around the world and there are 17 languages to choose from (Arabic is available). You can practically take the exam any time of the year.",
+        "2" => "You can schedule several exam parts on the same day.",
+        "3" => "If one fails one part of the exam, one has to wait for 90 days before taking that particular part again. Candidates, however, are welcome to take another part during this period.",
+        "4" => "You have 4 years to complete the CIA exam from the day you pass the first exam. However, if you could not complete the exams within 4 years, you can request for a one year extension which will cost $250. Note that this offer is not available to all IIA members! Click here for more info"
+    ],
+    "duration" => "Duration",
+    "mcqs" => "MCQs",
+    "exam_result" => "Exam result",
+    "hours" => "Hours",
+    "same_day" => "Same day",
+    "cia_exam" => [
+        "1" => "CIA Exam Part 1",
+        "2" => "CIA Exam Part 2",
+        "3" => "CIA Exam Part 3",
+    ],
+    "cia_pass" => [
+        "1" => "Once you’ve passed the exam it's time to be fully certified!",
+        "2" => "You must have 2 continuous years of working experience in internal audit and verified.",
+        "3" => "To order your certificate, you must log into your candidate record in CCMS and complete the certificate order form."
+    ],
+    "cia_content" => [
+        "1" => "Mandatory Guidance",
+        "2" => "Internal Control & Risk",
+        "3" => "Conducting Internal Audit Engagement",
+        "4" => "Fot content specification outlines:",
+        "5" => "Managing the Internal Audit Function",
+        "6" => "Managing Individual Engagements",
+        "7" => "Fraud Risks and Controls",
+        "8" => "Governance & Business Ethics",
+        "9" => "Risk Management",
+        "10" => "Business Processes and Risks",
+        "11" => "Communication",
+        "12" => "Management & Leadership Principles",
+        "13" => "IT & Business Continuity",
+        "14" => "Financial Management",
+        "15" => "Global Business Environment",
+    ],
+    "cfa_qualify" => [
+        "1" => "An accredited bachelor degree in any discipline or Equivalent (4 years of working experience in any discipline).",
+        "2" => "Sign the Professional Conduct Statement and Candidate Responsibility Statement.",
+    ],
+    "cfa_enroll" => [
+        "1" => "Create an account with the CFA institute and follow their instructions:",
+        "2" => "After they approve your account, you can start registring for the exam.",
+        "3" => "A one-time program enrollment fee of $450 is required when you register for the first time",
+        "4" => "The exam fee depends on the date you register for the exam:",
+        "5" => "Early registration $650",
+        "6" => "Regular registration $930",
+        "7" => "Late registration $1,380",
+        "8" => "Please check the following link for registration dates"
+    ],
+    "cfa_schedule" => [
+        "1" => "The CFA exam is a 3 sequential exam. CFA Level I can be taken in June and December every year while Level II and III can be taken only in June.",
+        "2" => "For more details regarding registration days and deadlines"
+    ],
+    "cfa_exam" => [
+        "1" => "The duration of each of the 3 CFA levels  is 6 hours (3 hours in the morning and 3 hours in the afternoon session).",
+        "2" => "However, they differ in the structure and number of questions.",
+        "3" => "Level I: 240 independent MCQs (120 in the morning and 120 in the afternoon session).",
+        "4" => "Level II: 20 item sets, each consist of 6 related MCQs (10 sets in the morining and 10 in the afternoon session).",
+        "5" => "Level III: 8-12 essay questions in the morning session and 10 case studies with 6 MSQs each in the afternoon session.",
+        "6" => "Results of Level I exam is typically released within 60 days. Same goes usually with the Level II exam. Level III exam results Results are typically released within 90 days due to the inclusion of the essay questions."
+    ],
+    "cfa_pass" => [
+        "1" => "Once you pass all the levels, you have to accumlate 4 year of relevant working experience to obtain the charter. The experience can be gained before or after taking the exam.",
+        "2" => "CFA Institute provides this list of job titles that are typically considered relevant. The person must spend at least 50% of the time in investment decision making, or work that adds value to this process.",
+    ],
+    "cfa_content" => [
+        "1" => "Ethical and Professional Standards",
+        "2" => "Quantitative Methods",
+        "3" => "Economics",
+        "4" => "Financial Reporting and Analysis",
+        "5" => "Corporate Finance",
+        "6" => "Portfolio Management",
+        "7" => "Equity Investments",
+        "8" => "Fixed Income",
+        "9" => "Derivatives",
+        "10" => "Alternative Investments",
+        "11" => "Fot content specification outlines and other info:",
+        "12" => "CFA Level I",
+        "13" => "CFA Level II",
+        "14" => "CFA Level III",
+    ]
+
 
 
 
