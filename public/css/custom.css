@@ -288,14 +288,14 @@ body {
 }
 
 .video-container{
-	height: 420px;
+	height: 380px;
     overflow: hidden;
 }
 
 .banner video {
 	position: absolute;
     object-fit: cover;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 
 .bookkeeping .col-sm-12:first-child {
@@ -554,4 +554,9 @@ body {
     -ms-transform: rotate(405deg);
     -o-transform: rotate(405deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.right-align{
+    float: left;
+    width: 50%;
 }

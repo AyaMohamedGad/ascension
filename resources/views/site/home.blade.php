@@ -15,14 +15,14 @@
                 </video>
                 <div class="banner">
                     <p class="first" data-typer-targets="{{trans('locale.taking_you_beyond')}}"></p>
-                    <p class="second" data-typer-targets="{{trans('locale.consultancy_training')}}"></p>
-                    <p class="third" data-typer-targets="{{trans('locale.performed_highly_skilled')}}"></p>
+                    <p class="second"></p>
+                    <p class="third"></p>
                 </div>
             </div>
             <img src="{{ asset('images/Picture2.png') }}" class="arrow_right">
         </div>
 
-        <section class="col-sm-12">
+        <section class="col-sm-12 mt-40">
             <div class="news">
                 <span>{{ trans('locale.latest_news') }}</span>
                 <ul class="newsticker">
@@ -76,10 +76,21 @@
         setTimeout(function(){
             $('[data-typer-targets]').typer();
             $('.newsticker').newsTicker({
-                row_height: 80,
-                max_rows: 3,
+                row_height: 40,
+                max_rows: 1,
                 duration: 3000,
             });
         }, 5200);
+
+        var second_p = "{{trans('locale.consultancy_training')}}";
+        var third_p = "{{trans('locale.performed_highly_skilled')}}";
+        setTimeout(function(){
+            $('.second').typeTo(second_p);
+        }, 7500);
+
+        setTimeout(function(){
+            $('.third').typeTo(third_p);
+        }, 10500);
+
     </script>
 @stop

@@ -11,7 +11,7 @@
     </div>
 </div>
 <header>
-    <nav id="main-nav">
+    <nav id="main-nav" class="mt-50">
         <ul class="option-set clearfix" data-option-key="filter">
             <li><a href="{{ route('HomePage') }}" class="{{ Request::is('home*') || Request::is('/') ? 'active' : '' }}">{{ trans('locale.home') }}</a></li>
             <li>
