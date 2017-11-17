@@ -172,3 +172,7 @@
 
     </div>
 @stop
+
+@section('scripts')
+    {{ Html::script('js/cpa.js') }}     
+@stop
