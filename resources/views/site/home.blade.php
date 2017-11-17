@@ -90,8 +90,8 @@
             });
         }, 5200);
 
-        var second_p = "{{trans('locale.consultancy_training')}}";
-        var third_p = "{{trans('locale.performed_highly_skilled')}}";
+        var second_p = "{!! trans('locale.consultancy_training') !!}";
+        var third_p = "{!! trans('locale.performed_highly_skilled') !!}";
         setTimeout(function(){
             $('.second').typeTo(second_p);
         }, 7500);

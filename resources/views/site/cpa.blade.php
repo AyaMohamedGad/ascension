@@ -5,14 +5,14 @@
 @section('content')
     <div class="container clearfix cpa_page" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.cpa_program') }}</h2>
+            <h2 class="header">{{ trans('locale.cpa_program') }} <span>{{ trans('locale.mark') }}</span></h2>
         </div>
 
         <div class="tab-content row wow bounceInUp" style="visibility: hidden">
             <div class="cpa col-sm-12">
                 <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
                 <div class="content">
-                    <p>{{ trans('locale.cpa') }}</p>
+                    <p>{{ trans('locale.cpa') }} {{ trans('locale.mark') }}</p>
                     <p>{{ trans('locale.cpa_word') }}</p>
                 </div>
             </div>

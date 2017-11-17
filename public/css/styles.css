@@ -419,11 +419,16 @@ h2 i {
 #main-nav>ul a.active,
 #main-nav>.additional-links .active>a,
 #main-nav>.additional-links a.active,
-#main-nav li a:hover,
 #options li a.current,
 #options li a.mixitup-control-active {
     color: #fff;
     background: #092b67;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+#main-nav li a:hover{
+    color: #fff;
+    background: rgba(9, 43, 103, 0.7);
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -2413,7 +2418,7 @@ h1 .circle-anim:after {
 .header_normal_cover h2,
 .header_ubnormal_cover h2 {
     color: white;
-    line-height: 150px;
+    line-height: 140px;
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -2875,3 +2880,13 @@ ul li a.active.sub-nav-toggle {
 }
 .icon-animated-bell {display:inline-block;-moz-animation:ringing 2s 5 ease 1s;-webkit-animation:ringing 2s 5 ease 1s;-o-animation:ringing 2s 5 ease 1s;-ms-animation:ringing 2s 5 ease 1s;animation:ringing 2s 5 ease 1s;-moz-transform-origin:50% 0;-webkit-transform-origin:50% 0;-o-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0}
 @-moz-keyframes ringing{0%{-moz-transform:rotate(-15deg)}2%{-moz-transform:rotate(15deg)}12%,4%{-moz-transform:rotate(-18deg)}14%,6%{-moz-transform:rotate(18deg)}8%{-moz-transform:rotate(-22deg)}10%{-moz-transform:rotate(22deg)}16%{-moz-transform:rotate(-12deg)}18%{-moz-transform:rotate(12deg)}20%{-moz-transform:rotate(0)}}@-webkit-keyframes ringing{0%{-webkit-transform:rotate(-15deg)}2%{-webkit-transform:rotate(15deg)}12%,4%{-webkit-transform:rotate(-18deg)}14%,6%{-webkit-transform:rotate(18deg)}8%{-webkit-transform:rotate(-22deg)}10%{-webkit-transform:rotate(22deg)}16%{-webkit-transform:rotate(-12deg)}18%{-webkit-transform:rotate(12deg)}20%{-webkit-transform:rotate(0)}}@-ms-keyframes ringing{0%{-ms-transform:rotate(-15deg)}2%{-ms-transform:rotate(15deg)}12%,4%{-ms-transform:rotate(-18deg)}14%,6%{-ms-transform:rotate(18deg)}8%{-ms-transform:rotate(-22deg)}10%{-ms-transform:rotate(22deg)}16%{-ms-transform:rotate(-12deg)}18%{-ms-transform:rotate(12deg)}20%{-ms-transform:rotate(0)}}@keyframes ringing{0%{transform:rotate(-15deg)}2%{transform:rotate(15deg)}12%,4%{transform:rotate(-18deg)}14%,6%{transform:rotate(18deg)}8%{transform:rotate(-22deg)}10%{transform:rotate(22deg)}16%{transform:rotate(-12deg)}18%{transform:rotate(12deg)}20%{transform:rotate(0)}}
+
+h4.page_head{
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #092b67;
+}
+h4.page_head i{
+    vertical-align: middle;
+    color: #092b67;
+    font-size: 12px;
+}

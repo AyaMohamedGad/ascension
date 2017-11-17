@@ -17,12 +17,12 @@
             <li>
                 <a href="#" class="sub-nav-toggle {{ Request::is('training*') ? 'active' : '' }}">{{ trans('locale.training') }}</a>
                 <ul class="sub-nav {{ Request::is('training*') ? '' : 'hidden' }}">
-                    <li><a href="{{ route('CMAPage') }}" class="control {{ Request::is('*cma') ? 'active' : '' }}">{{ trans('locale.cma') }}</a></li>
-                    <li><a href="{{ route('CPAPage') }}" class="control {{ Request::is('*cpa') ? 'active' : '' }}">{{ trans('locale.cpa') }}</a></li>
-                    <li><a href="{{ route('CIAPage') }}" class="control {{ Request::is('*cia') ? 'active' : '' }}">{{ trans('locale.cia') }}</a></li>
-                    <li><a href="{{ route('CFAPage') }}" class="control {{ Request::is('*cfa') ? 'active' : '' }}">{{ trans('locale.cfa') }}</a></li>
+                    <li><a href="{{ route('CMAPage') }}" class="control {{ Request::is('*cma') ? 'active' : '' }}">{{ trans('locale.cma') }} {{ trans('locale.mark') }}</a></li>
+                    <li><a href="{{ route('CPAPage') }}" class="control {{ Request::is('*cpa') ? 'active' : '' }}">{{ trans('locale.cpa') }} {{ trans('locale.mark') }}</a></li>
+                    <li><a href="{{ route('CIAPage') }}" class="control {{ Request::is('*cia') ? 'active' : '' }}">{{ trans('locale.cia') }} {{ trans('locale.mark') }}</a></li>
+                    <li><a href="{{ route('CFAPage') }}" class="control {{ Request::is('*cfa') ? 'active' : '' }}">{{ trans('locale.cfa') }} {{ trans('locale.mark') }}</a></li>
                     <li><a href="{{ route('CoursePage') }}" class="control {{ Request::is('*ascension_course') ? 'active' : '' }}">{{ trans('locale.ascension_courses') }}</a></li>
-                    <li><a href="{{ route('ERSPage') }}" class="control {{ Request::is('*ascension_ers') ? 'active' : '' }}">{{ trans('locale.ascension').trans('locale.ers') }}</a></li>
+                    <li><a href="{{ route('ERSPage') }}" class="control {{ Request::is('*ascension_ers') ? 'active' : '' }}">{{ trans('locale.ascension').trans('locale.ers') }} {{ trans('locale.mark') }}</a></li>
                 </ul>
             </li>
             <li>

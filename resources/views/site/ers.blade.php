@@ -5,7 +5,7 @@
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_ubnormal_cover">
-            <h2 class="header">{{ trans('locale.ascension') }}<span>{{ trans('locale.ers') }}</span></h2>
+            <h2 class="header">{{ trans('locale.ascension') }}<span class="er">{{ trans('locale.ers') }}</span> <span class="red">{{ trans('locale.mark') }}</span></h2>
         </div>
 
         <div class="tab-content">
