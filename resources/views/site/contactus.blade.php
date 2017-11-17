@@ -4,13 +4,13 @@
 
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
-        <div class="header_normal_cover">
+        <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.contacts') }}</h2>
         </div>
 
         <div class="tab-content">
             <div class="col-sm-12">
-                <div class="col-sm-8">
+                <div class="col-sm-8 wow fadeInDown">
                     <div class="row">
                         <div class="col-sm-12 top-left-contact">
                             <div class="col-sm-6 top-left-contact-left">
@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow fadeInUp">
                     <img src="{{ asset('images/contact.gif') }}">
                 </div>
             </div>

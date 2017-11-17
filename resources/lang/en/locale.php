@@ -433,7 +433,19 @@ return [
         "6" => "Presentation Skills ",
         "7" => "Learn How to Learn",
     ],
-    "courses_title" => "Accounting Courses / Business Management Courses / Human Development Courses"
+    "courses_title" => "Accounting Courses / Business Management Courses / Human Development Courses",
+    "our_mission" => "Our Mission",
+    "our_values" => "Our Values",
+    "mission" => "To enable those who aspire highly in the field of business to fulfill their aspirations through our consulting and training programs.",
+    "values" => [
+        "1" => "Reliability",
+        "2" => "Precision",
+        "3" => "Confidentiality",
+        "4" => "Transparency",
+        "5" => "Community service",
+        "6" => "Estimate the value of science"
+    ],
+    "our_partners" => "Our Partners"
 
 
 

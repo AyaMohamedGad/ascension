@@ -4,11 +4,11 @@
 
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
-        <div class="header_normal_cover">
+        <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.information_system') }}</h2>
         </div>
         <div class="tab-content">
-            <div class="col-sm-12 fixing">
+            <div class="col-sm-12 fixing wow bounceInUp">
                 <img src="{{ asset('images/information_system.png') }}">
                 <div>
                     <p>{{ trans('locale.work_under_process') }}</p>

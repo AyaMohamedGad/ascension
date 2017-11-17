@@ -70,16 +70,15 @@
         @endif
 
         <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow"><img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup" width="640" height="480"></a>
-
     </div>
 @stop
 
 @section('scripts')
     {{ Html::script('js/YouTubePopUp.jquery.js') }}     
     <script type="text/javascript">
-    jQuery(function(){
-        jQuery("a.vp-a").YouTubePopUp();
-    });
+        jQuery(function(){
+            jQuery("a.vp-a").YouTubePopUp();
+        });
 
         setTimeout(function(){
             $('[data-typer-targets]').typer();
@@ -99,6 +98,5 @@
         setTimeout(function(){
             $('.third').typeTo(third_p);
         }, 10500);
-
     </script>
 @stop

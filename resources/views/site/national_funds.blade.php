@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
-        <div class="header_normal_cover">
+        <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.national_fund') }}</h2>
         </div>
         <div class="tab-content">
