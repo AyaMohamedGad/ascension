@@ -1,7 +1,3 @@
-html {
-    overflow: hidden
-}
-
 .wrapper {
     width: 100%;
     height: 100%;
@@ -15,10 +11,6 @@ html {
     width: 100%;
     height: 100%;
     position: fixed
-}
-
-body {
-    overflow: hidden
 }
 
 #menu-button.open #nav-button span:nth-child(1) {
@@ -406,14 +398,14 @@ body {
 #book_tabs .tab-content {
 	/*margin-left: 70px;
     margin-right: 70px;*/
-    background-image: url('../images/book.png');     
+    /*background-image: url('../images/book.png');     */
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
 }
 #book_tabs .tab-content .tab-pane {
   display: none;
-  padding: 1.6rem;
+  /*padding: 1.6rem;*/
   overflow-y: auto;
 }
 #book_tabs .tab-content .active {
@@ -559,4 +551,50 @@ body {
 .right-align{
     float: left;
     width: 50%;
+}
+
+
+
+
+
+
+
+.t {
+    display: table;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tc {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.rel {
+    position: relative;
+}
+
+/* book */
+
+.book {
+    margin: 0 auto;
+    width: 100%;
+    height: 80%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.book .page {
+    height: 100%;
+}
+
+.book .page img {
+    max-width: 100%;
+    height: 100%;
 }

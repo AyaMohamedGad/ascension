@@ -19,12 +19,12 @@
         </div>
 
         <div class="times row mt-20">
-            <div class="col-sm-6">
+            <div class="col-sm-6 wow fadeInLeft">
                 <video width="100%" autoplay="autoplay" loop>
                     <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
                 </video>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 wow fadeInRight">
                 <h4><i class="fa fa-bell icon-animated-bell"></i> {{ trans('locale.upcoming_cpa_courses') }}</h4>
                 <ul>
                     <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cpa->reg)) }}</li>
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-20">
             <ul class="ch-grid">
                 <li class="wow fadeInDown" data-wow-delay=".3s">
                     <div class="ch-item ch-img-1">
@@ -88,7 +88,7 @@
 
         <div class="row mt-20" id="book_tabs">
             <div class="col-xs-8 col-xs-offset-2">
-                <div class="tabs-left wow fadeInDown">
+                <div class="tabs-left wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="2s">
                     <ul class="nav nav-tabs-left">
                         <li class="active"><a href="#a" data-toggle="tab">{{ trans('locale.qualify') }}</a></li>
                         <li><a href="#b" data-toggle="tab">{{ trans('locale.enroll') }}</a></li>
@@ -102,11 +102,26 @@
 
                     <div class="tab-content">
                         <div class="tab-pane row active" id="a">
-                            <div class="col-sm-6">
-                                <h3>CONTENT FOR BOOK?</h3>
-                            </div>
-                            <div class="col-sm-6">
-                                <h3>CONTENT FOR BOOK?</h3>
+                            <div class="t">
+                                <div class="tc rel">
+                                    <div class="book" id="book">
+                                        <div class="page" style="background-color: white; border:2px solid black">
+                                        <h3> Qualify w kda</h3>
+                                        </div>
+                                        <div class="page" style="background-color: white; border:2px solid black">
+                                            <p>{{ trans('locale.cpa_qualify.1') }}</p>
+                                            <p>{{ trans('locale.cpa_qualify.2') }}</p>
+                                            <p>{{ trans('locale.cpa_qualify.3') }}</p>
+                                        </div>
+                                        <div class="page" style="background-color: white; border:2px solid black">
+                                            <p>{{ trans('locale.cpa_qualify.4') }}</p>
+                                            <p>{{ trans('locale.cpa_qualify.5') }}</p>
+                                            <p>{{ trans('locale.cpa_qualify.6') }}</p>
+                                            <p>{{ trans('locale.cpa_qualify.7') }}</p>
+                                            <p>{{ trans('locale.cpa_qualify.8') }}</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane row" id="b">
@@ -153,5 +168,7 @@
                 </div><!-- /tabbable -->
             </div><!-- /col -->
         </div>
+      
+
     </div>
 @stop
