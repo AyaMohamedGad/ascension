@@ -76,7 +76,7 @@
         setTimeout(function(){
             $('[data-typer-targets]').typer();
             $('.newsticker').newsTicker({
-                row_height: 40,
+                row_height: 60,
                 max_rows: 1,
                 duration: 3000,
             });
