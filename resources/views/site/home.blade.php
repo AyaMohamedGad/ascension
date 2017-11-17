@@ -33,44 +33,28 @@
             </div>
         </section>
 
-        @if(count($images) > 0)
-            <section class="mt-40 mb-20">
-                <div class="col-sm-12">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
+        <section class="mt-40 mb-20">
+            @if(count($images) > 0)
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            @php($key = 1)
-                            @foreach($images as $image)
-                                <div class="item {{ $key == 1 ? 'active' : '' }}">
-                                    <img src="{{ asset('images/photo_gallery/'.$image->image) }}">
-                                    @php($key++)
-                                </div>
-                            @endforeach
-                        </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only"><</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">></span>
-                        </a>
-                    </div>
+                                <div >
+                                    <img >
+                <div class="col-sm-6">
+                    <ul class="gallery">
+                        @foreach($images as $image)
+                        <li class="item">
+                            <img src="{{ asset('images/photo_gallery/'.$image->image) }}" alt="Landscape">
+                        </li>
+                        @endforeach
+                    </ul>
                 </div>
-            </section>
-        @endif
-
-        <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow"><img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup" width="640" height="480"></a>
-
+            @endif
+                <div class="col-sm-6">
+                    <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow"><img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup"></a>
+                    <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
+                        <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
+                    </button>
+                </div>
+        </section>
     </div>
 @stop
 
