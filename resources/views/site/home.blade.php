@@ -40,19 +40,31 @@
                                     <img >
                 <div class="col-sm-6">
                     <ul class="gallery">
-                        @foreach($images as $image)
-                        <li class="item">
-                            <img src="{{ asset('images/photo_gallery/'.$image->image) }}" alt="Landscape">
+                        <li class="item wow fadeInLeft">
+                            <img src="{{ asset('images/photo_gallery/'.$images[0]['image']) }}" alt="Landscape">
                         </li>
-                        @endforeach
+                        <li class="item wow fadeInRight" data-wow-delay=".2s">
+                            <img src="{{ asset('images/photo_gallery/'.$images[1]['image']) }}" alt="Landscape">
+                        </li>
+                        <li class="item wow fadeInLeft" data-wow-delay=".4s">
+                            <img src="{{ asset('images/photo_gallery/'.$images[2]['image']) }}" alt="Landscape">
+                        </li>
+                        <li class="item wow fadeInRight" data-wow-delay=".6s">
+                            <img src="{{ asset('images/photo_gallery/'.$images[3]['image']) }}" alt="Landscape">
+                        </li>
+                        <li class="item wow fadeInLeft" data-wow-delay=".8s">
+                            <img src="{{ asset('images/photo_gallery/'.$images[4]['image']) }}" alt="Landscape">
+                        </li>
                     </ul>
                 </div>
             @endif
                 <div class="col-sm-6">
-                    <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow"><img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup"></a>
-                    <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
+                    <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
+                    <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
+                        <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
                         <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
-                    </button>
+                        </button>
+                    </a>
                 </div>
         </section>
     </div>
