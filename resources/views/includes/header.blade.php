@@ -17,6 +17,12 @@
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,600,700,800" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,600,400italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+    @if(app()->getLocale() == 'ar')
+        {!! Html::style('css/rtl.css') !!}
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css" />
+    @endif
+
     {!! Html::script('js/modernizr.js') !!}
     @yield('styles')
 </head>

@@ -108,7 +108,7 @@
         <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.bookkeeping') }}</h2>
         </div>
-        <div class="tab-content wow bounceInUp">
+        <div class="tab-content mt-20 wow bounceInUp">
             <div class="col-sm-12 fixing">
                 <img src="{{ asset('images/bookkeeping.png') }}">
                 <div>

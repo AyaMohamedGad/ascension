@@ -22,7 +22,7 @@
                     <li><a href="{{ route('CIAPage') }}" class="control {{ Request::is('*cia') ? 'active' : '' }}">{{ trans('locale.cia') }} {{ trans('locale.mark') }}</a></li>
                     <li><a href="{{ route('CFAPage') }}" class="control {{ Request::is('*cfa') ? 'active' : '' }}">{{ trans('locale.cfa') }} {{ trans('locale.mark') }}</a></li>
                     <li><a href="{{ route('CoursePage') }}" class="control {{ Request::is('*ascension_course') ? 'active' : '' }}">{{ trans('locale.ascension_courses') }}</a></li>
-                    <li><a href="{{ route('ERSPage') }}" class="control {{ Request::is('*ascension_ers') ? 'active' : '' }}">{{ trans('locale.ascension').trans('locale.ers') }} {{ trans('locale.mark') }}</a></li>
+                    <li><a href="{{ route('ERSPage') }}" class="control {{ Request::is('*ascension_ers') ? 'active' : '' }}">{{ trans('locale.ascensioners').trans('locale.ers') }} {{ trans('locale.mark') }}</a></li>
                 </ul>
             </li>
             <li>

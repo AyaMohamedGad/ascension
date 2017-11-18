@@ -35,9 +35,6 @@
 
         <section class="mt-40 mb-20">
             @if(count($images) > 0)
-
-                                <div >
-                                    <img >
                 <div class="col-sm-6">
                     <ul class="gallery">
                         <li class="item wow fadeInLeft">
@@ -63,9 +60,10 @@
                     <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
                         <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
                         <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
-                        </button>
-                    </a>
-                </div>
+                    </button>
+                </a>
+            </div>
+
         </section>
     </div>
 @stop
@@ -73,9 +71,9 @@
 @section('scripts')
     {{ Html::script('js/YouTubePopUp.jquery.js') }}     
     <script type="text/javascript">
-    jQuery(function(){
-        jQuery("a.vp-a").YouTubePopUp();
-    });
+        jQuery(function(){
+            jQuery("a.vp-a").YouTubePopUp();
+        });
 
         setTimeout(function(){
             $('[data-typer-targets]').typer();
@@ -95,6 +93,5 @@
         setTimeout(function(){
             $('.third').typeTo(third_p);
         }, 10500);
-
     </script>
 @stop

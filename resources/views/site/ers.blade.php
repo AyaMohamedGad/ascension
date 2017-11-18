@@ -5,10 +5,10 @@
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_ubnormal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.ascension') }}<span class="er">{{ trans('locale.ers') }}</span> <span class="red">{{ trans('locale.mark') }}</span></h2>
+            <h2 class="header">{{ trans('locale.ascensioners') }}<span class="er">{{ trans('locale.ers') }}</span> <span class="red">{{ trans('locale.mark') }}</span></h2>
         </div>
 
-        <div class="tab-content">
+        <div class="tab-content mt-20">
             <div class="col-sm-12">
                 <div class="col-sm-6 wow fadeInLeft">
                     <div class="ers">

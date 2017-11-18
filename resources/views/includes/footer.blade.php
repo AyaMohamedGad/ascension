@@ -5,5 +5,4 @@
 {{ Html::script('js/main.js') }}
 {{ Html::script('js/custom.js') }}
 {{ Html::script('js/jquery.newsTicker.min.js') }}
-{{ Html::script('js/arrows_animation.js') }}
 @yield('scripts')

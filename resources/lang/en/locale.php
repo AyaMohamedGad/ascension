@@ -10,6 +10,7 @@ return [
     "cpa_program" => "CPA Program",
     "ascension_courses" => "Ascension Courses",
     "ascension" => "Ascension",
+    "ascensioners" => "Ascension",
     "ers" => "ERS",
     "home" => "Home",
     "training" => "Training",
@@ -88,7 +89,30 @@ return [
     "feasibility_study" => "Feasibility Study",
     "page_under_process" => "This page is under process",
     "visit_us_again" => "Please visit us again !",
-    "business_advisory_paragraph" => "Ascension provides financial advice with a precise scientific approach to assist business organizations in overcoming the financial problems they may be exposed through evaluating the system of work & conducting specialized studies in this regard & analyzing the financial statements of the organization to know how to manage their resources at all levels including Contributes to identifying deficiencies in the system of work & to develop appropriate ways & solutions for how to deal with them even if required to restructure the administrative system in the institution, including the structure of human resources.",
+    "business_advisory_paragraph" => [
+        "1" => "The business environment in today's world is characterized by intense competition in the wake of technological and societal developments that put companies and institutions under very competitive pressure. Until these companies can compete and remain in the market, they need financial advice in various aspects of financial and administrative work.",
+        "2" => "Ascension Consulting and Training",
+        "3" => "provides financial advice with a precise scientific approach to assist business organizations in overcoming the financial problems they may be exposed through evaluating the system of work and conducting specialized studies in this regard and analyzing the financial statements of the organization to know how to manage their resources at all levels including Contributes to identifying deficiencies in the system of work and to develop appropriate ways and solutions for how to deal with them even if required to restructure the administrative system in the institution, including the structure of human resources.",
+        "4" => "Our services also include the development of the accounting systems in place in the Organization and the development of the list of accounting procedures and the list of financial authorities to achieve more control and transparency, with the development of marketing and sales systems and other sectors, in order to ensure the sound financial situation of the company and it can manage its resources and assets Different types are appropriate.",
+        "5" => "Ascension's",
+        "6" => "services include providing financial advice to investors through the study and evaluation of market trends, valuation of securities, providing financial and technical analysis services to assist investors in making buying and selling decisions, as well as corporate valuation services for liquidation, merger or acquisition.",
+        "7" => "Our services are not only limited to companies, but also include helping individuals by helping them develop business plans, feasibility studies for small and medium enterprises, short and long term goals, debt management, identification of appropriate savings systems, how to deal with banks and selecting accounts The bank serves the owner of the activity.",
+    ],
+    "fields_of_consulting" => [
+        "1" => "Field of Counseling",
+        "2" => "Designing accounting systems and establishing the accounting procedures and the list of financial authorities.",
+        "3" => "Preparing the policies and procedures of internal control systems.",
+        "4" => "Evaluation of companies for sale and integration",
+        "5" => "Liquidation and merger of companies and change the legal form of the company",
+        "6" => "Performance assessment using financial and non-financial ratios",
+        "7" => "Reduction and increase of capital",
+        "8" => "Develop the organizational structure and job description of the jobs",
+        "9" => "Develop company strategy and long-term plans",
+        "10" => "Design the Structure of Salaries and Wages",
+        "11" => "Marketing Consulting",
+        "12" => "SME Consulting",
+        "13" => "Other Consulting"
+    ],
     "accounting" => "Accounting",
     "human_resources" => "Human Resources",
     "financial_evaluations" => "Financial Evaluations",
@@ -151,7 +175,7 @@ return [
     "become_cia" => "6 Steps To Become a CIA",
     "become_cfa" => "6 Steps To Become a CFA",
     "cpa_qualify" => [
-        "1" => "To qualify for the CPA Exam as an international candidate, you need to meet educational and other requirements specific to the state or jurisdiction in which you intend to be licensed to practice.",
+        "1" => "To qualify for the CPA Exam as an international candidate, you need to meet educational and other requirements specific to the state or jurisdiction in which you intend to be <u>licensed</u> to practice.",
         "2" => "Most states require that you have a bachelor’s degree before you sit for the exam. However, some states require that you have 150 hours of coursework (the equivalent of a Master’s degree) before you qualify to sit.",
         "3" => "Depending on your state requirement, here are two sources, IAU or AACSB, to check if your university is accredited:",
         "4" => "International Association of Universities (IAU)",
@@ -445,7 +469,8 @@ return [
         "5" => "Community service",
         "6" => "Estimate the value of science"
     ],
-    "our_partners" => "Our Partners"
+    "our_partners" => "Our Partners",
+    "our_experts" => "Our Experts"
 
 
 

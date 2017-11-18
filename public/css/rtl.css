@@ -1,0 +1,56 @@
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Changa', sans-serif !important;
+}
+
+html *{
+    direction: rtl;
+}
+
+header, h1#logo{
+    right: 0;
+    left: auto;
+}
+
+#content{
+    padding-right: 260px;
+    padding-left: 0;
+}
+
+#main-nav li a{
+    padding-left: 0 !important;
+    padding-right: 15px !important;
+    text-align: right;
+}
+#main-nav li a.sub-nav-toggle::before{
+    left: 10px;
+    right: auto;
+}
+.right-align {
+    float: right;
+}
+a.language {
+    margin: 0 4% 0;
+    float: left;
+}
+.header_normal_cover{
+    padding: 0 25px 0 0;
+}
+
+.ers_sec img {
+    min-height: 310px;
+}
+.small_arrow li {
+    background-position: right;
+}
+.top-left-contact-left {
+    border-left: 2px solid #092b67;
+    border-right: none;
+}
+.keeping i{
+    left: 10px;
+    right: auto !important;
+}
+.bookkeeping .info i{
+    left: -45px;
+    right: auto;
+}
