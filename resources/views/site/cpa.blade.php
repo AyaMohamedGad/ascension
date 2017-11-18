@@ -109,16 +109,16 @@
                                         <h3> Qualify w kda</h3>
                                         </div>
                                         <div class="page" style="background-color: white; border:2px solid black">
-                                            <p>{{ trans('locale.cpa_qualify.1') }}</p>
-                                            <p>{{ trans('locale.cpa_qualify.2') }}</p>
-                                            <p>{{ trans('locale.cpa_qualify.3') }}</p>
+                                            <p>{!! trans('locale.cpa_qualify.1') !!}</p>
+                                            <p>{!! trans('locale.cpa_qualify.2') !!}</p>
+                                            <p>{!! trans('locale.cpa_qualify.3') !!}</p>
                                         </div>
                                         <div class="page" style="background-color: white; border:2px solid black">
-                                            <p>{{ trans('locale.cpa_qualify.4') }}</p>
-                                            <p>{{ trans('locale.cpa_qualify.5') }}</p>
-                                            <p>{{ trans('locale.cpa_qualify.6') }}</p>
-                                            <p>{{ trans('locale.cpa_qualify.7') }}</p>
-                                            <p>{{ trans('locale.cpa_qualify.8') }}</p>
+                                            <p>{!! trans('locale.cpa_qualify.4') !!}</p>
+                                            <p>{!! trans('locale.cpa_qualify.5') !!}</p>
+                                            <p>{!! trans('locale.cpa_qualify.6') !!}</p>
+                                            <p>{!! trans('locale.cpa_qualify.7') !!}</p>
+                                            <p>{!! trans('locale.cpa_qualify.8') !!}</p>
                                         </div>
                                     </div>
                                 </div>

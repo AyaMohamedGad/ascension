@@ -6,7 +6,11 @@
 .wow {
   visibility: hidden;
 }
-
+th{
+    font-weight: bold;
+    font-size: 17px;
+    color: #092b67;
+}
 .clearfix:after {
     content: ".";
     display: block;
@@ -130,6 +134,9 @@ p {
     transition: all 0.2s ease 0s;
     position: relative;
     text-transform: uppercase;
+    color: #092b67
+}
+li{
     color: #092b67
 }
 
@@ -2450,6 +2457,10 @@ h1 .circle-anim:after {
     margin-top: 10px
 }
 
+.mt-15{
+    margin-top: 15px
+}
+
 .mt-20 {
     margin-top: 20px
 }
@@ -2558,9 +2569,6 @@ h1 .circle-anim:after {
     margin-right: 70px
 }
 
-.tab-content {
-    margin-top: 25px
-}
 
 .col-sm-12 {
     margin-bottom: 15px
@@ -2748,21 +2756,17 @@ ul li a.active.sub-nav-toggle {
     height: inherit;
     /*border-radius: 50%;*/
     opacity: 0;
-    
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -o-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    
     -webkit-backface-visibility: hidden;
-
 }
 
 .ch-info h3 {
@@ -2889,4 +2893,15 @@ h4.page_head i{
     vertical-align: middle;
     color: #092b67;
     font-size: 12px;
+}
+.small_arrow{
+    margin-left: 20px;
+}
+.small_arrow li{
+    background: url(../images/small_arrow.png);
+    background-repeat: no-repeat;
+    padding: 0 15px 0;
+    font-size: 17px;
+    background-position: left;
+    line-height: 25px;
 }

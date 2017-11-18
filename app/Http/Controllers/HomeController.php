@@ -8,6 +8,12 @@ use App\PhotoGallery;
 
 class HomeController extends Controller
 {
+    public function __construct(){
+        $lang = \Session::get('locale');
+        if ($lang != null)
+            \App::setLocale($lang);
+    }
+
     public function index(){
         $news = News::with(['translations' => function ($q) {
             $q->where('language', 'en');
@@ -85,9 +91,9 @@ class HomeController extends Controller
 
     public function setLanguage($lang){
         if($lang == 'ar'){
-            app()->setLocale('ar');
+            \Session::put('locale', $lang);
         } else {
-            app()->setLocale('en');
+            \Session::put('locale', 'en');
         }
         return redirect()->back();
     }
