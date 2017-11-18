@@ -58,7 +58,7 @@
                     </ul>
                 </div>
             @endif
-                <div class="col-sm-6">
+                <div class="col-sm-6 mt-60">
                     <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
                     <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
                         <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">

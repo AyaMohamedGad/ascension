@@ -1,58 +1,227 @@
-(function () {
-    'use strict';
+var enroll_access = true,
+      prepare_access = true,
+      schedule_access = true,
+      exam_access = true,
+      pass_access = true;
 
-    var module = {
-        ratio: 1.38,
-        init: function (id) {
-            var me = this;
 
-            // if older browser then don't run javascript
-            if (document.addEventListener) {
-                this.el = document.getElementById(id);
-                this.resize();
-                this.plugins();
+$('.flipbook').turn({
+            // Height
 
-                // on window resize, update the plugin size
-                window.addEventListener('resize', function (e) {
-                    var size = me.resize();
-                    $(me.el).turn('size', size.width, size.height);
-                });
-            }
-        },
-        resize: function () {
-            // reset the width and height to the css defaults
-            this.el.style.width = '';
-            this.el.style.height = '';
+            height:450,
 
-            var width = this.el.clientWidth,
-                height = Math.round(width / this.ratio),
-                padded = Math.round(document.body.clientHeight * 0.9);
+            // Elevation
 
-            // if the height is too big for the window, constrain it
-            if (height > padded) {
-                height = padded;
-                width = Math.round(height * this.ratio);
-            }
+            elevation: 50,
+            
+            // Enable gradients
 
-            // set the width and height matching the aspect ratio
-            this.el.style.width = width + 'px';
-            this.el.style.height = height + 'px';
+            gradients: true,
+            
+            // Auto center this flipbook
 
-            return {
-                width: width,
-                height: height
-            };
-        },
-        plugins: function () {
-            // run the plugin
-            $(this.el).turn({
-                gradients: true,
-                acceleration: true
-            });
-            // hide the body overflow
-            document.body.className = 'hide-overflow';
-        }
-    };
+            autoCenter: true
 
-    module.init('book');
-}());
+    });
+
+
+//enroll click tab
+$('.enroll_tab a').click( function(){
+      if(enroll_access){
+            setTimeout(function(){
+                  enroll_book();
+            }, 5);
+      }
+});
+
+$('.ch-img-2 a').click( function(){
+      if(enroll_access){
+            setTimeout(function(){
+                  enroll_book();
+            }, 5);
+      }
+});
+
+
+
+//prepare click tab
+$('.prepare_tab a').click( function(){
+      if(prepare_access){
+            setTimeout(function(){
+                  prepare_book();
+            }, 5);
+      }
+});
+
+$('.ch-img-3 a').click( function(){
+      if(prepare_access){
+            setTimeout(function(){
+                  prepare_book();
+            }, 5);
+      }
+});
+
+//schedule click tab
+$('.schedule_tab a').click( function(){
+      if(schedule_access){
+            setTimeout(function(){
+                  schedule_book();
+            }, 5);
+      }
+});
+
+$('.ch-img-4 a').click( function(){
+      if(schedule_access){
+            setTimeout(function(){
+                  schedule_book();
+            }, 5);
+      }
+});
+
+
+//exam click tab
+$('.exam_tab a').click( function(){
+      if(exam_access){
+            setTimeout(function(){
+                  exam_book();
+            }, 5);
+      }
+});
+
+$('.ch-img-5 a').click( function(){
+      if(exam_access){
+            setTimeout(function(){
+                  exam_book();
+            }, 5);
+      }
+});
+
+
+//pass click tab
+$('.pass_tab a').click( function(){
+      if(pass_access){
+            setTimeout(function(){
+                  pass_book();
+            }, 5);
+      }
+});
+
+$('.ch-img-6 a').click( function(){
+      if(pass_access){
+            setTimeout(function(){
+                  pass_book();
+            }, 5);
+      }
+});
+
+function enroll_book() {
+      $('.flipbook2').turn({
+            // Height
+
+            height:450,
+
+            // Elevation
+
+            elevation: 50,
+            
+            // Enable gradients
+
+            gradients: true,
+            
+            // Auto center this flipbook
+
+            autoCenter: true
+
+    });
+      enroll_access = false;
+}
+
+function prepare_book() {
+      $('.flipbook3').turn({
+            // Height
+
+            height:450,
+
+            // Elevation
+
+            elevation: 50,
+            
+            // Enable gradients
+
+            gradients: true,
+            
+            // Auto center this flipbook
+
+            autoCenter: true
+
+    });
+      prepare_access = false;
+}
+
+function schedule_book() {
+      $('.flipbook4').turn({
+            // Height
+
+            height:450,
+
+            // Elevation
+
+            elevation: 50,
+            
+            // Enable gradients
+
+            gradients: true,
+            
+            // Auto center this flipbook
+
+            autoCenter: true
+
+    });
+      schedule_access = false;
+}
+
+
+function exam_book() {
+      $('.flipbook5').turn({
+            // Height
+
+            height:450,
+
+            // Elevation
+
+            elevation: 50,
+            
+            // Enable gradients
+
+            gradients: true,
+            
+            // Auto center this flipbook
+
+            autoCenter: true
+
+    });
+      exam_access = false;
+}
+
+
+function pass_book() {
+      $('.flipbook6').turn({
+            // Height
+
+            height:450,
+
+            // Elevation
+
+            elevation: 50,
+            
+            // Enable gradients
+
+            gradients: true,
+            
+            // Auto center this flipbook
+
+            autoCenter: true
+
+    });
+      pass_access = false;
+}

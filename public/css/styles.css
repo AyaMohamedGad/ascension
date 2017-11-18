@@ -2402,8 +2402,8 @@ h1 .circle-anim:after {
 }
 
 .header_normal_cover {
-    background-image: url(../images/header.png);
-    height: 150px;
+    background-color: #002060;
+    height: 120px;
     background-size: 100% 100%;
     padding-left: 25px
 }
@@ -2418,12 +2418,66 @@ h1 .circle-anim:after {
 .header_normal_cover h2,
 .header_ubnormal_cover h2 {
     color: white;
-    line-height: 140px;
+    line-height: 100px;
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 700
+    font-weight: 700;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.9));
+    filter:         drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.9));
 }
+
+.arrow_one{
+    position: absolute;
+    top: 3px;
+    right: 19px;
+}
+
+.arrow_two{
+    position: absolute;
+    top: 68px;
+    right: 19px;
+    width: 3%;
+}
+
+.arrow_three{
+    position: absolute;
+    top: 77px;
+    right: 58px;
+    width: 4%;
+}
+
+.arrow_four{
+    position: absolute;
+    top: 25px;
+    right: 72px;
+    width: 5%;
+}
+
+.arrow_one, .arrow_two, .arrow_three, .arrow_four{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.arrow_one:hover, .arrow_two:hover, .arrow_three:hover, .arrow_four:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.9));
+    filter:         drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.9));
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
 
 .images {
     background-image: url(../images/bg_home.png);
@@ -2668,6 +2722,10 @@ ul li a.active.sub-nav-toggle {
     display: block;
     text-align: center;
     width: 100%;
+    background-image: url(../images/56_s.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 340px;
 }
 
 .ch-grid:after,
@@ -2681,10 +2739,10 @@ ul li a.active.sub-nav-toggle {
 }
 
 .ch-grid li {
-    width: 140px;
-    height: 220px;
+    width: calc(100%/6.1);
+    height: 100%;
     display: inline-block;
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 
@@ -2705,51 +2763,15 @@ ul li a.active.sub-nav-toggle {
     transition: all 0.4s ease-in-out;
 }
 
-.ch-img-1 { 
-    background-image: url(../images/qualify.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.ch-img-2 { 
-    background-image: url(../images/enroll.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.ch-img-3 { 
-    background-image: url(../images/prepare.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.ch-img-4 { 
-    background-image: url(../images/schedule.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.ch-img-5 { 
-    background-image: url(../images/exam.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.ch-img-6 { 
-    background-image: url(../images/pass.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
 .ch-info {
     position: absolute;
-    background: rgba(9,43,103, 0.8);
     width: inherit;
     height: inherit;
     /*border-radius: 50%;*/
-    opacity: 0;
+    /*opacity: 0;*/
     
-    -webkit-transition: all 0.4s ease-in-out;
+    /*-webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -2761,8 +2783,14 @@ ul li a.active.sub-nav-toggle {
     -ms-transform: scale(0);
     transform: scale(0);
     
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;*/
 
+}
+
+.ch-info i{
+    margin-top: 40%;
+    color: white;
+    font-size: 70px;
 }
 
 .ch-info h3 {
@@ -2792,6 +2820,14 @@ ul li a.active.sub-nav-toggle {
     transition: all 0.4s ease-in-out 0.2s;
 }
 
+.ch-info i {
+    -webkit-transition: all 0.4s ease-in-out 0.2s;
+    -moz-transition: all 0.4s ease-in-out 0.2s;
+    -o-transition: all 0.4s ease-in-out 0.2s;
+    -ms-transition: all 0.4s ease-in-out 0.2s;
+    transition: all 0.4s ease-in-out 0.2s;
+}
+
 .ch-info p a {
     display: block;
     color: #fff;
@@ -2799,10 +2835,14 @@ ul li a.active.sub-nav-toggle {
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 9px;
+    font-size: 12px;
     letter-spacing: 1px;
     padding-top: 4px;
     font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info:hover {
+    background: rgba(9,43,103, 0.2);
 }
 
 .ch-info p a:hover {
@@ -2815,6 +2855,11 @@ ul li a.active.sub-nav-toggle {
         inset 0 0 0 1px rgba(255,255,255,0.1),
         0 1px 2px rgba(0,0,0,0.1);
 }
+
+.ch-item:hover p {
+    opacity: 1;
+}
+
 .ch-item:hover .ch-info {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -2824,8 +2869,9 @@ ul li a.active.sub-nav-toggle {
     opacity: 1;
 }
 
-.ch-item:hover .ch-info p {
-    opacity: 1;
+.ch-item:hover i {
+    margin-top: 30%;
+    font-size: 45px;
 }
 
 .cpa{
