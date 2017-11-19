@@ -12,7 +12,7 @@
             <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
         </div>
 
-        <div class="row wow bounceInUp mt-40" style="visibility: hidden">
+        <div class="tab-content mt-20 row wow bounceInUp" style="visibility: hidden">
             <div class="cpa col-sm-12">
                 <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
                 <div class="content">

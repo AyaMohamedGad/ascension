@@ -470,7 +470,16 @@ return [
         "6" => "تقدير قيمة العلم"
     ],
     "our_partners" => "شركاؤنا",
-    "our_experts" => "خبراؤنا"
+    "our_experts" => "خبراؤنا",
+    "expert1" => "Marry Tayse",
+    "expert2" => "Marry Tayse",
+    "expert3" => "Marry Tayse",
+    "read_more" => "المزيد",
+    "years_of_experience" => "Years of experience",
+    "ten_years" => "10 years",
+    "qualifications" => "Qualifications",
+    "qualification_content" => "BSc, MSA, CPA, CMA",
+    "major" => "Major",
 
 
 

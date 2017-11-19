@@ -2909,13 +2909,13 @@ ul li a.active.sub-nav-toggle {
     padding-left: 0 !important;
 }
 .cpa_page .times .col-sm-6:last-child{
-    background: url(../images/border1.jpg);
+    background: url('../images/border.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    min-height: 265px;
+    min-height: 285px;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 7%;
     color: #092b67;
     font-size: 19px;
     letter-spacing: 1px;

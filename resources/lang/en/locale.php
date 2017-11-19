@@ -470,7 +470,16 @@ return [
         "6" => "Estimate the value of science"
     ],
     "our_partners" => "Our Partners",
-    "our_experts" => "Our Experts"
+    "our_experts" => "Our Experts",
+    "expert1" => "Marry Tayse",
+    "expert2" => "Marry Tayse",
+    "expert3" => "Marry Tayse",
+    "read_more" => "Read More",
+    "years_of_experience" => "Years of experience",
+    "ten_years" => "10 years",
+    "qualifications" => "Qualifications",
+    "qualification_content" => "BSc, MSA, CPA, CMA",
+    "major" => "Major",
 
 
 
