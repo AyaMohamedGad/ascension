@@ -96,7 +96,7 @@
             </ul>
         </div>
 
-        <div class="row mt-20" id="book_tabs">
+        <div class="row mt-50" id="book_tabs">
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="tabs-left wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="2s">
                     <ul class="nav nav-tabs-left">
@@ -120,7 +120,7 @@
                         </li>
                     </ul>
 
-                    <div class="tab-content mb-50">
+                    <div class="tab-content">
                         <div class="tab-pane row active" id="a">
                             <div class="flipbook-viewport">
                                 <div class="flipbook">

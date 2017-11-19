@@ -325,14 +325,10 @@ a.language{
 
 /*BOOK STYLING CSS*/
 
-#book_tabs .tabs-left {
-  margin-top: 3rem;
-}
-
 #book_tabs .nav-tabs-left {
   float: left;
   border-bottom: 0;
-  margin-left: -85px;
+  margin-left: -100px;
 }
 
 #book_tabs .nav-tabs-right {
@@ -360,14 +356,12 @@ a.language{
   border: 0;
 }
 
-#book_tabs .tab-content {
-	/*margin-left: 70px;
-    margin-right: 70px;*/
-    /*background-image: url('../images/book.png');     */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 400px;
+#book_tabs .tab-content{
+    position: absolute;
+    top: -22px;
+    left: 17px;
 }
+
 #book_tabs .tab-content .tab-pane {
   display: none;
   /*padding: 1.6rem;*/
@@ -419,7 +413,7 @@ a.language{
 
 .right_tab{
 	position: absolute !important;
-    right: -7%;
+    right: -4%;
     width: 10%;
 }
 
@@ -448,7 +442,7 @@ a.language{
 }
 
 .exam_tab{
-	bottom:20%;
+	bottom:21%;
 }
 
 .pass_tab{
