@@ -12,7 +12,7 @@
             <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
         </div>
 
-        <div class="tab-content row wow bounceInUp" style="visibility: hidden">
+        <div class="row wow bounceInUp mt-40" style="visibility: hidden">
             <div class="cpa col-sm-12">
                 <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
                 <div class="content">
@@ -96,9 +96,9 @@
             </ul>
         </div>
 
-        <div class="row mt-50" id="book_tabs">
+        <div class="row mt-50 mb-50" id="book_tabs">
             <div class="col-xs-8 col-xs-offset-2">
-                <div class="tabs-left wow fadeInDown" data-wow-delay="0.5s" data-wow-duration="2s">
+                <div class="tabs-left wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="2s">
                     <ul class="nav nav-tabs-left">
                         <li class="active qualify_tab">
                             <a href="#a" data-toggle="tab"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>

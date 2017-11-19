@@ -2911,7 +2911,8 @@ ul li a.active.sub-nav-toggle {
 .cpa_page .times .col-sm-6:last-child{
     background: url(../images/border1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
+    background-position: center center;
     min-height: 265px;
     text-align: center;
     padding-top: 5%;

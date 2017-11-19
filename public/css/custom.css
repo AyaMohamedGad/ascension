@@ -328,7 +328,8 @@ a.language{
 #book_tabs .nav-tabs-left {
   float: left;
   border-bottom: 0;
-  margin-left: -100px;
+  margin-left: -85px;
+  height: 430px;
 }
 
 #book_tabs .nav-tabs-right {
@@ -359,7 +360,8 @@ a.language{
 #book_tabs .tab-content{
     position: absolute;
     top: -22px;
-    left: 17px;
+    left: 15px;
+    width: 100%;
 }
 
 #book_tabs .tab-content .tab-pane {
@@ -383,7 +385,7 @@ a.language{
 
 #book_tabs .nav li:nth-child(-n+4){
     transform: rotate(-90deg);
-    margin-bottom: 48px;
+    margin-bottom: 17px;
 }
 
 #book_tabs .nav li:nth-child(n+5){
@@ -394,6 +396,7 @@ a.language{
     color: white;
     border-radius: 15px;
     text-align: center;
+    padding: 10px 0px 10px 0px;
 }
 
 #book_tabs .nav>li.active>a{
@@ -413,7 +416,7 @@ a.language{
 
 .right_tab{
 	position: absolute !important;
-    right: -4%;
+    right: -13%;
     width: 10%;
 }
 
