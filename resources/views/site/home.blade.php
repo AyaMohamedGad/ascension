@@ -22,7 +22,7 @@
             <img src="{{ asset('images/Picture2.png') }}" class="arrow_right">
         </div>
 
-        <section class="col-sm-12 mt-40">
+        <section class="col-sm-12 mt-30">
             <div class="news">
                 <span>{{ trans('locale.latest_news') }}</span>
                 <ul class="newsticker">
@@ -34,6 +34,15 @@
         </section>
 
         <section class="mt-40 mb-20">
+            <div class="col-sm-6 mt-60">
+                <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
+                <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
+                    <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
+                        <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
+                    </button>
+                </a>
+            </div>
+
             @if(count($images) > 0)
                 <div class="col-sm-6">
                     <ul class="gallery">
@@ -55,15 +64,6 @@
                     </ul>
                 </div>
             @endif
-                <div class="col-sm-6 mt-60">
-                    <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
-                    <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
-                        <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
-                        <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
-                    </button>
-                </a>
-            </div>
-
         </section>
     </div>
 @stop
@@ -78,7 +78,7 @@
         setTimeout(function(){
             $('[data-typer-targets]').typer();
             $('.newsticker').newsTicker({
-                row_height: 60,
+                row_height: 50,
                 max_rows: 1,
                 duration: 3000,
             });

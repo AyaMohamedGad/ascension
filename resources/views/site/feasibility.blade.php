@@ -7,7 +7,7 @@
         <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.feasibility_study') }}</h2>
         </div>
-        <div class="tab-content">
+        <div class="tab-content mt-20">
             <div class="col-sm-12 fixing">
                 <img src="{{ asset('images/feasibility_study.png') }}">
                 <div>

@@ -62,6 +62,7 @@ return [
     "click_here" => "Click Here",
     "new_cpa_blueprint" => "For full details review page 6 from the new CPA blueprint",
     "cpa_old" => "CPA Old",
+    "vs" => "vs",
     "new_exam" => "New Exam",
     "cpa_old_comparison_new" => "The new version of the CPA Exam launched on April 1, 2017. To know more about the differences & if you have any questions, please review  the provided page by NASBA",
     "accounting_finance" => "Accounting Courses",
@@ -480,7 +481,6 @@ return [
     "qualifications" => "Qualifications",
     "qualification_content" => "BSc, MSA, CPA, CMA",
     "major" => "Major",
-
 
 
 
