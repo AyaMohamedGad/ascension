@@ -39,7 +39,6 @@ return [
     "far" => "FAR",
     "aud" => "AUD",
     "to_be_announced" => "To be announced.",
-    "steps_to_become_cpa" => "Steps To Become a CPA",
     "passing_score_scale" => "Passing score is 75 on a 0-99 scale",
     "duration_new_cpa" => "The duration of the new CPA exam is 4 hours.",
     "auditing_attestation" => "Auditing & Attestation (AUD)",
@@ -60,8 +59,8 @@ return [
     "skills_tested_allocation" => "Skills Tested & Allocation",
     "areas" => "Areas",
     "click_here" => "Click Here",
-    "new_cpa_blueprint" => "For full details review page 6 from the new CPA blueprint",
     "cpa_old" => "CPA Old",
+    "vs" => "vs",
     "new_exam" => "New Exam",
     "cpa_old_comparison_new" => "The new version of the CPA Exam launched on April 1, 2017. To know more about the differences & if you have any questions, please review  the provided page by NASBA",
     "accounting_finance" => "Accounting Courses",
@@ -175,23 +174,29 @@ return [
     "become_cia" => "6 Steps To Become a CIA",
     "become_cfa" => "6 Steps To Become a CFA",
     "cpa_qualify" => [
-        "1" => "To qualify for the CPA Exam as an international candidate, you need to meet educational and other requirements specific to the state or jurisdiction in which you intend to be <u>licensed</u> to practice.",
-        "2" => "Most states require that you have a bachelor’s degree before you sit for the exam. However, some states require that you have 150 hours of coursework (the equivalent of a Master’s degree) before you qualify to sit.",
-        "3" => "Depending on your state requirement, here are two sources, IAU or AACSB, to check if your university is accredited:",
-        "4" => "International Association of Universities (IAU)",
-        "5" => "Association to Advance Collegiate Schools of Business (AACSB):",
-        "6" => "An evaluation of your certificate must be made in approved institutes by your state to count your total credit hours. We recommend to make the evaluation with NASBA International Evaluation Services (NIES) if your state in NIES list:",
-        "7" => "Generally, 1 year of working experience (full time) is required in the accouting or  auditing fields (Could be before or after you take the exam).",
-        "8" => "To get a full understanding of the new CPA exam, Please review the \"Candidate Bulletin\" by AICPA & NASBA here:"
+        "1" => "To qualify for the CPA Exam as an international candidate, you need to meet educational and other requirements specific to the state or jurisdiction in which you intend to be",
+        "2" => "licensed",
+        "3" => "to practice.",
+        "4" => "Most states require that you have a bachelor’s degree before",
+        "5" => "you sit for the exam.",
+        "6" => "However, some states require that you have 150 hours of coursework (the equivalent of a Master’s degree) before you qualify to sit.",
+        "7" => "Depending on your state requirement, here are two sources, IAU or AACSB, to check if your university is accredited:",
+        "8" => "International Association of Universities (IAU)",
+        "9" => "Association to Advance Collegiate Schools of Business (AACSB)",
+        "10" => "",
+        "11" => "An evaluation of your certificate must be made in approved institutes by your state to count your total credit hours. We recommend to make the evaluation with NASBA International Evaluation Services (NIES) if your state in NIES list:",
+        "12" => "Generally, 1 year of working experience (full time) is required in the accouting or  auditing fields (Could be before or after you take the exam).",
+        "13" => "To get a full understanding of the new CPA exam, Please review the \"Candidate Bulletin\" by AICPA & NASBA here:"
     ],
     "cpa_enroll" => [
         "1" => "To ease the process of applying and paying fees, we in Ascension prefer that international candidates apply with those available on NASBA online application sysetem.",
         "2" => "Requirements vary by state/jurisdiction, please read & understand carefully your state requirements before choosing.",
-        "3" => "Important: ",
-        "4" => "The name on your application must appear exactly the same as it appears on the identification (Passport).",
-        "5" => "Note: ",
-        "6" => "Applications can be submitted at any time during the year. Application and evaluation fees range between $900-$1000.",
-        "7" => "You will receive a jurisdiction number once your application is evaluated.",
+        "3" => "Once your application has been evaluated, you will be contacted by your Board of Accountancy or its designated agent. It takes usually 4-6 weeks for the evaluation.",
+        "4" => "Important: ",
+        "5" => "The name on your application must appear exactly the same as it appears on the identification (Passport).",
+        "6" => "Note:",
+        "7" => "Applications can be submitted at any time during the year. Application and evaluation fees range between $900-$1000.",
+        "8" => "You will receive a jurisdiction number once your application is evaluated.",
     ],
     "prepare_content" => [
         "1" => "Ascension can help you with the exam preparations. Contact us for more details about our materials and courses."
@@ -200,7 +205,7 @@ return [
         "1" => "Once your application has been processed by the state board, you’ll receive a Notice to Schedule (NTS) which is required for you to schedule your CPA Exam at a Prometric Test Center.",
         "2" => "Generally, you’ll need to sit for your first exam within six months of receiving the NTS, although this can vary by jurisdiction.",
         "3" => "You may schedule the exam parts in any order, and one at a time, if you prefer.",
-        "4" => "Testing is Available in the following exam widnows:",
+        "4" => "Testing is Available in the following exam windows:",
         "5" => "January and February (Extension of 10 days from 1st of March)",
         "6" => "April and May",
         "7" => "July and August (Extension of 10 days from 1st of September)",
@@ -213,7 +218,7 @@ return [
     ],
     "cpa_pass" => [
         "1" => "Once you’ve passed all the exams within the allowed period (Most jurisdictions allow a maximum of 18 months to pass all remaining sections in order to retain credit on the passed section).",
-        "2" => "You might need to verify your working experience by a CPA or equivalent depending on your state requirement. Reveiw the states requirements on this matter carefully and choose the one that matches your situation.",
+        "2" => "You might need to verify your working experience by a CPA or equivalent depending on your state requirement. Review the states requirements on this matter carefully and choose the one that matches your situation.",
         "3" => "Some state require additional ethics exam to approve you.",
         "4" => "As a CPA, you must meet the Continuing Professional Education (CPE) requirements which is typically 40 hours per year."
     ],
@@ -257,15 +262,17 @@ return [
         "1" => "Applying for the CMA exam is very easy and straightforward relevant to other certificates.",
         "2" => "Visit the IMA site and pay their membership fee and CMA entrance fee and you are all set!",
         "3" => "CMA fees breakdown:",
-        "4" => "IMA membership",
+        "4" => "IMA membership **",
         "5" => "IMA first time registration application fees",
-        "6" => "CMA entrance fee",
+        "6" => "CMA entrance fee ***",
         "7" => "Part 1 Exam Registration",
         "8" => "Part 2 Exam Registration",
-        "9" => "Student discount is for current student only",
-        "10" => "Mandatory annual payment",
-        "11" => "Candidates must complete the CMA program within three years from the date of entry into the program. If both exam parts are not successfully completed within three years of entering the certification program, any passed part will expire and the CMA entrance fee will have to be repaid.",
-        "12" => "Request from your University an original transcript to be sent directly to the IMA. This step can be done before or after taking the exams."
+        "9" => "* Student discount is for current student only",
+        "10" => "** Mandatory annual payment",
+        "11" => "*** Candidates must complete the CMA program within three years from the date of entry into the program. If both exam parts are not successfully completed within three years of entering the certification program, any passed part will expire and the CMA entrance fee will have to be repaid.",
+        "12" => "Request from your University an original transcript to be sent directly to the IMA. This step can be done before or after taking the exams.",
+        "13" => "Regular",
+        "14" => "Student*"
     ],
     "cma_schedule" => [
         "1" => "The CMA Exam is offered in 3 testing widows:",
@@ -313,14 +320,17 @@ return [
         "1" => "Create an account in CCMS:",
         "2" => "Pay the application fee and Membership fees if desired.",
         "3" => "CIA fees breakdown:",
-        "4" => "IIA Membership fee (International member)",
+        "4" => "IIA Membership fee (International member)**",
         "5" => "Application fee",
         "6" => "CMA exam fee - Part 1",
         "7" => "CMA exam fee - Part 2",
         "8" => "CMA exam fee - Part 3",
-        "9" => "You must be a full time student in your senior (final) year and enrolled in at least 12 credit hours or full time graduate student and enrolled in at least 9 semester hours.",
+        "9" => "* You must be a full time student in your senior (final) year and enrolled in at least 12 credit hours or full time graduate student and enrolled in at least 9 semester hours.",
         "10" => "More details:",
-        "11" => "Being an IIA member is optional to take the CIA exam."
+        "11" => "** Being an IIA member is optional to take the CIA exam.",
+        "12" => "Member",
+        "13" => "Non-Member",
+        "14" => "Student*"
     ],
     "cia_schedule" => [
         "1" => "The exam site is available in 500+ Pearson VUE centers around the world and there are 17 languages to choose from (Arabic is available). You can practically take the exam any time of the year.",
@@ -362,13 +372,16 @@ return [
     ],
     "cfa_qualify" => [
         "1" => "An accredited bachelor degree in any discipline or Equivalent (4 years of working experience in any discipline).",
-        "2" => "Sign the Professional Conduct Statement and Candidate Responsibility Statement.",
+        "2" => "Sign",
+        "3" => "the Professional Conduct Statement",
+        "4" => "and",
+        "5" => "Candidate Responsibility Statement."
     ],
     "cfa_enroll" => [
         "1" => "Create an account with the CFA institute and follow their instructions:",
         "2" => "After they approve your account, you can start registring for the exam.",
         "3" => "A one-time program enrollment fee of $450 is required when you register for the first time",
-        "4" => "The exam fee depends on the date you register for the exam:",
+        "4" => "The exam fee depends on the date you register for the exam**:",
         "5" => "Early registration $650",
         "6" => "Regular registration $930",
         "7" => "Late registration $1,380",
@@ -470,9 +483,17 @@ return [
         "6" => "Estimate the value of science"
     ],
     "our_partners" => "Our Partners",
-    "our_experts" => "Our Experts"
-
-
+    "our_experts" => "Our Experts",
+    "expert1" => "Marry Tayse",
+    "expert2" => "Marry Tayse",
+    "expert3" => "Marry Tayse",
+    "read_more" => "Read More",
+    "years_of_experience" => "Years of experience",
+    "ten_years" => "10 years",
+    "qualifications" => "Qualifications",
+    "qualification_content" => "BSc, MSA, CPA, CMA",
+    "major" => "Major",
+    "new" => "The New"
 
 
 ];

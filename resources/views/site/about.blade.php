@@ -61,10 +61,79 @@
                 </div>
             </div>
 
-            <div class="col-sm-12">
+            <div class="col-sm-12 experts">
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.our_experts') }}</h4>
+                <div class="col-sm-4 opened">
+                    <img src="{{ asset('images/expert1.png') }}">
+                    <div class="name">
+                        <h4>{{ trans('locale.expert1') }}</h4>
+                        <a href="#" class="open" id="expert1">{{ trans('locale.read_more') }}</a>
+                    </div>
+                </div>
+                <div class="col-sm-8 expert1 details">
+                    <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
+                    <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
+                    <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
+                    <i class="fa fa-close closed" data-id="expert1"></i>
+                </div>
 
+                <div class="col-sm-4 opened">
+                    <img src="{{ asset('images/expert2.png') }}">
+                    <div class="name">
+                        <h4>{{ trans('locale.expert2') }}</h4>
+                        <a href="#" class="open" id="expert2">{{ trans('locale.read_more') }}</a>
+                    </div>
+                </div>
+                <div class="col-sm-8 expert2 details">
+                    <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
+                    <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
+                    <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
+                    <i class="fa fa-close closed" data-id="expert2"></i>
+                </div>
+
+                <div class="col-sm-4 opened">
+                    <img src="{{ asset('images/expert3.png') }}">
+                    <div class="name">
+                        <h4>{{ trans('locale.expert3') }}</h4>
+                        <a href="#" class="open" id="expert3">{{ trans('locale.read_more') }}</a>
+                    </div>
+                </div>
+                <div class="col-sm-8 expert3 details">
+                    <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
+                    <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
+                    <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
+                    <i class="fa fa-close closed" data-id="expert3"></i>
+                </div>
             </div>
         </div>
     </div>
+@stop
+
+@section('scripts')
+    <script>
+        $(document).ready( function(){
+           $('.details').hide();
+        });
+        $(document).on('click', '.open', function (e) {
+            e.preventDefault();
+            showHide($(this).attr('id'));
+        });
+        $(document).on('click', '.closed', function (e) {
+            e.preventDefault();
+            showHide($(this).attr('data-id'));
+        });
+        function showHide(id){
+            if(!$('.'+id).is(':visible')){
+                $('.col-sm-4.opened').not($('#'+id).parent().parent()).each( function(){
+                    $(this).hide(400);
+                });
+                $('.'+id).show(500);
+            }
+            else {
+                console.log('hheee');
+                $('.opened').show(400);
+                $('.details').hide(500);
+            }
+        }
+    </script>
 @stop

@@ -88,7 +88,7 @@ class HomeController extends Controller
 
     public function viewNew($id){
         $thenew = News::with(['translations' => function ($q) {
-            $q->where('language', 'en');
+            $q->where('language', app()->getLocale());
         }])->find($id);
         return view('site.indv_new', compact('thenew'));
     }

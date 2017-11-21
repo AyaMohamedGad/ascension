@@ -1,6 +1,6 @@
 @extends('includes.main')
 
-@section('title', $thenew->translations[0]->title)
+@section('title', count($thenew->translations) > 0 ? $thenew->translations[0]->title : "New")
 
 @section('styles')
     <style>
@@ -11,19 +11,21 @@
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ $thenew->translations[0]->title }}</h2>
+            <h2 class="header">{{ count($thenew->translations) > 0 ? $thenew->translations[0]->title : trans('locale.new') }}</h2>
         </div>
 
-        <div class="tab-content row wow bounceInUp">
-            <div class="col-sm-12">
-                <img class="center" src="{{ $thenew->image }}" >
+        @if(count($thenew->translations) > 0)
+            <div class="tab-content row wow bounceInUp">
+                <div class="col-sm-12">
+                    <img class="center" src="{{ $thenew->image }}" >
+                </div>
             </div>
-        </div>
 
-        <div class="row wow bounceInRight" id="book_tabs">
-            <div class="col-xs-8 col-xs-offset-2">
-                {{ $thenew->translations[0]->description }}
+            <div class="row wow bounceInRight" id="book_tabs">
+                <div class="col-xs-8 col-xs-offset-2">
+                    {{ $thenew->translations[0]->description }}
+                </div>
             </div>
-        </div>
+        @endif
     </div>
 @stop

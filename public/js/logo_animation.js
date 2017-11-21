@@ -58,7 +58,7 @@ setTimeout(function(){
   $(".arrow_right")
     .animate({
       right: "0px",
-      top: "0px"
+      top: "-10px"
     }, 700);
 }, 5200);
 

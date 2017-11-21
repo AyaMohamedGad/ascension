@@ -1,7 +1,9 @@
 body, h1, h2, h3, h4, h5, h6{
     font-family: 'Changa', sans-serif !important;
 }
-
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    text-align: right;
+}
 html *{
     direction: rtl;
 }
@@ -53,4 +55,27 @@ a.language {
 .bookkeeping .info i{
     left: -45px;
     right: auto;
+}
+.experts .col-sm-8 i{
+    right: auto;
+    left: 10px;
+}
+
+.business .orange p , .business .blue p, .business .yellow p, .business .green p{
+    left: auto;
+}
+.business .orange p {
+    right: 27%;
+}
+.business .blue p {
+    right: 0%;
+}
+.business .yellow p {
+    right: 14%;
+}
+.business .green p {
+    right: 10%;
+}
+.tab-content h4{
+    font-size: 21px;
 }

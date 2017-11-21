@@ -13,14 +13,17 @@ $('.flipbook').turn({
             // Elevation
 
             elevation: 50,
-            
-            // Enable gradients
-
-            gradients: true,
-            
-            // Auto center this flipbook
-
-            autoCenter: true
+            page: 2,
+            when: {
+                  start: function(event, pageObject, corner) {
+                        if (pageObject.next==1) 
+                              event.preventDefault();
+                  }, 
+                  turning: function(event, page, view) {
+                        if (page==1)
+                              event.preventDefault();
+                }
+            }
 
     });
 
@@ -126,11 +129,17 @@ function enroll_book() {
             
             // Enable gradients
 
-            gradients: true,
-            
-            // Auto center this flipbook
-
-            autoCenter: true
+            page: 2,
+            when: {
+                  start: function(event, pageObject, corner) {
+                        if (pageObject.next==1) 
+                              event.preventDefault();
+                  }, 
+                  turning: function(event, page, view) {
+                        if (page==1)
+                              event.preventDefault();
+                }
+            }
 
     });
       enroll_access = false;
@@ -148,11 +157,17 @@ function prepare_book() {
             
             // Enable gradients
 
-            gradients: true,
-            
-            // Auto center this flipbook
-
-            autoCenter: true
+            page: 2,
+            when: {
+                  start: function(event, pageObject, corner) {
+                        if (pageObject.next==1) 
+                              event.preventDefault();
+                  }, 
+                  turning: function(event, page, view) {
+                        if (page==1)
+                              event.preventDefault();
+                }
+            }
 
     });
       prepare_access = false;
@@ -170,11 +185,17 @@ function schedule_book() {
             
             // Enable gradients
 
-            gradients: true,
-            
-            // Auto center this flipbook
-
-            autoCenter: true
+            page: 2,
+            when: {
+                  start: function(event, pageObject, corner) {
+                        if (pageObject.next==1) 
+                              event.preventDefault();
+                  }, 
+                  turning: function(event, page, view) {
+                        if (page==1)
+                              event.preventDefault();
+                }
+            }
 
     });
       schedule_access = false;
@@ -193,11 +214,17 @@ function exam_book() {
             
             // Enable gradients
 
-            gradients: true,
-            
-            // Auto center this flipbook
-
-            autoCenter: true
+            page: 2,
+            when: {
+                  start: function(event, pageObject, corner) {
+                        if (pageObject.next==1) 
+                              event.preventDefault();
+                  }, 
+                  turning: function(event, page, view) {
+                        if (page==1)
+                              event.preventDefault();
+                }
+            }
 
     });
       exam_access = false;
@@ -216,11 +243,17 @@ function pass_book() {
             
             // Enable gradients
 
-            gradients: true,
-            
-            // Auto center this flipbook
-
-            autoCenter: true
+            page: 2,
+            when: {
+                  start: function(event, pageObject, corner) {
+                        if (pageObject.next==1) 
+                              event.preventDefault();
+                  }, 
+                  turning: function(event, page, view) {
+                        if (page==1)
+                              event.preventDefault();
+                }
+            }
 
     });
       pass_access = false;

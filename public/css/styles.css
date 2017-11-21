@@ -1197,396 +1197,6 @@ a.circled:hover i.fa {
     margin-bottom: 0
 }
 
-.icons.map {
-    background: url(../images/icons/bg-map@2x.png) no-repeat center left;
-    background-size: 48px 48px
-}
-
-.icons.winner {
-    background: url(../images/icons/bg-winner@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.time {
-    background: url(../images/icons/bg-time@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.pig {
-    background: url(../images/icons/bg-pig@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.adjust {
-    background: url(../images/icons/bg-adjust@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.team {
-    background: url(../images/icons/bg-team@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.works {
-    background: url(../images/icons/bg-works@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.chat {
-    background: url(../images/icons/bg-chat@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.notes {
-    background: url(../images/icons/bg-notes@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.camera {
-    background: url(../images/icons/bg-camera@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.illustration {
-    background: url(../images/icons/bg-illustration@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.social {
-    background: url(../images/icons/bg-social@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.vector {
-    background: url(../images/icons/bg-vector@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.commerce {
-    background: url(../images/icons/bg-commerce@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.search {
-    background: url(../images/icons/bg-search@2x.png) no-repeat center;
-    background-size: 48px 48px
-}
-
-.icons.like {
-    background: url(../images/icons/bg-like@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.share {
-    background: url(../images/icons/bg-share@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.document {
-    background: url(../images/icons/bg-document@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.apple {
-    background: url(../images/icons/bg-apple@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.balance {
-    background: url(../images/icons/bg-balance@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.beaker {
-    background: url(../images/icons/bg-beaker@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.beer {
-    background: url(../images/icons/bg-beer@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.books {
-    background: url(../images/icons/bg-books@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.box {
-    background: url(../images/icons/bg-box@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.cake {
-    background: url(../images/icons/bg-cake@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.calcuLator {
-    background: url(../images/icons/bg-calcuLator@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.cd {
-    background: url(../images/icons/bg-cd@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.champagne {
-    background: url(../images/icons/bg-champagne@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.chart {
-    background: url(../images/icons/bg-chart@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.cheese {
-    background: url(../images/icons/bg-cheese@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.court {
-    background: url(../images/icons/bg-court@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.delivery {
-    background: url(../images/icons/bg-delivery@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.dvd {
-    background: url(../images/icons/bg-dvd@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.eco {
-    background: url(../images/icons/bg-eco@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.film {
-    background: url(../images/icons/bg-film@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.grape {
-    background: url(../images/icons/bg-grape@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.hot {
-    background: url(../images/icons/bg-hot@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.house {
-    background: url(../images/icons/bg-house@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.icecream {
-    background: url(../images/icons/bg-icecream@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.joystick {
-    background: url(../images/icons/bg-joystick@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.keynote {
-    background: url(../images/icons/bg-keynote@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.link {
-    background: url(../images/icons/bg-link@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.magic {
-    background: url(../images/icons/bg-magic@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.mail {
-    background: url(../images/icons/bg-mail@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.microphone {
-    background: url(../images/icons/bg-microphone@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.network {
-    background: url(../images/icons/bg-network@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.palette {
-    background: url(../images/icons/bg-palette@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.plaster {
-    background: url(../images/icons/bg-plaster@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.player {
-    background: url(../images/icons/bg-player@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.polaroid {
-    background: url(../images/icons/bg-polaroid@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.printer {
-    background: url(../images/icons/bg-printer@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.pulse {
-    background: url(../images/icons/bg-pulse@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.radio {
-    background: url(../images/icons/bg-radio@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.recorder {
-    background: url(../images/icons/bg-recorder@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.scissors {
-    background: url(../images/icons/bg-scissors@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.select {
-    background: url(../images/icons/bg-select@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.serving {
-    background: url(../images/icons/bg-serving@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.share {
-    background: url(../images/icons/bg-share@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.shop {
-    background: url(../images/icons/bg-shop@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.shopping {
-    background: url(../images/icons/bg-shopping@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.smartphone {
-    background: url(../images/icons/bg-smartphone@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.sofa {
-    background: url(../images/icons/bg-sofa@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.syringe {
-    background: url(../images/icons/bg-syringe@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.tape {
-    background: url(../images/icons/bg-tape@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.target {
-    background: url(../images/icons/bg-target@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.television {
-    background: url(../images/icons/bg-television@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.video {
-    background: url(../images/icons/bg-video@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.walkman {
-    background: url(../images/icons/bg-walkman@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.zoom {
-    background: url(../images/icons/bg-zoom@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.tags {
-    background: url(../images/icons/bg-tags@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.quote {
-    background: url(../images/icons/bg-quote@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.certified {
-    background: url(../images/icons/bg-certified@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.mediation {
-    background: url(../images/icons/bg-mediation@2x.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.heart-circle {
-    background: url(../images/icons/heart-circle.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.expand {
-    background: url(../images/icons/expand-2.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.graph-line {
-    background: url(../images/icons/graph-line.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.graph-pie {
-    background: url(../images/icons/graph-pie-2.png) center no-repeat;
-    background-size: 48px 48px
-}
-
-.icons.location {
-    background: url(../images/icons/location-pin-3.png) center no-repeat;
-    background-size: 48px 48px
-}
-
 .icons {
     position: relative;
     height: 48px;
@@ -2401,17 +2011,18 @@ h1 .circle-anim:after {
 .arrow_right{
 	position:absolute; 
 	right: 100%;
-	top:100%; 
+	top: 100%;
 	opacity: 0.5;
 	float: left;
     z-index: 200;
     max-height: 600px;
     width: 38.5%;
+    max-height: 545px;
 }
 
 .header_normal_cover {
     background-color: #002060;
-    height: 120px;
+    height: 110px;
     background-size: 100% 100%;
     padding-left: 25px
 }
@@ -2496,7 +2107,7 @@ h1 .circle-anim:after {
 
 .top-left-contact {
     border: 2px solid #092b67;
-    border-radius: 30px
+    border-radius: 15px
 }
 
 .top-left-contact-left {
@@ -2673,12 +2284,9 @@ ul li a.active.sub-nav-toggle {
 .news {
     box-shadow: 2px 2px 9px rgba(0,0,0,0.5);
     width: 100%;
-    margin: 20px auto;
     overflow: hidden;
-    border-radius: 10px;
     -webkit-user-select: none;
     background: #092b67;
-    margin-top: 30px;
 }
 
 .news span {
@@ -2690,20 +2298,20 @@ ul li a.active.sub-nav-toggle {
     width: 15%;
     text-align: center;
     font-size: 18px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .newsticker{
-    margin-bottom: 0px;
-    border-left: 1px solid white;
-    padding-top: 15px;
+    margin-bottom: 0;
+    border-left: 2px solid white;
+    padding-top: 5px;
 }
 
 .newsticker li{
     color: #fff;
     overflow: hidden;
-    height: 70px;
-    padding: 10px;
+    height: 60px;
+    padding: 10px 15px;
     line-height: 15px;
     list-style: none;
     font-size: 16px;
@@ -2720,12 +2328,9 @@ ul li a.active.sub-nav-toggle {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-
 /*Hovering Cards effects*/
 
-
 .ch-grid {
-    margin: 20px 0 0 0;
     padding: 0;
     list-style: none;
     display: block;
@@ -2906,17 +2511,21 @@ ul li a.active.sub-nav-toggle {
 .cpa .content p:first-child{
     font-size: 60px;
 }
+.cpa .content p:first-child span{
+    font-size: 20px;
+    vertical-align: text-top;
+}
 .cpa_page .times .col-sm-6{
     padding-left: 0 !important;
 }
 .cpa_page .times .col-sm-6:last-child{
-    background: url(../images/border1.jpg);
+    background: url('../images/border.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 75% 100%;
     background-position: center center;
-    min-height: 265px;
+    min-height: 245px;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 7%;
     color: #092b67;
     font-size: 19px;
     letter-spacing: 1px;
@@ -2960,7 +2569,6 @@ h4.page_head i{
 }
 
 
-
 /*P GALLERY*/
 .ps_container{
     width:480px;
@@ -2995,4 +2603,175 @@ a.ps_next_photo:hover,
 a.ps_close:hover{
     opacity:0.8;
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
+
+
+.video{
+    background: url('../images/vidoe.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 243px;
+    padding: 0 !important;
+}
+.video iframe{
+    margin-top: 16px;
+}
+.clear {
+    clear: both;
+    float: none;
+}
+.divider{
+    width: 5%;
+    border-top: 5px solid #092b67ad;
+    float: left;
+}
+.bordered_title{
+    color: #092b67;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.cpa_content .half {
+    padding: 0 1em;
+}
+.cpa_content .tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+}
+.cpa_content input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.cpa_content label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    background: #092b67b5;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.cpa_content .tab-content {
+    height: 0;
+    overflow: hidden;
+    background: #fff;
+    margin: 5px;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+.cpa_content .tab-content p {
+    margin: 1em;
+}
+.cpa_content input:checked ~ .tab-content {
+
+    height: 100%;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+}
+.cpa_content label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+.cpa_content input[type=checkbox] + label::after {
+    content: "+";
+}
+.cpa_content input[type=radio] + label::after {
+    content: "\25BC";
+}
+.cpa_content input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+}
+.cpa_content input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    color: #092b67;
+}
+.tab-content p{
+    text-transform: none;
+}
+h5 a:hover , p a:hover{
+    text-decoration: underline;
+}
+h5.ordinary{
+    color: #092b67;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.experts .col-sm-4{
+    position: relative;
+}
+.experts .name{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 0;
+    background: #092b6763;
+    margin: 0 15px;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.experts .col-sm-4:hover .name{
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.experts .name h4{
+    bottom: 10%;
+}
+.experts .name a{
+    bottom: 3%;
+}
+.experts .name a:hover{
+    text-decoration: underline;
+}
+.experts .name h4 , .experts .name a{
+    right: 7%;
+    position: absolute;
+    color: #fff;
+}
+.experts .name p{
+    color: #092b67;
+}
+.experts .col-sm-8{
+    background: #092b6778;
+    padding: 50px 25px 15px;
+    min-height: 245px;
+    text-align: center;
+    position: relative;
+}
+.experts .col-sm-8 p{
+    color: #fff;
+}
+.experts .col-sm-8 i{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background: #c70000;
+    padding: 3px 5px 5px;
+    border-radius: 50%;
 }

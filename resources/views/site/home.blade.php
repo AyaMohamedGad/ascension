@@ -22,7 +22,6 @@
             <img src="{{ asset('images/Picture2.png') }}" class="arrow_right">
         </div>
 
-        <div class="row">
             <div class="news">
                 <span>{{ trans('locale.latest_news') }}</span>
                 <ul class="newsticker">
@@ -34,13 +33,13 @@
         </div>
 
         <div class="row mt-60">
-                <div class="col-sm-6">
-                    <div id="ps_container" class="ps_container" style="display:none;">
-                        <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
-                    </div>
+            <div class="col-sm-6">
+                <div id="ps_container" class="ps_container" style="display:none;">
+                    <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
                 </div>
-                <div class="col-sm-6">
-                    <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
+            </div>
+            <div class="col-sm-6">
+                <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
                     <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
                         <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
                         <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
@@ -48,13 +47,11 @@
                 </a>
             </div>
         </div>
-
     </div>
 @stop
 
 @section('scripts')
     {{ Html::script('js/YouTubePopUp.jquery.js') }}
-    {{ Html::script('js/gallery.js')}}     
     <script type="text/javascript">
         jQuery(function(){
             jQuery("a.vp-a").YouTubePopUp();
@@ -63,7 +60,7 @@
         setTimeout(function(){
             $('[data-typer-targets]').typer();
             $('.newsticker').newsTicker({
-                row_height: 60,
+                row_height: 50,
                 max_rows: 1,
                 duration: 3000,
             });
