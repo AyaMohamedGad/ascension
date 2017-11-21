@@ -746,74 +746,69 @@ body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
 }
 
 
-
-ul.gallery {
-    width: 620px;
-    list-style: none;
-    float: left;
-    padding: 10px;
+/*Photo Gallery Home*/
+/* Useful Classes */
+.xy-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.gallery li {
-    width: 200px;
-    float: left;
-    margin: 0 10px 10px 0;
-    -webkit-filter: sepia(.7);
+.transition {
+    transition: all 350ms ease-in-out;
+}
+
+.r-3-2 {
+    width: 100%;
+    padding-bottom: 66.667%;
+    background-color: #ddd;
+}
+
+.image-holder {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Main Styles */
+.gallery-wrapper {
     position: relative;
-    -webkit-transition: .8s;
+    overflow: hidden;
 }
 
-.gallery li:hover {
-    -webkit-filter: sepia(0);
-    z-index: 1;
+.gallery {
+    position: relative;
+    white-space: nowrap;
+    font-size: 0;
 }
 
-.gallery li:nth-child(3n) {
-    margin-right: 0;
+.item-wrapper {
+    cursor: pointer;
+    width: 23%; /* arbitrary value */
+    display: inline-block;
+    background-color: white;
 }
 
-.gallery li:nth-last-child(-n+3) {
-    margin-bottom: 0;
-}
+.gallery-item { opacity: 0.5; }
+.gallery-item.active { opacity: 1; }
 
-.gallery img {
-    -webkit-transition: .8s;
-    max-width: 100%;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    float: left;
-    border: 8px solid white;
-    border-bottom-width: 30px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+.controls {
+    font-size: 0;
+    border-top: none;
 }
+.move-btn {
+    display: inline-block;
+    width: 50%;
+    border: none;
+  color: #ccc;
+    background-color: transparent;
+    padding: 0.2em 1.5em;
+}
+.move-btn:first-child {border-right: none;}
+.move-btn.left  { cursor: w-resize; }
+.move-btn.right { cursor: e-resize; }
 
-        
-.gallery li:nth-child(1) img {
-    -webkit-transform: translate(-10px, 20px) rotate(-10deg);
-}
-
-.gallery li:nth-child(2) img {
-    -webkit-transform: translate(-20px, 70px) rotate(10deg);
-}
-
-.gallery li:nth-child(3) img {
-    -webkit-transform: translate(-40px, 5px) rotate(13deg);
-}
-
-.gallery li:nth-child(4) img {
-    -webkit-transform: translate(-20px, 20px) rotate(5deg);
-}
-
-.gallery li:nth-child(5) img {
-    -webkit-transform: translate(-30px, 50px) rotate(-10deg);
-    margin-top: -40px;
-}
-
-.gallery li img:hover {
-    box-shadow: 0 0 5px rgba(0, 0, 0, .5), 0 0 15px rgba(0, 0, 0, .7);
-    -webkit-transform: scale(2);
-}
 
 
 #videoPlayBtn{

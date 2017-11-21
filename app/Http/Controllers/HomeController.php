@@ -19,7 +19,11 @@ class HomeController extends Controller
             $q->where('language', 'en');
         }])->get();
         $images = PhotoGallery::orderBy('order')->get();
-        return view('site.home', compact('news', 'images'));
+        $images_array = array();
+        foreach ($images as $image) {
+            array_push($images_array, (asset('images').'/'.$image['image']));
+        }
+        return view('site.home', compact('news', 'images_array'));
     }
 
     public function cma(){
