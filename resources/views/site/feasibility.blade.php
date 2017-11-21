@@ -8,7 +8,7 @@
             <h2 class="header">{{ trans('locale.feasibility_study') }}</h2>
         </div>
         <div class="tab-content mt-20">
-            <div class="col-sm-12 fixing">
+            <div class="col-sm-12 fixing wow bounceInUp">
                 <img src="{{ asset('images/feasibility_study.png') }}">
                 <div>
                     <p>{{ trans('locale.page_under_process') }}</p>

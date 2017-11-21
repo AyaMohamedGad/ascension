@@ -7,7 +7,7 @@
         <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.national_fund') }}</h2>
         </div>
-        <div class="tab-content">
+        <div class="tab-content mt-20 wow fadeInDown">
             <div class="col-sm-12">
                 <img src="{{ asset('images/funds.jpg') }}">
             </div>

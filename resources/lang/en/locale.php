@@ -493,7 +493,7 @@ return [
     "qualifications" => "Qualifications",
     "qualification_content" => "BSc, MSA, CPA, CMA",
     "major" => "Major",
-
+    "new" => "The New"
 
 
 ];
