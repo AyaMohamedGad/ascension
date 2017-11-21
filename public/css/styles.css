@@ -2020,7 +2020,7 @@ h1 .circle-anim:after {
 
 .header_normal_cover {
     background-color: #002060;
-    height: 120px;
+    height: 100px;
     background-size: 100% 100%;
     padding-left: 25px
 }
@@ -2630,6 +2630,7 @@ h4.page_head i{
     margin: 1em;
 }
 .cpa_content input:checked ~ .tab-content {
+
     height: 100%;
     -webkit-transition: all .35s ease-in-out;
     -o-transition: all .35s ease-in-out;
@@ -2672,4 +2673,65 @@ h5 a:hover , p a:hover{
 h5.ordinary{
     color: #092b67;
     font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.experts .col-sm-4{
+    position: relative;
+}
+.experts .name{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 0;
+    background: #092b6763;
+    margin: 0 15px;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.experts .col-sm-4:hover .name{
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+.experts .name h4{
+    bottom: 10%;
+}
+.experts .name a{
+    bottom: 3%;
+}
+.experts .name a:hover{
+    text-decoration: underline;
+}
+.experts .name h4 , .experts .name a{
+    right: 7%;
+    position: absolute;
+    color: #fff;
+}
+.experts .name p{
+    color: #092b67;
+}
+.experts .col-sm-8{
+    background: #092b6778;
+    padding: 50px 25px 15px;
+    min-height: 245px;
+    text-align: center;
+    position: relative;
+}
+.experts .col-sm-8 p{
+    color: #fff;
+}
+.experts .col-sm-8 i{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background: #c70000;
+    padding: 3px 5px 5px;
+    border-radius: 50%;
 }

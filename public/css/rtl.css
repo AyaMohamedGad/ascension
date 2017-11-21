@@ -54,3 +54,7 @@ a.language {
     left: -45px;
     right: auto;
 }
+.experts .col-sm-8 i{
+    right: auto;
+    left: 10px;
+}

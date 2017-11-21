@@ -8,48 +8,6 @@
             font-size: 17px;
             text-transform: none;
         }
-        .experts .col-sm-4{
-            position: relative;
-        }
-        .experts .name{
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 90%;
-            height: 0;
-            background: #092b6763;
-            margin: 0 15px;
-            opacity: 0;
-            -webkit-transition: all 0.5s ease-in-out;
-            -moz-transition: all 0.5s ease-in-out;
-            -o-transition: all 0.5s ease-in-out;
-            transition: all 0.5s ease-in-out
-        }
-        .experts .col-sm-4:hover .name{
-            height: 100%;
-            opacity: 1;
-            -webkit-transition: all 0.5s ease-in-out;
-            -moz-transition: all 0.5s ease-in-out;
-            -o-transition: all 0.5s ease-in-out;
-            transition: all 0.5s ease-in-out
-        }
-        .experts .name h4{
-            bottom: 10%;
-        }
-        .experts .name a{
-            bottom: 3%;
-        }
-        .experts .name a:hover{
-            text-decoration: underline;
-        }
-        .experts .name h4 , .experts .name a{
-            right: 7%;
-            position: absolute;
-            color: #fff;
-        }
-        .experts .name p{
-            color: #092b67;
-        }
     </style>
 @stop
 
@@ -105,41 +63,46 @@
 
             <div class="col-sm-12 experts">
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.our_experts') }}</h4>
-                <div class="col-sm-4 open">
+                <div class="col-sm-4 opened">
                     <img src="{{ asset('images/expert1.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert1') }}</h4>
-                        <a href="#" id="expert1">{{ trans('locale.read_more') }}</a>
+                        <a href="#" class="open" id="expert1">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                <div class="col-sm-8 expert1 hidden">
+                <div class="col-sm-8 expert1 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
+                    <i class="fa fa-close closed" data-id="expert1"></i>
                 </div>
-                <div class="col-sm-4 open">
+
+                <div class="col-sm-4 opened">
                     <img src="{{ asset('images/expert2.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert2') }}</h4>
-                        <a href="#" id="expert2">{{ trans('locale.read_more') }}</a>
+                        <a href="#" class="open" id="expert2">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                <div class="col-sm-8 expert2 hidden">
+                <div class="col-sm-8 expert2 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
+                    <i class="fa fa-close closed" data-id="expert2"></i>
                 </div>
-                <div class="col-sm-4 open">
+
+                <div class="col-sm-4 opened">
                     <img src="{{ asset('images/expert3.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert3') }}</h4>
-                        <a href="#" id="expert3">{{ trans('locale.read_more') }}</a>
+                        <a href="#" class="open" id="expert3">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                <div class="col-sm-8 expert3 hidden">
+                <div class="col-sm-8 expert3 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
+                    <i class="fa fa-close closed" data-id="expert3"></i>
                 </div>
             </div>
         </div>
@@ -148,6 +111,9 @@
 
 @section('scripts')
     <script>
+        $(document).ready( function(){
+           $('.details').hide();
+        });
         $(document).on('click', '.open', function (e) {
             e.preventDefault();
             showHide($(this).attr('id'));
@@ -157,17 +123,16 @@
             showHide($(this).attr('data-id'));
         });
         function showHide(id){
-            if($('.'+id).hasClass('hidden')){
-                $('.open').not(this).each(function(){
-                    $(this).addClass('hidden');
+            if(!$('.'+id).is(':visible')){
+                $('.col-sm-4.opened').not($('#'+id).parent().parent()).each( function(){
+                    $(this).hide(400);
                 });
-                $('#'+id).addClass('opened');
-                $('.'+id).removeClass('hidden');
-                $('#'+id).removeClass('hidden');
-            } else {
-                $('.open').removeClass('hidden');
-                $('#'+id).removeClass('opened');
-                $('.'+id).addClass('hidden');
+                $('.'+id).show(500);
+            }
+            else {
+                console.log('hheee');
+                $('.opened').show(400);
+                $('.details').hide(500);
             }
         }
     </script>
