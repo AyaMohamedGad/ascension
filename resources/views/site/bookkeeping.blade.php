@@ -78,28 +78,6 @@
             text-transform: none;
             padding-left: 20px;
         }
-        .keeping{
-            background: #f5f5f5;
-            border-radius: 5px;
-            padding: 0 !important;
-            min-height: 225px;
-            z-index: 9;
-        }
-        .keeping p{
-            padding: 10px 20px;
-            font-size: 17px;
-            text-transform: none;
-        }
-        .keeping i{
-            border-radius: 50%;
-            padding: 5px 6px;
-            background: rgba(193, 0, 0, 0.65);
-            color: #fff;
-            position: absolute;
-            right: 10px;
-            bottom: 10px;
-            cursor: pointer;
-        }
     </style>
 @stop
 
@@ -107,6 +85,10 @@
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.bookkeeping') }}</h2>
+            <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
+            <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
+            <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
+            <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
         </div>
         <div class="tab-content mt-20 wow bounceInUp">
             <div class="col-sm-12 fixing">
