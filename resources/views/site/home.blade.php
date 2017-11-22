@@ -22,19 +22,13 @@
             <img src="{{ asset('images/Picture2.png') }}" class="arrow_right">
         </div>
 
-        <section class="col-sm-12 mt-30">
-            <div class="news">
-                <span>{{ trans('locale.latest_news') }}</span>
-                <ul class="newsticker">
-                    @foreach($news as $new)
-                        <li><a href="{{ route('ViewNewPage', $new->id) }}">{{ $new->translations[0]->title }}...</a></li>
-                    @endforeach
-                </ul>
+        <div class="row mt-60">
+            <div class="col-sm-6">
+                <div id="ps_container" class="ps_container" style="display:none;">
+                    <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
+                </div>
             </div>
-        </section>
-
-        <section class="mt-40 mb-20">
-            <div class="col-sm-6 mt-60">
+            <div class="col-sm-6">
                 <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
                 <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
                     <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
@@ -42,29 +36,7 @@
                     </button>
                 </a>
             </div>
-
-            @if(count($images) > 0)
-                <div class="col-sm-6">
-                    <ul class="gallery">
-                        <li class="item wow fadeInLeft">
-                            <img src="{{ asset('images/photo_gallery/'.$images[0]['image']) }}" alt="Landscape">
-                        </li>
-                        <li class="item wow fadeInRight" data-wow-delay=".2s">
-                            <img src="{{ asset('images/photo_gallery/'.$images[1]['image']) }}" alt="Landscape">
-                        </li>
-                        <li class="item wow fadeInLeft" data-wow-delay=".4s">
-                            <img src="{{ asset('images/photo_gallery/'.$images[2]['image']) }}" alt="Landscape">
-                        </li>
-                        <li class="item wow fadeInRight" data-wow-delay=".6s">
-                            <img src="{{ asset('images/photo_gallery/'.$images[3]['image']) }}" alt="Landscape">
-                        </li>
-                        <li class="item wow fadeInLeft" data-wow-delay=".8s">
-                            <img src="{{ asset('images/photo_gallery/'.$images[4]['image']) }}" alt="Landscape">
-                        </li>
-                    </ul>
-                </div>
-            @endif
-        </section>
+        </div>
     </div>
 @stop
 
