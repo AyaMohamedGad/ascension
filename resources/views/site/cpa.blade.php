@@ -121,7 +121,7 @@
                         </li>
                         <li class="schedule_tab">
                             <a href="#d" data-toggle="tab"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
-                            </li>
+                        </li>
                         <li class="right_tab exam_tab">
                             <a href="#e" data-toggle="tab"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
                         </li>
@@ -135,8 +135,6 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook">
                                     <div class="page" style="background-color: #78B582;">
-                                    <i class="fa fa-graduation-cap text-center" style="font-size: 80px; margin-top: 40%;" aria-hidden="true"></i>
-                                    <h3 class="text-center text-white">{{ trans('locale.qualify') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.1') }}</p>
@@ -154,8 +152,6 @@
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                     </div>
-                                    <div class="page" style="background-color: #78B582;">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -163,8 +159,6 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook2">
                                     <div class="page" style="background-color: #B578AA;">
-                                    <i class="fa fa-book text-center" style="font-size: 80px; margin-top: 40%;" aria-hidden="true"></i>
-                                    <h3 class="text-center text-white">{{ trans('locale.enroll') }} </h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.1') }}</p>
@@ -177,7 +171,6 @@
                                         <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.6') }}</p>
                                         <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.7') }}</p>
                                     </div>
-                                    <div class="page" style="background-color: #B578AA;"></div>
                                 </div>
                             </div>
                         </div>
@@ -185,15 +178,11 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook3">
                                     <div class="page" style="background-color: #404A60;">
-                                    <i class="fa fa-tasks text-center" style="font-size: 80px; margin-top: 40%;" aria-hidden="true"></i>
-                                    <h3 class="text-center text-white"> {{ trans('locale.prepare') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <p class="mr-10 ml-40">{{ trans('locale.prepare_content.1') }}</p>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                    </div>
-                                    <div class="page" style="background-color: #404A60;">
                                     </div>
                                 </div>
                             </div>
@@ -202,8 +191,6 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook4">
                                     <div class="page" style="background-color: #406045;">
-                                    <i class="fa fa-calendar text-center" style="font-size: 80px; margin-top: 40%;" aria-hidden="true"></i>
-                                    <h3 class="text-center text-white"> {{ trans('locale.schedule') }} </h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.1') }}</p>
@@ -217,8 +204,6 @@
                                         <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.7') }}</p>
                                         <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.8') }}</p>
                                     </div>
-                                    <div class="page" style="background-color: #406045;">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -226,8 +211,6 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook5">
                                     <div class="page" style="background-color: #B53C46;">
-                                    <i class="fa fa-question-circle text-center" style="font-size: 80px; margin-top: 40%;" aria-hidden="true"></i>
-                                    <h3 class="text-center text-white"> {{ trans('locale.exam') }} </h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.1') }}</p>
@@ -236,8 +219,6 @@
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                     </div>
-                                    <div class="page" style="background-color: #B53C46;">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -245,8 +226,6 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook6">
                                     <div class="page" style="background-color: #00B5A5;">
-                                    <i class="fa fa-thumbs-o-up text-center" style="font-size: 80px; margin-top: 40%;" aria-hidden="true"></i>
-                                    <h3 class="text-center text-white"> {{ trans('locale.pass') }} </h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_pass.1') }}</p>
@@ -255,8 +234,6 @@
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.3') }}</p>
                                         <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.4') }}</p>
-                                    </div>
-                                    <div class="page" style="background-color: #00B5A5;">
                                     </div>
                                 </div>
                             </div>
