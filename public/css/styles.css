@@ -44,8 +44,9 @@ th{
 }
 
 .aligncenter {
-    margin: 0 auto;
-    display: inline-block
+    margin: 20px auto 0;
+    width: 69%;
+    height: 268px;
 }
 
 .alignnone {
@@ -2768,4 +2769,8 @@ a.ps_next_photo:hover,
 a.ps_close:hover {
     opacity: 0.8;
     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+
+.home .video{
+    height: 325px;
 }

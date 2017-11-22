@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <div class="container">
+    <div class="container home">
         <div class="banner">
             <div class="video-container clearfix full-width" data-ref="mixitup-container">
                 <video width="100%" height="500" autoplay="autoplay" loop>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="row mt-60">
-            <div class="col-sm-6">
+            <div class="col-sm-6 video">
                 <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
                 <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
                     <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
