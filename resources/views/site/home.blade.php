@@ -24,17 +24,17 @@
 
         <div class="row mt-60">
             <div class="col-sm-6">
-                <div id="ps_container" class="ps_container" style="display:none;">
-                    <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
-                </div>
-            </div>
-            <div class="col-sm-6">
                 <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
                 <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
                     <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
                         <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
                     </button>
                 </a>
+            </div>
+            <div class="col-sm-6">
+                <div id="ps_container" class="ps_container" style="display:none;">
+                    <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -47,7 +47,6 @@
         jQuery(function(){
             jQuery("a.vp-a").YouTubePopUp();
         });
-
         setTimeout(function(){
             $('[data-typer-targets]').typer();
             $('.newsticker').newsTicker({
@@ -135,21 +134,21 @@
                 'marginTop':'-385px'
             },250,function(){
                 $(this).insertBefore($ps_container.find('img:first'))
-                        .css({
-                            '-moz-transform'    :'rotate('+r+'deg)',
-                            '-webkit-transform' :'rotate('+r+'deg)',
-                            'transform'         :'rotate('+r+'deg)'
-                        })
-                        .animate({
-                            'marginLeft':currentPositions.marginLeft,
-                            'marginTop' :currentPositions.marginTop
-                        },250,function(){
-                            $new_current.css({
-                                '-moz-transform'    :'rotate(0deg)',
-                                '-webkit-transform' :'rotate(0deg)',
-                                'transform'         :'rotate(0deg)'
-                            });
+                    .css({
+                        '-moz-transform'    :'rotate('+r+'deg)',
+                        '-webkit-transform' :'rotate('+r+'deg)',
+                        'transform'         :'rotate('+r+'deg)'
+                    })
+                    .animate({
+                        'marginLeft':currentPositions.marginLeft,
+                        'marginTop' :currentPositions.marginTop
+                    },250,function(){
+                        $new_current.css({
+                            '-moz-transform'    :'rotate(0deg)',
+                            '-webkit-transform' :'rotate(0deg)',
+                            'transform'         :'rotate(0deg)'
                         });
+                    });
             });
         }
 
