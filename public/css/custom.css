@@ -409,7 +409,7 @@ a.language{
     box-shadow:0 0 15px rgba(0,0,0,0.8);
 }
 
-#book_tabs i{
+#book_tabs .nav-tabs-left i{
     font-size: 20px;
     color: white;
     width: 100%;
@@ -417,9 +417,13 @@ a.language{
 
 .right_tab{
 	position: absolute !important;
-    right: -13%;
+    right: -12%;
     width: 10%;
 }
+
+.flipbook2 th, .flipbook2 td{
+     font-size: 12px !important;
+ }
 
 #book_tabs .qualify_tab a{
     background-color: #78B582;
@@ -446,7 +450,7 @@ a.language{
 }
 
 .exam_tab{
-	bottom:21%;
+	bottom:25%;
 }
 
 .pass_tab{

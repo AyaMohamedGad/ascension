@@ -6,7 +6,7 @@ var enroll_access = true,
 
 $('.flipbook').turn({
     // Height
-    height: 450,
+    height: 500,
     // Elevation
     elevation: 50,
     page: 2,
@@ -111,7 +111,7 @@ $('.ch-img-6 a').click(function () {
 function enroll_book() {
     $('.flipbook2').turn({
         // Height
-        height: 450,
+        height: 500,
         // Elevation
         elevation: 50,
         // Enable gradients
@@ -133,7 +133,7 @@ function enroll_book() {
 function prepare_book() {
     $('.flipbook3').turn({
         // Height
-        height: 450,
+        height: 500,
         // Elevation
         elevation: 50,
         // Enable gradients
@@ -155,7 +155,7 @@ function prepare_book() {
 function schedule_book() {
     $('.flipbook4').turn({
         // Height
-        height: 450,
+        height: 500,
         // Elevation
         elevation: 50,
         // Enable gradients
@@ -178,7 +178,7 @@ function schedule_book() {
 function exam_book() {
     $('.flipbook5').turn({
         // Height
-        height: 450,
+        height: 500,
         // Elevation
         elevation: 50,
         // Enable gradients
@@ -200,7 +200,7 @@ function exam_book() {
 function pass_book() {
     $('.flipbook6').turn({
         // Height
-        height: 450,
+        height: 500,
         // Elevation
         elevation: 50,
         // Enable gradients
@@ -218,3 +218,11 @@ function pass_book() {
     });
     pass_access = false;
 }
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+  var target = $(e.target).attr("href") // activated tab
+  var selected = 'a[href=' + target + ']' + ':eq(1)';
+  // console.log($(selected)[1].parentElement);
+  $('.nav-tabs-left .active').removeClass('active');
+  $(selected).parent().addClass('active');
+});

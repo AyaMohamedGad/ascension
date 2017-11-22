@@ -107,7 +107,7 @@
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
-            <div class="col-xs-8 col-xs-offset-2">
+            <div class="col-xs-10 col-xs-offset-1">
                 <div class="tabs-left wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="2s">
                     <ul class="nav nav-tabs-left">
                         <li class="active qualify_tab">
@@ -137,18 +137,34 @@
                                     <div class="page" style="background-color: #78B582;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.3') }}</p>
+                                        <i class="fa fa-graduation-cap center" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#78B582;">{{ trans('locale.qualify') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.4') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.6') }}</p>
+
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cpa_qualify.1') }}
+                                        <u>{{ trans('locale.cpa_qualify.2') }}</u>
+                                        {{ trans('locale.cpa_qualify.3') }}
+                                        {{ trans('locale.cpa_qualify.4') }}
+                                        <u>{{ trans('locale.cpa_qualify.5') }}</u>
+                                        {{ trans('locale.cpa_qualify.6') }}
+                                        {{ trans('locale.cpa_qualify.7') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">{{ trans('locale.cpa_qualify.8') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">{{ trans('locale.cpa_qualify.9') }}</p>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.7') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.8') }}</p>
+
+                                        <p class="mr-20 ml-60 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>
+                                            {{ trans('locale.cpa_qualify.11') }}</p>
+                                        <p class="mr-20 ml-60 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>
+                                            {{ trans('locale.cpa_qualify.12') }}</p>
+                                        <p class="mr-20 ml-60 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>
+                                            {{ trans('locale.cpa_qualify.13') }}</p>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                     </div>
@@ -161,15 +177,77 @@
                                     <div class="page" style="background-color: #B578AA;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.3') }}</p>
+                                        <i class="fa fa-book center" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#B578AA;">{{ trans('locale.enroll') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.4') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.6') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.7') }}</p>
+                                        <h4 class="text-center ml-50">Choose a state or an skjdhaskjd to apply for the CPA</h4>
+                                        <img width="60%" class="center" src="{{ asset('images/maps_cpa.png') }}">
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <table class="table mr-50 ml-10" style="width: 90%">
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="3" style="width: 65%">CPA Examination online application system</th>
+                                                    <th colspan="2">Board of accountancy</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>word3</td>
+                                                    <td>20-30%</td>
+                                                    <td>20-30%</td>
+                                                    <td>20-30%</td>
+                                                    <td>20-30%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>word4</td>
+                                                    <td>30-40%</td>
+                                                    <td>30-40%</td>
+                                                    <td>30-40%</td>
+                                                    <td>30-40%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>word5</td>
+                                                    <td>word5</td>
+                                                    <td>word5</td>
+                                                    <td>word5</td>
+                                                    <td>15-25%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_enroll.1') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_enroll.2') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_enroll.3') }}
+                                        </p>
+
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i><b>{{ trans('locale.cpa_enroll.4') }}</b>
+                                            {{ trans('locale.cpa_enroll.5') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i><b>{{ trans('locale.cpa_enroll.6') }}</b>
+                                            {{ trans('locale.cpa_enroll.7') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_enroll.8') }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -180,9 +258,15 @@
                                     <div class="page" style="background-color: #404A60;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.prepare_content.1') }}</p>
+                                        <i class="fa fa-tasks center" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#404A60;">{{ trans('locale.prepare') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
+                                        </p>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                     </div>
                                 </div>
                             </div>
@@ -193,16 +277,38 @@
                                     <div class="page" style="background-color: #406045;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.3') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.4') }}</p>
+                                        <i class="fa fa-calendar center" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#406045;">{{ trans('locale.schedule') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.6') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.7') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.8') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_schedule.1') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_schedule.2') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_schedule.3') }}
+                                        </p>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cpa_schedule.4') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.5') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.6') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.7') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.8') }}
+                                        </p>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                     </div>
                                 </div>
                             </div>
@@ -213,11 +319,15 @@
                                     <div class="page" style="background-color: #B53C46;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <i class="fa fa-question-circle center" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#B53C46;">{{ trans('locale.exam') }}</h3>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.1') }}</p>
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.2') }}</p>
                                         <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.3') }}</p>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                     </div>
                                 </div>
                             </div>
@@ -228,12 +338,19 @@
                                     <div class="page" style="background-color: #00B5A5;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_pass.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_pass.2') }}</p>
+                                        <i class="fa fa-thumbs-o-up center" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#00B5A5;">{{ trans('locale.pass') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.3') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.4') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cpa_pass.1') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cpa_pass.2') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cpa_pass.3') }}</p>
                                     </div>
                                 </div>
                             </div>
