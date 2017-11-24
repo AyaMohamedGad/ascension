@@ -107,7 +107,7 @@
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
-            <div class="col-xs-8 col-xs-offset-2">
+            <div class="col-xs-10 col-xs-offset-1">
                 <div class="tabs-left wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="2s">
                     <ul class="nav nav-tabs-left">
                         <li class="active qualify_tab">
@@ -130,27 +130,30 @@
                         </li>
                     </ul>
 
-                    <div class="tab-content">
+                    <<div class="tab-content">
                         <div class="tab-pane row active" id="a">
                             <div class="flipbook-viewport">
                                 <div class="flipbook">
                                     <div class="page" style="background-color: #78B582;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.3') }}</p>
+                                        <i class="fa fa-graduation-cap center" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#78B582;">{{ trans('locale.qualify') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.4') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.6') }}</p>
-                                    </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.7') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.8') }}</p>
-                                    </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cfa_qualify.1') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cfa_qualify.2') }}
+                                        <u>{{ trans('locale.cfa_qualify.3') }}</u>
+                                        {{ trans('locale.cfa_qualify.4') }}
+                                        <u>{{ trans('locale.cfa_qualify.5') }}</u>
+                                        </p>
+                                        <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx</a>
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx</a>
                                     </div>
                                 </div>
                             </div>
@@ -161,16 +164,42 @@
                                     <div class="page" style="background-color: #B578AA;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.3') }}</p>
+                                        <i class="fa fa-book center" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#B578AA;">{{ trans('locale.enroll') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.4') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.6') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.7') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.1') }}
+                                        </p>
+                                        <a href="https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx</a>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.2') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.3') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.4') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_enroll.5') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_enroll.6') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_enroll.7') }}
+                                        </p>
                                     </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cfa_enroll.8') }}
+                                        </p>
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx</a>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -180,9 +209,13 @@
                                     <div class="page" style="background-color: #404A60;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.prepare_content.1') }}</p>
+                                        <i class="fa fa-tasks center" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#404A60;">{{ trans('locale.prepare') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -193,16 +226,17 @@
                                     <div class="page" style="background-color: #406045;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.3') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.4') }}</p>
+                                        <i class="fa fa-calendar center" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#406045;">{{ trans('locale.schedule') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.6') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.7') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.8') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_schedule.1') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_schedule.2') }}
+                                        </p>
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx</a>
                                     </div>
                                 </div>
                             </div>
@@ -213,11 +247,28 @@
                                     <div class="page" style="background-color: #B53C46;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.3') }}</p>
+                                        <i class="fa fa-question-circle center" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#B53C46;">{{ trans('locale.exam') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_exam.1') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_exam.2') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_exam.3') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_exam.4') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_exam.5') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cfa_exam.6') }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -228,12 +279,16 @@
                                     <div class="page" style="background-color: #00B5A5;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_pass.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_pass.2') }}</p>
+                                        <i class="fa fa-thumbs-o-up center" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#00B5A5;">{{ trans('locale.pass') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.3') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.4') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cfa_pass.1') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cfa_pass.2') }}</p>
                                     </div>
                                 </div>
                             </div>

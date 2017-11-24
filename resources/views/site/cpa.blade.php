@@ -152,21 +152,33 @@
                                         {{ trans('locale.cpa_qualify.6') }}
                                         {{ trans('locale.cpa_qualify.7') }}</p>
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">{{ trans('locale.cpa_qualify.8') }}</p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">{{ trans('locale.cpa_qualify.9') }}</p>
+                                        <a href="http://www.whed.net/results_institutions.php" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">
+                                        http://www.whed.net/results_institutions.php</a>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+
+                                        <p class="mr-20 ml-60 mt-10" style="font-size: 17px;">{{ trans('locale.cpa_qualify.9') }}</p>
+                                        <a href="http://www.aacsb.edu/accreditation/accredited-members/global-listing" target="_blank" class="mr-20 ml-60 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">
+                                        http://www.aacsb.edu/accreditation/accredited-members/global-listing</a>
 
                                         <p class="mr-20 ml-60 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>
                                             {{ trans('locale.cpa_qualify.11') }}</p>
-                                        <p class="mr-20 ml-60 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>
-                                            {{ trans('locale.cpa_qualify.12') }}</p>
-                                        <p class="mr-20 ml-60 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>
-                                            {{ trans('locale.cpa_qualify.13') }}</p>
+
+                                        <a href="https://nasba.org/products/nasbainternationalevaluationservices/" target="_blank" class="mr-20 ml-60 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">
+                                        https://nasba.org/products/nasbainternationalevaluationservices/</a>
+
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>
+                                            {{ trans('locale.cpa_qualify.12') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>
+                                            {{ trans('locale.cpa_qualify.13') }}</p>
+
+                                        <a href="https://nasba.org/app/uploads/2011/09/CandidateBulletin2017Final07102017.pdf" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">
+                                        https://nasba.org/app/uploads/2011/09/CandidateBulletin2017Final07102017.pdf</a>
                                     </div>
                                 </div>
                             </div>

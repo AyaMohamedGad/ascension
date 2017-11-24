@@ -107,7 +107,7 @@
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
-            <div class="col-xs-8 col-xs-offset-2">
+            <div class="col-xs-10 col-xs-offset-1">
                 <div class="tabs-left wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="2s">
                     <ul class="nav nav-tabs-left">
                         <li class="active qualify_tab">
@@ -137,20 +137,20 @@
                                     <div class="page" style="background-color: #78B582;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.3') }}</p>
+                                        <i class="fa fa-graduation-cap center" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#78B582;">{{ trans('locale.qualify') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.4') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_qualify.6') }}</p>
-                                    </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.7') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_qualify.8') }}</p>
-                                    </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cia_qualify.1') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.2') }}</p>
+                                        
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cia_qualify.3') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -161,15 +161,77 @@
                                     <div class="page" style="background-color: #B578AA;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_enroll.3') }}</p>
+                                        <i class="fa fa-book center" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#B578AA;">{{ trans('locale.enroll') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.4') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.6') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_enroll.7') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.1') }}
+                                        </p>
+                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://na.theiia.org/certification/Pages/getstarted.aspx</a>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.2') }}
+                                        </p>
+
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <table class="table ml-50 mr-10" style="width: 90%">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 45%">{{ trans('locale.cia_enroll.3') }}</th>
+                                                    <th>{{ trans('locale.cia_enroll.12') }}</th>
+                                                    <th>{{ trans('locale.cia_enroll.13') }}</th>
+                                                    <th>{{ trans('locale.cia_enroll.14') }}</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_enroll.4') }}</td>
+                                                    <td>$240</td>
+                                                    <td></td>
+                                                    <td>$35</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_enroll.5') }}</td>
+                                                    <td>$115</td>
+                                                    <td>$230</td>
+                                                    <td>$65</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_enroll.6') }}</td>
+                                                    <td>$280</td>
+                                                    <td>$395</td>
+                                                    <td>$230</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_enroll.7') }}</td>
+                                                    <td>$230</td>
+                                                    <td>$345</td>
+                                                    <td>$180</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_enroll.8') }}</td>
+                                                    <td>$230</td>
+                                                    <td>$345</td>
+                                                    <td>$180</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>$1095</td>
+                                                    <td>$1315</td>
+                                                    <td>$690</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cia_enroll.9') }} {{ trans('locale.cia_enroll.10') }}
+                                        </p>
+                                        <a href="https://na.theiia.org/certification/Pages/Pricing-Structure.aspx" target="_blank" class="ml-60 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://na.theiia.org/certification/Pages/Pricing-Structure.aspx</a>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cia_enroll.11') }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -180,9 +242,13 @@
                                     <div class="page" style="background-color: #404A60;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.prepare_content.1') }}</p>
+                                        <i class="fa fa-tasks center" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#404A60;">{{ trans('locale.prepare') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -193,16 +259,20 @@
                                     <div class="page" style="background-color: #406045;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.3') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_schedule.4') }}</p>
+                                        <i class="fa fa-calendar center" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#406045;">{{ trans('locale.schedule') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.5') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.6') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.7') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_schedule.8') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.1') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cia_schedule.3') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cia_schedule.4') }}
+                                        </p>
+                                        <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx</a>
                                     </div>
                                 </div>
                             </div>
@@ -213,11 +283,40 @@
                                     <div class="page" style="background-color: #B53C46;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.2') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_exam.3') }}</p>
+                                        <i class="fa fa-question-circle center" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#B53C46;">{{ trans('locale.exam') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                        <table class="table mr-50 ml-10" style="width: 90%">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 40%"></th>
+                                                    <th>{{ trans('locale.duration') }}</th>
+                                                    <th>{{ trans('locale.mcqs') }}</th>
+                                                    <th>{{ trans('locale.exam_result') }}</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_exam.1') }}</td>
+                                                    <td>2.5 {{ trans('hours') }}</td>
+                                                    <td>125</td>
+                                                    <td>{{ trans('same_day') }}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_exam.2') }}</td>
+                                                    <td>2 {{ trans('hours') }}</td>
+                                                    <td>100</td>
+                                                    <td>{{ trans('same_day') }}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>{{ trans('locale.cia_exam.3') }}</td>
+                                                    <td>2 {{ trans('hours') }}</td>
+                                                    <td>100</td>
+                                                    <td>{{ trans('same_day') }}</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -228,12 +327,19 @@
                                     <div class="page" style="background-color: #00B5A5;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_pass.1') }}</p>
-                                        <p class="mr-10 ml-40">{{ trans('locale.cpa_pass.2') }}</p>
+                                        <i class="fa fa-thumbs-o-up center" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
+                                        <h3 class="text-center" style="color:#00B5A5;">{{ trans('locale.pass') }}</h3>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.3') }}</p>
-                                        <p class="mr-40 ml-10">{{ trans('locale.cpa_pass.4') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cia_pass.1') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cia_pass.2') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <i class="fa fa-circle"></i>
+                                        {{ trans('locale.cia_pass.3') }}</p>
                                     </div>
                                 </div>
                             </div>
