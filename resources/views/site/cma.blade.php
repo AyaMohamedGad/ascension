@@ -137,8 +137,10 @@
                                     <div class="page" style="background-color: #78B582;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <i class="fa fa-graduation-cap center" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
-                                        <h3 class="text-center" style="color:#78B582;">{{ trans('locale.qualify') }}</h3>
+                                        <div class="center">
+                                            <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
+                                            <h3 style="color:#78B582;">{{ trans('locale.qualify') }}</h3>
+                                        </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
 
@@ -167,8 +169,10 @@
                                     <div class="page" style="background-color: #B578AA;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <i class="fa fa-book center" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
-                                        <h3 class="text-center" style="color:#B578AA;">{{ trans('locale.enroll') }}</h3>
+                                        <div class="center">
+                                            <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
+                                            <h3 style="color:#B578AA;">{{ trans('locale.enroll') }}</h3>
+                                        </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
@@ -246,8 +250,10 @@
                                     <div class="page" style="background-color: #404A60;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <i class="fa fa-tasks center" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
-                                        <h3 class="text-center" style="color:#404A60;">{{ trans('locale.prepare') }}</h3>
+                                        <div class="center">
+                                            <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
+                                            <h3 style="color:#404A60;">{{ trans('locale.prepare') }}</h3>
+                                        </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
@@ -265,8 +271,10 @@
                                     <div class="page" style="background-color: #406045;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <i class="fa fa-calendar center" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
-                                        <h3 class="text-center" style="color:#406045;">{{ trans('locale.schedule') }}</h3>
+                                        <div class="center">
+                                            <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
+                                            <h3 style="color:#406045;">{{ trans('locale.schedule') }}</h3>
+                                        </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
@@ -291,8 +299,10 @@
                                     <div class="page" style="background-color: #B53C46;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <i class="fa fa-question-circle center" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
-                                        <h3 class="text-center" style="color:#B53C46;">{{ trans('locale.exam') }}</h3>
+                                        <div class="center">
+                                            <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
+                                            <h3 style="color:#B53C46;">{{ trans('locale.exam') }}</h3>
+                                        </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
@@ -323,8 +333,10 @@
                                     <div class="page" style="background-color: #00B5A5;">
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <i class="fa fa-thumbs-o-up center" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
-                                        <h3 class="text-center" style="color:#00B5A5;">{{ trans('locale.pass') }}</h3>
+                                        <div class="center">
+                                            <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
+                                            <h3 style="color:#00B5A5;">{{ trans('locale.pass') }}</h3>
+                                        </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
