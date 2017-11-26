@@ -11,7 +11,7 @@
             <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
             <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
         </div>
-        <div class="tab-content">
+        <div class="tab-content mt-20">
             <div class="col-sm-12 fixing wow bounceInUp">
                 <img src="{{ asset('images/careers.png') }}">
                 <div>
