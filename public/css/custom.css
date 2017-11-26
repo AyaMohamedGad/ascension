@@ -270,7 +270,11 @@ a.language{
 
 .social_media i,
 .social_media a {
-    color: #092b67
+    color: #092b67;
+}
+
+.social_media .language{
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 .header span {

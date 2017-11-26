@@ -66,16 +66,37 @@ a.language {
 }
 .business .orange p {
     right: 27%;
+    top: 12%;
 }
 .business .blue p {
     right: 0%;
 }
 .business .yellow p {
     right: 14%;
+    top: 23%;
 }
 .business .green p {
     right: 10%;
+    top: 55%;
 }
 .tab-content h4{
     font-size: 21px;
+}
+
+.banner .first, .banner .third{
+    text-align: left !important;
+}
+
+.ch-grid li{
+    display: inline-table !important;
+}
+
+.arrows_header{
+    transform: scaleX(-1);
+    margin-top: -140px;
+    margin-left: -17px;
+}
+
+.business .col-xs-3{
+    float: left !important;
 }
