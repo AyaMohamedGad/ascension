@@ -2,6 +2,14 @@
 
 @section('title', trans('locale.ascension').trans('locale.ers'))
 
+@section('styles')
+    <style>
+        p {
+            font-size: 16px;
+        }   
+    </style>
+@stop
+
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_ubnormal_cover wow fadeInLeft">

@@ -121,7 +121,7 @@
                         </li>
                         <li class="schedule_tab">
                             <a href="#d" data-toggle="tab"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
-                            </li>
+                        </li>
                         <li class="right_tab exam_tab">
                             <a href="#e" data-toggle="tab"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
                         </li>
