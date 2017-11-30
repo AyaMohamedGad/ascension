@@ -84,14 +84,19 @@ return [
         "2" => "This program is distinguishable from other programs in that it focuses on the advancement of the capabilities of employees in practical & professional ways, comparable to the best practices now available in financial & auditory sectors.",
         "3" => "This program is coming soon!"
     ],
-    "objective" => "Objective",
-    "method" => "Method",
-    "smes" => "SME’s",
-    "large_companies" => "Large Companies",
-    "objective_paragraph" => "Bookkeeping plays a vital role for any business organization to maintain its capital, know the results of its business, achieve its financial & operational objectives, which will lead to achieving sustainability & growth.",
-    "method_paragraph" => "Ascension Consulting & Training offers accounting services for small, medium, & large companies with the highest accounting proficiency & quality. Our qualified accountants use the latest accounting software to produce periodic financial reports (profits & losses, financial position, cash flow) accurately & quickly. At Ascension, we are pleased to deliver these services to your company with the highest degree of confidentiality & reliability.",
-    "sme_paragraph" => "In small & medium-sized enterprises (SME’s) where the cost of appointing a full-time accountant is considerably large, it is better to keep a private bookkeeper who does the bookkeeping professionally & at an acceptable cost to save you money for the main operating activities.",
-    "companies_paragraph" => "Large companies often encounter problems in financial management represented by the resignation of some influential employees or a comprehensive change in financial management as a result of restructuring or desire to reduce costs & many other cases. Such defect in the work of financial management is not borne by large companies in terms of large volume of work & daily operations. The option of hiring an accountant specialized in financial management & bookkeeping is vital to maintaining the integrity of your business.",
+    "objectives" => "Objectives",
+    "definition" => "Definition",
+    "start_project" => "Start your project with ASCENSION",
+    "objectives_paragraph" => [
+        "1" => "Helping the owners of capital and investors in the process of investment decision-making and the differentiation between different investment opportunities.",
+        "2" => "A way to convince banks and financial institutions to finance projects and new ideas under appropriate conditions.",
+        "3" => "Contribute to the level of the national economy in the optimal allocation of economic resources and directed to projects with better economic and social returns."
+    ],
+    "definition_paragraph" => "The feasibility study can be defined as all the technical, marketing and financial studies that relate to the investment opportunity, from the idea to the final decision to accepting the idea as economic justification or rejecting it as economically unjustified.",
+    "start_project_paragraph" => [
+        "1" => "Ascension helps new entrepreneurs to transform their ideas into a vibrant project by providing feasibility studies and preparing a business plan that will help them get funding for their projects from different funding institutions. The Ascension Business Strategy is based on supporting young people, entrepreneurs. We are convinced that the prosperity of the national economy in any country is linked to the size and role of the private sector, especially small and medium enterprises.",
+        "2" => "Ascension also helps investors and venture capitalists make the right investment decision whether to expand their existing activities or engage in new ventures and partnerships"
+    ],
     "work_under_process" => "Work Under Process to Provide You With Advanced Information System Services.",
     "thank_for_visiting" => "Thanks For Visiting !",
     "feasibility_study" => "Feasibility Study",

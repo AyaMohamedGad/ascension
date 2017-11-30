@@ -2782,8 +2782,8 @@ a.ps_close:hover {
      z-index: 9;
  }
 .keeping p{
-    padding: 10px 20px;
-    font-size: 17px;
+    padding: 10px 20px 0;
+    font-size: 16px;
     text-transform: none;
 }
 .keeping i{
