@@ -661,7 +661,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12 mt-20">
+        <div class="col-sm-12">
             <h3 class="bordered_title wow shake">{{ trans('locale.cpa_old') . ' ' . trans('locale.vs') . ' ' . trans('locale.new_exam') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>

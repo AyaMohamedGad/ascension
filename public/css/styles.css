@@ -692,126 +692,6 @@ header {
     padding-bottom: 35px
 }
 
-.background-image1 {
-    background: url(../images/fullscreen07.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.background-image2 {
-    background: url(../images/fullscreen23.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.background-image3 {
-    background: url(../images/fullscreen12.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.background-image4 {
-    background: url(../images/lifestyle03-lg.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.background-image5 {
-    background: url(../images/food01-lg.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.background-image6 {
-    background: url(../images/project04-large.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.background-image7 {
-    background: url(../images/fullscreen15.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.background-image8 {
-    background: url(../images/fullscreen04.jpg) no-repeat center;
-    height: 100%;
-    display: block;
-    width: 100%;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
 .height-500 {
     height: 500px
 }
@@ -1709,27 +1589,6 @@ ul.pagination li a.active:hover {
     margin-top: 30px
 }
 
-.arrow-right {
-    height: 12px;
-    width: 18px;
-    display: block;
-    position: relative;
-    left: 14px;
-    background: url(../images/arrow-right-white.png) no-repeat;
-    background-size: 18px 12px
-}
-
-.arrow-down {
-    height: 18px;
-    width: 12px;
-    display: block;
-    position: relative;
-    left: 17px;
-    background: url(../images/arrow-down-white.png) no-repeat;
-    background-size: 12px 18px;
-    top: -3px
-}
-
 .plus {
     height: 48px;
     width: 48px;
@@ -2150,6 +2009,10 @@ h1 .circle-anim:after {
 
 .mt-70 {
     margin-top: 70px !important;
+}
+
+.mt-150{
+    margin-top: 150px !important;
 }
 
 .mb-10 {
@@ -2601,10 +2464,10 @@ a.ps_next_photo{
     border-radius:10px;
 }
 a.ps_next_photo:hover,
-a.ps_close:hover{
-    opacity:0.8;
-    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); 
-
+a.ps_close:hover {
+    opacity: 0.8;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
 
 .video{
     background: url('../images/vidoe.png');

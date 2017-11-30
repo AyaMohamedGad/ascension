@@ -22,24 +22,16 @@
             <img src="{{ asset('images/Picture2.png') }}" class="arrow_right">
         </div>
 
-            <div class="news">
-                <span>{{ trans('locale.latest_news') }}</span>
-                <ul class="newsticker">
-                    @foreach($news as $new)
-                        <li><a href="{{ route('ViewNewPage', $new->id) }}">{{ $new->translations[0]->title }}...</a></li>
-                    @endforeach
-                </ul>
-            </div>
+        <div class="news mt-30 mb-40 col-sm-12">
+            <span>{{ trans('locale.latest_news') }}</span>
+            <ul class="newsticker">
+                @foreach($news as $new)
+                    <li><a href="{{ route('ViewNewPage', $new->id) }}">{{ $new->translations[0]->title }}...</a></li>
+                @endforeach
+            </ul>
         </div>
 
-        <div class="row mt-60">
-            <div class="col-sm-6">
-                <div id="ps_container" class="ps_container" style="display:none;">
-                    <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
-                </div>
-            </div>
-            <div class="col-sm-6">
-        <div class="row mt-60">
+        <div class="row mt-150">
             <div class="col-sm-6 video">
                 <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
                     <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
@@ -48,6 +40,7 @@
                     </button>
                 </a>
             </div>
+
             <div class="col-sm-6">
                 <div id="ps_container" class="ps_container" style="display:none;">
                     <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
