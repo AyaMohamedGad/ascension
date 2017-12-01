@@ -100,3 +100,15 @@ a.language {
 .business .col-xs-3{
     float: left !important;
 }
+
+.divider{
+    float: right;
+}
+
+.cpa_content label{
+    padding: 0 1em 0 0;
+}
+.cpa_content label::after{
+    left: 0;
+    right: auto;
+}

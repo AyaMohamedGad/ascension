@@ -57,7 +57,7 @@
                         <div class="ch-info">
                             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                             <h3>{{ trans('locale.qualify') }}</h3>
-                            <p><a href="#a" data-toggle="tab">View on Book</a></p>
+                            <p><a href="#a" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
                         </div>
                     </div>
                 </li>
@@ -66,7 +66,7 @@
                         <div class="ch-info">
                             <i class="fa fa-book" aria-hidden="true"></i>
                             <h3>{{ trans('locale.enroll') }}</h3>
-                            <p><a href="#b" data-toggle="tab">View on Book</a></p>
+                            <p><a href="#b" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
                         </div>
                     </div>
                 </li>
@@ -75,7 +75,7 @@
                         <div class="ch-info">
                             <i class="fa fa-tasks" aria-hidden="true"></i>
                             <h3>{{ trans('locale.prepare') }}</h3>
-                            <p><a href="#c" data-toggle="tab">View on Book</a></p>
+                            <p><a href="#c" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
                         </div>
                     </div>
                 </li>
@@ -84,7 +84,7 @@
                         <div class="ch-info">
                             <i class="fa fa-calendar" aria-hidden="true"></i>
                             <h3>{{ trans('locale.schedule') }}</h3>
-                            <p><a href="#d" data-toggle="tab">View on Book</a></p>
+                            <p><a href="#d" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
                         </div>
                     </div>
                 </li>
@@ -93,7 +93,7 @@
                         <div class="ch-info">
                             <i class="fa fa-question-circle" aria-hidden="true"></i>
                             <h3>{{ trans('locale.exam') }}</h3>
-                            <p><a href="#e" data-toggle="tab">View on Book</a></p>
+                            <p><a href="#e" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
                         </div>
                     </div>
                 </li>
@@ -102,7 +102,7 @@
                         <div class="ch-info">
                             <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
                             <h3>{{ trans('locale.pass') }}</h3>
-                            <p><a href="#f" data-toggle="tab">View on Book</a></p>
+                            <p><a href="#f" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
                         </div>
                     </div>
                 </li>
@@ -137,58 +137,44 @@
                         <div class="tab-pane row active" id="a">
                             <div class="flipbook-viewport">
                                 <div class="flipbook">
-                                    <div class="page" style="background-color: #78B582;">
-                                    </div>
+                                    <div class="page" style="background-color: #78B582;"></div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
-                                            <h3 style="color:#78B582;">{{ trans('locale.qualify') }}</h3>
+                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#78B582;">{{ trans('locale.qualify') }}</h3>
                                         </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cma_qualify.1') }}
-                                        {{ trans('locale.cma_qualify.2') }}</p>
-                                        <a href="http://univ.cc/world.php" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">
-                                        http://univ.cc/world.php</a>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cma_qualify.3') }}
-                                        {{ trans('locale.cma_qualify.4') }}</p>
-                                        <a href="https://www.imanet.org/-/media/6f64b804887641d880afef2178a44b9c.ashx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">
-                                        https://www.imanet.org/-/media/6f64b804887641d880afef2178a44b9c.ashx</a>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cma_qualify.5') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.1') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.2') }}
+                                            <a href="http://univ.cc/world.php" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
+                                        </p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.3') }}</p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.4') }} {{ trans('locale.page') }} 6:
+                                            <a href="https://www.imanet.org/-/media/6f64b804887641d880afef2178a44b9c.ashx" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
+                                        </p>
+                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i>{{ trans('locale.cma_qualify.5') }}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="tab-pane row" id="b">
                             <div class="flipbook-viewport">
                                 <div class="flipbook2">
-                                    <div class="page" style="background-color: #B578AA;">
-                                    </div>
+                                    <div class="page" style="background-color: #B578AA;"></div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
-                                            <h3 style="color:#B578AA;">{{ trans('locale.enroll') }}</h3>
+                                            <h3 style="font:400 40px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll_fees') }}</h3>
                                         </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_enroll.1') }}
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.1') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.2') }}
+                                            <a href="https://www.imanet.org/cma-certification/getting-started?ssopc=1" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            {{ trans('locale.cma_enroll.2') }}
-                                        </p>
-                                        <a href="https://www.imanet.org/cma-certification/getting-started?ssopc=1" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://www.imanet.org/cma-certification/getting-started?ssopc=1</a>
-
-                                    </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
-                                        <table class="table ml-50 mr-10" style="width: 90%">
+                                        <table class="table ml-10 mr-10" style="width: 90%">
                                             <thead>
                                                 <tr>
                                                     <th style="width: 65%">{{ trans('locale.cma_enroll.3') }}</th>
@@ -229,57 +215,58 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <p class="ml-70 mr-20 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.9') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                        <p class="ml-70 mr-20 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.10') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                        <p class="ml-70 mr-20 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.11') }}
                                         </p>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="mr-70 ml-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cma_enroll.12') }}
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="tab-pane row" id="c">
                             <div class="flipbook-viewport">
                                 <div class="flipbook3">
-                                    <div class="page" style="background-color: #404A60;">
-                                    </div>
+                                    <div class="page" style="background-color: #404A60;"></div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
-                                            <h3 style="color:#404A60;">{{ trans('locale.prepare') }}</h3>
+                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#404A60;">{{ trans('locale.prepare') }}</h3>
                                         </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
-                                        </p>
+                                        <p class="ml-30 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.prepare_content.1') }}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="tab-pane row" id="d">
                             <div class="flipbook-viewport">
                                 <div class="flipbook4">
-                                    <div class="page" style="background-color: #406045;">
-                                    </div>
+                                    <div class="page" style="background-color: #406045;"></div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
-                                            <h3 style="color:#406045;">{{ trans('locale.schedule') }}</h3>
+                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#406045;">{{ trans('locale.schedule') }}</h3>
                                         </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_schedule.1') }}
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_schedule.1') }}</p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                            {{ trans('locale.cma_schedule.2') }}
                                         </p>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cma_schedule.3') }}
@@ -287,47 +274,49 @@
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cma_schedule.4') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_schedule.5') }}
-                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_schedule.5') }}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="tab-pane row" id="e">
                             <div class="flipbook-viewport">
                                 <div class="flipbook5">
-                                    <div class="page" style="background-color: #B53C46;">
-                                    </div>
+                                    <div class="page" style="background-color: #B53C46;"></div>
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
-                                            <h3 style="color:#B53C46;">{{ trans('locale.exam') }}</h3>
+                                            <h3 class="ml-30" style="font:400 38px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.sit_for_exam') }}</h3>
                                         </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_exam.1') }}
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.1') }}
                                         </p>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_exam.2') }}
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.2') }}
                                         </p>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_exam.3') }}
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.3') }}
                                         </p>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_exam.4') }}
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.4') }}
                                         </p>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_exam.5') }}
-                                        </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cma_exam.6') }}
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.5') }}
                                         </p>
                                     </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.6') }}
+                                        </p>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')"></div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="tab-pane row" id="f">
                             <div class="flipbook-viewport">
                                 <div class="flipbook6">
@@ -336,20 +325,20 @@
                                     <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
-                                            <h3 style="color:#00B5A5;">{{ trans('locale.pass') }}</h3>
+                                            <h3 style="font:400 38px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
                                         </div>
                                     </div>
                                     <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cma_pass.1') }}</p>
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_pass.1') }}
+                                        </p>
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cma_pass.2') }}</p>
-                                        <a href="https://www.imanet.org/-/media/ce904f5b414a4b63a11d1fe3f1be4dd9.ashx?la=en" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://www.imanet.org/-/media/ce904f5b414a4b63a11d1fe3f1be4dd9.ashx?la=en</a>
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_pass.2') }}
+                                            <a href="https://www.imanet.org/-/media/ce904f5b414a4b63a11d1fe3f1be4dd9.ashx?la=en" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
+                                        </p>
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cma_pass.3') }}</p>
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cma_pass.3') }}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -359,7 +348,7 @@
             </div><!-- /col -->
         </div>
 
-        <div class="col-sm-12">
+        <div class="col-sm-12 mt-20">
             <h3 class="bordered_title wow shake">{{ trans('locale.cma_content') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
@@ -367,309 +356,94 @@
                 <div class="half">
                     <div class="tab">
                         <input id="tab-one" checked="checked" type="checkbox" name="tabs">
-                        <label for="tab-one">{{ trans('locale.auditing_attestation') }}</label>
+                        <label for="tab-one">{{ trans('locale.cma_exam_content.1') }}</label>
                         <div class="tab-content">
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
                                 <table class="table table-striped">
                                     <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.area') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
+                                        <tr>
+                                            <th></th>
+                                            <th>{{ trans('locale.weight') }}</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.professional_responsibilities_principles') }}</td>
-                                        <td>15-25%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.risk_developing_response') }}</td>
-                                        <td>20-30%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.further_procedures_obtaining_evidence') }}</td>
-                                        <td>30-40%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.forming_conclusions_reporting') }}</td>
-                                        <td>15-25%</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-sm-6">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.skills_tested_allocation') }}</th>
-                                        <th>{{ trans('locale.areas') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.evaluation') }}</td>
-                                        <td>II, III</td>
-                                        <td>5-15%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.analysis') }}</td>
-                                        <td>II, III</td>
-                                        <td>15-25%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.application') }}</td>
-                                        <td>I, II, III, IV</td>
-                                        <td>30-40%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.remembering_understanding') }}</td>
-                                        <td>I, II, III, IV
-                                        </td>
-                                        <td>30-40%</td>
-                                    </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.2') }}</td>
+                                            <td>15%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.3') }}</td>
+                                            <td>30%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.4') }}</td>
+                                            <td>20%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.5') }}</td>
+                                            <td>20%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.6') }}</td>
+                                            <td>15%</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cma_auditing_attestation.6') }} ({{ trans('locale.page') }} 6) <a href="https://www.aicpa.org/BecomeACPA/CPAExam/ExaminationContent/DownloadableDocuments/cpa-exam-blueprints-effective-20170401.pdf" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cma_exam_content.7') }} ({{ trans('locale.page') }} 5-8) <a href="https://www.imanet.org/-/media/f2e090eb04954cfe8f0fbb1654281262.ashx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>
 
                     <div class="tab">
                         <input id="tab-two" type="checkbox" name="tabs">
-                        <label for="tab-two">{{ trans('locale.business_environment_concepts') }}</label>
+                        <label for="tab-two">{{ trans('locale.cma_exam_content.8') }}</label>
                         <div class="tab-content">
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
                                 <table class="table table-striped">
                                     <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.area') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
+                                        <tr>
+                                            <th></th>
+                                            <th>{{ trans('locale.weight') }}</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.cma_business_environment_concepts.1') }}</td>
-                                        <td>17-27%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cma_business_environment_concepts.2') }}</td>
-                                        <td>17-27%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cma_business_environment_concepts.3') }}</td>
-                                        <td>11-21%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cma_business_environment_concepts.4') }}</td>
-                                        <td>15-25%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cma_business_environment_concepts.5') }}</td>
-                                        <td>15-25%</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-sm-6">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.skills_tested_allocation') }}</th>
-                                        <th>{{ trans('locale.areas') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.evaluation') }}</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.analysis') }}</td>
-                                        <td>II, III, V</td>
-                                        <td>20-30%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.application') }}</td>
-                                        <td>I, II, III, IV, V</td>
-                                        <td>50-60%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.remembering_understanding') }}</td>
-                                        <td>I, II, III, IV, V</td>
-                                        <td>15-25%</td>
-                                    </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.9') }}</td>
+                                            <td>25%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.10') }}</td>
+                                            <td>20%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.11') }}</td>
+                                            <td>20%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.12') }}</td>
+                                            <td>10%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.13') }}</td>
+                                            <td>15%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>{{ trans('locale.cma_exam_content.14') }}</td>
+                                            <td>10%</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cpa_auditing_attestation.6') }} ({{ trans('locale.page') }} 33) <a href="https://www.aicpa.org/BecomeACPA/CPAExam/ExaminationContent/DownloadableDocuments/cpa-exam-blueprints-effective-20170401.pdf" target="_blank">{{ trans('locale.click_here') }}</a></h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab">
-                        <input id="tab-three" type="checkbox" name="tabs">
-                        <label for="tab-three">{{ trans('locale.financial_account_reporting') }}</label>
-                        <div class="tab-content">
-                            <div class="col-sm-6">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.area') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_financial_account.1') }}</td>
-                                        <td>25-35%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_financial_account.2') }}</td>
-                                        <td>30-40%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_financial_account.3') }}</td>
-                                        <td>20-30%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_financial_account.4') }}</td>
-                                        <td>5-15%</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-sm-6">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.skills_tested_allocation') }}</th>
-                                        <th>{{ trans('locale.areas') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.evaluation') }}</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.analysis') }}</td>
-                                        <td>I, II, III</td>
-                                        <td>25-35%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.application') }}</td>
-                                        <td>I, II, III, IV</td>
-                                        <td>50-60%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.remembering_understanding') }}</td>
-                                        <td>I, II, III, IV</td>
-                                        <td>10-20%</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cpa_auditing_attestation.6') }} ({{ trans('locale.page') }} 47) <a href="https://www.aicpa.org/BecomeACPA/CPAExam/ExaminationContent/DownloadableDocuments/cpa-exam-blueprints-effective-20170401.pdf" target="_blank">{{ trans('locale.click_here') }}</a></h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab">
-                        <input id="tab-four" type="checkbox" name="tabs">
-                        <label for="tab-four">{{ trans('locale.regulation') }}</label>
-                        <div class="tab-content">
-                            <div class="col-sm-6">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.area') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_regulation.1') }}</td>
-                                        <td>10-20%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_regulation.2') }}</td>
-                                        <td>10-20%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_regulation.3') }}</td>
-                                        <td>12-22%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_regulation.4') }}</td>
-                                        <td>15-25%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.cpa_regulation.5') }}</td>
-                                        <td>28-38%</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-sm-6">
-                                <table class="table table-striped">
-                                    <thead>
-                                    <tr>
-                                        <th>{{ trans('locale.skills_tested_allocation') }}</th>
-                                        <th>{{ trans('locale.areas') }}</th>
-                                        <th>{{ trans('locale.weight') }}</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td>{{ trans('locale.evaluation') }}</td>
-                                        <td>-</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.analysis') }}</td>
-                                        <td>III, IV, V</td>
-                                        <td>25-35%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.application') }}</td>
-                                        <td>I, II, III, IV, V</td>
-                                        <td>35-45%</td>
-                                    </tr>
-                                    <tr>
-                                        <td>{{ trans('locale.remembering_understanding') }}</td>
-                                        <td>I, II, III, IV, V</td>
-                                        <td>25-35%</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cpa_auditing_attestation.6') }} ({{ trans('locale.page') }} 75) <a href="https://www.aicpa.org/BecomeACPA/CPAExam/ExaminationContent/DownloadableDocuments/cpa-exam-blueprints-effective-20170401.pdf" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cma_exam_content.7') }} ({{ trans('locale.page') }} 9-12) <a href="https://www.imanet.org/-/media/f2e090eb04954cfe8f0fbb1654281262.ashx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="col-sm-12">
-            <h3 class="bordered_title wow shake">{{ trans('locale.cpa_old') . ' ' . trans('locale.vs') . ' ' . trans('locale.new_exam') }} : </h3>
-            <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
-            <span class="clear"></span>
-            <div class="col-sm-12 mt-20">
-                <p>{{ trans('locale.cpa_old_comparison_new') }} (<a href="http://www.becker.com/sites/default/files/cpa-exam-change-2017-infographic.pdf" target="_blank">{{ trans('locale.click_here') }}..)</a></p>
-            </div>
-        </div>
-
     </div>
 @stop
 

@@ -31,9 +31,11 @@ return [
     "performed_highly_skilled" => "Performed By Highly Skilled Team ¬",
     "qualify" => "Qualify",
     "enroll" => "Enroll",
+    "enroll_fees" => "Enrolling & Fees",
     "prepare" => "Prepare",
     "schedule" => "Schedule",
     "exam" => "Exam",
+    "sit_for_exam" => "Sit For The Exam",
     "pass" => "Pass",
     "guidebook" => "GuideBook",
     "program" => "Program",
@@ -52,7 +54,7 @@ return [
     "financial_account_reporting" => "Financial Account and Reporting (FAR)",
     "regulation" => "Regulation (REG)",
     "cpa_content" => "CPA Content",
-    "cma_content" => "CMA Content",
+    "cma_content" => "CMA Exams Content",
     "cfa_content" => "CFA Content",
     "cia_content" => "CIA Content",
     "area" => "Area",
@@ -191,18 +193,19 @@ return [
         "1" => "To qualify for the CPA Exam as an international candidate, you need to meet educational and other requirements specific to the state or jurisdiction in which you intend to be",
         "2" => "licensed",
         "3" => "to practice.",
-        "4" => "Most states require that you have a bachelor’s degree before",
-        "5" => "you sit for the exam.",
+        "4" => "Most states require that you have a bachelor’s degree before you",
+        "5" => "sit for the exam.",
         "6" => "However, some states require that you have 150 hours of coursework (the equivalent of a Master’s degree) before you qualify to sit.",
-        "7" => "Depending on your state requirement, here are two sources, IAU or AACSB, to check if your university is accredited:",
-        "8" => "International Association of Universities (IAU)",
-        "9" => "Association to Advance Collegiate Schools of Business (AACSB)",
+        "7" => "Depending on your state requirement, here are two sources, International Association of Universities (IAU)",
+        "8" => "or Association to Advance Collegiate Schools of Business (AACSB)",
+        "9" => ", to check if your university is accredited.",
         "10" => "",
         "11" => "An evaluation of your certificate must be made in approved institutes by your state to count your total credit hours. We recommend to make the evaluation with NASBA International Evaluation Services (NIES) if your state in NIES list:",
         "12" => "Generally, 1 year of working experience (full time) is required in the accouting or  auditing fields (Could be before or after you take the exam).",
         "13" => "To get a full understanding of the new CPA exam, Please review the \"Candidate Bulletin\" by AICPA & NASBA here:"
     ],
     "cpa_enroll" => [
+        "new_1" => "Choose a state or an skjdhaskjd to apply for the CPA",
         "1" => "To ease the process of applying and paying fees, we in Ascension prefer that international candidates apply with those available on NASBA online application sysetem.",
         "2" => "Requirements vary by state/jurisdiction, please read & understand carefully your state requirements before choosing.",
         "3" => "Once your application has been evaluated, you will be contacted by your Board of Accountancy or its designated agent. It takes usually 4-6 weeks for the evaluation.",
@@ -220,10 +223,10 @@ return [
         "2" => "Generally, you’ll need to sit for your first exam within six months of receiving the NTS, although this can vary by jurisdiction.",
         "3" => "You may schedule the exam parts in any order, and one at a time, if you prefer.",
         "4" => "Testing is Available in the following exam windows:",
-        "5" => "January and February (Extension of 10 days from 1st of March)",
-        "6" => "April and May",
-        "7" => "July and August (Extension of 10 days from 1st of September)",
-        "8" => "October and Novembe (Extension of 10 days from 1st of December)"
+        "5" => "¬ January and February (Extension of 10 days from 1st of March)",
+        "6" => "¬ April and May",
+        "7" => "¬ July and August (Extension of 10 days from 1st of September)",
+        "8" => "¬ October and November (Extension of 10 days from 1st of December)"
     ],
     "cpa_exam" => [
         "1" => "Passing score is 75 on a 0-99 scale",
@@ -244,7 +247,7 @@ return [
         "5" => "Skills Tested & Allocation",
         "6" => "For more details"
     ],
-    "page" => "Page:",
+    "page" => "Page",
     "cpa_business_environment_concepts" => [
         "1" => "Corporate Governance",
         "2" => "Economic Concepts and Analysis",
@@ -290,9 +293,9 @@ return [
     ],
     "cma_schedule" => [
         "1" => "The CMA Exam is offered in 3 testing widows:",
-        "2" => "January & February",
-        "3" => "May & June",
-        "4" => "September & October",
+        "2" => "¬ January & February",
+        "3" => "¬ May & June",
+        "4" => "¬ September & October",
         "5" => "Part 1 & 2 are independent exams and there's no specific order in taking them."
     ],
     "cma_exam" => [
@@ -507,7 +510,9 @@ return [
     "qualifications" => "Qualifications",
     "qualification_content" => "BSc, MSA, CPA, CMA",
     "major" => "Major",
-    "new" => "The New"
+    "new" => "The New",
+    "view_on_book" => "View on Book",
+
 
 
 ];

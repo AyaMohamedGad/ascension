@@ -3,6 +3,7 @@
 @section('title', trans('locale.cfa'))
 
 @section('styles')
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
     <style>
         .col-sm-12 p{
             font-size: 17px;
