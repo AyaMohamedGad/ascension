@@ -4,7 +4,7 @@
 
 @section('styles')
     <style>
-        .col-sm-3 {
+        .col-sm-2 {
             position:relative;
             margin: 0 40px 20px;
             text-align: center;
@@ -13,23 +13,23 @@
             border-radius: 5px;
             padding-bottom: 15px;
         }
-        .col-sm-3 a{
+        .col-sm-2 a{
             width: 100%;
             height: 100%;
             display: inline-block;
             vertical-align: middle;
         }
-        .col-sm-3 h4 {
+        .col-sm-2 h4 {
             border-bottom: 2px solid #092b67;
             width: 100%;
             padding-bottom: 10px;
         }
-        .col-sm-3 img{
+        .col-sm-2 img{
             text-align: center;
             margin: auto;
-            max-width: 150px;
+            max-width: 120px;
         }
-        .col-sm-3 .info{
+        .col-sm-2 .info{
             -webkit-transition: all 0.4s ease-in-out;
             -moz-transition: all 0.4s ease-in-out;
             -o-transition: all 0.4s ease-in-out;
@@ -49,7 +49,7 @@
             top: 0;
             left: 0;
         }
-        .col-sm-3:hover .info, .opened .info{
+        .col-sm-2:hover .info, .opened .info{
             -webkit-transition: all 0.4s ease-in-out;
             -moz-transition: all 0.4s ease-in-out;
             -o-transition: all 0.4s ease-in-out;
@@ -63,7 +63,7 @@
             opacity: 1;
             z-index: 10;
         }
-        .col-sm-3 a .info h4 {
+        .col-sm-2 a .info h4 {
             color: #fff;
             letter-spacing: 1px;
             padding-top: 28%;
@@ -114,49 +114,60 @@
 
             <div class="bookkeeping">
                 <div class="col-md-12">
-                    <div class="col-sm-3 open" id="two">
+                    <div class="col-sm-2 open" id="one">
                         <a href="#">
-                            <h4>{{ trans('locale.definition') }}</h4>
-                            <img src="{{ asset('images/definition.png') }}">
-                            <div class="info">
-                                <h4>{{ trans('locale.definition') }}</h4>
-                                <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-8 two keeping hidden">
-                        <p>{{ trans('locale.definition_paragraph') }}</p>
-                        <i class="fa fa-close closed" data-id="two"></i>
-                    </div>
-                    <div class="col-sm-3 open" id="one">
-                        <a href="#">
-                            <h4>{{ trans('locale.objectives') }}</h4>
+                            <h4>{{ trans('locale.bookkeeping_content.1') }}</h4>
                             <img src="{{ asset('images/objective.png') }}">
                             <div class="info">
-                                <h4>{{ trans('locale.objectives') }} </h4>
+                                <h4>{{ trans('locale.bookkeeping_content.1') }} </h4>
                                 <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-8 one keeping hidden">
-                        <p>1- {{ trans('locale.objectives_paragraph.1') }}</p>
-                        <p>2- {{ trans('locale.objectives_paragraph.2') }}</p>
-                        <p>3- {{ trans('locale.objectives_paragraph.3') }}</p>
+                    <div class="col-sm-9 one keeping hidden">
+                        <p>{{ trans('locale.bookkeeping_content.5') }}</p>
                         <i class="fa fa-close closed" data-id="one"></i>
                     </div>
-                    <div class="col-sm-3 open" id="three">
+                    <div class="col-sm-2 open" id="two">
                         <a href="#">
-                            <h4>{{ trans('locale.start_project') }}</h4>
-                            <img src="{{ asset('images/start_project.png') }}">
+                            <h4>{{ trans('locale.bookkeeping_content.2') }}</h4>
+                            <img src="{{ asset('images/method.png') }}">
                             <div class="info">
-                                <h4>{{ trans('locale.start_project') }}</h4>
+                                <h4>{{ trans('locale.bookkeeping_content.2') }}</h4>
                                 <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-8 three keeping hidden">
-                        <p>{{ trans('locale.start_project_paragraph.1') }}</p>
-                        <p>{{ trans('locale.start_project_paragraph.2') }}</p>
+                    <div class="col-sm-9 two keeping hidden">
+                        <p>{{ trans('locale.bookkeeping_content.6') }}</p>
+                        <i class="fa fa-close closed" data-id="two"></i>
+                    </div>
+                    <div class="col-sm-2 open" id="three">
+                        <a href="#">
+                            <h4>{{ trans('locale.bookkeeping_content.3') }}</h4>
+                            <img src="{{ asset('images/start_project.png') }}">
+                            <div class="info">
+                                <h4>{{ trans('locale.bookkeeping_content.3') }}</h4>
+                                <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-9 three keeping hidden">
+                        <p>{{ trans('locale.bookkeeping_content.7') }}</p>
+                        <i class="fa fa-close closed" data-id="three"></i>
+                    </div>
+                    <div class="col-sm-2 open" id="four">
+                        <a href="#">
+                            <h4>{{ trans('locale.bookkeeping_content.4') }}</h4>
+                            <img src="{{ asset('images/large_companies.png') }}">
+                            <div class="info">
+                                <h4>{{ trans('locale.bookkeeping_content.4') }}</h4>
+                                <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-9 four keeping hidden">
+                        <p>{{ trans('locale.bookkeeping_content.8') }}</p>
                         <i class="fa fa-close closed" data-id="three"></i>
                     </div>
                 </div>

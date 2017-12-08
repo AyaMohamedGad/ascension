@@ -370,7 +370,7 @@ return [
         "2" => "You must have 2 continuous years of working experience in internal audit and verified.",
         "3" => "To order your certificate, you must log into your candidate record in CCMS and complete the certificate order form."
     ],
-    "cia_content" => [
+    "cia_details" => [
         "1" => "Mandatory Guidance",
         "2" => "Internal Control & Risk",
         "3" => "Conducting Internal Audit Engagement",
@@ -420,7 +420,7 @@ return [
         "1" => "Once you pass all the levels, you have to accumlate 4 year of relevant working experience to obtain the charter. The experience can be gained before or after taking the exam.",
         "2" => "CFA Institute provides this list of job titles that are typically considered relevant. The person must spend at least 50% of the time in investment decision making, or work that adds value to this process.",
     ],
-    "cfa_content" => [
+    "cfa_details" => [
         "1" => "Ethical and Professional Standards",
         "2" => "Quantitative Methods",
         "3" => "Economics",
@@ -512,6 +512,16 @@ return [
     "major" => "Major",
     "new" => "The New",
     "view_on_book" => "View on Book",
+    "bookkeeping_content" => [
+        "1" => "Objective",
+        "2" => "Method",
+        "3" => "SME's",
+        "4" => "Large Companies",
+        "5" => "Bookkeeping plays a vital role for any business organization to maintain its capital, know the results of its business, achieve its financial & operational objectives, which will lead to achieving sustainability & growth.",
+        "6" => "Ascension Consulting & Training offers accounting services for small, medium, & large companies with the highest accounting proficiency & quality. Our qualified accountants use the latest accounting software to produce periodic financial reports (profits & losses, financial position, cash flow) accurately & quickly. At Ascension, we are pleased to deliver these services to your company with the highest degree of confidentiality & reliability",
+        "7" => "In small & medium-sized enterprises (SME’s) where the cost of appointing a full-time accountant is considerably large, it is better to keep a private bookkeeper who does the bookkeeping professionally & at an acceptable cost to save you money for the main operating activities.",
+        "8" => "Large companies often encounter problems in financial management represented by the resignation of some influential employees or a comprehensive change in financial management as a result of restructuring or desire to reduce costs & many other cases. Such defect in the work of financial management is not borne by large companies in terms of large volume of work & daily operations. The option of hiring an accountant specialized in financial management & bookkeeping is vital to maintaining the integrity of your business."
+    ]
 
 
 

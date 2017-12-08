@@ -16,13 +16,13 @@ return [
     "ascensioners" => "برنامج ",
     "ers" => "أسنشيرز",
     "home" => "الرئيسية",
-    "training" => "Training",
-    "consultancy" => "Consultancy",
-    "bookkeeping" => "Bookkeeping",
+    "training" => "التدريب",
+    "consultancy" => "الاستشارات",
+    "bookkeeping" => "إدارة الحسابات",
     "information_system" => "نظم المعلومات",
-    "feasibility_studies" => "Feasibility Studies",
-    "business_advisory" => "Business Advisory",
-    "national_fund" => "National Fund",
+    "feasibility_studies" => "دراسة الجدوى",
+    "business_advisory" => "إستشارات الأعمال",
+    "national_fund" => "الصندوق الوطنى",
     "about_us" => "عن الشركة",
     "careers" => "الوظائف",
     "contacts" => "إتصل بنا",
@@ -38,11 +38,11 @@ return [
     "sit_for_exam" => "أخذ الاختبار",
     "pass" => "النجاح",
     "guidebook" => "GuideBook",
-    "program" => "Program",
-    "upcoming_cpa_courses" => "Upcoming CPA courses",
-    "upcoming_cma_courses" => "Upcoming CMA courses",
-    "upcoming_cfa_courses" => "Upcoming CFA courses",
-    "upcoming_cia_courses" => "Upcoming CIA courses",
+    "program" => "برنامج",
+    "upcoming_cpa_courses" => "دورات CPA القادمة",
+    "upcoming_cma_courses" => "دورات CMA القادمة",
+    "upcoming_cfa_courses" => "دورات CFA القادمة",
+    "upcoming_cia_courses" => "دورات CIA القادمة",
     "reg" => "REG",
     "far" => "FAR",
     "aud" => "AUD",
@@ -101,7 +101,7 @@ return [
     ],
     "work_under_process" => "Work Under Process to Provide You With Advanced Information System Services.",
     "thank_for_visiting" => "شكراً على زيارتك !",
-    "feasibility_study" => "Feasibility Study",
+    "feasibility_study" => "دراسة الجدوى",
     "page_under_process" => "هذه الصفحة تحت الإنشاء.",
     "visit_us_again" => "من فضلك قم بزيارتنا لاحقاً !",
     "business_advisory_paragraph" => [
@@ -370,7 +370,7 @@ return [
         "2" => "يجب ان يكون لديك سنتين خبرة موثقة في التدقيق الداخلي او في مجال مرتبط.",
         "3" => "لطلب شهادتك عليك الدخول لحسابك في CCMS واكمال نموذج طلب شهادة."
     ],
-    "cia_content" => [
+    "cia_details" => [
         "1" => "ارشاد اجباري",
         "2" => "رقابة داخلية و مخاطر",
         "3" => "عمل تدقيق داخلي",
@@ -420,7 +420,7 @@ return [
         "1" => "حالما تنجح في كل الاختبارات، يجب ان يكون لديك خبرة 4 سنين في عمل مرتبط بالتحليل المالي للحصول على الرخصة ويمكن ان تجمع هذه الخبرة قبل او بعد اجتيازك للاختبار.",
         "2" => "معهد CFA لديه مسميات وظيفية محددة مرتبطة بالتحليل المالي. يجب ان يكون الجزء الخالص باتخاذ قرارات استثمارية على الاقل 50% من عملك او ان يكون عملك مساعد لاتخاذ هذه القرارات.",
     ],
-    "cfa_content" => [
+    "cfa_details" => [
         "1" => "المعايير الأخلاقية والمهنية",
         "2" => "طرق كمية",
         "3" => "اقتصاد",
@@ -511,7 +511,17 @@ return [
     "qualification_content" => "BSc, MSA, CPA, CMA",
     "major" => "القسم",
     "new" => "الخبر",
-    "view_on_book" => "عرض فى الكتاب"
+    "view_on_book" => "عرض فى الكتاب",
+    "bookkeeping_content" => [
+        "1" => "Objective",
+        "2" => "Method",
+        "3" => "SME's",
+        "4" => "Large Companies",
+        "5" => "Bookkeeping plays a vital role for any business organization to maintain its capital, know the results of its business, achieve its financial & operational objectives, which will lead to achieving sustainability & growth.",
+        "6" => "Ascension Consulting & Training offers accounting services for small, medium, & large companies with the highest accounting proficiency & quality. Our qualified accountants use the latest accounting software to produce periodic financial reports (profits & losses, financial position, cash flow) accurately & quickly. At Ascension, we are pleased to deliver these services to your company with the highest degree of confidentiality & reliability",
+        "7" => "In small & medium-sized enterprises (SME’s) where the cost of appointing a full-time accountant is considerably large, it is better to keep a private bookkeeper who does the bookkeeping professionally & at an acceptable cost to save you money for the main operating activities.",
+        "8" => "Large companies often encounter problems in financial management represented by the resignation of some influential employees or a comprehensive change in financial management as a result of restructuring or desire to reduce costs & many other cases. Such defect in the work of financial management is not borne by large companies in terms of large volume of work & daily operations. The option of hiring an accountant specialized in financial management & bookkeeping is vital to maintaining the integrity of your business."
+    ]
 
 
 
