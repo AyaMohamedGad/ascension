@@ -353,7 +353,8 @@ return [
         "1" => "The exam site is available in 500+ Pearson VUE centers around the world and there are 17 languages to choose from (Arabic is available). You can practically take the exam any time of the year.",
         "2" => "You can schedule several exam parts on the same day.",
         "3" => "If one fails one part of the exam, one has to wait for 90 days before taking that particular part again. Candidates, however, are welcome to take another part during this period.",
-        "4" => "You have 4 years to complete the CIA exam from the day you pass the first exam. However, if you could not complete the exams within 4 years, you can request for a one year extension which will cost $250. Note that this offer is not available to all IIA members! Click here for more info"
+        "4" => "You have 4 years to complete the CIA exam from the day you pass the first exam. However, if you could not complete the exams within 4 years, you can request for a one year extension which will cost $250. Note that this offer is not available to all IIA members! Click here for more info",
+        "5" => "You can schedule several exam parts on the same day."
     ],
     "duration" => "Duration",
     "mcqs" => "MCQs",

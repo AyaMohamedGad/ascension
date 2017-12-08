@@ -175,7 +175,7 @@
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.1') }}
                                         </p>
-                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://na.theiia.org/certification/Pages/getstarted.aspx</a>
+                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('click_here') }}</a>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.2') }}
                                         </p>
@@ -277,13 +277,23 @@
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.1') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.5') }}
+                                        </p>
+                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.2') }}
+                                        </p>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                        <p class="mr-20 ml-60 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cia_schedule.3') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="mr-20 ml-60 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cia_schedule.4') }}
                                         </p>
-                                        <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx</a>
+                                        <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-20 ml-60 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                    </div>
+                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
                                     </div>
                                 </div>
                             </div>
@@ -314,19 +324,19 @@
                                                     <td>{{ trans('locale.cia_exam.1') }}</td>
                                                     <td>2.5 {{ trans('hours') }}</td>
                                                     <td>125</td>
-                                                    <td>{{ trans('same_day') }}</td>
+                                                    <td>{{ trans('locale.same_day') }}</td>
                                                 </tr>
                                                 <tr>
                                                     <td>{{ trans('locale.cia_exam.2') }}</td>
                                                     <td>2 {{ trans('hours') }}</td>
                                                     <td>100</td>
-                                                    <td>{{ trans('same_day') }}</td>
+                                                    <td>{{ trans('locale.same_day') }}</td>
                                                 </tr>
                                                 <tr>
                                                     <td>{{ trans('locale.cia_exam.3') }}</td>
                                                     <td>2 {{ trans('hours') }}</td>
                                                     <td>100</td>
-                                                    <td>{{ trans('same_day') }}</td>
+                                                    <td>{{ trans('locale.same_day') }}</td>
                                                 </tr>
                                             </tbody>
                                         </table>
