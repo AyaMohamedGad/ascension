@@ -138,13 +138,13 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook">
                                     <div class="page" style="background-color: #78B582;"></div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
                                             <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#78B582;">{{ trans('locale.qualify') }}</h3>
                                         </div>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page rt_page">
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.1') }}</p>
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.2') }}
                                             <a href="http://univ.cc/world.php" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
@@ -163,13 +163,13 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook2">
                                     <div class="page" style="background-color: #B578AA;"></div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
                                             <h3 style="font:400 40px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll_fees') }}</h3>
                                         </div>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page rt_page">
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.1') }}</p>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.2') }}
                                             <a href="https://www.imanet.org/cma-certification/getting-started?ssopc=1" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
@@ -216,7 +216,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <p class="ml-70 mr-20 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.9') }}
                                         </p>
@@ -227,7 +227,7 @@
                                             {{ trans('locale.cma_enroll.11') }}
                                         </p>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page rt_page">
                                         <p class="mr-70 ml-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cma_enroll.12') }}
                                         </p>
@@ -240,13 +240,13 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook3">
                                     <div class="page" style="background-color: #404A60;"></div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
                                             <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#404A60;">{{ trans('locale.prepare') }}</h3>
                                         </div>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page rt_page">
                                         <p class="ml-30 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.prepare_content.1') }}</p>
                                     </div>
                                 </div>
@@ -257,13 +257,13 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook4">
                                     <div class="page" style="background-color: #406045;"></div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
                                             <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#406045;">{{ trans('locale.schedule') }}</h3>
                                         </div>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page rt_page">
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_schedule.1') }}</p>
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cma_schedule.2') }}
@@ -284,13 +284,13 @@
                             <div class="flipbook-viewport">
                                 <div class="flipbook5">
                                     <div class="page" style="background-color: #B53C46;"></div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
                                             <h3 class="ml-30" style="font:400 38px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.sit_for_exam') }}</h3>
                                         </div>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page rt_page">
                                         <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.1') }}
                                         </p>
@@ -307,12 +307,12 @@
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.5') }}
                                         </p>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.6') }}
                                         </p>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')"></div>
+                                    <div class="page rt_page"></div>
                                 </div>
                             </div>
                         </div>
@@ -322,13 +322,13 @@
                                 <div class="flipbook6">
                                     <div class="page" style="background-color: #00B5A5;">
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/lft_bk.jpg') }}')">
+                                    <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
                                             <h3 style="font:400 38px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
                                         </div>
                                     </div>
-                                    <div class="page" style="background-image:url('{{ asset('images/rt_bk.jpg') }}')">
+                                    <div class="page rt_page">
                                         <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_pass.1') }}
                                         </p>

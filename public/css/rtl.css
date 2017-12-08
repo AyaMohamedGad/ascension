@@ -112,3 +112,85 @@ a.language {
     left: 0;
     right: auto;
 }
+
+.rt_page{
+    background-image:url(../images/lft_bk.jpg);
+}
+
+.lft_page{
+    background-image:url(../images/rt_bk.jpg);
+}
+
+.ml-10 {
+    margin-right: 10px !important;
+}
+
+.ml-20 {
+    margin-right: 20px !important;
+}
+
+.ml-30 {
+    margin-right: 30px !important;
+}
+
+.ml-40 {
+    margin-right: 40px !important;
+}
+
+.ml-50 {
+    margin-right: 50px !important;
+}
+
+.ml-60 {
+    margin-right: 60px !important;
+}
+
+.ml-70 {
+    margin-right: 70px !important;
+}
+
+.mr-10 {
+    margin-left: 10px !important;
+}
+
+.mr-20 {
+    margin-left: 20px !important;
+}
+
+.mr-30 {
+    margin-left: 30px !important;
+}
+
+.mr-40 {
+    margin-left: 40px !important;
+}
+
+.mr-50 {
+    margin-left: 50px !important;
+}
+
+.mr-60 {
+    margin-left: 60px !important;
+}
+
+.mr-70 {
+    margin-left: 70px !important;
+}
+
+#book_tabs .nav-tabs-left {
+    margin-left: -100px;
+    height: 493px;
+}
+
+#book_tabs .nav li:nth-child(-n+4) {
+    max-width: 85px;
+    margin-bottom: 0px;
+}
+
+.exam_tab {
+    bottom: 23%;
+}
+
+.flipbook-viewport div{
+    direction: ltr !important;
+}

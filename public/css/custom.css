@@ -846,3 +846,11 @@ body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
 .text-center{
     text-align: center;
 }
+
+.lft_page{
+    background-image:url(../images/lft_bk.jpg);
+}
+
+.rt_page{
+    background-image:url(../images/rt_bk.jpg);
+}
