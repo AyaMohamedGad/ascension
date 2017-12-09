@@ -28,7 +28,7 @@
         }
         .data{
             background: #6b80a4;
-            border-radius: 10px;
+            border-radius: 30px;
             padding: 15px;
         }
         .data p{
