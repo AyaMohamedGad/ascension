@@ -156,11 +156,6 @@ return [
         "3" => "SME’s",
         "4" => "Other"
     ],
-    "the_fund" => "The Fund",
-    "benefits" => "Benefits",
-    "eligiablity" => "Eligiablity",
-    "required_documents" => "Required Documents",
-    "the_fund_text" => "In April 2013, the Government has enacted law number 98 of 2013 to establish a National Fund for SME Development (the “SME Fund”). The law is intended to help the country make a major stride in the efforts to support the youth, combat unemployment, and enable the private sector to drive economic growth. As an independent public corporation, with a total capital of KD 2 billion, the SME Fund will finance up to 80% of capital for feasible small and medium projects submitted by Kuwaiti Citizens. The National Fund for SME Development focus on building an inclusive, collaborative, and innovative ecosystem for entrepreneurs to lay the foundation for economic opportunities in the State of Kuwait.",
     "phone" => "Phone",
     "mobile" => "Mobile",
     "fax" => "Fax",
@@ -522,6 +517,44 @@ return [
         "6" => "Ascension Consulting & Training offers accounting services for small, medium, & large companies with the highest accounting proficiency & quality. Our qualified accountants use the latest accounting software to produce periodic financial reports (profits & losses, financial position, cash flow) accurately & quickly. At Ascension, we are pleased to deliver these services to your company with the highest degree of confidentiality & reliability",
         "7" => "In small & medium-sized enterprises (SME’s) where the cost of appointing a full-time accountant is considerably large, it is better to keep a private bookkeeper who does the bookkeeping professionally & at an acceptable cost to save you money for the main operating activities.",
         "8" => "Large companies often encounter problems in financial management represented by the resignation of some influential employees or a comprehensive change in financial management as a result of restructuring or desire to reduce costs & many other cases. Such defect in the work of financial management is not borne by large companies in terms of large volume of work & daily operations. The option of hiring an accountant specialized in financial management & bookkeeping is vital to maintaining the integrity of your business."
+    ],
+    "fund" => [
+        "1" => "The Fund",
+        "2" => "Benefits",
+        "3" => "Eligiablity",
+        "4" => "Required Documents",
+        "the_fund" => [
+            "1" => "In April 2013, the Government has enacted law number 98 of 2013 to establish a National Fund for SME Development (the “SME Fund”). The law is intended to help the country make a major stride in the efforts to support the youth, combat unemployment, and enable the private sector to drive economic growth. As an independent public corporation, with a total capital of KD 2 billion, the SME Fund will finance up to 80% of capital for feasible small and medium projects submitted by Kuwaiti Citizens. The National Fund for SME Development focus on building an inclusive, collaborative, and innovative ecosystem for entrepreneurs to lay the foundation for economic opportunities in the State of Kuwait."
+        ],
+        "benefits" => [
+            "1" => "The fund has several advantages that you will not find in any other financing agency:",
+            "2" => "Financing up to 80% of the cost of the project. The initiator must provide the remaining 20% to prove seriousness. No guarantees are required in kind or material (10% of the local banks can be obtained according to understandings between the Fund and some of them).",
+            "3" => "A period of grace for payment of the first installment from one year to three years.",
+            "4" => "Repayment period of up to 15 years.",
+            "5" => "Interest-free financing, only administrative fees 2% per annum"
+        ],
+        "eligiablity" => [
+            "1" => "If you are a Kuwaiti citizen and your age is greater than 21 years, then you can get financing from the Fund up to KD 400,000, according to some achievable conditions as follows:",
+            "2" => "If you are an oil sector employee:",
+            "3" => "You can apply, and if your project is approved, you must be completely free to manage your project, You may obtain a free to work leave permission from the employer for a maximum period of 3 years but you should getting approval from oil sector officals.",
+            "4" => "If you are a civil servant:",
+            "5" => "You can apply, and if your project is approved, you must be completely free to manage your project, You may obtain a free to work leave permission from the employer for a maximum period of 3 years and this leave is paid by your employer in accordance with Civil Service Council Decision No. 39 of 2016, noting that if  you desire to return to your job, the commercial license can not be retained.",
+            "6" => "If you are an Interior / Defense / National Guard employee:",
+            "7" => "You can apply, and if your project is approved, you must be completely free to manage your project, You may obtain a free to work leave permission from the employer for a maximum period of 3 years but you should getting approval from Your work officials.",
+            "8" => "If you are a current employer:",
+            "9" => "You can request funding for your existing company or request funding for a new project but you have to provide a written commitment to the new project only and give up from your current project..",
+            "10" => "The Retired:",
+            "11" => "The applicant can apply on the fifth section as an employer and give up the pension.",
+            "12" => "Private sector employee:",
+            "13" => "Private sector employees can benefit from the Fund's programs to develop their projects and ideas after full-time project management, which means that they must submit a resignation from the private sector."
+        ],
+        "required_documents" => [
+            "1" => "Ascension will assist you in providing consultancy services on how to complete all required documents.",
+            "2" => "List of documents required for new companies.",
+            "3" => "List of required documents for start-up and existing companies.",
+            "4" => "After completion of the required documents, the initiator will personally go to National Fund Headquarters",
+            "5" => "(Customer Service Center - in Mansouriyah, Block 1, Street 13) to submit and deliver the original documents."
+        ]
     ]
 
 

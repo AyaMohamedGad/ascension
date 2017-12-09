@@ -156,11 +156,6 @@ return [
         "3" => "SME’s",
         "4" => "آخرى"
     ],
-    "the_fund" => "The Fund",
-    "benefits" => "Benefits",
-    "eligiablity" => "Eligiablity",
-    "required_documents" => "المستندات المطلوبة",
-    "the_fund_text" => "In April 2013, the Government has enacted law number 98 of 2013 to establish a National Fund for SME Development (the “SME Fund”). The law is intended to help the country make a major stride in the efforts to support the youth, combat unemployment, and enable the private sector to drive economic growth. As an independent public corporation, with a total capital of KD 2 billion, the SME Fund will finance up to 80% of capital for feasible small and medium projects submitted by Kuwaiti Citizens. The National Fund for SME Development focus on building an inclusive, collaborative, and innovative ecosystem for entrepreneurs to lay the foundation for economic opportunities in the State of Kuwait.",
     "phone" => "التليفون",
     "mobile" => "الموبيل",
     "fax" => "الفاكس",
@@ -522,6 +517,44 @@ return [
         "6" => "Ascension Consulting & Training offers accounting services for small, medium, & large companies with the highest accounting proficiency & quality. Our qualified accountants use the latest accounting software to produce periodic financial reports (profits & losses, financial position, cash flow) accurately & quickly. At Ascension, we are pleased to deliver these services to your company with the highest degree of confidentiality & reliability",
         "7" => "In small & medium-sized enterprises (SME’s) where the cost of appointing a full-time accountant is considerably large, it is better to keep a private bookkeeper who does the bookkeeping professionally & at an acceptable cost to save you money for the main operating activities.",
         "8" => "Large companies often encounter problems in financial management represented by the resignation of some influential employees or a comprehensive change in financial management as a result of restructuring or desire to reduce costs & many other cases. Such defect in the work of financial management is not borne by large companies in terms of large volume of work & daily operations. The option of hiring an accountant specialized in financial management & bookkeeping is vital to maintaining the integrity of your business."
+    ],
+    "fund" => [
+        "1" => "نبذة عن الصندوق",
+        "2" => "Benefits",
+        "3" => "Eligiablity",
+        "4" => "Required Documents",
+        "the_fund" => [
+            "1" => "في شهر إبريل لعام 2013، أصدرت حكومة دولة الكويت قانون رقم 98/2013 بخصوص إنشاء صندوق بإسم الصندوق الوطني لرعاية وتنمية المشروعات الصغيرة والمتوسطة حيث يهدف هذا القانون لدعم الشباب ومحاربة البطالة وتمكين القطاع الخاص لتحقيق النمو الإقتصادي في دولة الكويت. الصندوق الوطني هو مؤسسة عامة مستقلة برأس مالي قدره مليارين دينار كويتي، تُطور وتُمول المشاريع الصغيرة والمتوسطة المُجدية والمملوكة من قِبل كويتيين بنسبة تصل إلى 80% من رأس المال. وتتمحور رؤية الصندوق في بناء مجتمع ريادي يُحفّزأصحاب المشاريع على الإبداع ويُحقق فرص التنمية الإقتصادية في دولة الكويت."
+        ],
+        "benefits" => [
+            "1" => "يتميز الصندوق بعدة مميزات لن تجدها في أي جهة تمويل أخرى وهي:",
+            "2" => "تمويل حتى 80% من تكلفة المشروع ويجب على المبادر تقديم 20 % المتبقية لاثبات الجدية ولا يشترط الضمانات العينية او المادية (يمكن الحصول على 10% من البنوك المحلية وفقا لتفاهمات بين الصندوق وبعض تلك البنوك).",
+            "3" => "فترة سماح لسداد القسط الاول تترواح من عام واحد وحتى ثلاث أعوام.",
+            "4" => "فترة سداد تصل ال 15 عاماً.",
+            "5" => "التمويل بدون فوائد ، فقط رسوم ادارية 2% سنوياً."
+        ],
+        "eligiablity" => [
+            "1" => "اذا كان كويتي الجنسية وعمرك اكبر من 21 عاما، اذا فأنت تستطيع الحصول على تمويل من الصندوق حتى 400 الف دينار كويتي، وذلك وفقاً لبعض الشروط القابلة للتحقيق وهي كما يلي:",
+            "2" => "اذا كنت موظف بالقطاع النفطي:",
+            "3" => "تستطيع التقديم على خدمات الصندوق بشرط أن تكون متفرغ تماما لإدارة المشروع وتسجل على الباب الخامس كصاحب عمل ولكن بالنسبة للتفرغ التجاري فيجب الرجوع فيه للمسؤولين في القطاع النفطي.",
+            "4" => "اذا كنت موظف بالقطاع الحكومي:",
+            "5" => "تستطيع التقديم، و اذا تم الموافقة على مشروعك يتوجب عليك التفرغ التام لإدارة المشروع. ويجوز لك الحصول على اجازة تفرغ من جهة العمل لمدة 3 سنوات كحد أقصى وهذه الاجازة مدفوعة الأجر من جهة عملك طبقا لقرار مجلس الخدمة المدنية رقم 39 لسنة 2016، مع ملاحظة أنه في حالة الرغبة في العودة لا يمكن الاحتفاظ بالرخصة التجارية.",
+            "6" => "اذا كنت موظف بالداخلية/الدفاع/الحرس الوطني:",
+            "7" => "نعم يستطيعون التقديم على خدمات الصندوق بشرط أن يكونوا متفرغين تماما لإدارة المشروع ويسجلون على الباب الخامس كصاحب عمل ولكن بالنسبة للتفرغ التجاري فيجب الرجوع للمسؤولين في الوزارة المعنية حيث أن هناك تفرقة بين الموظفين المدنيين والعسكريين.",
+            "8" => "اذا كنت صاحب عمل حالي ومسجل على الباب الخامس:",
+            "9" => "يمكنك طلب تمويل لشركتك القائمة بالفعل أو طلب تمويل لمشروع جديد بشرط تقديم تعهد بالتفرغ للمشروع الجديد كليا.",
+            "10" => "اذا كنت متقاعد :",
+            "11" => "يستطيع التقديم بشرط التسجيل على الباب الخامس كصاحب عمل والتخلي عن المعاش التقاعدي.",
+            "12" => "اذا كنت موظف بالقطاع الخاص:",
+            "13" => "يستطيع موظفو القطاع الخاص الاستفادة من برامج الصندوق الخاصة بتطوير مشروعاتهم وأفكارهم التجارية بعد التفرغ التام لإدارة المشروع، مما يعني أن عليهم تقديم استقالة من العمل لدى القطاع الخاص."
+        ],
+        "required_documents" => [
+            "1" => "تقوم شركة اسنشن بمساعدتكم بتقديم الخدمات الاستشارية في كيفية تعبئة واستكمال كافة المستندات المطلوبة",
+            "2" => "قائمة المستندات المطلوبة للشركات الجديدة.",
+            "3" => "قائمة المستندات المطلوبة للشركات الناشئة والقائمة.",
+            "4" => "بعد استكمال المستندات المطلوبة يقوم المبادر بالذهاب شخصيا إلى مقر الصندوق الوطني - مركز خدمة العملاء",
+            "5" => "في المنصورية قطعة 1 شارع 13 للتقديم وتسليم المستندات الأصلية،"
+        ]
     ]
 
 
