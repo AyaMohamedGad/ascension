@@ -108,6 +108,7 @@
                 </li>
             </ul>
         </div>
+        <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
             <div class="col-xs-10 col-xs-offset-1">

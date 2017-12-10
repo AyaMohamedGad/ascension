@@ -43,13 +43,12 @@
 
             <div class="col-sm-6">
                 <div id="ps_container" class="ps_container" style="display:none;">
-                    <a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>
+                    {{--<a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>--}}
                 </div>
             </div>
         </div>
     </div>
 @stop
-
 
 @section('scripts')
     {{ Html::script('js/YouTubePopUp.jquery.js') }}
@@ -119,7 +118,7 @@
         };
         testing(images);
         
-        $('#ps_next_photo').show();
+//        $('#ps_next_photo').show();
         $('#ps_next_photo').bind('click',function(){
             get_next();
         });

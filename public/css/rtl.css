@@ -194,3 +194,23 @@ a.language {
 .flipbook-viewport div{
     direction: ltr !important;
 }
+.funds .col-sm-3{
+    min-height: 201px;
+}
+.funds label::after{
+    right: auto;
+    left: 0;
+}
+.funds label {
+    padding: 0 1em 0 0;
+}
+.newsticker{
+    border-right: 2px solid white;
+    border-left: 0;
+}
+.news span{
+    float: right;
+}
+.newsticker li{
+    text-align: right;
+}

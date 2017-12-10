@@ -4,36 +4,6 @@
 
 @section('styles')
     <style>
-        .col-sm-3 {
-            background: #092b67;
-            min-height: 170px;
-            text-align: center;
-            padding: 15px;
-            border: 10px solid #fff;
-            border-radius: 20px;
-            cursor: pointer;
-        }
-        .col-sm-3.active{
-            background: rgba(9, 43, 103, 0.6);
-        }
-        .col-sm-3 h5{
-            color: #fff;
-        }
-        .col-sm-3 img{
-            max-width: 85px;
-            margin: auto;
-        }
-        .img_container {
-            min-height: 85px;
-        }
-        .data{
-            background: #6b80a4;
-            border-radius: 30px;
-            padding: 15px;
-        }
-        .data p{
-            color: #fff;
-        }
     </style>
 @stop
 

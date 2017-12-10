@@ -100,7 +100,7 @@
             </div>
         </div>
 
-        <div class="bookkeeping">
+        <div class="bookkeeping wow fadeInDown">
             <div class="col-md-12 mt-20">
                 <div class="col-sm-3 open" id="two">
                     <a href="#">

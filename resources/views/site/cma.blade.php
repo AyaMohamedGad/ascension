@@ -46,6 +46,7 @@
                 </ul>
             </div>
         </div>
+        <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
 
         <div class="row mt-20">
             <h3 class="bordered_title wow shake">{{ trans('locale.become_cma') }} : </h3>
