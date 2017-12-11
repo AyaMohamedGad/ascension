@@ -48,7 +48,7 @@
         </div>
 
         <div class="row mt-20">
-            <h3 class="bordered_title wow shake">{{ trans('locale.become_cfa') }} : </h3>
+            <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cfa') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
             <ul class="mt-40 ch-grid">
@@ -314,7 +314,7 @@
         </div>
 
         <div class="col-sm-12">
-            <h3 class="bordered_title wow shake">{{ trans('locale.cfa_content') }} : </h3>
+            <h3 class="bordered_title wow shake ml-10">{{ trans('locale.cfa_content') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
             <div class="cpa_content mt-40">

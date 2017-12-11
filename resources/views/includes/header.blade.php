@@ -11,9 +11,9 @@
     {!! Html::style('css/font-awesome.min.css') !!}
     {!! Html::style('css/contact.css') !!}
     {!! Html::style('css/styles.css') !!}
-    {!! Html::style('css/responsive.css') !!}
     {!! Html::style('css/custom.css') !!}
     {!! Html::style('css/animate.css') !!}
+    {!! Html::style('css/responsive.css') !!}
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,600,700,800" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,600,400italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">

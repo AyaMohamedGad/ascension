@@ -61,7 +61,7 @@
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.ascension_courses') }}</h2>
+            <h2 class="header toomuch">{{ trans('locale.ascension_courses') }}</h2>
             <div class="arrows_header">
                 <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
                 <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
@@ -72,7 +72,7 @@
 
         <div class="col-sm-12 mt-20">
             <h4 class="page_head mb-30 center">{{ trans('locale.courses_title') }}</h4>
-            <ul class="nav nav-tabs" role="tablist">
+            <ul class="nav nav-tabs courses_tabs" role="tablist">
                 <li class="col-sm-4 active"><a data-toggle="tab" role="tab" href="#finance">{{ trans('locale.accounting_finance') }}</a></li>
                 <li class="col-sm-4"><a data-toggle="tab" role="tab" href="#business">{{ trans('locale.business_management') }}</a></li>
                 <li class="col-sm-4"><a data-toggle="tab" role="tab" href="#hr_man">{{ trans('locale.hr_management') }}</a></li>

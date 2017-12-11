@@ -35,10 +35,10 @@
         </div>
 
         <div class="times row mt-20">
-            <div class="col-sm-6 wow fadeInLeft video">
+            <div class="col-sm-6 col-xs-12 wow fadeInLeft video">
                 <iframe width="69%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-6 wow fadeInRight">
+            <div class="col-sm-6 col-xs-12 wow fadeInRight">
                 <h4><i class="fa fa-bell wow tada" data-wow-iteration="100" data-wow-delay=".25s"></i> {{ trans('locale.upcoming_cia_courses') }}</h4>
                 <ul>
                     <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cia->reg)) }}</li>
@@ -49,7 +49,7 @@
         <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
 
         <div class="row mt-20">
-            <h3 class="bordered_title wow shake">{{ trans('locale.become_cia') }} : </h3>
+            <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cia') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
             <ul class="mt-40 ch-grid">

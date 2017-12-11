@@ -170,3 +170,86 @@ padding:11px 25px 0px;
 }
 }
 }
+
+
+@media all and (max-width: 720px){
+    .logo_pic1, .logo_pic2, .logo_pic3, .logo_pic4 {
+        width: 100px;
+    }
+
+    h1#logo a {
+	    width: 50px;
+	    float: right;
+	    margin-right: 10px;
+	}
+	.right-align {
+	    width: 100% !important;
+	}
+
+	.banner p{
+		font-size: 20px;
+	}
+	.social_media a {
+	    font-size: 25px;
+	    margin-left: 10px;
+	}
+	.social_media {
+	    text-align: left;
+	}
+	.news span{
+		width:25%
+	}
+
+	.row.mt-150{
+		margin-top: 50px !important;
+	}
+
+	.ps_container{
+		margin-top: 80px;
+	}
+	.cpa_page .times .col-sm-6:last-child{
+		background-size: 100% 100%; 
+	}
+
+	.ch-grid li {
+	    width: calc(100%/3.1);
+	    height: 50%;
+	}
+
+	.ch-grid{
+		height: 550px;
+	}
+	.ch-info i {
+		font-size: 40px;
+	}
+	.ch-info h3{
+		font-size: 12px;
+	}
+
+	.flipbook-viewport {
+	    overflow:auto;
+	    width: 240%;
+	}
+
+	.right_tab {
+	    right: -27%;
+	    width: 23%;
+	}	
+
+	.toomuch{
+		font-size: 18px;
+	}
+
+	.courses_tabs li{
+		margin-top: 10px;
+	}
+
+	.for_desk{
+		display: none;
+	}
+	
+	.fixing div{
+		height: auto;
+		position: relative;
+	}
+}

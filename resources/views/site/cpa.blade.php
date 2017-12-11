@@ -48,7 +48,7 @@
         </div>
 
         <div class="row mt-20">
-            <h3 class="bordered_title wow shake">{{ trans('locale.become_cpa') }} : </h3>
+            <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cpa') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
             <ul class="mt-40 ch-grid">
