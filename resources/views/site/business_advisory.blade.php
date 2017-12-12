@@ -25,7 +25,7 @@
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.business_advisory') }}</h2>
+            <h2 class="header toomuch">{{ trans('locale.business_advisory') }}</h2>
             <div class="arrows_header">
                 <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
                 <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
@@ -95,7 +95,7 @@
             </div>
             <div class="business wow fadeInDown">
                 <div class="col-sm-12 mb-30">
-                    <div class="col-xs-3">
+                    <div class="col-sm-3 col-xs-12">
                         <div class="arrow_content orange_p">
                             <ul>
                                 <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.accounting_text.1') }}</li>
@@ -105,15 +105,15 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="orange col-xs-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="orange col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
                         <p>{{ trans('locale.accounting') }}</p>
                         <img class="orange_arrow" src="{{ asset('images/orange_arrow.png') }}">
                     </div>
-                    <div class="green col-xs-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="green col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
                         <p>{{ trans('locale.human_resources') }}</p>
                         <img class="green_arrow" src="{{ asset('images/green_arrow.png') }}">
                     </div>
-                    <div class="col-xs-3">
+                    <div class="col-xs-12 col-sm-3">
                         <div class="arrow_content green_p">
                             <ul>
                                 <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.financial_text.1') }}</li>
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 mb-30">
-                    <div class="col-xs-3">
+                    <div class="col-xs-12 col-sm-3">
                         <div class="arrow_content blue_p">
                             <ul>
                                 <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.human_text.1') }}</li>
@@ -135,15 +135,15 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="blue col-xs-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="blue col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
                         <p>{{ trans('locale.financial_evaluations') }}</p>
                         <img class="blue_arrow" src="{{ asset('images/blue_arrow.png') }}">
                     </div>
-                    <div class="yellow col-xs-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="yellow col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
                         <p>{{ trans('locale.other') }}</p>
                         <img class="yellow_arrow" src="{{ asset('images/yellow_arrow.png') }}">
                     </div>
-                    <div class="col-xs-3">
+                    <div class="col-xs-12 col-sm-3">
                         <div class="arrow_content yellow_p">
                             <ul>
                                 <li><i class="fa fa-angle-double-{{app()->getLocale() == 'en' ? 'right' : 'left'}}"></i> {{ trans('locale.other_text.1') }}</li>
