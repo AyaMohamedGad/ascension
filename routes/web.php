@@ -1,30 +1,40 @@
 <?php
 
-Route::group(['middleware' => 'locale'], function($router){
-    Route::get('/lang/{lang}', 'HomeController@setLanguage')->name('setLanguage');
+Auth::routes();
 
-    Route::get('/', 'HomeController@index')->name('HomePage');
-    Route::get('/home', 'HomeController@index');
-    Route::get('/aboutus', 'HomeController@about')->name('AboutPage');
-    Route::get('/contactus', 'HomeController@contact')->name('ContactPage');
-    Route::get('/careers', 'HomeController@careers')->name('CareersPage');
-    Route::get('/new/{id}', 'HomeController@viewNew')->name('ViewNewPage');
+Route::group(['middleware' => 'locale'], function () {
+    Route::get('/lang/{lang}', 'WebsiteController@setLanguage')->name('setLanguage');
+
+    Route::get('/', 'WebsiteController@index')->name('HomePage');
+    Route::get('/home', 'WebsiteController@index');
+    Route::get('/aboutus', 'WebsiteController@about')->name('AboutPage');
+    Route::get('/contactus', 'WebsiteController@contact')->name('ContactPage');
+    Route::get('/careers', 'WebsiteController@careers')->name('CareersPage');
+    Route::get('/new/{id}', 'WebsiteController@viewNew')->name('ViewNewPage');
 
     Route::group(['prefix' => 'training'], function () {
-        Route::get('/cma', 'HomeController@cma')->name('CMAPage');
-        Route::get('/cpa', 'HomeController@cpa')->name('CPAPage');
-        Route::get('/cia', 'HomeController@cia')->name('CIAPage');
-        Route::get('/cfa', 'HomeController@cfa')->name('CFAPage');
-        Route::get('/ascension_course', 'HomeController@an_course')->name('CoursePage');
-        Route::get('/ascension_ers', 'HomeController@ers')->name('ERSPage');
+        Route::get('/cma', 'WebsiteController@cma')->name('CMAPage');
+        Route::get('/cpa', 'WebsiteController@cpa')->name('CPAPage');
+        Route::get('/cia', 'WebsiteController@cia')->name('CIAPage');
+        Route::get('/cfa', 'WebsiteController@cfa')->name('CFAPage');
+        Route::get('/ascension_course', 'WebsiteController@an_course')->name('CoursePage');
+        Route::get('/ascension_ers', 'WebsiteController@ers')->name('ERSPage');
     });
 
     Route::group(['prefix' => 'consultancy'], function () {
-        Route::get('/bookkeeping', 'HomeController@bookkeeping')->name('BookKeeping');
-        Route::get('/information_system', 'HomeController@informationSys')->name('InformationSystem');
-        Route::get('/feasibility_study', 'HomeController@feasibilityStudy')->name('FeasibilityStudy');
-        Route::get('/business_advisory', 'HomeController@businessAdvisory')->name('BusinessAdvisory');
-        Route::get('/national_fund', 'HomeController@nationalFunds')->name('NationalFunds');
+        Route::get('/bookkeeping', 'WebsiteController@bookkeeping')->name('BookKeeping');
+        Route::get('/information_system', 'WebsiteController@informationSys')->name('InformationSystem');
+        Route::get('/feasibility_study', 'WebsiteController@feasibilityStudy')->name('FeasibilityStudy');
+        Route::get('/business_advisory', 'WebsiteController@businessAdvisory')->name('BusinessAdvisory');
+        Route::get('/national_fund', 'WebsiteController@nationalFunds')->name('NationalFunds');
     });
+
+    Route::get('/logout', 'WebsiteController@logout')->name('Logout');
+
+});
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
+    Route::get('/', 'WebsiteController@adminHome')->name('AdminHome');
+    Route::get('/news', 'NewsController@index')->name('NewsIndex');
 
 });
