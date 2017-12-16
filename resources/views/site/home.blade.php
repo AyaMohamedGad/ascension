@@ -22,13 +22,61 @@
             <img src="{{ asset('images/Picture2.png') }}" class="arrow_right">
         </div>
 
-        <div class="news mt-30 mb-40 col-sm-12">
-            <span>{{ trans('locale.latest_news') }}</span>
+        <div class="news mt-30 mb-40 row">
+            <!-- <span>{{ trans('locale.latest_news') }}</span>
             <ul class="newsticker">
                 @foreach($news as $new)
                     <li><a href="{{ route('ViewNewPage', $new->id) }}">{{ $new->translations[0]->title }}...</a></li>
                 @endforeach
-            </ul>
+            </ul> -->
+
+            <div class="container-fluid">
+                <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
+                    <!-- Wrapper for slides -->
+                    <ol class="carousel-indicators">
+                        @foreach($news as $key=>$new)
+                        @if($key == 0)
+                            <li data-target="#news-carousel" data-slide-to="{{$key}}" class="active"></li>
+                        @else
+                            <li data-target="#news-carousel" data-slide-to="{{$key}}"></li>
+                        @endif
+                        @endforeach
+                    </ol>
+                    <div class="carousel-inner">
+                        @foreach($news as $key2=>$new)
+                        @if($key2 == 0)
+                            <div class="item active">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-3"><img src="{{$new->translations[0]->image}}" class="img-responsive"></div>
+                                        <div class="col-md-9">
+                                            <h2>{{ $new->translations[0]->title }}</h2>
+                                            <p>{{$new->translations[0]->description}}</p>
+                                            <a href="{{ route('ViewNewPage', $new->id) }}">{{trans('locale.seemore')}}</a>
+                                        </div>
+                                    </div>
+                                </div>            
+                            </div> 
+                        @else 
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-3"><img src="{{$new->translations[0]->image}}" class="img-responsive"></div>
+                                        <div class="col-md-9">
+                                            <h2>{{ $new->translations[0]->title }}</h2>
+                                            <p>{{$new->translations[0]->description}}</p>
+                                            <a href="{{ route('ViewNewPage', $new->id) }}">{{trans('locale.seemore')}}</a>
+                                        </div>
+                                    </div>
+                                </div>            
+                            </div>
+                        @endif
+                        @endforeach
+                    <!-- End Item -->
+                    </div>
+                </div>
+                <!-- End Carousel -->
+            </div>
         </div>
 
         <div class="row mt-150">

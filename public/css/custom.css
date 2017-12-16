@@ -728,6 +728,16 @@ body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
     opacity:0.5;
 }
 
+
+
+#news_carousel .item {
+
+    color:#000;
+    background-color:#eee;
+    padding:20px 0;
+}
+
+
 @media all and (max-width: 768px) and (min-width: 10px){
     .YouTubePopUp-Content{
         max-width:90%;

@@ -2148,51 +2148,21 @@ ul li a.active.sub-nav-toggle {
     text-decoration: underline;
 }
 
-.news {
-    box-shadow: 2px 2px 9px rgba(0,0,0,0.5);
-    width: 100%;
-    overflow: hidden;
-    -webkit-user-select: none;
-    background: #092b67;
+#news-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: -60px;
+  margin-right: -19px;
 }
-
-.news span {
-    float: left;
-    color: #efe9e9;
-    padding: 5px;
-    position: relative;
-    height: 100%;
-    width: 15%;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 5px;
+/* Changes the color of the indicators */
+#news-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
 }
-
-.newsticker{
-    margin-bottom: 0;
-    border-left: 2px solid white;
-    padding-top: 5px;
-}
-
-.newsticker li{
-    color: #fff;
-    overflow: hidden;
-    height: 60px;
-    padding: 10px 15px;
-    line-height: 15px;
-    list-style: none;
-    font-size: 16px;
-    text-align: left;
-}
-
-.newsticker li a{
-    color: #fff;
-    word-wrap: break-word;
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+#news-carousel .carousel-indicators .active 
+{
+  background: #333333;
 }
 
 /*Hovering Cards effects*/
@@ -2598,7 +2568,7 @@ h5.ordinary{
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out
 }
-.experts .col-sm-4:hover .name{
+.experts .opened:hover .name{
     height: 100%;
     opacity: 1;
     -webkit-transition: all 0.5s ease-in-out;

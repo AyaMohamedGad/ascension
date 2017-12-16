@@ -23,10 +23,23 @@
             </div>
         </div>
         <div class="tab-content about">
+
             <div class="col-sm-12">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.about_us') }}</h4>
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_values') }}</h4>
+                <ul class="small_arrow">
+                    <li>{{ trans('locale.values.1') }}</li>
+                    <li>{{ trans('locale.values.2') }}</li>
+                    <li>{{ trans('locale.values.3') }}</li>
+                    <li>{{ trans('locale.values.4') }}</li>
+                    <li>{{ trans('locale.values.5') }}</li>
+                    <li>{{ trans('locale.values.6') }}</li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12">
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.about_us') }}</h4>
                 <div class="col-sm-4 wow rotateInUpLeft mt-15">
-                    <img class="wow pulse" data-wow-duration="3s" data-wow-iteration="infinite" src="{{ asset('images/about.png') }}">
+                    <img class="wow pulse" data-wow-duration="3s" src="{{ asset('images/about.png') }}">
                 </div>
                 <div class="col-sm-8">
                     <h4 class="wow fadeInLeft" data-wow-delay=".1s"><strong>{{ trans('locale.honesty') }}</strong></h4>
@@ -39,37 +52,71 @@
             </div>
 
             <div class="col-sm-12">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.our_mission') }}</h4>
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_mission') }}</h4>
                 <p class="ml-20">{{ trans('locale.mission') }}</p>
             </div>
 
-            <div class="col-sm-12">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.our_values') }}</h4>
-                <ul class="small_arrow">
-                    <li>{{ trans('locale.values.1') }}</li>
-                    <li>{{ trans('locale.values.2') }}</li>
-                    <li>{{ trans('locale.values.3') }}</li>
-                    <li>{{ trans('locale.values.4') }}</li>
-                    <li>{{ trans('locale.values.5') }}</li>
-                    <li>{{ trans('locale.values.6') }}</li>
-                </ul>
-            </div>
-
             <div class="col-lg-12 col-sm-12">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.our_partners') }}</h4>
-                <div class="centered">
-                    <div class="client wow bounceIn" data-wow-duration="5s" data-wow-iteration="infinite"><img src="{{ asset('images/client.png') }}"></div>
-                    <div class="client wow bounceIn" data-wow-duration="5s" data-wow-iteration="infinite"><img src="{{ asset('images/client.png') }}"></div>
-                    <div class="client wow bounceIn" data-wow-duration="5s" data-wow-iteration="infinite"><img src="{{ asset('images/client.png') }}"></div>
-                    <div class="client wow bounceIn" data-wow-duration="5s" data-wow-iteration="infinite"><img src="{{ asset('images/client.png') }}"></div>
-                    <div class="client wow bounceIn" data-wow-duration="5s" data-wow-iteration="infinite"><img src="{{ asset('images/client.png') }}"></div>
-                    <div class="client wow bounceIn" data-wow-duration="5s" data-wow-iteration="infinite"><img src="{{ asset('images/client.png') }}"></div>
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_partners') }}</h4>
+
+                <div class="container-fluid">
+                <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+                    <!-- End Item -->
+                    </div>
                 </div>
+                <!-- End Carousel -->
+            </div>
+                <!-- <div class="centered">
+                    <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>
+                    <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>
+                    <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>
+                    <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>
+                    <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>
+                    <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>
+                </div> -->
             </div>
 
             <div class="col-sm-12 experts">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.our_experts') }}</h4>
-                <div class="col-sm-4 opened">
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_experts') }}</h4>
+                <div class="col-sm-6 col-xs-12 opened">
                     <img src="{{ asset('images/expert1.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert1') }}</h4>
@@ -83,7 +130,7 @@
                     <i class="fa fa-close closed" data-id="expert1"></i>
                 </div>
 
-                <div class="col-sm-4 opened">
+                <div class="col-sm-6 col-xs-12 opened">
                     <img src="{{ asset('images/expert2.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert2') }}</h4>
@@ -97,7 +144,7 @@
                     <i class="fa fa-close closed" data-id="expert2"></i>
                 </div>
 
-                <div class="col-sm-4 opened">
+                <div class="col-sm-6 col-xs-12 opened">
                     <img src="{{ asset('images/expert3.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert3') }}</h4>
