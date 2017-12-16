@@ -14,6 +14,8 @@
 <script src="//code.jquery.com/jquery.js"></script>
 {!! Html::script('js/app.js') !!}
 {!! Html::script('js/ace-extra.min.js') !!}
+{!! Html::script('js/jquery.dataTables.min.js') !!}
+{!! Html::script('js/jquery.dataTables.bootstrap.min.js') !!}
 <script type="text/javascript">
     if('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 </script>

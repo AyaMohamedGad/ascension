@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="nojs html" lang="en-US">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="shortcut icon" href="{!! asset('images/favicon.ico') !!}">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="http://www.turnjs.com/lib/turn.min.js"></script>
