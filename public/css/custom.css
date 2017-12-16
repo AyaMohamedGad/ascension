@@ -429,6 +429,10 @@ a.language{
      font-size: 12px !important;
  }
 
+.flipbook th, .flipbook td{
+     font-size: 11px !important;
+ }
+
 #book_tabs .qualify_tab a{
     background-color: #78B582;
 }

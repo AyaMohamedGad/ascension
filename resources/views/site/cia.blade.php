@@ -148,23 +148,15 @@
                                     </div>
                                     <div class="page rt_page">
 
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_qualify.1') }}</p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.2') }}</p>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.2') }}</p>
                                         
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_qualify.3') }}</p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="b">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook2">
-                                    <div class="page" style="background-color: #B578AA;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -173,17 +165,16 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.1') }}
                                         </p>
-                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('click_here') }}</a>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.2') }}
                                         </p>
-
                                     </div>
                                     <div class="page lft_page">
-                                        <table class="table ml-50 mr-10" style="width: 90%">
+                                        <table class="table ml-30 mr-50 mt-30" style="width: 75%">
                                             <thead>
                                                 <tr>
                                                     <th style="width: 45%">{{ trans('locale.cia_enroll.3') }}</th>
@@ -231,23 +222,15 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-30 mr-50 mt-10" style="font-size: 17px;">
                                             {{ trans('locale.cia_enroll.9') }} {{ trans('locale.cia_enroll.10') }}
-                                        </p>
-                                        <a href="https://na.theiia.org/certification/Pages/Pricing-Structure.aspx" target="_blank" class="ml-60 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">https://na.theiia.org/certification/Pages/Pricing-Structure.aspx</a>
+                                        <a href="https://na.theiia.org/certification/Pages/Pricing-Structure.aspx" target="_blank" style="font-size: 17px; word-break: break-all;display: -webkit-inline-box;">{{ trans('locale.click_here') }}</a>
+                                        </p>                                        
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             {{ trans('locale.cia_enroll.11') }}
                                         </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="c">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook3">
-                                    <div class="page" style="background-color: #404A60;">
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -256,17 +239,9 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
                                         </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="d">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook4">
-                                    <div class="page" style="background-color: #406045;">
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -275,34 +250,26 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.1') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.5') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.2') }}
                                         </p>
                                     </div>
                                     <div class="page lft_page">
-                                        <p class="mr-20 ml-60 mt-10" style="font-size: 15px;">
+                                        <p class="ml-30 mr-50 mt-30" style="font-size: 15px;">
                                             {{ trans('locale.cia_schedule.3') }}
                                         </p>
-                                        <p class="mr-20 ml-60 mt-10" style="font-size: 15px;">
+                                        <p class="ml-30 mr-50 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cia_schedule.4') }}
                                         </p>
-                                        <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-20 ml-60 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-50 ml-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
                                     </div>
                                     <div class="page rt_page">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="e">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook5">
-                                    <div class="page" style="background-color: #B53C46;">
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -311,7 +278,7 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <table class="table mr-50 ml-10" style="width: 90%">
+                                        <table class="table mr-20 ml-50 mt-30" style="width: 75%">
                                             <thead>
                                                 <tr>
                                                     <th style="width: 40%"></th>
@@ -342,14 +309,6 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="f">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook6">
-                                    <div class="page" style="background-color: #00B5A5;">
-                                    </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
                                             <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
@@ -357,13 +316,13 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_pass.1') }}</p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_pass.2') }}</p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_pass.3') }}</p>
                                     </div>
@@ -510,5 +469,5 @@
 @stop
 
 @section('scripts')
-    {!! Html::script('js/cpa.js') !!}
+    {!! Html::script('js/cia.js') !!}
 @stop

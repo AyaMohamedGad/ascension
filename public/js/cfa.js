@@ -67,9 +67,9 @@ var backto_qualify = function(){
 
 //enroll click tab
 $('.enroll_tab a').click(function () {
-    if($(".flipbook").turn("page") == 6 || $(".flipbook").turn("page") == 7)
+    if($(".flipbook").turn("page") == 4 || $(".flipbook").turn("page") == 5)
         return;
-    else if($(".flipbook").turn("page") < 7)
+    else if($(".flipbook").turn("page") < 5)
         goto_enroll();
     else
         backto_enroll();
@@ -77,7 +77,7 @@ $('.enroll_tab a').click(function () {
 
 var goto_enroll = function(){
     $(".flipbook").turn("next");
-    if($(".flipbook").turn("page") == 6 || $(".flipbook").turn("page")  == 7){
+    if($(".flipbook").turn("page") == 4 || $(".flipbook").turn("page")  == 5){
         return;   
     }
     else
@@ -86,7 +86,7 @@ var goto_enroll = function(){
 
 var backto_enroll = function(){
     $(".flipbook").turn("previous");
-    if($(".flipbook").turn("page") == 6 || $(".flipbook").turn("page")  == 7){
+    if($(".flipbook").turn("page") == 4 || $(".flipbook").turn("page")  == 5){
         return;   
     }
     else
@@ -108,9 +108,9 @@ $('.ch-img-2 a').click(function () {
 
 //prepare click tab
 $('.prepare_tab a').click(function () {
-    if($(".flipbook").turn("page") == 12 || $(".flipbook").turn("page") == 13)
+    if($(".flipbook").turn("page") == 8 || $(".flipbook").turn("page") == 9)
         return;
-    else if($(".flipbook").turn("page") < 13)
+    else if($(".flipbook").turn("page") < 9)
         goto_prepare();
     else
         backto_prepare();
@@ -118,7 +118,7 @@ $('.prepare_tab a').click(function () {
 
 var goto_prepare = function(){
     $(".flipbook").turn("next");
-    if($(".flipbook").turn("page") == 12 || $(".flipbook").turn("page")  == 13){
+    if($(".flipbook").turn("page") == 8 || $(".flipbook").turn("page")  == 9){
         return;   
     }
     else
@@ -127,7 +127,7 @@ var goto_prepare = function(){
 
 var backto_prepare = function(){
     $(".flipbook").turn("previous");
-    if($(".flipbook").turn("page") == 12 || $(".flipbook").turn("page")  == 13){
+    if($(".flipbook").turn("page") == 8 || $(".flipbook").turn("page")  == 9){
         return;   
     }
     else
@@ -149,9 +149,9 @@ $('.ch-img-3 a').click(function () {
 
 //schedule click tab
 $('.schedule_tab a').click(function () {
-    if($(".flipbook").turn("page") == 14 || $(".flipbook").turn("page") == 15)
+    if($(".flipbook").turn("page") == 10 || $(".flipbook").turn("page") == 11)
         return;
-    else if($(".flipbook").turn("page") < 15)
+    else if($(".flipbook").turn("page") < 11)
         goto_schedule();
     else
         backto_schedule();
@@ -159,7 +159,7 @@ $('.schedule_tab a').click(function () {
 
 var goto_schedule = function(){
     $(".flipbook").turn("next");
-    if($(".flipbook").turn("page") == 14 || $(".flipbook").turn("page")  == 15){
+    if($(".flipbook").turn("page") == 10 || $(".flipbook").turn("page")  == 11){
         return;   
     }
     else
@@ -168,7 +168,7 @@ var goto_schedule = function(){
 
 var backto_schedule = function(){
     $(".flipbook").turn("previous");
-    if($(".flipbook").turn("page") == 14 || $(".flipbook").turn("page")  == 15){
+    if($(".flipbook").turn("page") == 10 || $(".flipbook").turn("page")  == 11){
         return;   
     }
     else
@@ -190,9 +190,9 @@ $('.ch-img-4 a').click(function () {
 
 //exam click tab
 $('.exam_tab a').click(function () {
-    if($(".flipbook").turn("page") == 18 || $(".flipbook").turn("page") == 19)
+    if($(".flipbook").turn("page") == 12 || $(".flipbook").turn("page") == 13)
         return;
-    else if($(".flipbook").turn("page") < 19)
+    else if($(".flipbook").turn("page") < 13)
         goto_exam();
     else
         backto_exam();
@@ -200,7 +200,7 @@ $('.exam_tab a').click(function () {
 
 var goto_exam = function(){
     $(".flipbook").turn("next");
-    if($(".flipbook").turn("page") == 18 || $(".flipbook").turn("page")  == 19){
+    if($(".flipbook").turn("page") == 12 || $(".flipbook").turn("page")  == 13){
         return;   
     }
     else
@@ -209,7 +209,7 @@ var goto_exam = function(){
 
 var backto_exam = function(){
     $(".flipbook").turn("previous");
-    if($(".flipbook").turn("page") == 18 || $(".flipbook").turn("page")  == 19){
+    if($(".flipbook").turn("page") == 12 || $(".flipbook").turn("page")  == 13){
         return;   
     }
     else
@@ -231,9 +231,9 @@ $('.ch-img-5 a').click(function () {
 
 //pass click tab
 $('.pass_tab a').click(function () {
-    if($(".flipbook").turn("page") == 20 || $(".flipbook").turn("page") == 21)
+    if($(".flipbook").turn("page") == 14 || $(".flipbook").turn("page") == 15)
         return;
-    else if($(".flipbook").turn("page") < 21)
+    else if($(".flipbook").turn("page") < 15)
         goto_pass();
     else
         backto_pass();
@@ -241,7 +241,7 @@ $('.pass_tab a').click(function () {
 
 var goto_pass = function(){
     $(".flipbook").turn("next");
-    if($(".flipbook").turn("page") == 20 || $(".flipbook").turn("page")  == 21){
+    if($(".flipbook").turn("page") == 14 || $(".flipbook").turn("page")  == 15){
         return;   
     }
     else
@@ -250,7 +250,7 @@ var goto_pass = function(){
 
 var backto_pass = function(){
     $(".flipbook").turn("previous");
-    if($(".flipbook").turn("page") == 20 || $(".flipbook").turn("page")  == 21){
+    if($(".flipbook").turn("page") == 14 || $(".flipbook").turn("page")  == 15){
         return;   
     }
     else

@@ -147,26 +147,18 @@
                                     </div>
                                     <div class="page rt_page">
 
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_qualify.1') }}</p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_qualify.2') }}
                                         <u>{{ trans('locale.cfa_qualify.3') }}</u>
                                         {{ trans('locale.cfa_qualify.4') }}
                                         <u>{{ trans('locale.cfa_qualify.5') }}</u>
                                         </p>
-                                        <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="b">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook2">
-                                    <div class="page" style="background-color: #B578AA;">
+                                        <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -175,45 +167,36 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.1') }}
                                         </p>
-                                        <a href="https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <a href="https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.2') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.3') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.4') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_enroll.5') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_enroll.6') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_enroll.7') }}
                                         </p>
                                     </div>
                                     <div class="page lft_page">
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-30 mr-60 mt-30" style="font-size: 17px;">
                                             {{ trans('locale.cfa_enroll.8') }}
                                         </p>
                                         <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
                                     </div>
                                     <div class="page rt_page">
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="c">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook3">
-                                    <div class="page" style="background-color: #404A60;">
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -222,17 +205,9 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="mr-20 ml-60 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
                                         </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="d">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook4">
-                                    <div class="page" style="background-color: #406045;">
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -241,21 +216,13 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_schedule.1') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_schedule.2') }}
                                         </p>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="mr-60 ml-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="e">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook5">
-                                    <div class="page" style="background-color: #B53C46;">
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -264,32 +231,24 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 15px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_exam.1') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.2') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.3') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.4') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.5') }}
                                         </p>
-                                        <p class="mr-60 ml-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.6') }}
                                         </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane row" id="f">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook6">
-                                    <div class="page" style="background-color: #00B5A5;">
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -298,10 +257,10 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_pass.1') }}</p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_pass.2') }}</p>
                                     </div>
@@ -496,5 +455,5 @@
 @stop
 
 @section('scripts')
-    {!! Html::script('js/cpa.js') !!}
+    {!! Html::script('js/cfa.js') !!}
 @stop

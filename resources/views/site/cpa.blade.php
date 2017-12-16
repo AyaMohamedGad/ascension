@@ -146,17 +146,17 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cpa_qualify.1') }}
                                             <u>{{ trans('locale.cpa_qualify.2') }}</u> {{ trans('locale.cpa_qualify.3') }}
                                         </p>
-                                        <p class="mr-50 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cpa_qualify.4') }}
                                             <u>{{ trans('locale.cpa_qualify.5') }}</u> {{ trans('locale.cpa_qualify.6') }}
                                         </p>
                                     </div>
                                     <div class="page lft_page">
-                                        <p class="ml-70 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             {{ trans('locale.cpa_qualify.7') }}
                                             (<a href="http://www.whed.net/results_institutions.php" target="_blank">{{ trans('locale.click_here') }}</a>)
                                             {{ trans('locale.cpa_qualify.8') }}
@@ -164,26 +164,175 @@
                                             {{ trans('locale.cpa_qualify.9') }}
                                         </p>
 
-                                        <p class="mr-20 ml-70 mt-10" style="font-size: 17px;">
+                                        <p class="mr-20 ml-50 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cpa_qualify.11') }}
                                             <a href="https://nasba.org/products/nasbainternationalevaluationservices/" target="_blank" style="word-break:break-all;display:-webkit-box;">{{ trans('locale.click_here') }}</a>
                                         </p>
 
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-70 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cpa_qualify.12') }}
                                         </p>
-                                        <p class="mr-70 ml-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cpa_qualify.13') }}
                                             <a href="https://nasba.org/app/uploads/2011/09/CandidateBulletin2017Final07102017.pdf" target="_blank" style="word-break:break-all;display:-webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        </p>
+                                    </div>
+                                    <div class="page lft_page">
+                                        <div class="center" style="text-align: center;">
+                                            <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
+                                            <h3 style="font:400 40px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll_fees') }}</h3>
+                                        </div>
+                                    </div>
+                                    <div class="page rt_page">
+                                        <p class="mt-30 mr-20 ml-50" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cpa_enroll.new_1') }}</p>
+                                        <img width="60%" class="center" src="{{ asset('images/maps_cpa.png') }}">
+                                    </div>
+                                    <div class="page lft_page">
+                                        <table class="table ml-50 mr-10 mt-30" style="width: 75%">
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="3" style="width: 65%">CPA Examination online application system</th>
+                                                    <th colspan="2">Board of accountancy</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                    <td>word1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>word3</td>
+                                                    <td>20-30%</td>
+                                                    <td>20-30%</td>
+                                                    <td>20-30%</td>
+                                                    <td>20-30%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>word4</td>
+                                                    <td>30-40%</td>
+                                                    <td>30-40%</td>
+                                                    <td>30-40%</td>
+                                                    <td>30-40%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>word5</td>
+                                                    <td>word5</td>
+                                                    <td>word5</td>
+                                                    <td>word5</td>
+                                                    <td>15-25%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="page rt_page">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_enroll.1') }}
+                                        </p>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_enroll.2') }}
+                                        </p>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_enroll.3') }}
+                                        </p>
+                                    </div>
+                                    <div class="page lft_page">
+                                        <p class="mr-50 ml-30 mt-30" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> <b>{{ trans('locale.cpa_enroll.4') }}</b>
+                                            {{ trans('locale.cpa_enroll.5') }}
+                                        </p>
+                                        <p class="mr-50 ml-30 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> <b>{{ trans('locale.cpa_enroll.6') }}</b>
+                                            {{ trans('locale.cpa_enroll.7') }}
+                                        </p>
+                                        <p class="mr-50 ml-30 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_enroll.8') }}
+                                        </p>
+                                    </div>
+                                    <div class="page rt_page"></div>
+                                    <div class="page lft_page">
+                                        <div class="center" style="text-align: center;">
+                                            <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
+                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;color:#404A60;">{{ trans('locale.prepare') }}</h3>
+                                        </div>
+                                    </div>
+                                    <div class="page rt_page">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.prepare_content.1') }}
+                                        </p>
+                                    </div>
+                                    <div class="page lft_page">
+                                        <div class="center" style="text-align: center;">
+                                            <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
+                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;color:#406045;">{{ trans('locale.schedule') }}</h3>
+                                        </div>
+                                    </div>
+                                    <div class="page rt_page">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_schedule.1') }}
+                                        </p>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_schedule.2') }}
+                                        </p>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_schedule.3') }}
+                                        </p>
+                                    </div>
+                                    <div class="page lft_page">
+                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_schedule.4') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.5') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.6') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.7') }}
+                                        </p>
+                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                            {{ trans('locale.cpa_schedule.8') }}
+                                        </p>
+                                    </div>
+                                    <div class="page rt_page"></div>
+                                    <div class="page lft_page">
+                                        <div class="center" style="text-align: center;">
+                                            <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
+                                            <h3 class="ml-30" style="font:400 38px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.sit_for_exam') }}</h3>
+                                        </div>
+                                    </div>
+                                    <div class="page rt_page">
+                                        <p class="mt-30 mr-20 ml-30"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.1') }}</p>
+                                        <p class="mr-20 ml-30"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.2') }}</p>
+                                        <p class="mr-20 ml-30"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.3') }} ( <a href="http://www.aicpa.org/BecomeACPA/CPAExam/PsychometricsandScoring/ScoringInformation/Pages/FAQ2011ScoreRelease.aspx" target="_blank">{{ trans('locale.click_here') }}</a> )</p>
+                                    </div>
+                                    <div class="page lft_page">
+                                        <div class="center" style="text-align: center;">
+                                            <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
+                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
+                                        </div>
+                                    </div>
+                                    <div class="page rt_page">
+                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_pass.1') }}
+                                        </p>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_pass.2') }}
+                                        </p>
+                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                            <i class="fa fa-circle"></i> {{ trans('locale.cpa_pass.3') }}
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="tab-pane row" id="b">
+                        <!-- <div class="tab-pane row" id="b">
                             <div class="flipbook-viewport">
                                 <div class="flipbook2">
                                     <div class="page" style="background-color: #B578AA;"></div>
@@ -264,9 +413,9 @@
                                     <div class="page rt_page"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="tab-pane row" id="c">
+                        <!-- <div class="tab-pane row" id="c">
                             <div class="flipbook-viewport">
                                 <div class="flipbook3">
                                     <div class="page" style="background-color: #404A60;"></div>
@@ -284,9 +433,9 @@
                                     <div class="page lft_page"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="tab-pane row" id="d">
+                        <!-- <div class="tab-pane row" id="d">
                             <div class="flipbook-viewport">
                                 <div class="flipbook4">
                                     <div class="page" style="background-color: #406045;">
@@ -328,9 +477,9 @@
                                     <div class="page rt_page"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="tab-pane row" id="e">
+                        <!-- <div class="tab-pane row" id="e">
                             <div class="flipbook-viewport">
                                 <div class="flipbook5">
                                     <div class="page" style="background-color: #B53C46;">
@@ -350,9 +499,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="tab-pane row" id="f">
+                        <!-- <div class="tab-pane row" id="f">
                             <div class="flipbook-viewport">
                                 <div class="flipbook6">
                                     <div class="page" style="background-color: #00B5A5;">
@@ -376,7 +525,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div><!-- /tab-content -->
                 </div><!-- /tabbable -->
             </div><!-- /col -->
