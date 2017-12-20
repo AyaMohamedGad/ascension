@@ -5,8 +5,7 @@
 @section('styles')
     {!! Html::style('css/form.css') !!}
     <style>
-        h3.header{margin-top: 0;}
-        .form-group.col-sm-12{padding-left: 0 !important;}
+        .form-group.col-sm-12,.col-sm-10{padding-left: 0 !important;}
     </style>
 @stop
 
@@ -24,4 +23,14 @@
             {{ Form::close() }}
         </div>
     </div>
+@stop
+
+@section('scripts')
+    <script>
+        $(document).ready(function(){
+            $('textarea').each(function () {
+                CKEDITOR.replace($(this).attr('id'));
+            });
+        });
+    </script>
 @stop

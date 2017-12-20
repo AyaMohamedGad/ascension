@@ -36,7 +36,7 @@ Route::group(['middleware' => 'locale'], function () {
 Route::group(['prefix' => 'administration', 'middleware' => 'auth'], function () {
     Route::get('/', 'WebsiteController@adminHome')->name('AdminHome');
     Route::get('/new', 'NewsController@index')->name('NewsIndex');
-    Route::get('/new/{id}', 'NewsController@view')->name('ViewNew');
+    Route::get('/new/view/{id}', 'NewsController@view')->name('ViewNew');
     Route::get('/new/edit/{id}', 'NewsController@edit')->name('EditNew');
     Route::put('/new/update/{id}', 'NewsController@update')->name('UpdateNew');
     Route::get('/new/add', 'NewsController@add')->name('AddNew');

@@ -114,7 +114,13 @@ class NewsController extends Controller
     }
 
     public function view($id){
+        $theNew = News::find($id);
+        return view('admin.news.view', compact('theNew'));
+    }
 
+    public function edit($id){
+        $theNew = News::find($id);
+        return view('admin.news.edit', compact('theNew'));
     }
 
     public function add(){
@@ -122,6 +128,23 @@ class NewsController extends Controller
     }
 
     public function create(Request $request){
+        $validator = Validator::make($request->all(), [
+            'etitle' => 'required|max:255',
+            'atitle' => 'required|max:255',
+            'edescription' => 'required',
+            'adescription' => 'required',
+            'image' => 'required|image',
+        ]);
+
+        if ($validator->fails()) {
+            return redirect()->route('AddNew')->withErrors($validator)->withInput();
+        }
+
+        $theNew = new News();
+//        $theNew->image
+    }
+
+    public function update($id, Request $request){
 
     }
 
