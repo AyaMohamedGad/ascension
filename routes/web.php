@@ -30,11 +30,11 @@ Route::group(['middleware' => 'locale'], function () {
     });
 
     Route::get('/logout', 'WebsiteController@logout')->name('Logout');
-
 });
 
 Route::group(['prefix' => 'administration', 'middleware' => 'auth'], function () {
     Route::get('/', 'WebsiteController@adminHome')->name('AdminHome');
+    // news
     Route::get('/new', 'NewsController@index')->name('NewsIndex');
     Route::get('/new/view/{id}', 'NewsController@view')->name('ViewNew');
     Route::get('/new/edit/{id}', 'NewsController@edit')->name('EditNew');
@@ -42,5 +42,9 @@ Route::group(['prefix' => 'administration', 'middleware' => 'auth'], function ()
     Route::get('/new/add', 'NewsController@add')->name('AddNew');
     Route::post('/new/create', 'NewsController@create')->name('CreateNew');
     Route::get('/new/delete/{id}', 'NewsController@delete')->name('DeleteNew');
+
+    // photo gallery
+    Route::get('/photo_gallery', 'GalleryController@index')->name('PhotoGalleryIndex');
+    Route::post('/photo_gallery/update', 'GalleryController@update')->name('UpdatePhotoGallery');
 
 });

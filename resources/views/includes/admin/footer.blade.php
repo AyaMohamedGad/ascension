@@ -13,6 +13,7 @@
 
 <script src="//code.jquery.com/jquery.js"></script>
 <script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+@include('flashy::message')
 {!! Html::script('js/app.js') !!}
 {!! Html::script('js/ace-extra.min.js') !!}
 {!! Html::script('js/jquery.dataTables.min.js') !!}

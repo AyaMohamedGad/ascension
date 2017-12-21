@@ -34,43 +34,24 @@
                 <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
                     <!-- Wrapper for slides -->
                     <ol class="carousel-indicators">
-                        @foreach($news as $key=>$new)
-                        @if($key == 0)
-                            <li data-target="#news-carousel" data-slide-to="{{$key}}" class="active"></li>
-                        @else
-                            <li data-target="#news-carousel" data-slide-to="{{$key}}"></li>
-                        @endif
+                        @foreach($news as $key => $new)
+                            <li data-target="#news-carousel" data-slide-to="{{$key}}" @if($key == 0) class="active" @endif></li>
                         @endforeach
                     </ol>
                     <div class="carousel-inner">
-                        @foreach($news as $key2=>$new)
-                        @if($key2 == 0)
-                            <div class="item active">
+                        @foreach($news as $key2 => $new)
+                            <div class="item @if($key2 == 0) active @endif">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-md-3"><img src="{{$new->translations[0]->image}}" class="img-responsive"></div>
+                                        <div class="col-md-3"><img src="{{ asset('images/news/' . $new->image) }}" class="img-responsive"></div>
                                         <div class="col-md-9">
                                             <h2>{{ $new->translations[0]->title }}</h2>
-                                            <p>{{$new->translations[0]->description}}</p>
-                                            <a href="{{ route('ViewNewPage', $new->id) }}">{{trans('locale.seemore')}}</a>
-                                        </div>
-                                    </div>
-                                </div>            
-                            </div> 
-                        @else 
-                            <div class="item">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col-md-3"><img src="{{$new->translations[0]->image}}" class="img-responsive"></div>
-                                        <div class="col-md-9">
-                                            <h2>{{ $new->translations[0]->title }}</h2>
-                                            <p>{{$new->translations[0]->description}}</p>
-                                            <a href="{{ route('ViewNewPage', $new->id) }}">{{trans('locale.seemore')}}</a>
+                                            <p>{!! $new->translations[0]->description !!}</p>
+                                            <a href="{{ route('ViewNewPage', $new->id) }}">{{ trans('locale.seemore') }}</a>
                                         </div>
                                     </div>
                                 </div>            
                             </div>
-                        @endif
                         @endforeach
                     <!-- End Item -->
                     </div>

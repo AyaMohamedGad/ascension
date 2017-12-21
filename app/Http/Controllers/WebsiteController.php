@@ -17,12 +17,12 @@ class WebsiteController extends Controller
 
     public function index(){
         $news = News::with(['translations' => function ($q) {
-            $q->where('language', 'en');
+            $q->where('language', app()->getLocale());
         }])->get();
         $images = PhotoGallery::orderBy('order')->get();
         $images_array = array();
         foreach ($images as $image) {
-            array_push($images_array, (asset('images').'/'.$image['image']));
+            array_push($images_array, (asset('images').'/photo_gallery/'.$image['image']));
         }
         return view('site.home', compact('news', 'images_array'));
     }
