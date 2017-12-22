@@ -4,13 +4,8 @@
 
 @section('content')
     <div class="page-content">
-        <div class="col-md-12">
-            <div class="page-header">
-                <h1><i class="menu-icon fa fa-magic"></i> Home</h1>
-            </div>
-        </div>
-
-        <div class="col-md-12">
+        <div class="col-md-12 center">
+            <img src="{{ asset('images/logo.png') }}" style="max-width:230px;margin:50px auto 0;">
         </div>
     </div>
 @stop

@@ -14,7 +14,7 @@
 .alert,.well{border-radius:0}
 .nav-list>li .submenu>li>a:hover,.nav-list>li>a,a:active,a:focus{text-decoration:none}
 html{position:relative}
-body{background-color:#E4E6E9;padding-bottom:0;font-family:'Open Sans';font-size:13px;color:#393939;line-height:1.5;overflow-x:hidden;}
+body{background-color:#E4E6E9;padding-bottom:0;font-size:13px;color:#393939;line-height:1.5;overflow-x:hidden;}
 form.logout{padding:0 15px;}
 h1,h2,h3,h4,h5,h6{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}
 .main-container:before{display:block;content:"";position:absolute;z-index:-2;width:100%;max-width:inherit;bottom:0;top:0;background-color:#FFF}
