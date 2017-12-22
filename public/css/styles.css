@@ -1872,6 +1872,44 @@ h1 .circle-anim:after {
     left: 41.6%;
 }
 
+.name_container{
+    height: 390px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 41.5%;
+}
+
+.h3_name{
+    z-index: 1000;
+    width: 300px;
+    /*display: none;*/
+    margin: 0 auto;
+    position: absolute;
+    top: 66%;
+    left: 0.6%;
+    font-family: 'Anton', sans-serif; 
+    font-size: 70px; 
+    letter-spacing: 1.5px; 
+    color: #fff; 
+    text-align: center;
+}
+
+.h3_name:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 7em;
+    white-space: nowrap;
+    color: #002060;
+    animation: loading 8s linear;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
+
 .arrow_right{
 	position:absolute; 
 	right: 100%;

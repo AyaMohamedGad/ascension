@@ -17,7 +17,7 @@ $( ".logo_pic2" )
       }, 700);
 
 
-$( ".logo_pic3" ).slideUp( 300 ).delay(1000).fadeIn(1000);
+// $( ".logo_pic3" ).slideUp( 300 ).delay(1000).fadeIn(1000);
 
 $( ".logo_pic4" ).slideUp( 300 ).delay(1000).fadeIn(1000);
 
@@ -44,7 +44,7 @@ $( ".logo_pic2" )
     opacity: "0.5"
       }, 1000);
 
-$( ".logo_pic3" ).slideDown( 300 ).delay(1500).fadeOut();
+// $( ".logo_pic3" ).slideDown( 300 ).delay(1500).fadeOut();
 
 $( ".logo_pic4" ).slideDown( 300 ).delay(1500).fadeOut();
 
@@ -52,6 +52,12 @@ $('.bg_logo')
 .delay(5000)
 .animate({
     opacity:0
+}, 200).fadeOut();
+
+$( ".name_container" )
+.delay(5000)
+.animate({
+  opacity:0
 }, 200).fadeOut();
 
 

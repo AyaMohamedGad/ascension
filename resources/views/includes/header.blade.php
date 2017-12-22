@@ -16,6 +16,7 @@
     {!! Html::style('css/responsive.css') !!}
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,600,700,800" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,600,400italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
     @if(app()->getLocale() == 'ar')
         {!! Html::style('css/rtl.css') !!}
