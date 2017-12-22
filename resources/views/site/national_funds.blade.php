@@ -4,6 +4,20 @@
 
 @section('styles')
     <style>
+    .new_tab{
+        position: relative; 
+        margin-bottom: 5px;
+        display: block;
+        padding: 0 0 0 1em;
+        background: #092b67;
+        line-height: 3;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .popover-content{
+        color:black;
+    }
+
     </style>
 @stop
 
@@ -61,52 +75,59 @@
                 <div class="col-sm-12 data two hidden">
                     <p>{{ trans('locale.fund.eligiablity.1') }}</p>
                     <div class="half">
-                        <div class="tab">
-                            <input id="tab-four" type="radio" name="tabs2">
-                            <label for="tab-four">{{ trans('locale.fund.eligiablity.2') }}</label>
-                            <div class="tab-content">
+                            <div class="new_tab">
+                                {{ trans('locale.fund.eligiablity.2') }}
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.3') }}" type="button" class="btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                            </div>
+
+                            <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.3') }}</p>
-                            </div>
-                        </div>
+                            </div> -->
 
-                        <div class="tab">
-                            <input id="tab-five" type="radio" name="tabs2">
-                            <label for="tab-five">{{ trans('locale.fund.eligiablity.4') }}</label>
-                            <div class="tab-content">
+                        <div class="new_tab">
+                                {{ trans('locale.fund.eligiablity.4') }}
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.5') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                            <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.5') }}</p>
-                            </div>
+                            </div> -->
                         </div>
 
-                        <div class="tab">
-                            <input id="tab-six" type="radio" name="tabs2">
-                            <label for="tab-six">{{ trans('locale.fund.eligiablity.6') }}</label>
-                            <div class="tab-content">
+                        <div class="new_tab">
+                            {{ trans('locale.fund.eligiablity.6') }}
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.7') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                            <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.7') }}</p>
-                            </div>
+                            </div> -->
                         </div>
 
-                        <div class="tab">
-                            <input id="tab-seven" type="radio" name="tabs2">
-                            <label for="tab-seven">{{ trans('locale.fund.eligiablity.8') }}</label>
-                            <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.9') }}</p>
-                            </div>
+                        <div class="new_tab">
+                            {{ trans('locale.fund.eligiablity.8') }}
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.9') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                            <!-- <div class="tab-content">
+                                <p>{{ trans('locale.fund.eligiablity.7') }}</p>
+                            </div> -->
                         </div>
 
-                        <div class="tab">
-                            <input id="tab-eight" type="radio" name="tabs2">
-                            <label for="tab-eight">{{ trans('locale.fund.eligiablity.10') }}</label>
-                            <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.11') }}</p>
-                            </div>
+                        <div class="new_tab">
+                            {{ trans('locale.fund.eligiablity.10') }}
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.11') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                            <!-- <div class="tab-content">
+                                <p>{{ trans('locale.fund.eligiablity.7') }}</p>
+                            </div> -->
                         </div>
 
-                        <div class="tab">
-                            <input id="tab-nine" type="radio" name="tabs2">
-                            <label for="tab-nine">{{ trans('locale.fund.eligiablity.12') }}</label>
-                            <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.13') }}</p>
-                            </div>
+                        <div class="new_tab">
+                            {{ trans('locale.fund.eligiablity.12') }}
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.13') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                            <!-- <div class="tab-content">
+                                <p>{{ trans('locale.fund.eligiablity.7') }}</p>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -133,6 +154,11 @@
 
 @section('scripts')
     <script>
+
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+
         $(document).on('click', '.col-sm-3', function (e) {
             $(this).addClass('active');
             $('.col-sm-3').not(this).each(function(){

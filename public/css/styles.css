@@ -284,7 +284,7 @@ h1#logo {
     display: block;
     position: fixed;
     margin: 0 auto;
-    z-index: 1000;
+    z-index: 80;
     left: 0;
     width: 260px;
     text-align: center;
@@ -534,7 +534,6 @@ h2 i {
 
 #content {
     width: 100%;
-    z-index: 55
 }
 
 .container {
@@ -591,7 +590,6 @@ header {
     top: 0;
     left: 0;
     width: 260px;
-    z-index: 101;
     height: 100%;
     background: #fff;
     padding-top: 12.5%;
@@ -599,9 +597,7 @@ header {
 }
 
 #content {
-    position: relative;
     padding-left: 260px;
-    z-index: 100
 }
 
 #white-background {
@@ -1827,13 +1823,14 @@ h1 .circle-anim:after {
     height: 100vh;
     width: 100vw;
     background-color: #fff;
-    z-index: 2000;
+    z-index: 100;
     position: fixed;
     top: 0;
     left: 0
 }
 
 .logo_pic1 {
+    z-index: 1000;
     width: 300px;
     transform: rotateY(0deg);
     display: table;
@@ -1844,6 +1841,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic2 {
+    z-index: 1000;
     width: 300px;
     display: table;
     margin: 0 auto;
@@ -1851,9 +1849,11 @@ h1 .circle-anim:after {
     top: 70%;
     left: 0%;
     opacity: 0;
+    clip: rect(0px,523px,397px,0px);
 }
 
 .logo_pic3 {
+    z-index: 1000;
     width: 300px;
     display: none;
     margin: 0 auto;
@@ -1863,6 +1863,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic4 {
+    z-index: 1000;
     width: 300px;
     display: none;
     margin: 0 auto;

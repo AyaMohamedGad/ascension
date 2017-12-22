@@ -7,6 +7,12 @@
 @stop
 
 @section('content')
+    <img src="{{ asset('images/Picture1.png') }}" class="logo_pic1">
+    <img src="{{ asset('images/Picture2.png') }}" class="logo_pic2">
+    <img src="{{ asset('images/Picture3.png') }}" class="logo_pic3">
+    <img src="{{ asset('images/Picture4.png') }}" class="logo_pic4">
+<div class="bg_logo">
+</div>
     <div class="container home">
         <div class="banner">
             <div class="video-container clearfix full-width" data-ref="mixitup-container">
@@ -19,7 +25,7 @@
                     <p class="third"></p>
                 </div>
             </div>
-            <img src="{{ asset('images/Picture2.png') }}" class="arrow_right">
+            <!-- <img src="{{ asset('images/Picture2.png') }}" class="arrow_right"> -->
         </div>
 
         <div class="news mt-30 mb-40 row">
@@ -100,6 +106,7 @@
 
 @section('scripts')
     {{ Html::script('js/YouTubePopUp.jquery.js') }}
+    {{ Html::script('js/logo_animation.js') }}
     <script type="text/javascript">
         jQuery(function(){
             jQuery("a.vp-a").YouTubePopUp();

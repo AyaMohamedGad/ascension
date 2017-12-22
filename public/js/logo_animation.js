@@ -36,12 +36,13 @@ $('.logo_pic1')
 },'linear');
 
 $( ".logo_pic2" )
-.delay(1500)
+.delay(2500)
 .animate({
-    opacity: 0,
-    top: "-52%",
-    left: "100%"
-      }, 700);
+    left: "68%",
+    top: "80px",
+    width: "30%",
+    opacity: "0.5"
+      }, 1000);
 
 $( ".logo_pic3" ).slideDown( 300 ).delay(1500).fadeOut();
 

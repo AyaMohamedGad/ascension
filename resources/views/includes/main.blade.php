@@ -10,6 +10,7 @@
     wow.init();
 </script>
 @include('includes.header')
+@include('site.popups')
 <body>
     <div>
         @yield('logo')

@@ -556,7 +556,9 @@ return [
             "4" => "After completion of the required documents, the initiator will personally go to National Fund Headquarters",
             "5" => "(Customer Service Center - in Mansouriyah, Block 1, Street 13) to submit and deliver the original documents."
         ]
-    ]
+    ],
+    "yes"=> "Yes",
+    "no"=> "No"
 
 
 
