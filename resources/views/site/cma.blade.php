@@ -52,62 +52,62 @@
             <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cma') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
-            <ul class="mt-40 ch-grid">
-                <li class="wow fadeInDown" data-wow-delay=".3s">
-                    <div class="ch-item ch-img-1">
-                        <div class="ch-info">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.qualify') }}</h3>
-                            <p><a href="#a" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".4s">
-                    <div class="ch-item ch-img-2">
-                        <div class="ch-info">
-                            <i class="fa fa-book" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.enroll') }}</h3>
-                            <p><a href="#b" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".5s">
-                    <div class="ch-item ch-img-3">
-                        <div class="ch-info">
-                            <i class="fa fa-tasks" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.prepare') }}</h3>
-                            <p><a href="#c" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".6s">
-                    <div class="ch-item ch-img-4">
-                        <div class="ch-info">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.schedule') }}</h3>
-                            <p><a href="#d" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".7s">
-                    <div class="ch-item ch-img-5">
-                        <div class="ch-info">
-                            <i class="fa fa-question-circle" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.exam') }}</h3>
-                            <p><a href="#e" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".8s">
-                    <div class="ch-item ch-img-6">
-                        <div class="ch-info">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.pass') }}</h3>
-                            <p><a href="#f" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+            {{--<ul class="mt-40 ch-grid">--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".3s">--}}
+                    {{--<div class="ch-item ch-img-1">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-graduation-cap" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.qualify') }}</h3>--}}
+                            {{--<p><a href="#a" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".4s">--}}
+                    {{--<div class="ch-item ch-img-2">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-book" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.enroll') }}</h3>--}}
+                            {{--<p><a href="#b" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".5s">--}}
+                    {{--<div class="ch-item ch-img-3">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-tasks" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.prepare') }}</h3>--}}
+                            {{--<p><a href="#c" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".6s">--}}
+                    {{--<div class="ch-item ch-img-4">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-calendar" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.schedule') }}</h3>--}}
+                            {{--<p><a href="#d" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".7s">--}}
+                    {{--<div class="ch-item ch-img-5">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-question-circle" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.exam') }}</h3>--}}
+                            {{--<p><a href="#e" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".8s">--}}
+                    {{--<div class="ch-item ch-img-6">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.pass') }}</h3>--}}
+                            {{--<p><a href="#f" data-toggle="tab">{{ trans('locale.view_on_book') }}</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
@@ -146,15 +146,15 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.1') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.2') }}
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.1') }}</p>
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.2') }}
                                             <a href="http://univ.cc/world.php" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.3') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.4') }} {{ trans('locale.page') }} 6:
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.3') }}</p>
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_qualify.4') }} {{ trans('locale.page') }} 6:
                                             <a href="https://www.imanet.org/-/media/6f64b804887641d880afef2178a44b9c.ashx" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i>{{ trans('locale.cma_qualify.5') }}</p>
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i>{{ trans('locale.cma_qualify.5') }}</p>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -163,11 +163,11 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.1') }}</p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.2') }}
+                                        <p class="ml-60 mr-30 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.1') }}</p>
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_enroll.2') }}
                                             <a href="https://www.imanet.org/cma-certification/getting-started?ssopc=1" target="_blank" style="word-break:break-all;display:-webkit-box;">({{ trans('locale.click_here') }})</a>
                                         </p>
-                                        <table class="table ml-50 mr-20" style="width: 75%">
+                                        <table class="table ml-50 mr-30" style="width: 75%">
                                             <thead>
                                                 <tr>
                                                     <th style="width: 65%">{{ trans('locale.cma_enroll.3') }}</th>
@@ -210,18 +210,18 @@
                                         </table>
                                     </div>
                                     <div class="page lft_page">
-                                        <p class="ml-60 mr-20 mt-30" style="font-size: 14px; color: red;">
+                                        <p class="ml-60 mr-30 mt-30" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.9') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.10') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.11') }}
                                         </p>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cma_enroll.12') }}
                                         </p>
                                     </div>
@@ -232,7 +232,7 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-30 mr-20 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.prepare_content.1') }}</p>
+                                        <p class="ml-30 mr-30 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.prepare_content.1') }}</p>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -241,17 +241,17 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_schedule.1') }}</p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-60 mr-30 mt-30" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_schedule.1') }}</p>
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cma_schedule.2') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cma_schedule.3') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cma_schedule.4') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_schedule.5') }}</p>
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.cma_schedule.5') }}</p>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -260,24 +260,24 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.1') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.2') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.3') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.4') }}
                                         </p>
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.5') }}
                                         </p>
                                     </div>
                                     <div class="page lft_page">
-                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.6') }}
                                         </p>
                                     </div>
@@ -289,14 +289,14 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_pass.1') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_pass.2') }}
-                                            <a href="https://www.imanet.org/-/media/ce904f5b414a4b63a11d1fe3f1be4dd9.ashx?la=en" target="_blank" class="ml-60 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
+                                            <a href="https://www.imanet.org/-/media/ce904f5b414a4b63a11d1fe3f1be4dd9.ashx?la=en" target="_blank" class="ml-60 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
                                         </p>
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_pass.3') }}
                                         </p>
                                     </div>
@@ -362,13 +362,13 @@
                                         </table>
                                     </div>
                                     <div class="page lft_page">
-                                        <p class="ml-70 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                        <p class="ml-70 mr-30 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.9') }}
                                         </p>
-                                        <p class="ml-70 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                        <p class="ml-70 mr-30 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.10') }}
                                         </p>
-                                        <p class="ml-70 mr-20 mt-10" style="font-size: 14px; color: red;">
+                                        <p class="ml-70 mr-30 mt-10" style="font-size: 14px; color: red;">
                                             {{ trans('locale.cma_enroll.11') }}
                                         </p>
                                     </div>
@@ -392,7 +392,7 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-30 mr-20 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.prepare_content.1') }}</p>
+                                        <p class="ml-30 mr-30 mt-10" style="font-size: 17px;"><i class="fa fa-circle"></i> {{ trans('locale.prepare_content.1') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -453,7 +453,7 @@
                                         </p>
                                     </div>
                                     <div class="page lft_page">
-                                        <p class="ml-60 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i> {{ trans('locale.cma_exam.6') }}
                                         </p>
                                     </div>

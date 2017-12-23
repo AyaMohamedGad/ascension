@@ -52,62 +52,62 @@
             <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cia') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
-            <ul class="mt-40 ch-grid">
-                <li class="wow fadeInDown" data-wow-delay=".3s">
-                    <div class="ch-item ch-img-1">
-                        <div class="ch-info">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.qualify') }}</h3>
-                            <p><a href="#a" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".4s">
-                    <div class="ch-item ch-img-2">
-                        <div class="ch-info">
-                            <i class="fa fa-book" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.enroll') }}</h3>
-                            <p><a href="#b" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".5s">
-                    <div class="ch-item ch-img-3">
-                        <div class="ch-info">
-                            <i class="fa fa-tasks" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.prepare') }}</h3>
-                            <p><a href="#c" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".6s">
-                    <div class="ch-item ch-img-4">
-                        <div class="ch-info">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.schedule') }}</h3>
-                            <p><a href="#d" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".7s">
-                    <div class="ch-item ch-img-5">
-                        <div class="ch-info">
-                            <i class="fa fa-question-circle" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.exam') }}</h3>
-                            <p><a href="#e" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".8s">
-                    <div class="ch-item ch-img-6">
-                        <div class="ch-info">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.pass') }}</h3>
-                            <p><a href="#f" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+            {{--<ul class="mt-40 ch-grid">--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".3s">--}}
+                    {{--<div class="ch-item ch-img-1">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-graduation-cap" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.qualify') }}</h3>--}}
+                            {{--<p><a href="#a" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".4s">--}}
+                    {{--<div class="ch-item ch-img-2">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-book" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.enroll') }}</h3>--}}
+                            {{--<p><a href="#b" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".5s">--}}
+                    {{--<div class="ch-item ch-img-3">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-tasks" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.prepare') }}</h3>--}}
+                            {{--<p><a href="#c" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".6s">--}}
+                    {{--<div class="ch-item ch-img-4">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-calendar" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.schedule') }}</h3>--}}
+                            {{--<p><a href="#d" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".7s">--}}
+                    {{--<div class="ch-item ch-img-5">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-question-circle" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.exam') }}</h3>--}}
+                            {{--<p><a href="#e" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".8s">--}}
+                    {{--<div class="ch-item ch-img-6">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.pass') }}</h3>--}}
+                            {{--<p><a href="#f" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
@@ -148,15 +148,15 @@
                                     </div>
                                     <div class="page rt_page">
 
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_qualify.1') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.2') }}</p>
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.2') }}</p>
                                         
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_qualify.3') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -165,11 +165,11 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.1') }}
                                         </p>
-                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.2') }}
                                         </p>
                                     </div>
@@ -228,7 +228,7 @@
                                         </p>                                        
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             {{ trans('locale.cia_enroll.11') }}
                                         </p>
                                     </div>
@@ -239,7 +239,7 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-60 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-60 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
                                         </p>
                                     </div>
@@ -250,13 +250,13 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.1') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.5') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.2') }}
                                         </p>
                                     </div>
@@ -278,7 +278,7 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <table class="table mr-20 ml-50 mt-30" style="width: 75%">
+                                        <table class="table mr-30 ml-50 mt-30" style="width: 75%">
                                             <thead>
                                                 <tr>
                                                     <th style="width: 40%"></th>
@@ -316,13 +316,13 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_pass.1') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_pass.2') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cia_pass.3') }}</p>
                                     </div>

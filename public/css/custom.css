@@ -318,6 +318,7 @@ a.language{
     right: 0;
     text-align: right;
     padding: 5% 5% 0;
+    z-index: 100000;
 }
 
 .banner .second{
@@ -867,4 +868,7 @@ body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
 
 .rt_page{
     background-image:url(../images/rt_bk.png);
+}
+.btn-success{
+    margin: 0 15px;
 }

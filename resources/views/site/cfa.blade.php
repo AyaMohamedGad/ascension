@@ -51,63 +51,64 @@
             <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cfa') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
-            <ul class="mt-40 ch-grid">
-                <li class="wow fadeInDown" data-wow-delay=".3s">
-                    <div class="ch-item ch-img-1">
-                        <div class="ch-info">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.qualify') }}</h3>
-                            <p><a href="#a" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".4s">
-                    <div class="ch-item ch-img-2">
-                        <div class="ch-info">
-                            <i class="fa fa-book" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.enroll') }}</h3>
-                            <p><a href="#b" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".5s">
-                    <div class="ch-item ch-img-3">
-                        <div class="ch-info">
-                            <i class="fa fa-tasks" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.prepare') }}</h3>
-                            <p><a href="#c" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".6s">
-                    <div class="ch-item ch-img-4">
-                        <div class="ch-info">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.schedule') }}</h3>
-                            <p><a href="#d" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".7s">
-                    <div class="ch-item ch-img-5">
-                        <div class="ch-info">
-                            <i class="fa fa-question-circle" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.exam') }}</h3>
-                            <p><a href="#e" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInDown" data-wow-delay=".8s">
-                    <div class="ch-item ch-img-6">
-                        <div class="ch-info">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-                            <h3>{{ trans('locale.pass') }}</h3>
-                            <p><a href="#f" data-toggle="tab">View on Book</a></p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+            {{--<ul class="mt-40 ch-grid">--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".3s">--}}
+                    {{--<div class="ch-item ch-img-1">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-graduation-cap" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.qualify') }}</h3>--}}
+                            {{--<p><a href="#a" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".4s">--}}
+                    {{--<div class="ch-item ch-img-2">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-book" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.enroll') }}</h3>--}}
+                            {{--<p><a href="#b" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".5s">--}}
+                    {{--<div class="ch-item ch-img-3">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-tasks" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.prepare') }}</h3>--}}
+                            {{--<p><a href="#c" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".6s">--}}
+                    {{--<div class="ch-item ch-img-4">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-calendar" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.schedule') }}</h3>--}}
+                            {{--<p><a href="#d" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".7s">--}}
+                    {{--<div class="ch-item ch-img-5">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-question-circle" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.exam') }}</h3>--}}
+                            {{--<p><a href="#e" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+                {{--<li class="wow fadeInDown" data-wow-delay=".8s">--}}
+                    {{--<div class="ch-item ch-img-6">--}}
+                        {{--<div class="ch-info">--}}
+                            {{--<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>--}}
+                            {{--<h3>{{ trans('locale.pass') }}</h3>--}}
+                            {{--<p><a href="#f" data-toggle="tab">View on Book</a></p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
         </div>
+
         <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
         <div class="row mt-50 mb-50" id="book_tabs">
             <div class="col-xs-10 col-xs-offset-1">
@@ -147,18 +148,18 @@
                                     </div>
                                     <div class="page rt_page">
 
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_qualify.1') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_qualify.2') }}
                                         <u>{{ trans('locale.cfa_qualify.3') }}</u>
                                         {{ trans('locale.cfa_qualify.4') }}
                                         <u>{{ trans('locale.cfa_qualify.5') }}</u>
                                         </p>
-                                        <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -167,26 +168,26 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.1') }}
                                         </p>
-                                        <a href="https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <a href="https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.2') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.3') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.4') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_enroll.5') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_enroll.6') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_enroll.7') }}
                                         </p>
                                     </div>
@@ -194,7 +195,7 @@
                                         <p class="ml-30 mr-60 mt-30" style="font-size: 17px;">
                                             {{ trans('locale.cfa_enroll.8') }}
                                         </p>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
                                     </div>
                                     <div class="page rt_page">
                                     </div>
@@ -205,7 +206,7 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="mr-20 ml-60 mt-30" style="font-size: 17px;">
+                                        <p class="mr-30 ml-60 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
                                         </p>
                                     </div>
@@ -216,13 +217,13 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_schedule.1') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 15px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
                                             {{ trans('locale.cfa_schedule.2') }}
                                         </p>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="ml-50 mr-20 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
                                     </div>
                                     <div class="page lft_page">
                                         <div class="center" style="text-align: center;">
@@ -231,22 +232,22 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 15px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 15px;">
                                             <i class="fa fa-circle"></i>{{ trans('locale.cfa_exam.1') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
+                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.2') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
+                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.3') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
+                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.4') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
+                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.5') }}
                                         </p>
-                                        <p class="ml-50 mr-20 mt-5" style="font-size: 14px;">
+                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
                                             {{ trans('locale.cfa_exam.6') }}
                                         </p>
                                     </div>
@@ -257,10 +258,10 @@
                                         </div>
                                     </div>
                                     <div class="page rt_page">
-                                        <p class="ml-50 mr-20 mt-30" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_pass.1') }}</p>
-                                        <p class="ml-50 mr-20 mt-10" style="font-size: 17px;">
+                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                         <i class="fa fa-circle"></i>
                                         {{ trans('locale.cfa_pass.2') }}</p>
                                     </div>

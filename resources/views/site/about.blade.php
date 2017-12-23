@@ -8,6 +8,9 @@
             font-size: 17px;
             text-transform: none;
         }
+        .col-sm-6 img{
+            width: 100%;
+        }
     </style>
 @stop
 
@@ -24,30 +27,38 @@
         </div>
         <div class="tab-content about">
 
-            <div class="col-sm-12">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_values') }}</h4>
-                <ul class="small_arrow">
-                    <li>{{ trans('locale.values.1') }}</li>
-                    <li>{{ trans('locale.values.2') }}</li>
-                    <li>{{ trans('locale.values.3') }}</li>
-                    <li>{{ trans('locale.values.4') }}</li>
-                    <li>{{ trans('locale.values.5') }}</li>
-                    <li>{{ trans('locale.values.6') }}</li>
-                </ul>
-            </div>
+            {{--<div class="col-sm-12">--}}
+                {{--<h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_values') }}</h4>--}}
+                {{--<ul class="small_arrow">--}}
+                    {{--<li>{{ trans('locale.values.1') }}</li>--}}
+                    {{--<li>{{ trans('locale.values.2') }}</li>--}}
+                    {{--<li>{{ trans('locale.values.3') }}</li>--}}
+                    {{--<li>{{ trans('locale.values.4') }}</li>--}}
+                    {{--<li>{{ trans('locale.values.5') }}</li>--}}
+                    {{--<li>{{ trans('locale.values.6') }}</li>--}}
+                {{--</ul>--}}
+            {{--</div>--}}
 
-            <div class="col-sm-12">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.about_us') }}</h4>
-                <div class="col-sm-4 wow rotateInUpLeft mt-15">
+            <div class="col-sm-12 mt-15">
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_values') }}</h4>
+                <div class="col-sm-4 wow rotateInUpLeft">
                     <img class="wow pulse" data-wow-duration="3s" src="{{ asset('images/about.png') }}">
                 </div>
                 <div class="col-sm-8">
-                    <h4 class="wow fadeInLeft" data-wow-delay=".1s"><strong>{{ trans('locale.honesty') }}</strong></h4>
-                    <p class="wow fadeInLeft" data-wow-delay=".15s" data-wow-duration="1.5s">{{ trans('locale.honesty_text') }}</p>
-                    <h4 class="wow fadeInLeft" data-wow-delay=".2s"><strong>{{ trans('locale.integrity') }}</strong></h4>
-                    <p class="wow fadeInLeft" data-wow-delay=".25s" data-wow-duration="1.5s">{{ trans('locale.integrity_text') }}</p>
-                    <h4 class="wow fadeInLeft" data-wow-delay=".3s"><strong>{{ trans('locale.fairness') }}</strong></h4>
-                    <p class="wow fadeInLeft" data-wow-delay=".35s" data-wow-duration="1.5s">{{ trans('locale.fairness_text') }}</p>
+                    <ul class="small_arrow">
+                        <li>{{ trans('locale.values.1') }}</li>
+                        <li>{{ trans('locale.values.2') }}</li>
+                        <li>{{ trans('locale.values.3') }}</li>
+                        <li>{{ trans('locale.values.4') }}</li>
+                        <li>{{ trans('locale.values.5') }}</li>
+                        <li>{{ trans('locale.values.6') }}</li>
+                    </ul>
+                    {{--<h4 class="wow fadeInLeft" data-wow-delay=".1s"><strong>{{ trans('locale.honesty') }}</strong></h4>--}}
+                    {{--<p class="wow fadeInLeft" data-wow-delay=".15s" data-wow-duration="1.5s">{{ trans('locale.honesty_text') }}</p>--}}
+                    {{--<h4 class="wow fadeInLeft" data-wow-delay=".2s"><strong>{{ trans('locale.integrity') }}</strong></h4>--}}
+                    {{--<p class="wow fadeInLeft" data-wow-delay=".25s" data-wow-duration="1.5s">{{ trans('locale.integrity_text') }}</p>--}}
+                    {{--<h4 class="wow fadeInLeft" data-wow-delay=".3s"><strong>{{ trans('locale.fairness') }}</strong></h4>--}}
+                    {{--<p class="wow fadeInLeft" data-wow-delay=".35s" data-wow-duration="1.5s">{{ trans('locale.fairness_text') }}</p>--}}
                 </div>
             </div>
 
@@ -116,46 +127,52 @@
 
             <div class="col-sm-12 experts">
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_experts') }}</h4>
-                <div class="col-sm-6 col-xs-12 opened">
+                <div class="col-sm-12">
+                    <div style="margin-bottom:10px;" class="col-sm-6 col-xs-12 opened">
                     <img src="{{ asset('images/expert1.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert1') }}</h4>
                         <a href="#" class="open" id="expert1">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                <div class="col-sm-8 expert1 details">
+                    <div class="col-sm-6 expert1 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
                     <i class="fa fa-close closed" data-id="expert1"></i>
                 </div>
+                </div>
 
-                <div class="col-sm-6 col-xs-12 opened">
+                <div class="col-sm-12">
+                    <div style="margin-bottom:10px;" class="col-sm-6 col-xs-12 opened">
                     <img src="{{ asset('images/expert2.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert2') }}</h4>
                         <a href="#" class="open" id="expert2">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                <div class="col-sm-8 expert2 details">
+                    <div class="col-sm-6 expert2 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
                     <i class="fa fa-close closed" data-id="expert2"></i>
                 </div>
+                </div>
 
-                <div class="col-sm-6 col-xs-12 opened">
+                <div class="col-sm-12">
+                    <div style="margin-bottom:10px;" class="col-sm-6 col-xs-12 opened">
                     <img src="{{ asset('images/expert3.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert3') }}</h4>
                         <a href="#" class="open" id="expert3">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                <div class="col-sm-8 expert3 details">
+                    <div class="col-sm-6 expert3 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
                     <i class="fa fa-close closed" data-id="expert3"></i>
+                </div>
                 </div>
             </div>
         </div>
@@ -183,7 +200,6 @@
                 $('.'+id).show(500);
             }
             else {
-                console.log('hheee');
                 $('.opened').show(400);
                 $('.details').hide(500);
             }

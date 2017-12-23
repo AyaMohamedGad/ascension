@@ -1886,10 +1886,10 @@ h1 .circle-anim:after {
     /*display: none;*/
     margin: 0 auto;
     position: absolute;
-    top: 66%;
+    top: 67.5%;
     left: 0.6%;
     font-family: 'Anton', sans-serif; 
-    font-size: 70px; 
+    font-size: 65px;
     letter-spacing: 1.5px; 
     color: #fff; 
     text-align: center;
@@ -2433,7 +2433,7 @@ h4.page_head i{
     font-size: 12px;
 }
 .small_arrow{
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
 .small_arrow li{
     background: url(../images/small_arrow.png);
@@ -2597,7 +2597,7 @@ h5.ordinary{
     position: absolute;
     top: 0;
     right: 0;
-    width: 90%;
+    width: 93.5%;
     height: 0;
     background: #092b6763;
     margin: 0 15px;
@@ -2632,17 +2632,17 @@ h5.ordinary{
 .experts .name p{
     color: #092b67;
 }
-.experts .col-sm-8{
+.experts .details{
     background: #092b6778;
     padding: 50px 25px 15px;
-    min-height: 245px;
+    min-height: 368px;
     text-align: center;
     position: relative;
 }
-.experts .col-sm-8 p{
+.experts .details p{
     color: #fff;
 }
-.experts .col-sm-8 i{
+.experts .details i{
     color: #fff;
     position: absolute;
     top: 10px;
