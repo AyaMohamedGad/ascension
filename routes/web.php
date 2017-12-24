@@ -47,4 +47,9 @@ Route::group(['prefix' => 'administration', 'middleware' => 'auth'], function ()
     Route::get('/photo_gallery', 'GalleryController@index')->name('PhotoGalleryIndex');
     Route::post('/photo_gallery/update', 'GalleryController@update')->name('UpdatePhotoGallery');
 
+    // courses' time
+    Route::get('/course', 'CourseController@index')->name('CoursesIndex');
+    Route::get('/course/edit/{id}', 'CourseController@edit')->name('EditCourse');
+    Route::put('/course/update/{id}', 'CourseController@update')->name('UpdateCourse');
+
 });

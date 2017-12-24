@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
         </button>
         <div class="navbar-header pull-left">
-            <a href="#" class="navbar-brand"><small>Ascension</small></a>
+            <a href="{{ route('HomePage') }}" target="_blank" class="navbar-brand"><small>Ascension Website</small></a>
         </div>
         <div class="navbar-buttons navbar-header pull-right" role="navigation">
             <ul class="nav ace-nav">

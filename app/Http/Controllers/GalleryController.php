@@ -15,10 +15,13 @@ class GalleryController extends Controller
     }
 
     public function update(Request $request){
-        PhotoGallery::whereNotIn('id', $request->old_photos)->delete();
+        $images = explode(",", $request->old_photos[0]);
+        if($images){
+            PhotoGallery::whereNotIn('id', $images)->delete();
+        }
         if($request->photos && count($request->photos) > 0){
             foreach ($request->photos as $photo){
-                $filename = Carbon::now()->timestamp . '.' . $photo->getClientOriginalExtension();
+                $filename = str_random(5) . Carbon::now()->timestamp . '.' . $photo->getClientOriginalExtension();
                 $path = public_path('images/photo_gallery/');
                 $photo->move($path, $filename);
 

@@ -17,9 +17,9 @@
         {{ Form::open(['route' => 'UpdatePhotoGallery', 'class' => 'form', 'files' => true]) }}
             @if(count($photos) > 0)
                 <div class="images form-group col-sm-12">
-                    <input type="hidden" name="old_photos[]" id="old_screens">
+                    <input type="hidden" name="old_photos[]" id="old_screens" value="">
                     @foreach($photos as $key => $photo)
-                        <div class="col-sm-2">
+                        <div class="col-sm-2" style="margin-bottom:15px;">
                             <img src="{{ asset('images/photo_gallery/' . $photo->image) }}" alt=>
                             <a href="#"><i class="fa fa-close removeImage" data-id="{{$photo->id}}"></i></a>
                         </div>
@@ -47,8 +47,15 @@
     <script>
         @if(count($photos) > 0)
             screens = {{json_encode($photos->pluck('id'))}};
-        $('#old_screens').val(screens);
+            $('#old_screens').val(screens);
         @endif
+
+        $(document).ready(function () {
+            var photos = $('#old_screens').val();
+            if(photos.length <= 1 || photos == "") {
+                $('#images').attr('required', 'required');
+            }
+        });
         $(document).on('click', '.removeImage', function (e) {
             e.preventDefault();
             var ID = $(e.target).attr('data-id');
