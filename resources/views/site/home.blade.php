@@ -6,6 +6,17 @@
     @include('includes.logo')
 @stop
 
+@section('styles')
+    <style>
+        .slider{
+            -webkit-box-shadow: 0px 8px 25px -9px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 8px 25px -9px rgba(0,0,0,0.75);
+            box-shadow: 0px 8px 25px -9px rgba(0,0,0,0.75);
+            padding: 0 !important;
+        }
+    </style>
+@stop
+
 @section('content')
     <img src="{{ asset('images/Picture1.png') }}" class="logo_pic1">
     <img src="{{ asset('images/Picture2.png') }}" class="logo_pic2">
@@ -31,9 +42,11 @@
             <!-- <img src="{{ asset('images/Picture2.png') }}" class="arrow_right"> -->
         </div>
 
-        <div class="news mt-70 mb-150 row">
-            <h3 class="mb-40">{{trans('locale.latest_news')}}:</h3>
-            <div class="container-fluid" style="border: 1px solid black; border-radius: 20px;background-color: #f1f1f1;">
+        <div class="news mt-30 mb-100 row">
+            <h3 class="bordered_title wow shake">{{trans('locale.latest_news')}}</h3>
+            <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
+            <span class="clear"></span>
+            <div class="container-fluid mt-40 slider" style="border:1px solid darkgrey;border-radius:10px;background-color:#f3f3f3;">
                 <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
                     <!-- Wrapper for slides -->
                     <ol class="carousel-indicators">
@@ -41,14 +54,14 @@
                             <li data-target="#news-carousel" data-slide-to="{{$key}}" @if($key == 0) class="active" @endif></li>
                         @endforeach
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner news">
                         @foreach($news as $key2 => $new)
                             <div class="item @if($key2 == 0) active @endif">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-3"><img src="{{ asset('images/news/' . $new->image) }}" class="img-responsive"></div>
-                                        <div class="col-md-9">
-                                            <h2>{{ $new->translations[0]->title }}</h2>
+                                        <div class="col-md-9" style="padding:15px;">
+                                            <h3 style="color:#092b67;margin-top:0;">{{ $new->translations[0]->title }}</h3>
                                             <p>{!! str_limit($new->translations[0]->description, $limit = 350, $end = '...') !!}</p>
                                             <a href="{{ route('ViewNewPage', $new->id) }}">{{ trans('locale.seemore') }}</a>
                                         </div>

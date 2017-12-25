@@ -2,7 +2,7 @@
 
 return [
     "mark" => "®",
-    "seemore" => "أكثر",
+    "seemore" => "إقرأ المزيد..",
     "cma" => "CMA",
     "cpa" => "CPA",
     "cpa_word" => "Certified Public Accountant",
