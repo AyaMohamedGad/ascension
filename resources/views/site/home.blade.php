@@ -31,15 +31,9 @@
             <!-- <img src="{{ asset('images/Picture2.png') }}" class="arrow_right"> -->
         </div>
 
-        <div class="news mt-30 mb-40 row">
-            <!-- <span>{{ trans('locale.latest_news') }}</span>
-            <ul class="newsticker">
-                @foreach($news as $new)
-                    <li><a href="{{ route('ViewNewPage', $new->id) }}">{{ $new->translations[0]->title }}...</a></li>
-                @endforeach
-            </ul> -->
-
-            <div class="container-fluid">
+        <div class="news mt-70 mb-150 row">
+            <h3 class="mb-40">{{trans('locale.latest_news')}}:</h3>
+            <div class="container-fluid" style="border: 1px solid black; border-radius: 20px;background-color: #f1f1f1;">
                 <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
                     <!-- Wrapper for slides -->
                     <ol class="carousel-indicators">
@@ -69,7 +63,7 @@
             </div>
         </div>
 
-        <div class="row mt-150">
+        <div class="row mt-150 mb-70">
             <div class="col-sm-6 video">
                 <img class="no-float wptn-img aligncenter wp-image-5128 size-full" src="https://wp-time.com/wp-content/uploads/2016/03/youtube-popup.jpg" alt="youtube popup">
                     <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">

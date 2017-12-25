@@ -71,50 +71,64 @@
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_partners') }}</h4>
 
                 <div class="container-fluid">
-                <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                    <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-2 col-xs-offset-1">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
                                     </div>
-                                    <div class="col-xs-6">
-                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                </div>            
+                            </div>
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-2 col-xs-offset-1">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        </div>
                                     </div>
-                                </div>
-                            </div>            
+                                </div>            
+                            </div>
+                        <!-- End Item -->
                         </div>
-                        <div class="item">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
-                                    </div>
-                                </div>
-                            </div>            
-                        </div>
-                        <div class="item">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <img src="{{ asset('images/client.png') }}" class="img-responsive">
-                                    </div>
-                                </div>
-                            </div>            
-                        </div>
-                    <!-- End Item -->
+                        <a class="left carousel-control" href="#news-carousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#news-carousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                     </div>
+                    <!-- End Carousel -->
                 </div>
-                <!-- End Carousel -->
-            </div>
                 <!-- <div class="centered">
                     <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>
                     <div class="client wow bounceIn" data-wow-duration="5s"><img src="{{ asset('images/client.png') }}"></div>

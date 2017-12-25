@@ -73,7 +73,16 @@
                 </div>
 
                 <div class="col-sm-12 data two hidden">
-                    <p>{{ trans('locale.fund.eligiablity.1') }}</p>
+                    <p>{{ trans('locale.fund.benefits.1') }}</p>
+                    <p>1- {{ trans('locale.fund.benefits.2') }}</p>
+                    <p>2- {{ trans('locale.fund.benefits.3') }}</p>
+                    <p>3- {{ trans('locale.fund.benefits.4') }}</p>
+                    <p>4- {{ trans('locale.fund.benefits.5') }}</p>
+                </div>
+
+                <div class="col-sm-12 data three hidden">
+
+                <p>{{ trans('locale.fund.eligiablity.1') }}</p>
                     <div class="half">
                             <div class="new_tab">
                                 {{ trans('locale.fund.eligiablity.2') }}
@@ -130,14 +139,6 @@
                             </div> -->
                         </div>
                     </div>
-                </div>
-
-                <div class="col-sm-12 data three hidden">
-                    <p>{{ trans('locale.fund.benefits.1') }}</p>
-                    <p>1- {{ trans('locale.fund.benefits.2') }}</p>
-                    <p>2- {{ trans('locale.fund.benefits.3') }}</p>
-                    <p>3- {{ trans('locale.fund.benefits.4') }}</p>
-                    <p>4- {{ trans('locale.fund.benefits.5') }}</p>
                 </div>
 
                 <div class="col-sm-12 data four hidden">
