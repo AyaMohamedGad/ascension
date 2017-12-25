@@ -21,6 +21,12 @@
                     </a>
                     <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-blue dropdown-caret dropdown-close">
                         <li>
+                            <a href="{{ route('ChangePassword') }}">
+                                <i class="ace-icon fa fa-key"></i>
+                                Change Password
+                            </a>
+                        </li>
+                        <li>
                             <a href="{{ route('Logout') }}">
                                 <i class="ace-icon fa fa-power-off"></i>
                                 Logout

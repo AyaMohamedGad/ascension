@@ -1,4 +1,6 @@
 <div class="col-md-12 topmenu">
+    <a href="{{ route('AdminHome') }}" class="btn btn-white btn-primary {{ Request::is('administration') ? 'active' : '' }}">
+        <i class="fa fa-home"></i> Home</a>
     <a href="{{ route('NewsIndex') }}" class="btn btn-white btn-primary {{ Request::is('administration/new*') ? 'active' : '' }}">
         <i class="fa fa-newspaper-o"></i> News</a>
     <a href="{{ route('CoursesIndex') }}" class="btn btn-white btn-primary {{ Request::is('administration/course*') ? 'active' : '' }}">

@@ -52,4 +52,8 @@ Route::group(['prefix' => 'administration', 'middleware' => 'auth'], function ()
     Route::get('/course/edit/{id}', 'CourseController@edit')->name('EditCourse');
     Route::put('/course/update/{id}', 'CourseController@update')->name('UpdateCourse');
 
+    // change password
+    Route::get('/password', 'AdminController@password')->name('ChangePassword');
+    Route::post('/password', 'AdminController@change')->name('SavePassword');
+
 });
