@@ -227,3 +227,12 @@ a.language {
 .h3_name {
     direction: ltr;
 }
+.carousel-control.right {
+    right: -5% !important;
+}
+.carousel-control.left {
+    left: -5% !important;
+}
+.page-wrapper h3{
+    font-size: 40px !important;
+}
