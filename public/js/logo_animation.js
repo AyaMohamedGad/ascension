@@ -1,3 +1,5 @@
+var locale = $('#locale').data('attr');
+
 $('.logo_pic1').animate({  borderSpacing: -540 }, {
     step: function(now,fx) {
       $(this).css('-webkit-transform','rotateY('+now+'deg)');
@@ -35,14 +37,27 @@ $('.logo_pic1')
     duration:1000
 },'linear');
 
-$( ".logo_pic2" )
-.delay(2500)
-.animate({
-    left: "68%",
-    top: "80px",
-    width: "30%",
-    opacity: "0.5"
-      }, 1000);
+if(locale == 'en'){
+  $( ".logo_pic2" )
+  .delay(2500)
+  .animate({
+      left: "68%",
+      top: "80px",
+      width: "30%",
+      opacity: "0.5"
+        }, 1000);
+}
+else{
+  $( ".logo_pic2" )
+  .delay(2500)
+  .animate({
+      left: "2%",
+      top: "80px",
+      width: "30%",
+      opacity: "0.5",
+      transform: "scaleX(-1)"
+        }, 1000);
+}
 
 // $( ".logo_pic3" ).slideDown( 300 ).delay(1500).fadeOut();
 

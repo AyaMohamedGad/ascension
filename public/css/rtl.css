@@ -114,11 +114,11 @@ a.language {
 }
 
 .rt_page{
-    background-image:url(../images/lft_bk.jpg);
+    background-image:url(../images/lft_bk.png);
 }
 
 .lft_page{
-    background-image:url(../images/rt_bk.jpg);
+    background-image:url(../images/rt_bk.png);
 }
 
 .ml-10 {
@@ -213,4 +213,8 @@ a.language {
 }
 .newsticker li{
     text-align: right;
+}
+
+.h3_name {
+    direction: ltr;
 }
