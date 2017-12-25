@@ -294,7 +294,7 @@ h1#logo {
 h1#logo a {
     display: inline-block;
     background-size: 60px 60px;
-    width: 160px;
+    width: 220px;
     text-indent: -9999px;
     border-radius: 51%
 }
@@ -401,7 +401,7 @@ h2 i {
 
 #main-nav {
     position: relative;
-    padding: 15px 20px 20px;
+    padding: 100px 20px 20px;
     width: 100%;
     text-align: left;
 }
@@ -593,7 +593,8 @@ header {
     height: 100%;
     background: #fff;
     padding-top: 12.5%;
-    text-align: center
+    text-align: center;
+    overflow: auto;
 }
 
 #content {
