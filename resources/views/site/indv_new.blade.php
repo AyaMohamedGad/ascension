@@ -22,14 +22,14 @@
 
         @if(count($thenew->translations) > 0)
             <div class="tab-content row wow bounceInUp">
-                <div class="col-sm-12">
-                    <img class="center" src="{{ $thenew->image }}" >
-                </div>
-            </div>
+                <div class="tab-content mt-20">
+                    <div class="col-sm-4 row wow bounceInUp">
+                        <img class="center" src="{{ asset('images/news/' . $thenew->image) }}" >
+                    </div>
 
-            <div class="row wow bounceInRight" id="book_tabs">
-                <div class="col-xs-8 col-xs-offset-2">
-                    {{ $thenew->translations[0]->description }}
+                    <div class="col-xs-8 row wow bounceInRight pr-30 pl-30">
+                        {!! $thenew->translations[0]->description !!}
+                    </div>
                 </div>
             </div>
         @endif
