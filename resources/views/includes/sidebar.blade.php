@@ -1,6 +1,3 @@
-<h1 id="logo">
-    <a href="{{ route('HomePage') }}"><img src="{{ asset('images/logo.png') }}" alt="{{ trans('ascension') }}"></a>
-</h1>
 <div id="menu-button">
     <div class="cursor">
         <div id="nav-button">
@@ -10,8 +7,11 @@
         </div>
     </div>
 </div>
-<header>
-    <nav id="main-nav" class="mt-50">
+<header id="style-1">
+    <a href="{{ route('HomePage') }}">
+        <img width="90%" class="center" src="{{ asset('images/logo.png') }}" alt="{{ trans('ascension') }}">
+    </a>
+    <nav id="main-nav" class="mt-10">
         <ul class="option-set clearfix" data-option-key="filter">
             <li><a href="{{ route('HomePage') }}" class="{{ Request::is('home*') || Request::is('/') ? 'active' : '' }}">{{ trans('locale.home') }}</a></li>
             <li>
