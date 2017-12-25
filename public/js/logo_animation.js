@@ -39,7 +39,7 @@ $('.logo_pic1')
 
 if(locale == 'en'){
   $( ".logo_pic2" )
-  .delay(2500)
+  .delay(2200)
   .animate({
       left: "68%",
       top: "80px",
@@ -49,7 +49,7 @@ if(locale == 'en'){
 }
 else{
   $( ".logo_pic2" )
-  .delay(2500)
+  .delay(2200)
   .animate({
       left: "2%",
       top: "80px",

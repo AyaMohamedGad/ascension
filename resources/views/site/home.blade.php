@@ -93,6 +93,8 @@
             </div>
         </div>
     </div>
+    <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
+
 @stop
 
 @section('scripts')

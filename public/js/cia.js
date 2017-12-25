@@ -274,6 +274,11 @@ var flipbookpage = function(page){
     alert(page);
 }
 
+$('.nav-tabs-left a').click(function () {
+    $('.nav-tabs-left .active').removeClass('active');
+    $(this).parent().addClass('active');
+});
+
 
 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
   var target = $(e.target).attr("href") // activated tab
