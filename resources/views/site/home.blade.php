@@ -55,7 +55,7 @@
                                         <div class="col-md-3"><img src="{{ asset('images/news/' . $new->image) }}" class="img-responsive"></div>
                                         <div class="col-md-9">
                                             <h2>{{ $new->translations[0]->title }}</h2>
-                                            <p>{!! $new->translations[0]->description !!}</p>
+                                            <p>{!! str_limit($new->translations[0]->description, $limit = 350, $end = '...') !!}</p>
                                             <a href="{{ route('ViewNewPage', $new->id) }}">{{ trans('locale.seemore') }}</a>
                                         </div>
                                     </div>

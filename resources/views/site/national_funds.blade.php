@@ -77,8 +77,8 @@
                     <div class="half">
                             <div class="new_tab">
                                 {{ trans('locale.fund.eligiablity.2') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.3') }}" type="button" class="btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.3') }}" type="button" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                             </div>
 
                             <!-- <div class="tab-content">
@@ -87,8 +87,8 @@
 
                         <div class="new_tab">
                                 {{ trans('locale.fund.eligiablity.4') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.5') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.5') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                             <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.5') }}</p>
                             </div> -->
@@ -96,8 +96,8 @@
 
                         <div class="new_tab">
                             {{ trans('locale.fund.eligiablity.6') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.7') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.7') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                             <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.7') }}</p>
                             </div> -->
@@ -105,8 +105,8 @@
 
                         <div class="new_tab">
                             {{ trans('locale.fund.eligiablity.8') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.9') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.9') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                             <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.7') }}</p>
                             </div> -->
@@ -114,8 +114,8 @@
 
                         <div class="new_tab">
                             {{ trans('locale.fund.eligiablity.10') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.11') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.11') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                             <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.7') }}</p>
                             </div> -->
@@ -123,8 +123,8 @@
 
                         <div class="new_tab">
                             {{ trans('locale.fund.eligiablity.12') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.13') }}" type="button" id="yessecond" class="btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="btn btn-danger">{{ trans('locale.no') }}</button>
+                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.13') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                             <!-- <div class="tab-content">
                                 <p>{{ trans('locale.fund.eligiablity.7') }}</p>
                             </div> -->
@@ -154,7 +154,6 @@
 
 @section('scripts')
     <script>
-
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
         });
@@ -169,6 +168,19 @@
                 $(this).addClass('hidden');
             });
             $('.'+ID).removeClass('hidden');
+        });
+
+        $(document).on('click', '.no', function(){
+            if ($(this).parent().find('.popover').length != 0) {
+                $(this).parent().find('.yes').click();
+            }
+        });
+
+        $(document).on('click', '.yes', function(){
+            console.log('yes');
+//            $('.popover').not($(this).parent().find('.popover')).each( function () {
+                $('.popover').not($(this).parent().find('.popover')).remove();
+//            });
         });
     </script>
 @stop

@@ -2,7 +2,7 @@
     @foreach ($actions as $action)
         <a title="{{$action->tooltip}}"
            @if($action->color->type == 'class')
-           {{$class = $action->color->value}}
+            {{$class = $action->color->value}}
            @elseif($action->color->type == 'hex')
            style="background-color: {{'#'.$action->color->value}}"
            @endif
