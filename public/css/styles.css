@@ -2224,10 +2224,10 @@ ul li a.active.sub-nav-toggle {
     display: block;
     text-align: center;
     width: 100%;
-    background-image: url(../images/56_s.jpg);
+    background-image: url('../images/56_s.jpg');
     background-size: cover;
     background-position: center center;
-    height: 340px;
+    height: 450px;
 }
 
 .ch-grid:after,
@@ -2241,12 +2241,10 @@ ul li a.active.sub-nav-toggle {
 }
 
 .ch-grid li {
-    width: calc(100%/6.1);
+    width: calc(100%/4.04);
     height: 100%;
     display: inline-block;
-    /*margin: 10px;*/
 }
-
 
 .ch-item {
     width: 100%;
@@ -2257,14 +2255,12 @@ ul li a.active.sub-nav-toggle {
     box-shadow: 
         inset 0 0 0 16px rgba(255,255,255,0.6),
         0 1px 2px rgba(0,0,0,0.1);
-        
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
-
 
 .ch-info {
     position: absolute;
@@ -2284,9 +2280,7 @@ ul li a.active.sub-nav-toggle {
     -o-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    
     -webkit-backface-visibility: hidden;*/
-
 }
 
 .ch-info i{
@@ -2299,8 +2293,8 @@ ul li a.active.sub-nav-toggle {
 .ch-info h3 {
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 19px;
     padding: 45px 0 0 0;
     font-family: 'Open Sans', Arial, sans-serif;
     text-shadow: 
@@ -2312,8 +2306,8 @@ ul li a.active.sub-nav-toggle {
     color: #fff;
     padding: 10px 5px;
     font-style: italic;
-    margin: 0 30px;
-    font-size: 12px;
+    margin: 0 5px;
+    font-size: 13.5px;
     border-top: 1px solid rgba(255,255,255,0.5);
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0.2s;
@@ -2373,8 +2367,12 @@ ul li a.active.sub-nav-toggle {
 }
 
 .ch-item:hover i {
-    margin-top: 30%;
+    margin-top: 8%;
     font-size: 45px;
+}
+.ch-item:hover h3 {
+    padding: 0;
+    margin-top: 10px;
 }
 
 .cpa{

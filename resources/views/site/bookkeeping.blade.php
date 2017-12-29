@@ -112,93 +112,134 @@
                 <p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>
             </div>
 
-            <div class="bookkeeping">
-                <div class="col-md-12">
-                    <div class="col-sm-2 open" id="one">
-                        <a href="#">
-                            <h4>{{ trans('locale.bookkeeping_content.1') }}</h4>
-                            <img src="{{ asset('images/objective.png') }}">
-                            <div class="info">
-                                <h4>{{ trans('locale.bookkeeping_content.1') }} </h4>
-                                <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+            <div class="col-sm-12">
+                <ul class="mt-40 ch-grid">
+                    <li class="wow fadeInDown" data-wow-delay=".3s">
+                        <div class="ch-item ch-img-1">
+                            <div class="ch-info">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                <h3>{{ trans('locale.bookkeeping_content.1') }}</h3>
+                                <p>{{ trans('locale.bookkeeping_content.5') }}</p>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-9 one keeping hidden">
-                        <p>{{ trans('locale.bookkeeping_content.5') }}</p>
-                        <i class="fa fa-close closed" data-id="one"></i>
-                    </div>
-                    <div class="col-sm-2 open" id="two">
-                        <a href="#">
-                            <h4>{{ trans('locale.bookkeeping_content.2') }}</h4>
-                            <img src="{{ asset('images/method.png') }}">
-                            <div class="info">
-                                <h4>{{ trans('locale.bookkeeping_content.2') }}</h4>
-                                <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                        </div>
+                    </li>
+                    <li class="wow fadeInDown" data-wow-delay=".4s">
+                        <div class="ch-item ch-img-2">
+                            <div class="ch-info">
+                                <i class="fa fa-file-o" aria-hidden="true"></i>
+                                <h3>{{ trans('locale.bookkeeping_content.2') }}</h3>
+                                <p>{{ trans('locale.bookkeeping_content.6') }}</p>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-9 two keeping hidden">
-                        <p>{{ trans('locale.bookkeeping_content.6') }}</p>
-                        <i class="fa fa-close closed" data-id="two"></i>
-                    </div>
-                    <div class="col-sm-2 open" id="three">
-                        <a href="#">
-                            <h4>{{ trans('locale.bookkeeping_content.3') }}</h4>
-                            <img src="{{ asset('images/start_project.png') }}">
-                            <div class="info">
-                                <h4>{{ trans('locale.bookkeeping_content.3') }}</h4>
-                                <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                        </div>
+                    </li>
+                    <li class="wow fadeInDown" data-wow-delay=".5s">
+                        <div class="ch-item ch-img-3">
+                            <div class="ch-info">
+                                <i class="fa fa-tasks" aria-hidden="true"></i>
+                                <h3>{{ trans('locale.bookkeeping_content.3') }}</h3>
+                                <p>{{ trans('locale.bookkeeping_content.7') }}</p>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-9 three keeping hidden">
-                        <p>{{ trans('locale.bookkeeping_content.7') }}</p>
-                        <i class="fa fa-close closed" data-id="three"></i>
-                    </div>
-                    <div class="col-sm-2 open" id="four">
-                        <a href="#">
-                            <h4>{{ trans('locale.bookkeeping_content.4') }}</h4>
-                            <img src="{{ asset('images/large_companies.png') }}">
-                            <div class="info">
-                                <h4>{{ trans('locale.bookkeeping_content.4') }}</h4>
-                                <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                        </div>
+                    </li>
+                    <li class="wow fadeInDown" data-wow-delay=".6s">
+                        <div class="ch-item ch-img-4">
+                            <div class="ch-info">
+                                <i class="fa fa-building" aria-hidden="true"></i>
+                                <h3>{{ trans('locale.bookkeeping_content.4') }}</h3>
+                                <p>{{ trans('locale.bookkeeping_content.8') }}</p>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-9 four keeping hidden">
-                        <p>{{ trans('locale.bookkeeping_content.8') }}</p>
-                        <i class="fa fa-close closed" data-id="three"></i>
-                    </div>
-                </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
+
+            {{--<div class="bookkeeping">--}}
+                {{--<div class="col-md-12">--}}
+                    {{--<div class="col-sm-2 open" id="one">--}}
+                        {{--<a href="#">--}}
+                            {{--<h4>{{ trans('locale.bookkeeping_content.1') }}</h4>--}}
+                            {{--<img src="{{ asset('images/objective.png') }}">--}}
+                            {{--<div class="info">--}}
+                                {{--<h4>{{ trans('locale.bookkeeping_content.1') }}</h4>--}}
+                                {{--<i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>--}}
+                            {{--</div>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-9 one keeping hidden">--}}
+                        {{--<p>{{ trans('locale.bookkeeping_content.5') }}</p>--}}
+                        {{--<i class="fa fa-close closed" data-id="one"></i>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-2 open" id="two">--}}
+                        {{--<a href="#">--}}
+                            {{--<h4>{{ trans('locale.bookkeeping_content.2') }}</h4>--}}
+                            {{--<img src="{{ asset('images/method.png') }}">--}}
+                            {{--<div class="info">--}}
+                                {{--<h4>{{ trans('locale.bookkeeping_content.2') }}</h4>--}}
+                                {{--<i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>--}}
+                            {{--</div>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-9 two keeping hidden">--}}
+                        {{--<p>{{ trans('locale.bookkeeping_content.6') }}</p>--}}
+                        {{--<i class="fa fa-close closed" data-id="two"></i>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-2 open" id="three">--}}
+                        {{--<a href="#">--}}
+                            {{--<h4>{{ trans('locale.bookkeeping_content.3') }}</h4>--}}
+                            {{--<img src="{{ asset('images/start_project.png') }}">--}}
+                            {{--<div class="info">--}}
+                                {{--<h4>{{ trans('locale.bookkeeping_content.3') }}</h4>--}}
+                                {{--<i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>--}}
+                            {{--</div>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-9 three keeping hidden">--}}
+                        {{--<p>{{ trans('locale.bookkeeping_content.7') }}</p>--}}
+                        {{--<i class="fa fa-close closed" data-id="three"></i>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-2 open" id="four">--}}
+                        {{--<a href="#">--}}
+                            {{--<h4>{{ trans('locale.bookkeeping_content.4') }}</h4>--}}
+                            {{--<img src="{{ asset('images/large_companies.png') }}">--}}
+                            {{--<div class="info">--}}
+                                {{--<h4>{{ trans('locale.bookkeeping_content.4') }}</h4>--}}
+                                {{--<i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>--}}
+                            {{--</div>--}}
+                        {{--</a>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-sm-9 four keeping hidden">--}}
+                        {{--<p>{{ trans('locale.bookkeeping_content.8') }}</p>--}}
+                        {{--<i class="fa fa-close closed" data-id="three"></i>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
     </div>
 @stop
 
-@section('scripts')
-    <script>
-        $(document).on('click', '.open', function (e) {
-            e.preventDefault();
-            showHide($(this).attr('id'));
-        });
-        $(document).on('click', '.closed', function (e) {
-            e.preventDefault();
-            showHide($(this).attr('data-id'));
-        });
-        function showHide(id){
-            if($('.'+id).hasClass('hidden')){
-                $('.open').not(this).each(function(){
-                    $(this).addClass('hidden');
-                });
-                $('#'+id).addClass('opened');
-                $('.'+id).removeClass('hidden');
-                $('#'+id).removeClass('hidden');
-            } else {
-                $('.open').removeClass('hidden');
-                $('#'+id).removeClass('opened');
-                $('.'+id).addClass('hidden');
-            }
-        }
-    </script>
-@stop
+{{--@section('scripts')--}}
+    {{--<script>--}}
+        {{--$(document).on('click', '.open', function (e) {--}}
+            {{--e.preventDefault();--}}
+            {{--showHide($(this).attr('id'));--}}
+        {{--});--}}
+        {{--$(document).on('click', '.closed', function (e) {--}}
+            {{--e.preventDefault();--}}
+            {{--showHide($(this).attr('data-id'));--}}
+        {{--});--}}
+        {{--function showHide(id){--}}
+            {{--if($('.'+id).hasClass('hidden')){--}}
+                {{--$('.open').not(this).each(function(){--}}
+                    {{--$(this).addClass('hidden');--}}
+                {{--});--}}
+                {{--$('#'+id).addClass('opened');--}}
+                {{--$('.'+id).removeClass('hidden');--}}
+                {{--$('#'+id).removeClass('hidden');--}}
+            {{--} else {--}}
+                {{--$('.open').removeClass('hidden');--}}
+                {{--$('#'+id).removeClass('opened');--}}
+                {{--$('.'+id).addClass('hidden');--}}
+            {{--}--}}
+        {{--}--}}
+    {{--</script>--}}
+{{--@stop--}}
