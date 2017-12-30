@@ -662,7 +662,7 @@ a.language{
 }
 
 .flipbook-viewport .page-wrapper, .flipbook-viewport .page-wrapper>div{
-    overflow: visible !important;
+    /*overflow: visible !important;*/
 }
 
 .flipbook-viewport p{

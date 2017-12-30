@@ -158,6 +158,11 @@
                         <div class="page" style="background-color: #78B582;">
                         </div>
                         <div class="page lft_page">
+                            <ul class="nav nav-tabs-left">
+                                <li class="qualify_tab">
+                                    <a style="font-size: 15px" onclick="qualify_click()" data-toggle="tab"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
+                                </li>
+                            </ul>
                             <div class="center" style="text-align: center;">
                                 <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
                                 <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#78B582;">{{ trans('locale.qualify') }}</h3>
@@ -176,6 +181,11 @@
                             <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
                         </div>
                         <div class="page lft_page">
+                            <ul class="nav nav-tabs-left">
+                                <li class="enroll_tab">
+                                    <a style="font-size: 15px" data-toggle="tab" onclick="enroll_click()"><i class="fa fa-book" aria-hidden="true"></i>{{ trans('locale.enroll') }}</a>
+                                </li>
+                            </ul>
                             <div class="center" style="text-align: center;">
                                 <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
                                 <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll') }}</h3>
@@ -250,6 +260,11 @@
                             </p>
                         </div>
                         <div class="page lft_page">
+                            <ul class="nav nav-tabs-left">
+                                <li class="active prepare_tab">
+                                    <a style="font-size: 15px" data-toggle="tab" onclick="prepare_click()"><i class="fa fa-tasks" aria-hidden="true"></i>{{ trans('locale.prepare') }}</a>
+                                </li>
+                            </ul>
                             <div class="center" style="text-align: center;">
                                 <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
                                 <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#404A60;">{{ trans('locale.prepare') }}</h3>
@@ -261,6 +276,11 @@
                             </p>
                         </div>
                         <div class="page lft_page">
+                            <ul class="nav nav-tabs-left">
+                                <li class="active schedule_tab">
+                                    <a style="font-size: 15px" data-toggle="tab" onclick="schedule_click()"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
+                                </li>
+                            </ul>
                             <div class="center" style="text-align: center;">
                                 <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
                                 <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#406045;">{{ trans('locale.schedule') }}</h3>
@@ -289,6 +309,11 @@
                         <div class="page rt_page">
                         </div>
                         <div class="page lft_page">
+                            <ul class="nav nav-tabs-left">
+                                <li class="exam_tab">
+                                    <a style="font-size: 15px" data-toggle="tab" onclick="exam_click()"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
+                                </li>
+                            </ul>
                             <div class="center" style="text-align: center;">
                                 <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
                                 <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.exam') }}</h3>
@@ -327,6 +352,11 @@
                             </table>
                         </div>
                         <div class="page lft_page">
+                            <ul class="nav nav-tabs-left">
+                                <li class="pass_tab">
+                                    <a style="font-size: 15px" data-toggle="tab" onclick="pass_click()"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ trans('locale.pass') }}</a>
+                                </li>
+                            </ul>
                             <div class="center" style="text-align: center;">
                                 <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
                                 <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
