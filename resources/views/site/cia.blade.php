@@ -111,226 +111,240 @@
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
-            <div class="col-xs-10 col-xs-offset-1">
-                <div class="tabs-left wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="2s">
-                    <ul class="nav nav-tabs-left">
-                        <li class="active qualify_tab">
-                            <a href="#a" data-toggle="tab"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
-                        </li>
-                        <li class="enroll_tab">
-                            <a href="#b" data-toggle="tab"><i class="fa fa-book" aria-hidden="true"></i>{{ trans('locale.enroll') }}</a>
-                        </li>
-                        <li class="prepare_tab">
-                            <a href="#c" data-toggle="tab"><i class="fa fa-tasks" aria-hidden="true"></i>{{ trans('locale.prepare') }}</a>
-                        </li>
-                        <li class="schedule_tab">
-                            <a href="#d" data-toggle="tab"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
-                        </li>
-                        <li class="right_tab exam_tab">
-                            <a href="#e" data-toggle="tab"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
-                        </li>
-                        <li class="right_tab pass_tab">
-                            <a href="#f" data-toggle="tab"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ trans('locale.pass') }}</a>
-                        </li>
-                    </ul>
+            <div class="col-xs-11 ml-40 mr-40">
+                <ul class="nav nav-tabs-left">
+                    <li class="active qualify_tab">
+                        <a href="#a" data-toggle="tab" onclick="qualify_click()"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
+                    </li>
+                    <li class="enroll_tab">
+                        <a href="#b" data-toggle="tab" onclick="enroll_click()"><i class="fa fa-book" aria-hidden="true"></i>{{ trans('locale.enroll') }}</a>
+                    </li>
+                    <li class="prepare_tab">
+                        <a href="#c" data-toggle="tab" onclick="prepare_click()"><i class="fa fa-tasks" aria-hidden="true"></i>{{ trans('locale.prepare') }}</a>
+                    </li>
+                    <li class="schedule_tab">
+                        <a href="#d" data-toggle="tab" onclick="schedule_click()"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
+                    </li>
+                    <li class="right_tab exam_tab">
+                        <a href="#e" data-toggle="tab" onclick="exam_click()"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
+                    </li>
+                    <li class="right_tab pass_tab">
+                        <a href="#f" data-toggle="tab" onclick="pass_click()"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ trans('locale.pass') }}</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-tabs-right">
+                    <li class="active qualify_tab">
+                        <a href="#a" data-toggle="tab" onclick="qualify_click()"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
+                    </li>
+                    <li class="enroll_tab">
+                        <a href="#b" data-toggle="tab" onclick="enroll_click()"><i class="fa fa-book" aria-hidden="true"></i>{{ trans('locale.enroll') }}</a>
+                    </li>
+                    <li class="prepare_tab">
+                        <a href="#c" data-toggle="tab" onclick="prepare_click()"><i class="fa fa-tasks" aria-hidden="true"></i>{{ trans('locale.prepare') }}</a>
+                    </li>
+                    <li class="schedule_tab">
+                        <a href="#d" data-toggle="tab" onclick="schedule_click()"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
+                    </li>
+                    <li class="right_tab exam_tab">
+                        <a href="#e" data-toggle="tab" onclick="exam_click()"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
+                    </li>
+                    <li class="right_tab pass_tab">
+                        <a href="#f" data-toggle="tab" onclick="pass_click()"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ trans('locale.pass') }}</a>
+                    </li>
+                </ul>
 
-                    <div class="tab-content" style="font:400 100px/1.2 'Merienda One', Helvetica, sans-serif;">
-                        <div class="tab-pane row active" id="a">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook">
-                                    <div class="page" style="background-color: #78B582;">
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#78B582;">{{ trans('locale.qualify') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cia_qualify.1') }}</p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.2') }}</p>
-                                        
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cia_qualify.3') }}</p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.1') }}
-                                        </p>
-                                        <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.2') }}
-                                        </p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <table class="table ml-30 mr-50 mt-30" style="width: 75%">
-                                            <thead>
-                                                <tr>
-                                                    <th style="width: 45%">{{ trans('locale.cia_enroll.3') }}</th>
-                                                    <th>{{ trans('locale.cia_enroll.12') }}</th>
-                                                    <th>{{ trans('locale.cia_enroll.13') }}</th>
-                                                    <th>{{ trans('locale.cia_enroll.14') }}</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_enroll.4') }}</td>
-                                                    <td>$240</td>
-                                                    <td></td>
-                                                    <td>$35</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_enroll.5') }}</td>
-                                                    <td>$115</td>
-                                                    <td>$230</td>
-                                                    <td>$65</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_enroll.6') }}</td>
-                                                    <td>$280</td>
-                                                    <td>$395</td>
-                                                    <td>$230</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_enroll.7') }}</td>
-                                                    <td>$230</td>
-                                                    <td>$345</td>
-                                                    <td>$180</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_enroll.8') }}</td>
-                                                    <td>$230</td>
-                                                    <td>$345</td>
-                                                    <td>$180</td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>$1095</td>
-                                                    <td>$1315</td>
-                                                    <td>$690</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <p class="ml-30 mr-50 mt-10" style="font-size: 17px;">
-                                            {{ trans('locale.cia_enroll.9') }} {{ trans('locale.cia_enroll.10') }}
-                                        <a href="https://na.theiia.org/certification/Pages/Pricing-Structure.aspx" target="_blank" style="font-size: 17px; word-break: break-all;display: -webkit-inline-box;">{{ trans('locale.click_here') }}</a>
-                                        </p>                                        
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                            {{ trans('locale.cia_enroll.11') }}
-                                        </p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#404A60;">{{ trans('locale.prepare') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-60 mr-30 mt-30" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
-                                        </p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#406045;">{{ trans('locale.schedule') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.1') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.5') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.2') }}
-                                        </p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <p class="ml-30 mr-50 mt-30" style="font-size: 15px;">
-                                            {{ trans('locale.cia_schedule.3') }}
-                                        </p>
-                                        <p class="ml-30 mr-50 mt-10" style="font-size: 15px;">
-                                            {{ trans('locale.cia_schedule.4') }}
-                                        </p>
-                                        <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-50 ml-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                    </div>
-                                    <div class="page rt_page">
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.exam') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <table class="table mr-30 ml-50 mt-30" style="width: 75%">
-                                            <thead>
-                                                <tr>
-                                                    <th style="width: 40%"></th>
-                                                    <th>{{ trans('locale.duration') }}</th>
-                                                    <th>{{ trans('locale.mcqs') }}</th>
-                                                    <th>{{ trans('locale.exam_result') }}</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_exam.1') }}</td>
-                                                    <td>2.5 {{ trans('hours') }}</td>
-                                                    <td>125</td>
-                                                    <td>{{ trans('locale.same_day') }}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_exam.2') }}</td>
-                                                    <td>2 {{ trans('hours') }}</td>
-                                                    <td>100</td>
-                                                    <td>{{ trans('locale.same_day') }}</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>{{ trans('locale.cia_exam.3') }}</td>
-                                                    <td>2 {{ trans('hours') }}</td>
-                                                    <td>100</td>
-                                                    <td>{{ trans('locale.same_day') }}</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cia_pass.1') }}</p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cia_pass.2') }}</p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cia_pass.3') }}</p>
-                                    </div>
-                                </div>
+                <div class="flipbook-viewport">
+                    <div class="flipbook">
+                        <div class="page" style="background-color: #78B582;">
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#78B582;">{{ trans('locale.qualify') }}</h3>
                             </div>
                         </div>
-                    </div><!-- /tab-content -->
-                </div><!-- /tabbable -->
+                        <div class="page rt_page">
+
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cia_qualify.1') }}</p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.2') }}</p>
+                            
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cia_qualify.3') }}</p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.1') }}
+                            </p>
+                            <a href="https://na.theiia.org/certification/Pages/getstarted.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.2') }}
+                            </p>
+                        </div>
+                        <div class="page lft_page">
+                            <table class="table ml-30 mr-50 mt-30" style="width: 75%">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 45%">{{ trans('locale.cia_enroll.3') }}</th>
+                                        <th>{{ trans('locale.cia_enroll.12') }}</th>
+                                        <th>{{ trans('locale.cia_enroll.13') }}</th>
+                                        <th>{{ trans('locale.cia_enroll.14') }}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_enroll.4') }}</td>
+                                        <td>$240</td>
+                                        <td></td>
+                                        <td>$35</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_enroll.5') }}</td>
+                                        <td>$115</td>
+                                        <td>$230</td>
+                                        <td>$65</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_enroll.6') }}</td>
+                                        <td>$280</td>
+                                        <td>$395</td>
+                                        <td>$230</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_enroll.7') }}</td>
+                                        <td>$230</td>
+                                        <td>$345</td>
+                                        <td>$180</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_enroll.8') }}</td>
+                                        <td>$230</td>
+                                        <td>$345</td>
+                                        <td>$180</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>$1095</td>
+                                        <td>$1315</td>
+                                        <td>$690</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="ml-30 mr-50 mt-10" style="font-size: 17px;">
+                                {{ trans('locale.cia_enroll.9') }} {{ trans('locale.cia_enroll.10') }}
+                            <a href="https://na.theiia.org/certification/Pages/Pricing-Structure.aspx" target="_blank" style="font-size: 17px; word-break: break-all;display: -webkit-inline-box;">{{ trans('locale.click_here') }}</a>
+                            </p>                                        
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                                {{ trans('locale.cia_enroll.11') }}
+                            </p>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#404A60;">{{ trans('locale.prepare') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-60 mr-30 mt-30" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
+                            </p>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#406045;">{{ trans('locale.schedule') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.1') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.5') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.2') }}
+                            </p>
+                        </div>
+                        <div class="page lft_page">
+                            <p class="ml-30 mr-50 mt-30" style="font-size: 15px;">
+                                {{ trans('locale.cia_schedule.3') }}
+                            </p>
+                            <p class="ml-30 mr-50 mt-10" style="font-size: 15px;">
+                                {{ trans('locale.cia_schedule.4') }}
+                            </p>
+                            <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-50 ml-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                        </div>
+                        <div class="page rt_page">
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.exam') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <table class="table mr-30 ml-50 mt-30" style="width: 75%">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 40%"></th>
+                                        <th>{{ trans('locale.duration') }}</th>
+                                        <th>{{ trans('locale.mcqs') }}</th>
+                                        <th>{{ trans('locale.exam_result') }}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_exam.1') }}</td>
+                                        <td>2.5 {{ trans('hours') }}</td>
+                                        <td>125</td>
+                                        <td>{{ trans('locale.same_day') }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_exam.2') }}</td>
+                                        <td>2 {{ trans('hours') }}</td>
+                                        <td>100</td>
+                                        <td>{{ trans('locale.same_day') }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{{ trans('locale.cia_exam.3') }}</td>
+                                        <td>2 {{ trans('hours') }}</td>
+                                        <td>100</td>
+                                        <td>{{ trans('locale.same_day') }}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cia_pass.1') }}</p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cia_pass.2') }}</p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cia_pass.3') }}</p>
+                        </div>
+                    </div>
+                </div>
             </div><!-- /col -->
         </div>
 

@@ -47,7 +47,7 @@
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
             <div class="container-fluid mt-40 slider" style="border:1px solid darkgrey;border-radius:10px;background-color:#f3f3f3;">
-                <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
+                <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="5000">
                     <!-- Wrapper for slides -->
                     <ol class="carousel-indicators">
                         @foreach($news as $key => $new)

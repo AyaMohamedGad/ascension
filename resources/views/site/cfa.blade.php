@@ -111,165 +111,179 @@
 
         <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
         <div class="row mt-50 mb-50" id="book_tabs">
-            <div class="col-xs-10 col-xs-offset-1">
-                <div class="tabs-left wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="2s">
-                    <ul class="nav nav-tabs-left">
-                        <li class="active qualify_tab">
-                            <a href="#a" data-toggle="tab"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
-                        </li>
-                        <li class="enroll_tab">
-                            <a href="#b" data-toggle="tab"><i class="fa fa-book" aria-hidden="true"></i>{{ trans('locale.enroll') }}</a>
-                        </li>
-                        <li class="prepare_tab">
-                            <a href="#c" data-toggle="tab"><i class="fa fa-tasks" aria-hidden="true"></i>{{ trans('locale.prepare') }}</a>
-                        </li>
-                        <li class="schedule_tab">
-                            <a href="#d" data-toggle="tab"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
-                        </li>
-                        <li class="right_tab exam_tab">
-                            <a href="#e" data-toggle="tab"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
-                        </li>
-                        <li class="right_tab pass_tab">
-                            <a href="#f" data-toggle="tab"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ trans('locale.pass') }}</a>
-                        </li>
-                    </ul>
+            <div class="col-xs-11 ml-40 mr-40">
+                <ul class="nav nav-tabs-left">
+                    <li class="active qualify_tab">
+                        <a href="#a" data-toggle="tab" onclick="qualify_click()"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
+                    </li>
+                    <li class="enroll_tab">
+                        <a href="#b" data-toggle="tab" onclick="enroll_click()"><i class="fa fa-book" aria-hidden="true"></i>{{ trans('locale.enroll') }}</a>
+                    </li>
+                    <li class="prepare_tab">
+                        <a href="#c" data-toggle="tab" onclick="prepare_click()"><i class="fa fa-tasks" aria-hidden="true"></i>{{ trans('locale.prepare') }}</a>
+                    </li>
+                    <li class="schedule_tab">
+                        <a href="#d" data-toggle="tab" onclick="schedule_click()"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
+                    </li>
+                    <li class="right_tab exam_tab">
+                        <a href="#e" data-toggle="tab" onclick="exam_click()"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
+                    </li>
+                    <li class="right_tab pass_tab">
+                        <a href="#f" data-toggle="tab" onclick="pass_click()"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ trans('locale.pass') }}</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-tabs-right">
+                    <li class="active qualify_tab">
+                        <a href="#a" data-toggle="tab" onclick="qualify_click()"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
+                    </li>
+                    <li class="enroll_tab">
+                        <a href="#b" data-toggle="tab" onclick="enroll_click()"><i class="fa fa-book" aria-hidden="true"></i>{{ trans('locale.enroll') }}</a>
+                    </li>
+                    <li class="prepare_tab">
+                        <a href="#c" data-toggle="tab" onclick="prepare_click()"><i class="fa fa-tasks" aria-hidden="true"></i>{{ trans('locale.prepare') }}</a>
+                    </li>
+                    <li class="schedule_tab">
+                        <a href="#d" data-toggle="tab" onclick="schedule_click()"><i class="fa fa-calendar" aria-hidden="true"></i>{{ trans('locale.schedule') }}</a>
+                    </li>
+                    <li class="right_tab exam_tab">
+                        <a href="#e" data-toggle="tab" onclick="exam_click()"><i class="fa fa-question-circle" aria-hidden="true"></i>{{ trans('locale.exam') }}</a>
+                    </li>
+                    <li class="right_tab pass_tab">
+                        <a href="#f" data-toggle="tab" onclick="pass_click()"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>{{ trans('locale.pass') }}</a>
+                    </li>
+                </ul>
 
-                    <<div class="tab-content" style="font:400 100px/1.2 'Merienda One', Helvetica, sans-serif;">
-                        <div class="tab-pane row active" id="a">
-                            <div class="flipbook-viewport">
-                                <div class="flipbook">
-                                    <div class="page" style="background-color: #78B582;">
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#78B582;">{{ trans('locale.qualify') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cfa_qualify.1') }}</p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cfa_qualify.2') }}
-                                        <u>{{ trans('locale.cfa_qualify.3') }}</u>
-                                        {{ trans('locale.cfa_qualify.4') }}
-                                        <u>{{ trans('locale.cfa_qualify.5') }}</u>
-                                        </p>
-                                        <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.1') }}
-                                        </p>
-                                        <a href="https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.2') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.3') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.4') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
-                                            {{ trans('locale.cfa_enroll.5') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
-                                            {{ trans('locale.cfa_enroll.6') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
-                                            {{ trans('locale.cfa_enroll.7') }}
-                                        </p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <p class="ml-30 mr-60 mt-30" style="font-size: 17px;">
-                                            {{ trans('locale.cfa_enroll.8') }}
-                                        </p>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                    </div>
-                                    <div class="page rt_page">
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#404A60;">{{ trans('locale.prepare') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="mr-30 ml-60 mt-30" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
-                                        </p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#406045;">{{ trans('locale.schedule') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_schedule.1') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
-                                            {{ trans('locale.cfa_schedule.2') }}
-                                        </p>
-                                        <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.exam') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 15px;">
-                                            <i class="fa fa-circle"></i>{{ trans('locale.cfa_exam.1') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
-                                            {{ trans('locale.cfa_exam.2') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
-                                            {{ trans('locale.cfa_exam.3') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
-                                            {{ trans('locale.cfa_exam.4') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
-                                            {{ trans('locale.cfa_exam.5') }}
-                                        </p>
-                                        <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
-                                            {{ trans('locale.cfa_exam.6') }}
-                                        </p>
-                                    </div>
-                                    <div class="page lft_page">
-                                        <div class="center" style="text-align: center;">
-                                            <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
-                                            <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
-                                        </div>
-                                    </div>
-                                    <div class="page rt_page">
-                                        <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cfa_pass.1') }}</p>
-                                        <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
-                                        <i class="fa fa-circle"></i>
-                                        {{ trans('locale.cfa_pass.2') }}</p>
-                                    </div>
-                                </div>
+                <div class="flipbook-viewport">
+                    <div class="flipbook">
+                        <div class="page" style="background-color: #78B582;">
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-graduation-cap" style="font-size: 80px; margin-top: 40%; color:#78B582;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#78B582;">{{ trans('locale.qualify') }}</h3>
                             </div>
                         </div>
-                    </div><!-- /tab-content -->
-                </div><!-- /tabbable -->
+                        <div class="page rt_page">
+
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cfa_qualify.1') }}</p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cfa_qualify.2') }}
+                            <u>{{ trans('locale.cfa_qualify.3') }}</u>
+                            {{ trans('locale.cfa_qualify.4') }}
+                            <u>{{ trans('locale.cfa_qualify.5') }}</u>
+                            </p>
+                            <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                            <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-book" style="font-size: 80px; margin-top: 40%; color:#B578AA;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B578AA;">{{ trans('locale.enroll') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.1') }}
+                            </p>
+                            <a href="https://login.cfainstitute.org/LoginApplication/CreateNewAccount.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.2') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.3') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cfa_enroll.4') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
+                                {{ trans('locale.cfa_enroll.5') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
+                                {{ trans('locale.cfa_enroll.6') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
+                                {{ trans('locale.cfa_enroll.7') }}
+                            </p>
+                        </div>
+                        <div class="page lft_page">
+                            <p class="ml-30 mr-60 mt-30" style="font-size: 17px;">
+                                {{ trans('locale.cfa_enroll.8') }}
+                            </p>
+                            <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                        </div>
+                        <div class="page rt_page">
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-tasks" style="font-size: 80px; margin-top: 40%; color:#404A60;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#404A60;">{{ trans('locale.prepare') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="mr-30 ml-60 mt-30" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
+                            </p>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-calendar" style="font-size: 80px; margin-top: 40%; color:#406045;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#406045;">{{ trans('locale.schedule') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cfa_schedule.1') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
+                                {{ trans('locale.cfa_schedule.2') }}
+                            </p>
+                            <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-question-circle" style="font-size: 80px; margin-top: 40%; color:#B53C46;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#B53C46;">{{ trans('locale.exam') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 15px;">
+                                <i class="fa fa-circle"></i>{{ trans('locale.cfa_exam.1') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
+                                {{ trans('locale.cfa_exam.2') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
+                                {{ trans('locale.cfa_exam.3') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
+                                {{ trans('locale.cfa_exam.4') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
+                                {{ trans('locale.cfa_exam.5') }}
+                            </p>
+                            <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
+                                {{ trans('locale.cfa_exam.6') }}
+                            </p>
+                        </div>
+                        <div class="page lft_page">
+                            <div class="center" style="text-align: center;">
+                                <i class="fa fa-thumbs-o-up" style="font-size: 80px; margin-top: 40%; color:#00B5A5;" aria-hidden="true"></i>
+                                <h3 style="font:400 50px/1.2 'Merienda One', Helvetica, sans-serif;color:#00B5A5;">{{ trans('locale.pass') }}</h3>
+                            </div>
+                        </div>
+                        <div class="page rt_page">
+                            <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cfa_pass.1') }}</p>
+                            <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
+                            <i class="fa fa-circle"></i>
+                            {{ trans('locale.cfa_pass.2') }}</p>
+                        </div>
+                    </div>
+                </div>
             </div><!-- /col -->
         </div>
 

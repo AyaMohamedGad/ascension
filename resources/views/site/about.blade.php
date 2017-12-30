@@ -71,7 +71,7 @@
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_partners') }}</h4>
 
                 <div class="container-fluid">
-                    <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="2500">
+                    <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="5000">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">

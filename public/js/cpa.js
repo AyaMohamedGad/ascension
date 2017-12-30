@@ -37,14 +37,14 @@ else{
 }
 
 //qualify click tab
-$('.qualify_tab a').click(function () {
+var qualify_click = function(){
     if($(".flipbook").turn("page") == 3 || $(".flipbook").turn("page") == 4)
         return;
     else if($(".flipbook").turn("page") < 3)
         goto_qualify();
     else
         backto_qualify();
-});
+}
 
 var goto_qualify = function(){
     $(".flipbook").turn("next");
@@ -66,14 +66,14 @@ var backto_qualify = function(){
 
 
 //enroll click tab
-$('.enroll_tab a').click(function () {
+var enroll_click = function(){
     if($(".flipbook").turn("page") == 6 || $(".flipbook").turn("page") == 7)
         return;
     else if($(".flipbook").turn("page") < 7)
         goto_enroll();
     else
         backto_enroll();
-});
+}
 
 var goto_enroll = function(){
     $(".flipbook").turn("next");
@@ -107,14 +107,14 @@ $('.ch-img-2 a').click(function () {
 });
 
 //prepare click tab
-$('.prepare_tab a').click(function () {
+var prepare_click = function(){
     if($(".flipbook").turn("page") == 12 || $(".flipbook").turn("page") == 13)
         return;
     else if($(".flipbook").turn("page") < 13)
         goto_prepare();
     else
         backto_prepare();
-});
+}
 
 var goto_prepare = function(){
     $(".flipbook").turn("next");
@@ -148,14 +148,14 @@ $('.ch-img-3 a').click(function () {
 });
 
 //schedule click tab
-$('.schedule_tab a').click(function () {
+var schedule_click = function(){
     if($(".flipbook").turn("page") == 14 || $(".flipbook").turn("page") == 15)
         return;
     else if($(".flipbook").turn("page") < 15)
         goto_schedule();
     else
         backto_schedule();
-});
+}
 
 var goto_schedule = function(){
     $(".flipbook").turn("next");
@@ -189,14 +189,14 @@ $('.ch-img-4 a').click(function () {
 });
 
 //exam click tab
-$('.exam_tab a').click(function () {
+var exam_click = function(){
     if($(".flipbook").turn("page") == 18 || $(".flipbook").turn("page") == 19)
         return;
     else if($(".flipbook").turn("page") < 19)
         goto_exam();
     else
         backto_exam();
-});
+}
 
 var goto_exam = function(){
     $(".flipbook").turn("next");
@@ -230,14 +230,14 @@ $('.ch-img-5 a').click(function () {
 });
 
 //pass click tab
-$('.pass_tab a').click(function () {
+var pass_click = function(){
     if($(".flipbook").turn("page") == 20 || $(".flipbook").turn("page") == 21)
         return;
     else if($(".flipbook").turn("page") < 21)
         goto_pass();
     else
         backto_pass();
-});
+}
 
 var goto_pass = function(){
     $(".flipbook").turn("next");
@@ -270,20 +270,226 @@ $('.ch-img-6 a').click(function () {
     }
 });
 
-var flipbookpage = function(page){
-    alert(page);
-}
+// var flipbookpage = function(page){
+//     alert(page);
+// }
 
-$('.nav-tabs-left a').click(function () {
-    $('.nav-tabs-left .active').removeClass('active');
-    $(this).parent().addClass('active');
-});
+// $('.nav-tabs-left a').click(function () {
+//     $('.nav-tabs-left .active').removeClass('active');
+//     $(this).parent().addClass('active');
+// });
 
 
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-  var target = $(e.target).attr("href") // activated tab
-  var selected = 'a[href=' + target + ']' + ':eq(1)';
-  // console.log($(selected)[1].parentElement);
-  $('.nav-tabs-left .active').removeClass('active');
-  $(selected).parent().addClass('active');
+// $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+//   var target = $(e.target).attr("href") // activated tab
+//   var selected = 'a[href=' + target + ']' + ':eq(1)';
+//   // console.log($(selected)[1].parentElement);
+//   $('.nav-tabs-left .active').removeClass('active');
+//   $(selected).parent().addClass('active');
+// });
+
+
+$('.nav-tabs-left .qualify_tab').addClass('showing');
+$('.nav-tabs-left .enroll_tab').addClass('hiding');
+$('.nav-tabs-left .prepare_tab').addClass('hiding');
+$('.nav-tabs-left .schedule_tab').addClass('hiding');
+$('.nav-tabs-left .exam_tab').addClass('hiding');
+$('.nav-tabs-left .pass_tab').addClass('hiding');
+
+$('.nav-tabs-right .qualify_tab').addClass('hiding');
+$('.nav-tabs-right .enroll_tab').addClass('showing');
+$('.nav-tabs-right .prepare_tab').addClass('showing');
+$('.nav-tabs-right .schedule_tab').addClass('showing');
+$('.nav-tabs-right .exam_tab').addClass('showing');
+$('.nav-tabs-right .pass_tab').addClass('showing');
+
+
+$(".flipbook").bind("turned", function(event, page, view) {
+    
+    //qualify page
+    if(page == 2 || page == 3){
+        $('.nav-tabs-left .qualify_tab').removeClass('hiding');
+        $('.nav-tabs-left .enroll_tab').removeClass('showing');
+        $('.nav-tabs-left .prepare_tab').removeClass('showing');
+        $('.nav-tabs-left .schedule_tab').removeClass('showing');
+        $('.nav-tabs-left .exam_tab').removeClass('showing');
+        $('.nav-tabs-left .pass_tab').removeClass('showing');
+
+        $('.nav-tabs-left .qualify_tab').addClass('showing');
+        $('.nav-tabs-left .enroll_tab').addClass('hiding');
+        $('.nav-tabs-left .prepare_tab').addClass('hiding');
+        $('.nav-tabs-left .schedule_tab').addClass('hiding');
+        $('.nav-tabs-left .exam_tab').addClass('hiding');
+        $('.nav-tabs-left .pass_tab').addClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').removeClass('showing');
+        $('.nav-tabs-right .enroll_tab').removeClass('hiding');
+        $('.nav-tabs-right .prepare_tab').removeClass('hiding');
+        $('.nav-tabs-right .schedule_tab').removeClass('hiding');
+        $('.nav-tabs-right .exam_tab').removeClass('hiding');
+        $('.nav-tabs-right .pass_tab').removeClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').addClass('hiding');
+        $('.nav-tabs-right .enroll_tab').addClass('showing');
+        $('.nav-tabs-right .prepare_tab').addClass('showing');
+        $('.nav-tabs-right .schedule_tab').addClass('showing');
+        $('.nav-tabs-right .exam_tab').addClass('showing');
+        $('.nav-tabs-right .pass_tab').addClass('showing');
+    }
+
+
+    //enroll page
+    else if(page == 6 || page == 7){
+        $('.nav-tabs-left .qualify_tab').removeClass('hiding');
+        $('.nav-tabs-left .enroll_tab').removeClass('hiding');
+        $('.nav-tabs-left .prepare_tab').removeClass('showing');
+        $('.nav-tabs-left .schedule_tab').removeClass('showing');
+        $('.nav-tabs-left .exam_tab').removeClass('showing');
+        $('.nav-tabs-left .pass_tab').removeClass('showing');
+
+        $('.nav-tabs-left .qualify_tab').addClass('showing');
+        $('.nav-tabs-left .enroll_tab').addClass('showing');
+        $('.nav-tabs-left .prepare_tab').addClass('hiding');
+        $('.nav-tabs-left .schedule_tab').addClass('hiding');
+        $('.nav-tabs-left .exam_tab').addClass('hiding');
+        $('.nav-tabs-left .pass_tab').addClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').removeClass('showing');
+        $('.nav-tabs-right .enroll_tab').removeClass('showing');
+        $('.nav-tabs-right .prepare_tab').removeClass('hiding');
+        $('.nav-tabs-right .schedule_tab').removeClass('hiding');
+        $('.nav-tabs-right .exam_tab').removeClass('hiding');
+        $('.nav-tabs-right .pass_tab').removeClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').addClass('hiding');
+        $('.nav-tabs-right .enroll_tab').addClass('hiding');
+        $('.nav-tabs-right .prepare_tab').addClass('showing');
+        $('.nav-tabs-right .schedule_tab').addClass('showing');
+        $('.nav-tabs-right .exam_tab').addClass('showing');
+        $('.nav-tabs-right .pass_tab').addClass('showing');
+    }
+
+    //prepare page
+    else if(page == 12 || page == 13){
+        $('.nav-tabs-left .qualify_tab').removeClass('hiding');
+        $('.nav-tabs-left .enroll_tab').removeClass('hiding');
+        $('.nav-tabs-left .prepare_tab').removeClass('hiding');
+        $('.nav-tabs-left .schedule_tab').removeClass('showing');
+        $('.nav-tabs-left .exam_tab').removeClass('showing');
+        $('.nav-tabs-left .pass_tab').removeClass('showing');
+
+        $('.nav-tabs-left .qualify_tab').addClass('showing');
+        $('.nav-tabs-left .enroll_tab').addClass('showing');
+        $('.nav-tabs-left .prepare_tab').addClass('showing');
+        $('.nav-tabs-left .schedule_tab').addClass('hiding');
+        $('.nav-tabs-left .exam_tab').addClass('hiding');
+        $('.nav-tabs-left .pass_tab').addClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').removeClass('showing');
+        $('.nav-tabs-right .enroll_tab').removeClass('showing');
+        $('.nav-tabs-right .prepare_tab').removeClass('showing');
+        $('.nav-tabs-right .schedule_tab').removeClass('hiding');
+        $('.nav-tabs-right .exam_tab').removeClass('hiding');
+        $('.nav-tabs-right .pass_tab').removeClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').addClass('hiding');
+        $('.nav-tabs-right .enroll_tab').addClass('hiding');
+        $('.nav-tabs-right .prepare_tab').addClass('hiding');
+        $('.nav-tabs-right .schedule_tab').addClass('showing');
+        $('.nav-tabs-right .exam_tab').addClass('showing');
+        $('.nav-tabs-right .pass_tab').addClass('showing');
+    }
+
+    //schedule page
+    else if(page == 14 || page == 15){
+        $('.nav-tabs-left .qualify_tab').removeClass('hiding');
+        $('.nav-tabs-left .enroll_tab').removeClass('hiding');
+        $('.nav-tabs-left .prepare_tab').removeClass('hiding');
+        $('.nav-tabs-left .schedule_tab').removeClass('hiding');
+        $('.nav-tabs-left .exam_tab').removeClass('showing');
+        $('.nav-tabs-left .pass_tab').removeClass('showing');
+
+        $('.nav-tabs-left .qualify_tab').addClass('showing');
+        $('.nav-tabs-left .enroll_tab').addClass('showing');
+        $('.nav-tabs-left .prepare_tab').addClass('showing');
+        $('.nav-tabs-left .schedule_tab').addClass('showing');
+        $('.nav-tabs-left .exam_tab').addClass('hiding');
+        $('.nav-tabs-left .pass_tab').addClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').removeClass('showing');
+        $('.nav-tabs-right .enroll_tab').removeClass('showing');
+        $('.nav-tabs-right .prepare_tab').removeClass('showing');
+        $('.nav-tabs-right .schedule_tab').removeClass('showing');
+        $('.nav-tabs-right .exam_tab').removeClass('hiding');
+        $('.nav-tabs-right .pass_tab').removeClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').addClass('hiding');
+        $('.nav-tabs-right .enroll_tab').addClass('hiding');
+        $('.nav-tabs-right .prepare_tab').addClass('hiding');
+        $('.nav-tabs-right .schedule_tab').addClass('hiding');
+        $('.nav-tabs-right .exam_tab').addClass('showing');
+        $('.nav-tabs-right .pass_tab').addClass('showing');
+    }
+
+    //exam page
+    else if(page == 18 || page == 19){
+        $('.nav-tabs-left .qualify_tab').removeClass('hiding');
+        $('.nav-tabs-left .enroll_tab').removeClass('hiding');
+        $('.nav-tabs-left .prepare_tab').removeClass('hiding');
+        $('.nav-tabs-left .schedule_tab').removeClass('hiding');
+        $('.nav-tabs-left .exam_tab').removeClass('hiding');
+        $('.nav-tabs-left .pass_tab').removeClass('showing');
+
+        $('.nav-tabs-left .qualify_tab').addClass('showing');
+        $('.nav-tabs-left .enroll_tab').addClass('showing');
+        $('.nav-tabs-left .prepare_tab').addClass('showing');
+        $('.nav-tabs-left .schedule_tab').addClass('showing');
+        $('.nav-tabs-left .exam_tab').addClass('showing');
+        $('.nav-tabs-left .pass_tab').addClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').removeClass('showing');
+        $('.nav-tabs-right .enroll_tab').removeClass('showing');
+        $('.nav-tabs-right .prepare_tab').removeClass('showing');
+        $('.nav-tabs-right .schedule_tab').removeClass('showing');
+        $('.nav-tabs-right .exam_tab').removeClass('showing');
+        $('.nav-tabs-right .pass_tab').removeClass('hiding');
+
+        $('.nav-tabs-right .qualify_tab').addClass('hiding');
+        $('.nav-tabs-right .enroll_tab').addClass('hiding');
+        $('.nav-tabs-right .prepare_tab').addClass('hiding');
+        $('.nav-tabs-right .schedule_tab').addClass('hiding');
+        $('.nav-tabs-right .exam_tab').addClass('hiding');
+        $('.nav-tabs-right .pass_tab').addClass('showing');
+    }
+
+    //pass page
+    else if(page == 20 || page == 21){
+        $('.nav-tabs-left .qualify_tab').removeClass('hiding');
+        $('.nav-tabs-left .enroll_tab').removeClass('hiding');
+        $('.nav-tabs-left .prepare_tab').removeClass('hiding');
+        $('.nav-tabs-left .schedule_tab').removeClass('hiding');
+        $('.nav-tabs-left .exam_tab').removeClass('hiding');
+        $('.nav-tabs-left .pass_tab').removeClass('hiding');
+
+        $('.nav-tabs-left .qualify_tab').addClass('showing');
+        $('.nav-tabs-left .enroll_tab').addClass('showing');
+        $('.nav-tabs-left .prepare_tab').addClass('showing');
+        $('.nav-tabs-left .schedule_tab').addClass('showing');
+        $('.nav-tabs-left .exam_tab').addClass('showing');
+        $('.nav-tabs-left .pass_tab').addClass('showing');
+
+        $('.nav-tabs-right .qualify_tab').removeClass('showing');
+        $('.nav-tabs-right .enroll_tab').removeClass('showing');
+        $('.nav-tabs-right .prepare_tab').removeClass('showing');
+        $('.nav-tabs-right .schedule_tab').removeClass('showing');
+        $('.nav-tabs-right .exam_tab').removeClass('showing');
+        $('.nav-tabs-right .pass_tab').removeClass('showing');
+
+        $('.nav-tabs-right .qualify_tab').addClass('hiding');
+        $('.nav-tabs-right .enroll_tab').addClass('hiding');
+        $('.nav-tabs-right .prepare_tab').addClass('hiding');
+        $('.nav-tabs-right .schedule_tab').addClass('hiding');
+        $('.nav-tabs-right .exam_tab').addClass('hiding');
+        $('.nav-tabs-right .pass_tab').addClass('hiding');
+    }
 });
