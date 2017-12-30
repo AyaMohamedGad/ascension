@@ -41,9 +41,9 @@ if(locale == 'en'){
   $( ".logo_pic2" )
   .delay(2200)
   .animate({
-      left: "68%",
+      left: "73%",
       top: "80px",
-      width: "30%",
+      width: "24%",
       opacity: "0.5"
         }, 1000);
 }
@@ -53,7 +53,7 @@ else{
   .animate({
       left: "2%",
       top: "80px",
-      width: "30%",
+      width: "24%",
       opacity: "0.5",
       transform: "scaleX(-1)"
         }, 1000);
