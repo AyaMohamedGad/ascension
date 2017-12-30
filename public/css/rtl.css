@@ -177,20 +177,6 @@ a.language {
     margin-left: 70px !important;
 }
 
-#book_tabs .nav-tabs-left {
-    margin-left: -100px;
-    height: 493px;
-}
-
-#book_tabs .nav li:nth-child(-n+4) {
-    max-width: 85px;
-    margin-bottom: 0px;
-}
-
-.exam_tab {
-    bottom: 23%;
-}
-
 .flipbook-viewport div{
     direction: ltr !important;
 }
@@ -235,4 +221,94 @@ a.language {
 }
 .page-wrapper h3{
     font-size: 40px !important;
+}
+
+#book_tabs>div>.nav-tabs-left {
+    z-index: 9999;
+    float: right;
+    border-bottom: 0;
+    margin-right: -65px;
+    margin-top: 15px;
+}
+
+#book_tabs>div>.nav-tabs-right {
+    z-index: 9999; 
+  float: left;
+  border-bottom: 0;
+  margin-left: -65px;
+  margin-top: 15px;
+}
+
+.lft_page .nav-tabs-left{
+    float: right;
+    position: absolute;
+    right: 0px;
+}
+
+.lft_page .nav-tabs-left .qualify_tab{
+    top: 14px;
+    right: -56px;
+    width: 82px;
+}
+
+.lft_page .nav-tabs-left .enroll_tab{
+    top: 98px;
+    right: -56px;
+    width: 82px;
+}
+
+.lft_page .nav-tabs-left .prepare_tab{
+    top: 182px;
+    right: -56px;
+    width: 82px;
+}
+
+.lft_page .nav-tabs-left .schedule_tab{
+    top: 265px;
+    right: -56px;
+    width: 82px;
+}
+
+.lft_page .nav-tabs-left .exam_tab{
+    top: 347px;
+    right: -56px;
+    width: 82px;
+}
+
+.lft_page .nav-tabs-left .pass_tab{
+    top: 431px;
+    right: -56px;
+    width: 82px;
+}
+
+.lft_page .nav-tabs-left li, .lft_page .nav-tabs-left li a{
+    font-size: 8px !important;
+}
+
+#book_tabs .nav-tabs-left li:nth-child(-n+4){
+    transform: rotate(90deg);
+    margin-bottom: 32px;
+    font-size: 8px;
+    max-width: 82px;
+}
+
+#book_tabs .nav-tabs-left li:nth-child(n+5){
+    transform: rotate(90deg);
+    margin-bottom: 32px;
+    font-size: 8px;
+    max-width: 82px;
+}
+
+#book_tabs .nav-tabs-right li:nth-child(-n+4){
+    transform: rotate(-90deg);
+    margin-bottom: 32px;
+    font-size: 8px;
+    max-width: 82px;
+}
+
+#book_tabs .nav-tabs-right li:nth-child(n+5){
+    transform: rotate(-90deg);
+    margin-bottom: 32px;
+    font-size: 8px;
+    max-width: 82px;
 }
