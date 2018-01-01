@@ -26,7 +26,7 @@
 
         <div class="tab-content mt-20 row wow bounceInUp" style="visibility: hidden">
             <div class="cpa col-sm-12">
-                <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
+                <img class="center" src="{{ asset('images/cfa.jpg') }}" >
                 <div class="content">
                     <p>{{ trans('locale.cfa') }} <span>{{ trans('locale.mark') }}</span></p>
                     <p>{{ trans('locale.cfa_word') }}</p>
@@ -325,7 +325,7 @@
                 <div class="half">
                     <div class="tab">
                         <input id="tab-one" checked="checked" type="checkbox" name="tabs">
-                        <label for="tab-one">.</label>
+                        <label for="tab-one">{{ trans('locale.cfa_details.12') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-12">
                                 <table class="table table-striped">
@@ -380,20 +380,20 @@
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cfa_details.11') }}<a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/level_I_exam_prep.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cfa_details.11') }} <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/level_I_exam_prep.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>
 
                     <div class="tab">
                         <input id="tab-two" type="checkbox" name="tabs">
-                        <label for="tab-two">.</label>
+                        <label for="tab-two">{{ trans('locale.cfa_details.13') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-12">
                                 <table class="table table-striped">
                                     <thead>
                                     <tr>
-                                        <th>{{ trans('locale.cfa_details.12') }}</th>
+                                        <th>{{ trans('locale.cfa_details.13') }}</th>
                                         <th>{{ trans('locale.weight') }}</th>
                                     </tr>
                                     </thead>
@@ -442,20 +442,20 @@
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }}<a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/level_II_exam_prep.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }} <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/level_II_exam_prep.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>
 
                     <div class="tab">
                         <input id="tab-three" type="checkbox" name="tabs">
-                        <label for="tab-three">.</label>
+                        <label for="tab-three">{{ trans('locale.cfa_details.14') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-12">
                                 <table class="table table-striped">
                                     <thead>
                                     <tr>
-                                        <th>{{ trans('locale.cfa_details.12') }}</th>
+                                        <th>{{ trans('locale.cfa_details.14') }}</th>
                                         <th>{{ trans('locale.weight') }}</th>
                                     </tr>
                                     </thead>
@@ -488,7 +488,7 @@
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }}<a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/level_III_exam_prep.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }} <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/level_III_exam_prep.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>

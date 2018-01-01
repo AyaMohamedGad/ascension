@@ -2411,24 +2411,27 @@ ul li a.active.sub-nav-toggle {
     background-position: center center;
     min-height: 245px;
     text-align: center;
-    padding-top: 7%;
-    color: #092b67;
+    padding-top: 4%;
+    color: #fff;
     font-size: 19px;
     letter-spacing: 1px;
 }
 .cpa_page .times .col-sm-6 li i{
     font-size: 10px;
-    color: #092b67;
+    color: #fff;
+}
+.cpa_page .times .col-sm-6 li{
+    color: #fff;
 }
 .cpa_page .times .col-sm-6 li{
     line-height: 35px;
 }
 .cpa_page .times .col-sm-6 h4{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #092b67;
+    color: #fff;
 }
 .cpa_page .times .col-sm-6 h4 i{
-    color: #092b67;
+    color: #fff;
 }
 .icon-animated-bell {display:inline-block;-moz-animation:ringing 2s 5 ease 1s;-webkit-animation:ringing 2s 5 ease 1s;-o-animation:ringing 2s 5 ease 1s;-ms-animation:ringing 2s 5 ease 1s;animation:ringing 2s 5 ease 1s;-moz-transform-origin:50% 0;-webkit-transform-origin:50% 0;-o-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0}
 @-moz-keyframes ringing{0%{-moz-transform:rotate(-15deg)}2%{-moz-transform:rotate(15deg)}12%,4%{-moz-transform:rotate(-18deg)}14%,6%{-moz-transform:rotate(18deg)}8%{-moz-transform:rotate(-22deg)}10%{-moz-transform:rotate(22deg)}16%{-moz-transform:rotate(-12deg)}18%{-moz-transform:rotate(12deg)}20%{-moz-transform:rotate(0)}}@-webkit-keyframes ringing{0%{-webkit-transform:rotate(-15deg)}2%{-webkit-transform:rotate(15deg)}12%,4%{-webkit-transform:rotate(-18deg)}14%,6%{-webkit-transform:rotate(18deg)}8%{-webkit-transform:rotate(-22deg)}10%{-webkit-transform:rotate(22deg)}16%{-webkit-transform:rotate(-12deg)}18%{-webkit-transform:rotate(12deg)}20%{-webkit-transform:rotate(0)}}@-ms-keyframes ringing{0%{-ms-transform:rotate(-15deg)}2%{-ms-transform:rotate(15deg)}12%,4%{-ms-transform:rotate(-18deg)}14%,6%{-ms-transform:rotate(18deg)}8%{-ms-transform:rotate(-22deg)}10%{-ms-transform:rotate(22deg)}16%{-ms-transform:rotate(-12deg)}18%{-ms-transform:rotate(12deg)}20%{-ms-transform:rotate(0)}}@keyframes ringing{0%{transform:rotate(-15deg)}2%{transform:rotate(15deg)}12%,4%{transform:rotate(-18deg)}14%,6%{transform:rotate(18deg)}8%{transform:rotate(-22deg)}10%{transform:rotate(22deg)}16%{transform:rotate(-12deg)}18%{transform:rotate(12deg)}20%{transform:rotate(0)}}

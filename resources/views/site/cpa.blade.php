@@ -349,9 +349,9 @@
                             </div>
                         </div>
                         <div class="page rt_page">
-                            <p class="mt-30 mr-30 ml-30"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.1') }}</p>
-                            <p class="mr-30 ml-30"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.2') }}</p>
-                            <p class="mr-30 ml-30"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.3') }} ( <a href="http://www.aicpa.org/BecomeACPA/CPAExam/PsychometricsandScoring/ScoringInformation/Pages/FAQ2011ScoreRelease.aspx" target="_blank">{{ trans('locale.click_here') }}</a> )</p>
+                            <p class="mt-50 mr-50 ml-50"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.1') }}</p>
+                            <p class="mr-50 ml-50"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.2') }}</p>
+                            <p class="mr-50 ml-50"><i class="fa fa-circle"></i> {{ trans('locale.cpa_exam.3') }} ( <a href="http://www.aicpa.org/BecomeACPA/CPAExam/PsychometricsandScoring/ScoringInformation/Pages/FAQ2011ScoreRelease.aspx" target="_blank">{{ trans('locale.click_here') }}</a> )</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">

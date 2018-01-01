@@ -11,6 +11,16 @@
         .col-sm-6 img{
             width: 100%;
         }
+        .item .col-xs-4{
+            height: 240px;
+        }
+        .item img{
+            text-align: center;
+            max-width: 250px;
+            line-height: 250px;
+            margin: auto;
+            vertical-align: middle;
+        }
     </style>
 @stop
 
@@ -77,17 +87,14 @@
                             <div class="item active">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/4.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/5.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
-                                        </div>
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/3.jpg') }}" class="img-responsive">
                                         </div>
                                     </div>
                                 </div>            
@@ -95,20 +102,32 @@
                             <div class="item">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/6.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/9.png') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
-                                        </div>
-                                        <div class="col-xs-3">
-                                            <img src="{{ asset('images/client.png') }}" class="img-responsive">
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/7.png') }}" class="img-responsive">
                                         </div>
                                     </div>
                                 </div>            
+                            </div>
+                            <div class="item">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/1.jpg') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/2.jpg') }}" class="img-responsive">
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <img src="{{ asset('images/clients/10.jpeg') }}" class="img-responsive">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         <!-- End Item -->
                         </div>
