@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Ascension | @yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="weibergmedia">
-    <meta name="description" content="" />
+    <meta name="author" content="ascension">
+    <meta name="description" content="to enable those who aspire highly in the field of business to fulfill their aspirations through our consulting and training programs." />
     {!! Html::style('css/reset.css') !!}
     {!! Html::style('css/bootstrap.min.css') !!}
     {!! Html::style('css/font-awesome.min.css') !!}
@@ -23,7 +23,6 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css" />
     @endif
-
     {!! Html::script('js/modernizr.js') !!}
     @yield('styles')
 </head>
