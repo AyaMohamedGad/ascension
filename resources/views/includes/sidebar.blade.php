@@ -11,7 +11,7 @@
     <a href="{{ route('HomePage') }}">
         <img width="90%" class="mt-10 center" src="{{ asset('images/logo.png') }}" alt="{{ trans('ascension') }}">
     </a>
-    <nav id="main-nav" class="mt-10">
+    <nav id="main-nav">
         <ul class="option-set clearfix" data-option-key="filter">
             <li><a href="{{ route('HomePage') }}" class="{{ Request::is('home*') || Request::is('/') ? 'active' : '' }}">{{ trans('locale.home') }}</a></li>
             <li>

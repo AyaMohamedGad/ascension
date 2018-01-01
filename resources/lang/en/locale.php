@@ -557,8 +557,25 @@ return [
             "5" => "(Customer Service Center - in Mansouriyah, Block 1, Street 13) to submit and deliver the original documents."
         ]
     ],
-    "yes"=> "Yes",
-    "no"=> "No"
+    "yes" => "Yes",
+    "no" => "No",
+    "funds" => [
+        "1" => "Are you eligible for a loan ?",
+        "2" => "Start your assessment",
+        "3" => "Are you Kuwaiti ?",
+        "4" => "Sorry you are not eligible to get a lone since you are not Kuwaiti",
+        "5" => "Are you above 21 years old ?",
+        "6" => "Sorry you are not eligible to get loan since you age is less than 21 years old, once you become 21 years old you can get unlimited loan",
+        "7" => "Can you manage at least 10% of the cost of the project ?",
+        "8" => "Sorry you are not eligible to get loan because the national fund has one condition, you must manage at least 10 % from your own sources and 10% from national banks",
+        "9" => "What is your job status ?",
+        "10" => "Retired",
+        "11" => "Governmental Employee",
+        "12" => "Military Employee",
+        "13" => "Private Sector Employee",
+        "14" => "Next",
+        "15" => "Previous",
+    ]
 
 
 
