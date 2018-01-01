@@ -26,7 +26,7 @@
 
         <div class="tab-content mt-20 row wow bounceInUp" style="visibility: hidden">
             <div class="cpa col-sm-12">
-                <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
+                <img class="center" src="{{ asset('images/cia.jpg') }}" >
                 <div class="content">
                     <p>{{ trans('locale.cia') }} <span>{{ trans('locale.mark') }}</span></p>
                     <p>{{ trans('locale.cia_word') }}</p>
@@ -386,7 +386,7 @@
                 <div class="half">
                     <div class="tab">
                         <input id="tab-one" checked="checked" type="checkbox" name="tabs">
-                        <label for="tab-one">.</label>
+                        <label for="tab-one">{{ trans('locale.cia_exam.1') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-12">
                                 <table class="table table-striped">
@@ -413,20 +413,20 @@
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }}<a href="https://na.theiia.org/certification/CIA-Certification/Pages/CIA-2013-Exam-Syllabus-Part-2.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }} <a href="https://na.theiia.org/certification/CIA-Certification/Pages/CIA-2013-Exam-Syllabus-Part-2.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>
 
                     <div class="tab">
                         <input id="tab-two" type="checkbox" name="tabs">
-                        <label for="tab-two">.</label>
+                        <label for="tab-two">{{ trans('locale.cia_exam.2') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-12">
                                 <table class="table table-striped">
                                     <thead>
                                     <tr>
-                                        <th>{{ trans('locale.cia_exam.1') }}</th>
+                                        <th>{{ trans('locale.cia_exam.2') }}</th>
                                         <th>{{ trans('locale.weight') }}</th>
                                     </tr>
                                     </thead>
@@ -447,20 +447,20 @@
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }}<a href="https://na.theiia.org/certification/CIA-Certification/Pages/CIA-2013-Exam-Syllabus-Part-2.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }} <a href="https://na.theiia.org/certification/CIA-Certification/Pages/CIA-2013-Exam-Syllabus-Part-2.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>
 
                     <div class="tab">
                         <input id="tab-three" type="checkbox" name="tabs">
-                        <label for="tab-three">.</label>
+                        <label for="tab-three">{{ trans('locale.cia_exam.3') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-12">
                                 <table class="table table-striped">
                                     <thead>
                                     <tr>
-                                        <th>{{ trans('locale.cia_exam.1') }}</th>
+                                        <th>{{ trans('locale.cia_exam.3') }}</th>
                                         <th>{{ trans('locale.weight') }}</th>
                                     </tr>
                                     </thead>
@@ -501,7 +501,7 @@
                                 </table>
                             </div>
                             <div class="col-sm-12">
-                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }}<a href="https://na.theiia.org/certification/CIA-Certification/Pages/CIA-2013-Exam-Syllabus-Part-3.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
+                                <h5 class="center ordinary">{{ trans('locale.cia_details.4') }} <a href="https://na.theiia.org/certification/CIA-Certification/Pages/CIA-2013-Exam-Syllabus-Part-3.aspx" target="_blank">{{ trans('locale.click_here') }}</a></h5>
                             </div>
                         </div>
                     </div>

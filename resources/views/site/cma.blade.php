@@ -26,7 +26,7 @@
 
         <div class="tab-content mt-20 row wow bounceInUp" style="visibility: hidden">
             <div class="cpa col-sm-12">
-                <img class="center" src="{{ asset('images/course_bg.jpg') }}" >
+                <img class="center" src="{{ asset('images/cma.jpg') }}" >
                 <div class="content">
                     <p>{{ trans('locale.cma') }} <span>{{ trans('locale.mark') }}</span></p>
                     <p>{{ trans('locale.cma_word') }}</p>

@@ -7,8 +7,8 @@ return [
     "cpa" => "CPA",
     "cpa_word" => "Certified Public Accountant",
     "cma_word" => "Certified Management Accountant",
-    "cfa_word" => "Certified Public Accountant",
-    "cia_word" => "Certified Public Accountant",
+    "cfa_word" => "Certified Financial Analyst",
+    "cia_word" => "Certified Internal Auditor",
     "cia" => "CIA",
     "cfa" => "CFA",
     "cpa_program" => "CPA Program",
@@ -78,10 +78,10 @@ return [
     "accounting_finance" => "دورات محاسبية",
     "business_management" => "دورات إداره الأعمال",
     "hr_management" => "دورات تنمية بشرية",
-    "financial_analysis" => "Financial Analysis",
-    "accounting_non_accountants" => "Accounting For Non Accountants",
-    "cost_budgeting" => "Cost & Budgeting",
-    "accounting_on_excel" => "Accounting On Excel",
+    "financial_analysis" => "محلل مالى",
+    "accounting_non_accountants" => "المحاسبة لغير المحاسبين",
+    "cost_budgeting" => "التكلفة & الميزانية",
+    "accounting_on_excel" => "المحاسبة على Excel",
     "ers_paragraph" => [
         "1" => "هو برنامج تفاعلي مبتكر أطلقته شركة أسنشن ليكون البرنامج الأول في الكويت الذي يعتني بترقية مؤهلات موظفي المالية والتدقيق سواء للعاملين في القطاع العام أو الخاص.",
         "2" => "يتميز البرنامج عن غيره من البرامج الاخرى بكونه يركز على ترقية قدرات الموظف بطريقة عملية واحترافية تحاكي الاسلوب الأمثل والمجرب لممارسة العمل في قطاعات المالية والتدقيق.",
@@ -131,29 +131,29 @@ return [
     ],
     "accounting" => "المحاسبة",
     "human_resources" => "التنمية البشرية",
-    "financial_evaluations" => "Financial Evaluations",
+    "financial_evaluations" => "التقييمات المالية",
     "other" => "آخرى",
     "accounting_text" => [
-        "1" => "Accounting Procedures & Authorities",
+        "1" => "إجراءات المحاسبة والهيئات",
         "2" => "الأنظمة المحاسبية",
-        "3" => "Internal Control Development & Procedures",
-        "4" => "Liquidation Management"
+        "3" => "تطوير وإجراءات الرقابة الداخلية",
+        "4" => "إدارة التصفية"
     ],
     "financial_text" => [
-        "1" => "Mergers & Acquisitions",
-        "2" => "Performance Assessments",
-        "3" => "Capital Structure",
-        "4" => "Firms Value & Evaluation"
+        "1" => "عمليات الاندماج والاستحواذ",
+        "2" => "تقييم الأداء",
+        "3" => "هيكل رأس المال",
+        "4" => "قيمة الشركة وتقييمها"
     ],
     "human_text" => [
-        "1" => "Organizations Structure",
-        "2" => "Salaries & Wages",
-        "3" => "Hiring Assessment",
-        "4" => "Residency"
+        "1" => "هيكل المؤسسات",
+        "2" => "المرتبات والأجور",
+        "3" => "تقييم التوظيف",
+        "4" => "الإقامة"
     ],
     "other_text" => [
-        "1" => "Strategy & Long Term Plans",
-        "2" => "Marketing & Pricing",
+        "1" => "استراتيجية وخطط طويلة الأجل",
+        "2" => "التسويق والتسعير",
         "3" => "SME’s",
         "4" => "آخرى"
     ],
