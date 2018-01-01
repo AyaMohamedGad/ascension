@@ -2721,21 +2721,6 @@ a.ps_close:hover {
     cursor: pointer;
 }
 
-.funds input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-}
-.funds label {
-    position: relative;
-    display: block;
-    padding: 0 0 0 1em;
-    background: #092b67;
-    line-height: 3;
-    cursor: pointer;
-    color: #fff;
-    letter-spacing: 1px;
-}
 .funds .tab-content {
     max-height: 0;
     overflow: hidden;

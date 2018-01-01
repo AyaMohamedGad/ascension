@@ -84,60 +84,67 @@
 
                 <p>{{ trans('locale.fund.eligiablity.1') }}</p>
                     <div class="half">
-                            <div class="new_tab">
-                                {{ trans('locale.fund.eligiablity.2') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.3') }}" type="button" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                            </div>
 
-                            <!-- <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.3') }}</p>
-                            </div> -->
+                        <form id="myWizard" type="get" action="" class="form-horizontal">
 
-                        <div class="new_tab">
-                                {{ trans('locale.fund.eligiablity.4') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.5') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                            <!-- <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.5') }}</p>
-                            </div> -->
-                        </div>
+                            <section class="step" data-step-title="The first">
+                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.1') }}</h4>
+                                <div class="row center mt-30">
+                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                </div>
+                            </section>
 
-                        <div class="new_tab">
-                            {{ trans('locale.fund.eligiablity.6') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.7') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                            <!-- <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.7') }}</p>
-                            </div> -->
-                        </div>
+                            <section class="step" data-step-title="The second">
+                                <h3 style="text-align: center" class="mt-40">{{ trans('locale.funds.2') }}</h3>
+                                <h4 style="text-align: center" class="mb-20">{{ trans('locale.funds.3') }}</h4>
+                                <div class="row center mt-30">
+                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.funds.4') }}" for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                </div>
+                            </section>
 
-                        <div class="new_tab">
-                            {{ trans('locale.fund.eligiablity.8') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.9') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                            <!-- <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.7') }}</p>
-                            </div> -->
-                        </div>
+                            <section class="step" data-step-title="The third">
+                                
+                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.5') }}</h4>
+                                <div class="row center mt-30">
+                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.funds.6') }}" for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                </div>
+                            </section>
 
-                        <div class="new_tab">
-                            {{ trans('locale.fund.eligiablity.10') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.11') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                            <!-- <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.7') }}</p>
-                            </div> -->
-                        </div>
+                            <section class="step" data-step-title="The Fourth">
+                                
+                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.7') }}</h4>
+                                <div class="row center mt-30">
+                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.funds.8') }}" for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                </div>
 
-                        <div class="new_tab">
-                            {{ trans('locale.fund.eligiablity.12') }}
-                                <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.fund.eligiablity.13') }}" type="button" id="yessecond" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                            <!-- <div class="tab-content">
-                                <p>{{ trans('locale.fund.eligiablity.7') }}</p>
-                            </div> -->
-                        </div>
+                            </section>
+
+                            <section class="step" data-step-title="The Fifth">
+                                
+                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.9') }}</h4>
+                                <div class="row center mt-30">
+
+                                    <label class="radio-inline">
+                                      <input type="radio" name="optradio">{{ trans('locale.funds.10') }}
+                                    </label>
+                                    <label class="radio-inline">
+                                      <input type="radio" name="optradio">{{ trans('locale.funds.11') }}
+                                    </label>
+                                    <label class="radio-inline">
+                                      <input type="radio" name="optradio">{{ trans('locale.funds.12') }}
+                                    </label>
+                                    <label class="radio-inline">
+                                      <input type="radio" name="optradio">{{ trans('locale.funds.13') }}
+                                    </label>
+                                </div>
+
+                            </section>
+
+                        </form>
                     </div>
                 </div>
 
@@ -154,12 +161,14 @@
 @stop
 
 @section('scripts')
+    {!! Html::script('js/jquery.easyWizard.js') !!}
+
     <script>
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
         });
 
-        $(document).on('click', '.col-sm-3', function (e) {
+        $(document).on('click', '.funds .col-sm-3', function (e) {
             $(this).addClass('active');
             $('.col-sm-3').not(this).each(function(){
                 $(this).removeClass('active');
@@ -171,17 +180,30 @@
             $('.'+ID).removeClass('hidden');
         });
 
-        $(document).on('click', '.no', function(){
-            if ($(this).parent().find('.popover').length != 0) {
-                $(this).parent().find('.yes').click();
+//         $(document).on('click', '.no', function(){
+//             if ($(this).parent().find('.popover').length != 0) {
+//                 $(this).parent().find('.yes').click();
+//             }
+//         });
+
+//         $(document).on('click', '.yes', function(){
+//             console.log('yes');
+// //            $('.popover').not($(this).parent().find('.popover')).each( function () {
+//                 $('.popover').not($(this).parent().find('.popover')).remove();
+// //            });
+//         });
+
+        $('#myWizard').easyWizard({
+            buttonsClass: 'btn',
+            submitButtonClass: 'btn btn-info',
+            showSteps: false,
+            beforeSubmit: function(wizardObj) {
+                e.preventDefault();
+                $('#myWizard').fadeOut();
             }
         });
-
-        $(document).on('click', '.yes', function(){
-            console.log('yes');
-//            $('.popover').not($(this).parent().find('.popover')).each( function () {
-                $('.popover').not($(this).parent().find('.popover')).remove();
-//            });
-        });
+        var gotonext = function(){
+            $('#myWizard').easyWizard('nextStep');
+        }
     </script>
 @stop
