@@ -832,7 +832,7 @@ body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
 }
 
 #myWizard {
-    width: 95%;
+    width: 700px;
     border: 1px solid #ccc;
     margin: auto;
     margin-bottom: 15px;

@@ -576,7 +576,8 @@ return [
         "14" => "Next",
         "15" => "Previous",
     ],
-    "close" => "Close"
+    "close" => "Close",
+    "finish" => "Finish"
 
 
 

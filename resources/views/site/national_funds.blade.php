@@ -82,13 +82,12 @@
 
                 <div class="col-sm-12 data three hidden">
                     <p>{{ trans('locale.fund.eligiablity.1') }}</p>
-                    <div class="half">
+                    <div class="half" style="width: 100%">
                         <form id="myWizard" type="get" action="" class="form-horizontal">
                             <section class="step" data-step-title="The first">
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.1') }}</h4>
                                 <div class="row center mt-30">
                                     <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                    <button class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
                             </section>
 
@@ -121,17 +120,20 @@
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.9') }}</h4>
                                 <div class="row center mt-30">
                                     <label class="radio-inline">
-                                        <input type="radio" name="optradio">{{ trans('locale.funds.10') }}
+                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.1') }}" value="one" name="optradio">{{ trans('locale.funds.10') }}
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="optradio">{{ trans('locale.funds.11') }}
+                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.9') }}" value="two" name="optradio">{{ trans('locale.funds.11') }}
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="optradio">{{ trans('locale.funds.12') }}
+                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.7') }}" value="three" name="optradio">{{ trans('locale.funds.12') }}
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="optradio">{{ trans('locale.funds.13') }}
+                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.13') }}" value="four" name="optradio">{{ trans('locale.funds.13') }}
                                     </label>
+                                </div>
+                                <div class="row center mt-30">
+                                    <button type="button" onclick="submit_test()" class="yes btn btn-success">{{ trans('locale.finish') }}</button>
                                 </div>
                             </section>
                         </form>
@@ -150,17 +152,35 @@
     </div>
 
     <button id="showModal" class="hidden" data-toggle="modal" data-target="#myModal"></button>
+    <button id="showModal1" class="hidden" data-toggle="modal" data-target="#myModalFinal"></button>
     <div class="modal fade error" id="myModal" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
-                    <p id="content"></p>
+                <div class="alert alert-danger">
+                    <p id="content_modal_no"></p>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">{{ trans('locale.close') }}</button>
                 </div>
             </div>
 
+        </div>
+    </div>
+
+    <div class="modal fade error" id="myModalFinal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="alert alert-success">
+                        <p style="text-transform: none;" id="content_modal_final"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">{{ trans('locale.close') }}</button>
+                </div>
+            </div>
         </div>
     </div>
 @stop
@@ -183,8 +203,9 @@
 
         $('#myWizard').easyWizard({
             buttonsClass: 'btn',
-            submitButtonClass: 'btn btn-info',
+            // submitButtonClass: 'btn btn-info',
             showSteps: false,
+            submitButton: false,
             beforeSubmit: function(wizardObj) {
                 e.preventDefault();
                 $('#myWizard').fadeOut();
@@ -194,11 +215,42 @@
         var gotonext = function(){
             $('#myWizard').easyWizard('nextStep');
         }
+
+        var submit_test = function(){
+            var radioValue = $("input[name='optradio']:checked");
+
+            if(radioValue.val() == 'one'){
+                $('#showModal1').click();
+                var data = radioValue.attr('data-content');
+                $('#content_modal_final').html(data);
+            }
+            else if(radioValue.val() == 'two'){
+                $('#showModal1').click();
+                var data = radioValue.attr('data-content');
+                $('#content_modal_final').html(data);
+            }
+            else if(radioValue.val() == 'three'){
+                $('#showModal1').click();
+                var data = radioValue.attr('data-content');
+                $('#content_modal_final').html(data);
+            }
+            else if(radioValue.val() == 'four'){
+                $('#showModal1').click();
+                var data = radioValue.attr('data-content');
+                $('#content_modal_final').html(data);
+            }
+            else {
+                $('#showModal').click();
+                var data = "Select First";
+                $('#content_modal_no').html(data);
+            }
+        }
+
         $(document).on('click', '.no', function (e) {
             e.preventDefault();
-            var data = $(this).attr('data-content');
-            $('#content').html(data);
             $('#showModal').click();
+            var data = $(this).attr('data-content');
+            $('#content_modal_no').html(data);
         });
     </script>
 @stop
