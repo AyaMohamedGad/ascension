@@ -575,7 +575,8 @@ return [
         "13" => "Private Sector Employee",
         "14" => "Next",
         "15" => "Previous",
-    ]
+    ],
+    "close" => "Close"
 
 
 

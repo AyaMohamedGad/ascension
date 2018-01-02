@@ -81,17 +81,14 @@
                 </div>
 
                 <div class="col-sm-12 data three hidden">
-
-                <p>{{ trans('locale.fund.eligiablity.1') }}</p>
+                    <p>{{ trans('locale.fund.eligiablity.1') }}</p>
                     <div class="half">
-
                         <form id="myWizard" type="get" action="" class="form-horizontal">
-
                             <section class="step" data-step-title="The first">
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.1') }}</h4>
                                 <div class="row center mt-30">
                                     <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                    <button for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                    <button class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
                             </section>
 
@@ -100,50 +97,43 @@
                                 <h4 style="text-align: center" class="mb-20">{{ trans('locale.funds.3') }}</h4>
                                 <div class="row center mt-30">
                                     <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                    <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.funds.4') }}" for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                    <button data-content="{{ trans('locale.funds.4') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
                             </section>
 
                             <section class="step" data-step-title="The third">
-                                
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.5') }}</h4>
                                 <div class="row center mt-30">
                                     <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                    <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.funds.6') }}" for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                    <button data-content="{{ trans('locale.funds.6') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
                             </section>
 
                             <section class="step" data-step-title="The Fourth">
-                                
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.7') }}</h4>
                                 <div class="row center mt-30">
                                     <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
-                                    <button data-toggle="popover" data-placement="top" data-original-title="" data-content="{{ trans('locale.funds.8') }}" for="no" type="button" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                    <button data-content="{{ trans('locale.funds.8') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
-
                             </section>
 
                             <section class="step" data-step-title="The Fifth">
-                                
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.9') }}</h4>
                                 <div class="row center mt-30">
-
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio">{{ trans('locale.funds.10') }}
+                                        <input type="radio" name="optradio">{{ trans('locale.funds.10') }}
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio">{{ trans('locale.funds.11') }}
+                                        <input type="radio" name="optradio">{{ trans('locale.funds.11') }}
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio">{{ trans('locale.funds.12') }}
+                                        <input type="radio" name="optradio">{{ trans('locale.funds.12') }}
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio">{{ trans('locale.funds.13') }}
+                                        <input type="radio" name="optradio">{{ trans('locale.funds.13') }}
                                     </label>
                                 </div>
-
                             </section>
-
                         </form>
                     </div>
                 </div>
@@ -158,15 +148,26 @@
             </div>
         </div>
     </div>
+
+    <button id="showModal" class="hidden" data-toggle="modal" data-target="#myModal"></button>
+    <div class="modal fade error" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p id="content"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">{{ trans('locale.close') }}</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 @stop
 
 @section('scripts')
     {!! Html::script('js/jquery.easyWizard.js') !!}
-
     <script>
-        $(document).ready(function () {
-            $('[data-toggle="popover"]').popover();
-        });
 
         $(document).on('click', '.funds .col-sm-3', function (e) {
             $(this).addClass('active');
@@ -180,19 +181,6 @@
             $('.'+ID).removeClass('hidden');
         });
 
-//         $(document).on('click', '.no', function(){
-//             if ($(this).parent().find('.popover').length != 0) {
-//                 $(this).parent().find('.yes').click();
-//             }
-//         });
-
-//         $(document).on('click', '.yes', function(){
-//             console.log('yes');
-// //            $('.popover').not($(this).parent().find('.popover')).each( function () {
-//                 $('.popover').not($(this).parent().find('.popover')).remove();
-// //            });
-//         });
-
         $('#myWizard').easyWizard({
             buttonsClass: 'btn',
             submitButtonClass: 'btn btn-info',
@@ -202,8 +190,15 @@
                 $('#myWizard').fadeOut();
             }
         });
+
         var gotonext = function(){
             $('#myWizard').easyWizard('nextStep');
         }
+        $(document).on('click', '.no', function (e) {
+            e.preventDefault();
+            var data = $(this).attr('data-content');
+            $('#content').html(data);
+            $('#showModal').click();
+        });
     </script>
 @stop
