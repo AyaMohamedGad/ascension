@@ -2786,6 +2786,7 @@ a.ps_close:hover {
     background: #6b80a4;
     border-radius: 30px;
     padding: 15px;
+    min-height: 370px;
 }
 .funds .data p{
     color: #fff;
@@ -2815,18 +2816,7 @@ a.ps_close:hover {
     background-color: #555;
 }
 
-/*.container-fluid .right{
-    position: absolute;
-    right: 4%;
-    top: 26%;
-    font-size: 40px;
-    color: #092b67;
+.btn{
+    padding: 8px 15px;
+    font-size: 15px;
 }
-
-.container-fluid .left{
-    position: absolute;
-    left: 4%;
-    top: 26%;
-    font-size: 40px;
-    color: #092b67;
-}*/

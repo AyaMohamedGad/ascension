@@ -87,12 +87,11 @@
                             <section class="step" data-step-title="The first">
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.1') }}</h4>
                                 <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button type="button" onclick="gotonext()" class="wow rotateInDownRight yes btn btn-success">{{ trans('locale.funds.2') }}</button>
                                 </div>
                             </section>
 
                             <section class="step" data-step-title="The second">
-                                <h3 style="text-align: center" class="mt-40">{{ trans('locale.funds.2') }}</h3>
                                 <h4 style="text-align: center" class="mb-20">{{ trans('locale.funds.3') }}</h4>
                                 <div class="row center mt-30">
                                     <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
@@ -183,10 +182,13 @@
             </div>
         </div>
     </div>
+    <p class="hidden" id="select">{{ trans('locale.select_first') }}</p>
+    <p class="hidden" id="prev">{{ trans('locale.back') }}</p>
 @stop
 
 @section('scripts')
-    {!! Html::script('js/jquery.easyWizard.js') !!}
+{{--    {!! Html::script('js/jquery.easyWizard.js') !!}--}}
+    @include('includes.wizard')
     <script>
 
         $(document).on('click', '.funds .col-sm-3', function (e) {
@@ -201,11 +203,14 @@
             $('.'+ID).removeClass('hidden');
         });
 
+        var prev = $('#prev').text();
+
         $('#myWizard').easyWizard({
             buttonsClass: 'btn',
             // submitButtonClass: 'btn btn-info',
             showSteps: false,
             submitButton: false,
+            prevButton: prev,
             beforeSubmit: function(wizardObj) {
                 e.preventDefault();
                 $('#myWizard').fadeOut();
@@ -241,7 +246,7 @@
             }
             else {
                 $('#showModal').click();
-                var data = "Select First";
+                var data = $("#select").text();
                 $('#content_modal_no').html(data);
             }
         }

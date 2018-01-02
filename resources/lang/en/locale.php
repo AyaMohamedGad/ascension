@@ -577,7 +577,9 @@ return [
         "15" => "Previous",
     ],
     "close" => "Close",
-    "finish" => "Finish"
+    "finish" => "Finish",
+    "select_first" => "Please Select First",
+    "back" => "Back"
 
 
 
