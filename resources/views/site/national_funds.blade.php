@@ -219,7 +219,7 @@
 
         var gotonext = function(){
             $('#myWizard').easyWizard('nextStep');
-        }
+        };
 
         var submit_test = function(){
             var radioValue = $("input[name='optradio']:checked");
@@ -249,7 +249,7 @@
                 var data = $("#select").text();
                 $('#content_modal_no').html(data);
             }
-        }
+        };
 
         $(document).on('click', '.no', function (e) {
             e.preventDefault();

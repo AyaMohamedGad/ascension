@@ -22,7 +22,7 @@ class GalleryController extends Controller
         if($request->photos && count($request->photos) > 0){
             foreach ($request->photos as $photo){
                 $filename = str_random(5) . Carbon::now()->timestamp . '.' . $photo->getClientOriginalExtension();
-                $path = public_path('images/photo_gallery/');
+                $path = 'images/photo_gallery/';
                 $photo->move($path, $filename);
 
                 $newPhoto = new PhotoGallery();

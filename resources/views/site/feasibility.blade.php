@@ -80,6 +80,15 @@
             text-transform: none;
             padding-left: 20px;
         }
+        .ch-grid{
+            height: 600px;
+        }
+        .ch-grid li {
+            width: calc(100% / 3.03);
+        }
+        .ch-info h3 {
+            font-size: 17px;
+        }
     </style>
 @stop
 @section('content')
@@ -93,61 +102,46 @@
                 <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
             </div>
         </div>
-        <div class="tab-content mt-20">
-            <div class="col-sm-12 fixing wow bounceInUp">
-                <img src="{{ asset('images/feasibility_study.png') }}">
-                <div><p></p></div>
-            </div>
-        </div>
+        {{--<div class="tab-content mt-20">--}}
+            {{--<div class="col-sm-12 fixing wow bounceInUp">--}}
+                {{--<img src="{{ asset('images/feasibility_study.png') }}">--}}
+                {{--<div><p></p></div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
 
-        <div class="bookkeeping wow fadeInDown">
-            <div class="col-md-12 mt-20">
-                <div class="col-sm-3 open" id="two">
-                    <a href="#">
-                        <h4>{{ trans('locale.definition') }}</h4>
-                        <img src="{{ asset('images/definition.png') }}">
-                        <div class="info">
-                            <h4>{{ trans('locale.definition') }}</h4>
-                            <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+        <div class="col-sm-12">
+            <ul class="mt-40 ch-grid">
+                <li class="wow fadeInDown" data-wow-delay=".3s">
+                    <div class="ch-item ch-img-1">
+                        <div class="ch-info">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            <h3>{{ trans('locale.definition') }}</h3>
+                            <p>{{ trans('locale.definition_paragraph') }}</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-sm-8 two keeping hidden">
-                    <p>{{ trans('locale.definition_paragraph') }}</p>
-                    <i class="fa fa-close closed" data-id="two"></i>
-                </div>
-                <div class="col-sm-3 open" id="one">
-                    <a href="#">
-                        <h4>{{ trans('locale.objectives') }}</h4>
-                        <img src="{{ asset('images/objective.png') }}">
-                        <div class="info">
-                            <h4>{{ trans('locale.objectives') }} </h4>
-                            <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                    </div>
+                </li>
+                <li class="wow fadeInDown" data-wow-delay=".4s">
+                    <div class="ch-item ch-img-2">
+                        <div class="ch-info">
+                            <i class="fa fa-file-o" aria-hidden="true"></i>
+                            <h3>{{ trans('locale.objectives') }}</h3>
+                            <p>1- {{ trans('locale.objectives_paragraph.1') }}</p>
+                            <p>2- {{ trans('locale.objectives_paragraph.2') }}</p>
+                            <p>3- {{ trans('locale.objectives_paragraph.3') }}</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-sm-8 one keeping hidden">
-                    <p>1- {{ trans('locale.objectives_paragraph.1') }}</p>
-                    <p>2- {{ trans('locale.objectives_paragraph.2') }}</p>
-                    <p>3- {{ trans('locale.objectives_paragraph.3') }}</p>
-                    <i class="fa fa-close closed" data-id="one"></i>
-                </div>
-                <div class="col-sm-3 open" id="three">
-                    <a href="#">
-                        <h4>{{ trans('locale.start_project') }}</h4>
-                        <img src="{{ asset('images/start_project.png') }}">
-                        <div class="info">
-                            <h4>{{ trans('locale.start_project') }}</h4>
-                            <i class="fa fa-caret-{{ app()->getLocale() == 'en' ? 'right' : 'left' }} wow shake" data-wow-duration="2s" data-wow-iteration="infinite"></i>
+                    </div>
+                </li>
+                <li class="wow fadeInDown" data-wow-delay=".5s">
+                    <div class="ch-item ch-img-3">
+                        <div class="ch-info">
+                            <i class="fa fa-tasks" aria-hidden="true"></i>
+                            <h3>{{ trans('locale.start_project') }}</h3>
+                            <p>{{ trans('locale.start_project_paragraph.1') }}</p>
+                            <p>{{ trans('locale.start_project_paragraph.2') }}</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-sm-8 three keeping hidden">
-                    <p>{{ trans('locale.start_project_paragraph.1') }}</p>
-                    <p>{{ trans('locale.start_project_paragraph.2') }}</p>
-                    <i class="fa fa-close closed" data-id="three"></i>
-                </div>
-            </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 @stop
