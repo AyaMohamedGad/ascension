@@ -15,7 +15,7 @@
         </div>
         <div class="tab-content mt-20">
             <div class="col-sm-12 fixing wow bounceInUp">
-                <img class="for_desk" src="{{ asset('images/information_system.png') }}">
+                <img class="for_desk" src="{{ asset('images/cia-home.jpg') }}">
                 <div>
                     <p>{{ trans('locale.work_under_process') }}</p>
                     <p>{{ trans('locale.thank_for_visiting') }}</p>
