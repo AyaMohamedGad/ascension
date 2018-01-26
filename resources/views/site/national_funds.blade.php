@@ -68,11 +68,11 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 data one">
+                <div class="col-sm-12 data one" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
                     <p>{{ trans('locale.fund.the_fund.1') }}</p>
                 </div>
 
-                <div class="col-sm-12 data two hidden">
+                <div class="col-sm-12 data two hidden" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
                     <p>{{ trans('locale.fund.benefits.1') }}</p>
                     <p>1- {{ trans('locale.fund.benefits.2') }}</p>
                     <p>2- {{ trans('locale.fund.benefits.3') }}</p>
@@ -80,7 +80,7 @@
                     <p>4- {{ trans('locale.fund.benefits.5') }}</p>
                 </div>
 
-                <div class="col-sm-12 data three hidden">
+                <div class="col-sm-12 data three hidden" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
                     <p>{{ trans('locale.fund.eligiablity.1') }}</p>
                     <div class="half" style="width: 100%">
                         <form id="myWizard" type="get" action="" class="form-horizontal">
@@ -139,7 +139,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 data four hidden">
+                <div class="col-sm-12 data four hidden" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
                     <p>{{ trans('locale.fund.required_documents.1') }}</p>
                     <p>1- {{ trans('locale.fund.required_documents.2') }}</p>
                     <p>2- {{ trans('locale.fund.required_documents.3') }}</p>
