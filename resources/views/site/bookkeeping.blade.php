@@ -94,7 +94,7 @@
                 <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
             </div>
         </div>
-        <div class="tab-content mt-20 wow bounceInUp">
+        <div class="tab-content mt-20 wow bounceInUp" style="display: flow-root">
             <div class="col-sm-12 fixing">
                 <img class="for_desk" src="{{ asset('images/bookkeeping.png') }}">
                 <div>
@@ -112,7 +112,44 @@
                 <p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>
             </div>
 
-            <div class="col-sm-12">
+            <div id="container" style="display: inline-block;" class="mt-80">
+                <div class="pricingtable one">
+                  <div class="top">
+                    <h2><i class="fa fa-graduation-cap" aria-hidden="true" style="color:white;"></i>{{ trans('locale.bookkeeping_content.1') }}</h2>
+                  </div>
+                  <p>{{ trans('locale.bookkeeping_content.5') }}</p>
+                
+                </div>
+                <div class="featured_together">
+                <div class="pricingtable two featured">
+                  <div class="top">
+                    <h2><i class="fa fa-file-o" aria-hidden="true" style="color:white;"></i>{{ trans('locale.bookkeeping_content.2') }}</h2>
+                  </div>
+                  <p>{{ trans('locale.bookkeeping_content.6') }}</p>
+
+                </div>
+                
+
+                <div class="pricingtable three featured">
+                  <div class="top">
+                    <h2><i class="fa fa-building" aria-hidden="true" style="color:white;"></i>
+                    {{ trans('locale.bookkeeping_content.4') }}</h2>
+                  </div>
+                  <p>{{ trans('locale.bookkeeping_content.8') }}</p>
+                </div>
+                </div>
+
+                <div class="pricingtable four">
+                  <div class="top">
+                    <h2><i class="fa fa-tasks" aria-hidden="true" style="color:white;"></i>
+                    {{ trans('locale.bookkeeping_content.3') }}</h2>
+                  </div>
+                  <p>{{ trans('locale.bookkeeping_content.7') }}</p>
+                </div>
+
+            </div>
+
+<!--             <div class="col-sm-12">
                 <ul class="mt-40 ch-grid">
                     <li class="wow fadeInDown" data-wow-delay=".3s">
                         <div class="ch-item ch-img-1">
@@ -151,7 +188,7 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
 @stop
