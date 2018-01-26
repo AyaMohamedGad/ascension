@@ -1923,7 +1923,7 @@ h1 .circle-anim:after {
 }
 
 .header_normal_cover {
-    background-color: #002060;
+    background-color: #25ad7b;
     height: 110px;
     background-size: 100% 100%;
     padding-left: 25px
@@ -2188,7 +2188,7 @@ ul li a.active.sub-nav-toggle {
 
 .fixing p{
     color: #fff;
-    font-size: 23px;
+    font-size: 18px;
     text-transform: none;
 }
 .fixing p a{
