@@ -2227,7 +2227,7 @@ ul li a.active.sub-nav-toggle {
     background-image: url('../images/56_s.jpg');
     background-size: cover;
     background-position: center center;
-    height: 570px;
+    height: 500px;
 }
 
 .ch-grid:after,
@@ -2309,8 +2309,7 @@ ul li a.active.sub-nav-toggle {
     padding: 10px 5px;
     font-style: italic;
     margin: 0 5px;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 14px;
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0.2s;
     -moz-transition: all 0.4s ease-in-out 0.2s;
