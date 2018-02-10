@@ -333,3 +333,7 @@ i.fa{
 .ch-grid{
     height: 490px;
 }
+
+p.paginate{
+    left: 60px;
+}

@@ -14,29 +14,19 @@
 
 @section('content')
     <div class="container clearfix cpa_page" data-ref="mixitup-container">
-        <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.cia') }} <span>{{ trans('locale.mark') }}</span></h2>
-            <div class="arrows_header">
-                <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
-            </div>
-        </div>
-
-        <div class="tab-content mt-20 row wow bounceInUp" style="visibility: hidden">
+        <div class="tab-content mt-20 row" style="visibility: hidden">
             <div class="cpa col-sm-12">
-                <img class="center" src="{{ asset('images/cia.jpg') }}" >
-                <div class="content">
-                    <p>{{ trans('locale.cia') }} <span>{{ trans('locale.mark') }}</span></p>
-                    <p>{{ trans('locale.cia_word') }}</p>
+                <img class="center wow bounceInUp" src="{{ asset('images/cia.jpg') }}" >
+                <div class="content wow bounceInUp">
+                    <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cia') }} <span>{{ trans('locale.mark') }}</span></p>
+                    <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cia_word') }}</p>
                 </div>
             </div>
         </div>
 
         <div class="times row mt-20">
             <div class="col-sm-6 col-xs-12 wow fadeInLeft video">
-                <iframe width="69%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="90%" height="250" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="col-sm-6 col-xs-12 wow fadeInRight">
                 <h4><i class="fa fa-bell wow tada" data-wow-iteration="100" data-wow-delay=".25s"></i> {{ trans('locale.upcoming_cia_courses') }}</h4>
@@ -52,62 +42,6 @@
             <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cia') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
-            {{--<ul class="mt-40 ch-grid">--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".3s">--}}
-                    {{--<div class="ch-item ch-img-1">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-graduation-cap" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.qualify') }}</h3>--}}
-                            {{--<p><a href="#a" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".4s">--}}
-                    {{--<div class="ch-item ch-img-2">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-book" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.enroll') }}</h3>--}}
-                            {{--<p><a href="#b" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".5s">--}}
-                    {{--<div class="ch-item ch-img-3">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-tasks" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.prepare') }}</h3>--}}
-                            {{--<p><a href="#c" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".6s">--}}
-                    {{--<div class="ch-item ch-img-4">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-calendar" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.schedule') }}</h3>--}}
-                            {{--<p><a href="#d" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".7s">--}}
-                    {{--<div class="ch-item ch-img-5">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-question-circle" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.exam') }}</h3>--}}
-                            {{--<p><a href="#e" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".8s">--}}
-                    {{--<div class="ch-item ch-img-6">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.pass') }}</h3>--}}
-                            {{--<p><a href="#f" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-            {{--</ul>--}}
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
@@ -169,7 +103,6 @@
                             </div>
                         </div>
                         <div class="page rt_page">
-
                             <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                             <i class="fa fa-circle"></i>
                             {{ trans('locale.cia_qualify.1') }}</p>
@@ -179,6 +112,7 @@
                             <i class="fa fa-circle"></i>
                             {{ trans('locale.cia_qualify.3') }}</p>
                             <p class="ml-50 mr-30 mt-10" style="font-size: 15px; color: red;">{{ trans('locale.cia_qualify.4') }}</p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -199,9 +133,10 @@
                             <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                 <i class="fa fa-circle"></i>{{ trans('locale.cia_enroll.2') }}
                             </p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 3</p>
                         </div>
                         <div class="page lft_page">
-                            <table class="table ml-30 mr-50 mt-30" style="width: 75%">
+                            <table class="table ml-40 mr-50 mt-30" style="width: 75%">
                                 <thead>
                                     <tr>
                                         <th style="width: 45%">{{ trans('locale.cia_enroll.3') }}</th>
@@ -249,15 +184,17 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <p class="ml-30 mr-50 mt-10" style="font-size: 17px;">
+                            <p class="ml-40 mr-50 mt-10" style="font-size: 17px;">
                                 {{ trans('locale.cia_enroll.9') }} {{ trans('locale.cia_enroll.10') }}
-                            <a href="https://na.theiia.org/certification/Pages/Pricing-Structure.aspx" target="_blank" style="font-size: 17px; word-break: break-all;display: -webkit-inline-box;">{{ trans('locale.click_here') }}</a>
-                            </p>                                        
+                            <a href="https://na.theiia.org/certification/Pages/Pricing-Structure.aspx" target="_blank" style="font-size: 17px; word-break: break-all;display:-webkit-inline-box;">({{ trans('locale.click_here') }})</a>
+                            <p class="paginate">2 {{ trans('locale.of') }} 3</p>
+                            </p>
                         </div>
                         <div class="page rt_page">
                             <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                                 {{ trans('locale.cia_enroll.11') }}
                             </p>
+                            <p class="paginate">3 {{ trans('locale.of') }} 3</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -274,6 +211,7 @@
                             <p class="ml-60 mr-30 mt-30" style="font-size: 17px;">
                                 <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
                             </p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -296,15 +234,17 @@
                             <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                                 <i class="fa fa-circle"></i>{{ trans('locale.cia_schedule.2') }}
                             </p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 2</p>
                         </div>
                         <div class="page lft_page">
-                            <p class="ml-30 mr-50 mt-30" style="font-size: 15px;">
+                            <p class="ml-50 mr-50 mt-30" style="font-size: 15px;">
                                 {{ trans('locale.cia_schedule.3') }}
                             </p>
-                            <p class="ml-30 mr-50 mt-10" style="font-size: 15px;">
+                            <p class="ml-50 mr-50 mt-10" style="font-size: 15px;">
                                 {{ trans('locale.cia_schedule.4') }}
                             </p>
-                            <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-50 ml-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                            <a href="https://na.theiia.org/certification/Pages/Candidate-Eligibility-Extension.aspx" target="_blank" class="mr-50 ml-50 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
+                            <p class="paginate">2 {{ trans('locale.of') }} 2</p>
                         </div>
                         <div class="page rt_page">
                         </div>
@@ -350,6 +290,7 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -372,6 +313,7 @@
                             <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                             <i class="fa fa-circle"></i>
                             {{ trans('locale.cia_pass.3') }}</p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                     </div>
                 </div>

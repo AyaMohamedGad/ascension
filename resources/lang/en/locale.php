@@ -26,10 +26,10 @@ return [
     "national_fund" => "National Fund",
     "about_us" => "About Us",
     "careers" => "Careers",
-    "contacts" => "Contacts",
+    "contacts" => "Contact us",
     "taking_you_beyond" => "Taking You Beyond ¬",
     "consultancy_training" => "With Our Consultancy & Training Services ¬",
-    "performed_highly_skilled" => "Performed By Highly Skilled Team ¬",
+    "performed_highly_skilled" => "Performed By our professional experts ¬",
     "qualify" => "Qualify",
     "enroll" => "Enroll",
     "enroll_fees" => "Enrolling & Fees",
@@ -579,7 +579,10 @@ return [
     "close" => "Close",
     "finish" => "Finish",
     "select_first" => "Please Select First",
-    "back" => "Back"
+    "back" => "Back",
+    "copyrights" => "Copyright © All Rights Reserved For Ascension",
+    "coming_soon" => "Coming Soon",
+    "of" => "Of"
 
 
 

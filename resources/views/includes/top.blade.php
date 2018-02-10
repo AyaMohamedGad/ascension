@@ -7,6 +7,6 @@
 	    <a href="#" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
 	    <a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>	
 	</div>
-    <a class="language" href="{{ route('setLanguage', app()->getLocale() == 'en' ? 'ar' : 'en') }}" @if(app()->getLocale() == 'en') style="font-family: 'Changa', sans-serif;" @endif>{{ App::getLocale() == 'en' ? 'عربى' : 'English' }}</a>
+    <a class="language" href="{{ route('setLanguage', app()->getLocale() == 'en' ? 'ar' : 'en') }}" @if(app()->getLocale() == 'en') style="font-family: 'Changa', sans-serif;" @endif>{{ App::getLocale() == 'en' ? 'عربي' : 'English' }}</a>
 </div>
 </div>

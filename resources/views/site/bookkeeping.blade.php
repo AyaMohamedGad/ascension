@@ -5,7 +5,7 @@
 @section('styles')
     <style>
         .col-sm-2 {
-            position:relative;
+            position: relative;
             margin: 0 40px 20px;
             text-align: center;
             border: 2px solid #092b67;
@@ -13,23 +13,27 @@
             border-radius: 5px;
             padding-bottom: 15px;
         }
-        .col-sm-2 a{
+
+        .col-sm-2 a {
             width: 100%;
             height: 100%;
             display: inline-block;
             vertical-align: middle;
         }
+
         .col-sm-2 h4 {
             border-bottom: 2px solid #092b67;
             width: 100%;
             padding-bottom: 10px;
         }
-        .col-sm-2 img{
+
+        .col-sm-2 img {
             text-align: center;
             margin: auto;
             max-width: 120px;
         }
-        .col-sm-2 .info{
+
+        .col-sm-2 .info {
             -webkit-transition: all 0.4s ease-in-out;
             -moz-transition: all 0.4s ease-in-out;
             -o-transition: all 0.4s ease-in-out;
@@ -49,7 +53,8 @@
             top: 0;
             left: 0;
         }
-        .col-sm-2:hover .info, .opened .info{
+
+        .col-sm-2:hover .info, .opened .info {
             -webkit-transition: all 0.4s ease-in-out;
             -moz-transition: all 0.4s ease-in-out;
             -o-transition: all 0.4s ease-in-out;
@@ -63,19 +68,22 @@
             opacity: 1;
             z-index: 10;
         }
+
         .col-sm-2 a .info h4 {
             color: #fff;
             letter-spacing: 1px;
             padding-top: 28%;
         }
-        .info i{
+
+        .info i {
             position: absolute;
             right: -45px;
             top: 30%;
             font-size: 80px;
             color: #092b67;
         }
-        .content p{
+
+        .content p {
             font-size: 17px;
             text-transform: none;
             padding-left: 20px;
@@ -88,10 +96,14 @@
         <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header toomuch">{{ trans('locale.bookkeeping') }}</h2>
             <div class="arrows_header">
-                <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
+                <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s"
+                     src="{{ asset('images/arrow_wht.png') }}">
+                <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s"
+                     src="{{ asset('images/arrow_wht.png') }}">
+                <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s"
+                     src="{{ asset('images/arrow_wht.png') }}">
+                <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s"
+                     src="{{ asset('images/arrow_wht.png') }}">
             </div>
         </div>
         <div class="tab-content mt-20 wow bounceInUp" style="display: flow-root">
@@ -104,52 +116,57 @@
             </div>
 
             <div class="col-sm-12 content fadeInDown wow">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.3') }}</h4>
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"
+                                         data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.3') }}
+                </h4>
                 <p>{{ trans('locale.bookkeeping_paragraph.4') }}</p>
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s" data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.5') }}</h4>
+                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"
+                                         data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.5') }}
+                </h4>
                 <p>{{ trans('locale.bookkeeping_paragraph.6') }}</p>
                 <p>{{ trans('locale.bookkeeping_paragraph.7') }}</p>
                 <p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>
             </div>
 
-            <div id="container" style="display: inline-block;" class="mt-80">
-                <div class="pricingtable one">
-                  <div class="top">
-                    <h2><i class="fa fa-graduation-cap" aria-hidden="true" style="color:white;"></i>{{ trans('locale.bookkeeping_content.1') }}</h2>
-                  </div>
-                  <p>{{ trans('locale.bookkeeping_content.5') }}</p>
-                
-                </div>
-                <div class="featured_together">
-                <div class="pricingtable two featured">
-                  <div class="top">
-                    <h2><i class="fa fa-file-o" aria-hidden="true" style="color:white;"></i>{{ trans('locale.bookkeeping_content.2') }}</h2>
-                  </div>
-                  <p>{{ trans('locale.bookkeeping_content.6') }}</p>
+            {{--<div id="container" style="display: inline-block;" class="mt-80">--}}
+                {{--<div class="pricingtable one">--}}
+                    {{--<div class="top">--}}
+                        {{--<h2><i class="fa fa-graduation-cap" aria-hidden="true"--}}
+                               {{--style="color:white;"></i>{{ trans('locale.bookkeeping_content.1') }}</h2>--}}
+                    {{--</div>--}}
+                    {{--<p>{{ trans('locale.bookkeeping_content.5') }}</p>--}}
 
-                </div>
-                
+                {{--</div>--}}
+                {{--<div class="featured_together">--}}
+                    {{--<div class="pricingtable two featured">--}}
+                        {{--<div class="top">--}}
+                            {{--<h2><i class="fa fa-file-o" aria-hidden="true"--}}
+                                   {{--style="color:white;"></i>{{ trans('locale.bookkeeping_content.2') }}</h2>--}}
+                        {{--</div>--}}
+                        {{--<p>{{ trans('locale.bookkeeping_content.6') }}</p>--}}
 
-                <div class="pricingtable three featured">
-                  <div class="top">
-                    <h2><i class="fa fa-building" aria-hidden="true" style="color:white;"></i>
-                    {{ trans('locale.bookkeeping_content.4') }}</h2>
-                  </div>
-                  <p>{{ trans('locale.bookkeeping_content.8') }}</p>
-                </div>
-                </div>
+                    {{--</div>--}}
 
-                <div class="pricingtable four">
-                  <div class="top">
-                    <h2><i class="fa fa-tasks" aria-hidden="true" style="color:white;"></i>
-                    {{ trans('locale.bookkeeping_content.3') }}</h2>
-                  </div>
-                  <p>{{ trans('locale.bookkeeping_content.7') }}</p>
-                </div>
 
-            </div>
+                    {{--<div class="pricingtable three featured">--}}
+                        {{--<div class="top">--}}
+                            {{--<h2><i class="fa fa-building" aria-hidden="true" style="color:white;"></i>--}}
+                                {{--{{ trans('locale.bookkeeping_content.4') }}</h2>--}}
+                        {{--</div>--}}
+                        {{--<p>{{ trans('locale.bookkeeping_content.8') }}</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
 
-<!--             <div class="col-sm-12">
+                {{--<div class="pricingtable four">--}}
+                    {{--<div class="top">--}}
+                        {{--<h2><i class="fa fa-tasks" aria-hidden="true" style="color:white;"></i>--}}
+                            {{--{{ trans('locale.bookkeeping_content.3') }}</h2>--}}
+                    {{--</div>--}}
+                    {{--<p>{{ trans('locale.bookkeeping_content.7') }}</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+
+            <div class="col-sm-12">
                 <ul class="mt-40 ch-grid">
                     <li class="wow fadeInDown" data-wow-delay=".3s">
                         <div class="ch-item ch-img-1">
@@ -188,7 +205,7 @@
                         </div>
                     </li>
                 </ul>
-            </div> -->
+            </div>
         </div>
     </div>
 @stop

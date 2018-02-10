@@ -29,7 +29,7 @@ return [
     "contacts" => "إتصل بنا",
     "taking_you_beyond" => "Taking You Beyond ¬",
     "consultancy_training" => "With Our Consultancy & Training Services ¬",
-    "performed_highly_skilled" => "Performed By Highly Skilled Team ¬",
+    "performed_highly_skilled" => "Performed By our professional experts ¬",
     "qualify" => "المؤهلات المطلوبة",
     "enroll" => "التسجيل والرسوم",
     "enroll_fees" => "التسجيل والرسوم",
@@ -579,7 +579,10 @@ return [
     "finish" => "انهاء",
     "close" => "غلق",
     "select_first" => "من فضلك إختر أولاً",
-    "back" => "رجوع"
+    "back" => "رجوع",
+    "copyrights" => "Copyright © جميع الحقوق محفوظة اسينشن",
+    "coming_soon" => "قريباً",
+    "of" => "من"
 
 
 

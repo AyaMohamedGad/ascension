@@ -46,7 +46,7 @@
             <h3 class="bordered_title wow shake">{{trans('locale.latest_news')}}</h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
-            <div class="container-fluid mt-40 slider" style="border:1px solid darkgrey;border-radius:10px;background-color:#f3f3f3;">
+            <div class="container-fluid mt-40 slider" style="border:3px solid #225cc3;border-radius:20px;background-color:#f3f3f3;">
                 <div class="carousel slide" id="news-carousel" data-ride="carousel" data-interval="5000">
                     <!-- Wrapper for slides -->
                     <ol class="carousel-indicators">

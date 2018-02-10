@@ -20,6 +20,9 @@
             <div id="fixed-barrier"></div>
             @include('includes.top')
             @yield('content')
+            <div class="footer">
+                <div class="col-sm-12">{{ trans('locale.copyrights') }} {{ date('Y') }}</div>
+            </div>
         </div>
         @include('includes.footer')
     </div>

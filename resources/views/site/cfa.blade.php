@@ -14,31 +14,21 @@
 
 @section('content')
     <div class="container clearfix cpa_page" data-ref="mixitup-container">
-        <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.cfa') }} <span>{{ trans('locale.mark') }}</span></h2>
-            <div class="arrows_header">
-                <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
-            </div>
-        </div>
-
-        <div class="tab-content mt-20 row wow bounceInUp" style="visibility: hidden">
+        <div class="tab-content row" style="visibility: hidden">
             <div class="cpa col-sm-12">
-                <img class="center" src="{{ asset('images/cfa.jpg') }}" >
-                <div class="content">
-                    <p>{{ trans('locale.cfa') }} <span>{{ trans('locale.mark') }}</span></p>
-                    <p>{{ trans('locale.cfa_word') }}</p>
+                <img class="center wow bounceInUp" src="{{ asset('images/cfa.jpg') }}" >
+                <div class="content wow bounceInUp">
+                    <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cfa') }} <span>{{ trans('locale.mark') }}</span></p>
+                    <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cfa_word') }}</p>
                 </div>
             </div>
         </div>
 
         <div class="times row mt-20">
             <div class="col-sm-6 wow fadeInLeft video">
-                <iframe width="69%" height="200" src="https://www.youtube.com/embed/SgThkfkuu-M?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="90%" height="250" src="https://www.youtube.com/embed/SgThkfkuu-M?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-6 wow fadeInRight">
+            <div class="col-sm-6 wow fadeInRight mt-20">
                 <h4><i class="fa fa-bell wow tada" data-wow-iteration="100" data-wow-delay=".25s"></i> {{ trans('locale.upcoming_cfa_courses') }}</h4>
                 <ul>
                     <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cfa->reg)) }}</li>
@@ -48,65 +38,9 @@
         </div>
 
         <div class="row mt-20">
-            <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cfa') }} : </h3>
+            <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cfa') }} :</h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
-            {{--<ul class="mt-40 ch-grid">--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".3s">--}}
-                    {{--<div class="ch-item ch-img-1">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-graduation-cap" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.qualify') }}</h3>--}}
-                            {{--<p><a href="#a" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".4s">--}}
-                    {{--<div class="ch-item ch-img-2">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-book" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.enroll') }}</h3>--}}
-                            {{--<p><a href="#b" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".5s">--}}
-                    {{--<div class="ch-item ch-img-3">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-tasks" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.prepare') }}</h3>--}}
-                            {{--<p><a href="#c" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".6s">--}}
-                    {{--<div class="ch-item ch-img-4">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-calendar" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.schedule') }}</h3>--}}
-                            {{--<p><a href="#d" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".7s">--}}
-                    {{--<div class="ch-item ch-img-5">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-question-circle" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.exam') }}</h3>--}}
-                            {{--<p><a href="#e" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-                {{--<li class="wow fadeInDown" data-wow-delay=".8s">--}}
-                    {{--<div class="ch-item ch-img-6">--}}
-                        {{--<div class="ch-info">--}}
-                            {{--<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>--}}
-                            {{--<h3>{{ trans('locale.pass') }}</h3>--}}
-                            {{--<p><a href="#f" data-toggle="tab">View on Book</a></p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</li>--}}
-            {{--</ul>--}}
         </div>
 
         <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
@@ -169,7 +103,6 @@
                             </div>
                         </div>
                         <div class="page rt_page">
-
                             <p class="ml-50 mr-30 mt-30" style="font-size: 17px;">
                             <i class="fa fa-circle"></i>
                             {{ trans('locale.cfa_qualify.1') }}</p>
@@ -180,8 +113,9 @@
                             {{ trans('locale.cfa_qualify.4') }}
                             <u>{{ trans('locale.cfa_qualify.5') }}</u>
                             </p>
-                            <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
-                            <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                            <a href="https://www.cfainstitute.org/ethics/codes/ethics/Pages/index.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
+                            <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/candidate_agreement.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -217,12 +151,14 @@
                             <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
                                 {{ trans('locale.cfa_enroll.7') }}
                             </p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 2</p>
                         </div>
                         <div class="page lft_page">
-                            <p class="ml-30 mr-60 mt-30" style="font-size: 17px;">
+                            <p class="ml-50 mr-50 mt-40" style="font-size: 17px;">
                                 {{ trans('locale.cfa_enroll.8') }}
                             </p>
-                            <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                            <a href="https://www.cfainstitute.org/programs/cfaprogram/register/Pages/fee_schedule.aspx" target="_blank" class="ml-60 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
+                            <p class="paginate">2 {{ trans('locale.of') }} 2</p>
                         </div>
                         <div class="page rt_page">
                         </div>
@@ -241,6 +177,7 @@
                             <p class="mr-30 ml-60 mt-30" style="font-size: 17px;">
                                 <i class="fa fa-circle"></i>{{ trans('locale.prepare_content.1') }}
                             </p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -260,7 +197,8 @@
                             <p class="ml-50 mr-30 mt-10" style="font-size: 15px;">
                                 {{ trans('locale.cfa_schedule.2') }}
                             </p>
-                            <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">{{ trans('locale.click_here') }}</a>
+                            <a href="https://www.cfainstitute.org/programs/cfaprogram/exams/Pages/cfa_exam_calendars.aspx" target="_blank" class="ml-50 mr-30 mt-10" style="font-size: 17px; word-break: break-all;display: -webkit-box;">({{ trans('locale.click_here') }})</a>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -292,6 +230,7 @@
                             <p class="ml-50 mr-30 mt-5" style="font-size: 14px;">
                                 {{ trans('locale.cfa_exam.6') }}
                             </p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                         <div class="page lft_page">
                             <ul class="nav nav-tabs-left">
@@ -311,6 +250,7 @@
                             <p class="ml-50 mr-30 mt-10" style="font-size: 17px;">
                             <i class="fa fa-circle"></i>
                             {{ trans('locale.cfa_pass.2') }}</p>
+                            <p class="paginate">1 {{ trans('locale.of') }} 1</p>
                         </div>
                     </div>
                 </div>

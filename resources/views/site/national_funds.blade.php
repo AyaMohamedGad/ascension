@@ -4,20 +4,22 @@
 
 @section('styles')
     <style>
-    .new_tab{
-        position: relative; 
-        margin-bottom: 5px;
-        display: block;
-        padding: 0 0 0 1em;
-        background: #092b67;
-        line-height: 3;
-        color: #fff;
-        letter-spacing: 1px;
-    }
-    .popover-content{
-        color:black;
-    }
-
+        .fund_head h4{
+            width: 35%;
+            float: left;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+        .fund_head img{
+            float: left;
+            margin-left: -20%;
+            margin-top: -4%;
+            width: 150px;
+        }
+        .col-sm-6 iframe{
+            border: 2px solid #092b67;
+            border-radius: 30px;
+        }
     </style>
 @stop
 
@@ -68,11 +70,26 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 data one" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
+                <div class="col-sm-12 data one">
+                    <div class="fund_head col-sm-6">
+                        <h4>{{ trans('locale.fund.1') }}</h4>
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                    </div>
+                    <div class="col-sm-6 mb-20">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <p>{{ trans('locale.fund.the_fund.1') }}</p>
                 </div>
 
-                <div class="col-sm-12 data two hidden" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
+                <div class="col-sm-12 data two hidden">
+                    <div class="fund_head col-sm-12">
+                        <h4>{{ trans('locale.fund.2') }}</h4>
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                    </div>
                     <p>{{ trans('locale.fund.benefits.1') }}</p>
                     <p>1- {{ trans('locale.fund.benefits.2') }}</p>
                     <p>2- {{ trans('locale.fund.benefits.3') }}</p>
@@ -80,7 +97,7 @@
                     <p>4- {{ trans('locale.fund.benefits.5') }}</p>
                 </div>
 
-                <div class="col-sm-12 data three hidden" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
+                <div class="col-sm-12 data three hidden">
                     <p>{{ trans('locale.fund.eligiablity.1') }}</p>
                     <div class="half" style="width: 100%">
                         <form id="myWizard" type="get" action="" class="form-horizontal">
@@ -139,7 +156,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 data four hidden" style="background-image: url('{{ asset('images/Quiz.png') }}'); background-size: cover;">
+                <div class="col-sm-12 data four hidden">
                     <p>{{ trans('locale.fund.required_documents.1') }}</p>
                     <p>1- {{ trans('locale.fund.required_documents.2') }}</p>
                     <p>2- {{ trans('locale.fund.required_documents.3') }}</p>
