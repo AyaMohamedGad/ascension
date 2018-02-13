@@ -87,8 +87,14 @@
             </div>
 
             <div class="col-sm-6">
-                <div id="ps_container" class="ps_container" style="display:none;">
-                    {{--<a id="ps_next_photo" class="ps_next_photo" style="display:none;"></a>--}}
+                <div class="demo">
+                    <ul id="lightSlider">
+                        @foreach($images_array as $key => $image)
+                        <li data-thumb="{!!$image!!}">
+                            <img src="{!!$image!!}" />
+                        </li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         </div>
@@ -100,6 +106,7 @@
 @section('scripts')
     {{ Html::script('js/YouTubePopUp.jquery.js') }}
     {{ Html::script('js/logo_animation.js') }}
+    {{ Html::script('js/lightslider.min.js') }}
     <script type="text/javascript">
         jQuery(function(){
             jQuery("a.vp-a").YouTubePopUp();
@@ -252,6 +259,14 @@
         setInterval(function(){
             get_next();
         }, 5000);
+
+        $('#lightSlider').lightSlider({
+            gallery: true,
+            item: 1,
+            loop:true,
+            slideMargin: 0,
+            thumbItem: 5
+        });
     </script>
 
 @stop
