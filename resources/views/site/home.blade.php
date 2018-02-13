@@ -42,7 +42,7 @@
             <!-- <img src="{{ asset('images/Picture2.png') }}" class="arrow_right"> -->
         </div>
 
-        <div class="news mt-30 mb-100 row">
+        <div class="news mt-70 mb-100 row">
             <h3 class="bordered_title wow shake">{{trans('locale.latest_news')}}</h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>

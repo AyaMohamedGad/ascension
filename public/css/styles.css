@@ -586,7 +586,7 @@ h1#logo {
 
 header {
     position: fixed;
-    top: 0;
+    top: 65px;
     left: 0;
     width: 260px;
     height: 100%;
@@ -1922,7 +1922,7 @@ h1 .circle-anim:after {
 }
 
 .header_normal_cover {
-    background-color: #25ad7b;
+    background-color: #505969;
     height: 110px;
     background-size: 100% 100%;
     padding-left: 25px
