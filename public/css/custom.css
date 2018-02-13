@@ -248,7 +248,7 @@
 }
 
 .social_media {
-    text-align: right
+    /*text-align: right*/
 }
 
 .social_media a {
@@ -275,6 +275,7 @@ a.language{
 
 .social_media .language{
     font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        float: right;
 }
 
 .header span {

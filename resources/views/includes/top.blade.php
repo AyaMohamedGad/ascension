@@ -1,5 +1,5 @@
 <div class="container clearfix">
-<div class="social_media social-list clearfix container">
+<div class="social_media social-list clearfix">
 	<div class="right-align">
 		<a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 	    <a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
