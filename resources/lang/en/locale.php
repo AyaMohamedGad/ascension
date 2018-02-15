@@ -23,7 +23,7 @@ return [
     "information_system" => "Information System",
     "feasibility_studies" => "Feasibility Studies",
     "business_advisory" => "Business Advisory",
-    "national_fund" => "National Fund",
+    "national_fund" => "National Funds",
     "about_us" => "About Us",
     "careers" => "Careers",
     "contacts" => "Contact us",

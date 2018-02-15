@@ -88,6 +88,10 @@
             text-transform: none;
             padding-left: 20px;
         }
+        .pricingtable {
+            min-height: 695px;
+            margin: auto 2%;
+        }
     </style>
 @stop
 
@@ -115,56 +119,42 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 content fadeInDown wow">
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"
-                                         data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.3') }}
-                </h4>
-                <p>{{ trans('locale.bookkeeping_paragraph.4') }}</p>
-                <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"
-                                         data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.5') }}
-                </h4>
-                <p>{{ trans('locale.bookkeeping_paragraph.6') }}</p>
-                <p>{{ trans('locale.bookkeeping_paragraph.7') }}</p>
-                <p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>
-            </div>
-
-            {{--<div id="container" style="display: inline-block;" class="mt-80">--}}
-                {{--<div class="pricingtable one">--}}
-                    {{--<div class="top">--}}
-                        {{--<h2><i class="fa fa-graduation-cap" aria-hidden="true"--}}
-                               {{--style="color:white;"></i>{{ trans('locale.bookkeeping_content.1') }}</h2>--}}
-                    {{--</div>--}}
-                    {{--<p>{{ trans('locale.bookkeeping_content.5') }}</p>--}}
-
-                {{--</div>--}}
-                {{--<div class="featured_together">--}}
-                    {{--<div class="pricingtable two featured">--}}
-                        {{--<div class="top">--}}
-                            {{--<h2><i class="fa fa-file-o" aria-hidden="true"--}}
-                                   {{--style="color:white;"></i>{{ trans('locale.bookkeeping_content.2') }}</h2>--}}
-                        {{--</div>--}}
-                        {{--<p>{{ trans('locale.bookkeeping_content.6') }}</p>--}}
-
-                    {{--</div>--}}
-
-
-                    {{--<div class="pricingtable three featured">--}}
-                        {{--<div class="top">--}}
-                            {{--<h2><i class="fa fa-building" aria-hidden="true" style="color:white;"></i>--}}
-                                {{--{{ trans('locale.bookkeeping_content.4') }}</h2>--}}
-                        {{--</div>--}}
-                        {{--<p>{{ trans('locale.bookkeeping_content.8') }}</p>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-
-                {{--<div class="pricingtable four">--}}
-                    {{--<div class="top">--}}
-                        {{--<h2><i class="fa fa-tasks" aria-hidden="true" style="color:white;"></i>--}}
-                            {{--{{ trans('locale.bookkeeping_content.3') }}</h2>--}}
-                    {{--</div>--}}
-                    {{--<p>{{ trans('locale.bookkeeping_content.7') }}</p>--}}
-                {{--</div>--}}
+            {{--<div class="col-sm-12 content fadeInDown wow">--}}
+                {{--<h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"--}}
+                                         {{--data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.3') }}--}}
+                {{--</h4>--}}
+                {{--<p>{{ trans('locale.bookkeeping_paragraph.4') }}</p>--}}
+                {{--<h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"--}}
+                                         {{--data-wow-iteration="infinite"></i> {{ trans('locale.bookkeeping_paragraph.5') }}--}}
+                {{--</h4>--}}
+                {{--<p>{{ trans('locale.bookkeeping_paragraph.6') }}</p>--}}
+                {{--<p>{{ trans('locale.bookkeeping_paragraph.7') }}</p>--}}
+                {{--<p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>--}}
             {{--</div>--}}
+
+            <div class="col-sm-12" style="padding:0">
+                <div class="mt-30 col-sm-5 pricingtable one">
+                    <div class="top">
+                        <h2>{{ trans('locale.bookkeeping_paragraph.3') }}</h2>
+                    </div>
+                    <div class="content">
+                        <p>{{ trans('locale.bookkeeping_paragraph.4') }}</p>
+                    </div>
+                </div>
+
+                {{--<div class="featured_together">--}}
+                    <div class="mt-30 col-sm-6 pricingtable two">
+                        <div class="top">
+                            <h2>{{ trans('locale.bookkeeping_paragraph.5') }}</h2>
+                        </div>
+                        <div class="content">
+                            <p>{{ trans('locale.bookkeeping_paragraph.6') }}</p>
+                            <p>{{ trans('locale.bookkeeping_paragraph.7') }}</p>
+                            <p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>
+                        </div>
+                    </div>
+                {{--</div>--}}
+            </div>
 
             <div class="col-sm-12">
                 <ul class="mt-40 ch-grid">

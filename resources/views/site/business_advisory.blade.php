@@ -24,24 +24,55 @@
 
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
-        <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header toomuch">{{ trans('locale.business_advisory') }}</h2>
-            <div class="arrows_header">
-                <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
-            </div>
-        </div>
         <div class="tab-content mt-20 wow fadeInDown" wow-data-offset="200">
-            <div class="row">
-                <div class="col-sm-12 business_head wow bounceInUp" data-wow-duration="2s">
+            <div class="mb-30 information">
+                <div class="fixing wow bounceInUp">
+                    <img src="{{ asset('images/business.jpg') }}">
                     <div>
-                        <p>{{ trans('locale.business_advisory_paragraph.1') }}</p>
-                        <p><strong>{{ trans('locale.business_advisory_paragraph.2') }}</strong> {{  trans('locale.business_advisory_paragraph.3') }}</p>
-                        <p>{{ trans('locale.business_advisory_paragraph.4') }}</p>
-                        <p><strong>{{ trans('locale.business_advisory_paragraph.5') }}</strong> {{ trans('locale.business_advisory_paragraph.6') }}</p>
-                        <p>{{ trans('locale.business_advisory_paragraph.7') }}</p>
+                        <p class="center">{{ trans('locale.business_advisory') }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {{--<div class="col-sm-12 business_head wow bounceInUp" data-wow-duration="2s">--}}
+                    {{--<div>--}}
+                        {{--<p></p>--}}
+                        {{--<p>{{ trans('locale.business_advisory_paragraph.1') }}</p>--}}
+                        {{--<p><strong>{{ trans('locale.business_advisory_paragraph.2') }}</strong> {{  trans('locale.business_advisory_paragraph.3') }}</p>--}}
+                        {{--<p>{{ trans('locale.business_advisory_paragraph.4') }}</p>--}}
+                        {{--<p><strong>{{ trans('locale.business_advisory_paragraph.5') }}</strong> {{ trans('locale.business_advisory_paragraph.6') }}</p>--}}
+                        {{--<p>{{ trans('locale.business_advisory_paragraph.7') }}</p>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+
+                <div class="col-sm-12" style="padding:0">
+                    <div class="mt-30 mb-30 col-sm-4 pricingtable one featured">
+                        <div class="top">
+                            <h2>1</h2>
+                        </div>
+                        <div class="content">
+                            <p>{{ trans('locale.business_advisory_paragraph.1') }}</p>
+                            <p><strong>{{ trans('locale.business_advisory_paragraph.2') }}</strong> {{  trans('locale.business_advisory_paragraph.3') }}</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-30 col-sm-4 pricingtable two">
+                        <div class="top">
+                            <h2>2</h2>
+                        </div>
+                        <div class="content">
+                            <p>{{ trans('locale.business_advisory_paragraph.4') }}</p>
+                            <p><strong>{{ trans('locale.business_advisory_paragraph.5') }}</strong> {{  trans('locale.business_advisory_paragraph.6') }}</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-30 col-sm-4 pricingtable five">
+                        <div class="top">
+                            <h2>3</h2>
+                        </div>
+                        <div class="content">
+                            <p>{{ trans('locale.business_advisory_paragraph.7') }}</p>
+                        </div>
                     </div>
                 </div>
 

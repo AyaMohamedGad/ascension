@@ -5,7 +5,7 @@
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="tab-content mt-20 mb-20 information">
-            <div class="col-sm-12 fixing wow bounceInUp">
+            <div class="fixing wow bounceInUp">
                 <img class="for_desk" src="{{ asset('images/information.png') }}">
                 <div>
                     <p class="center">{{ trans('locale.information_system') }}</p>

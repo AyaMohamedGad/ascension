@@ -25,22 +25,16 @@
 
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
-        <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.national_fund') }}</h2>
-            <div class="arrows_header">
-                <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
-            </div>
-        </div>
         <div class="tab-content mt-20">
-            <div class="col-sm-12 wow fadeInDown">
-                <img src="{{ asset('images/funds.jpg') }}">
+            <div class="information fixing wow bounceInUp">
+                <img class="for_desk" src="{{ asset('images/funds.jpg') }}">
+                <div>
+                    <p class="center">{{ trans('locale.national_fund') }}</p>
+                </div>
             </div>
 
             <div class="funds">
-                <div class="col-sm-12 mt-10">
+                <div class="row mb-20 mt-10">
                     <div class="col-sm-3 active" id="one">
                         <div class="img_container">
                             <img src="{{ asset('images/national_fund.png') }}" alt="{{ trans('locale.fund.1') }}">
@@ -84,12 +78,6 @@
                 </div>
 
                 <div class="col-sm-12 data two hidden">
-                    <div class="fund_head col-sm-12">
-                        <h4>{{ trans('locale.fund.2') }}</h4>
-                        <img src="{{ asset('images/fund_arrow.png') }}">
-                        <img src="{{ asset('images/fund_arrow.png') }}">
-                        <img src="{{ asset('images/fund_arrow.png') }}">
-                    </div>
                     <p>{{ trans('locale.fund.benefits.1') }}</p>
                     <p>1- {{ trans('locale.fund.benefits.2') }}</p>
                     <p>2- {{ trans('locale.fund.benefits.3') }}</p>
@@ -104,14 +92,14 @@
                             <section class="step" data-step-title="The first">
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.1') }}</h4>
                                 <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="wow rotateInDownRight yes btn btn-success">{{ trans('locale.funds.2') }}</button>
+                                    <button type="button" onclick="gotonext()" class="wow rotateInDownRight yes btn btn-primary">{{ trans('locale.funds.2') }}</button>
                                 </div>
                             </section>
 
                             <section class="step" data-step-title="The second">
                                 <h4 style="text-align: center" class="mb-20">{{ trans('locale.funds.3') }}</h4>
                                 <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
                                     <button data-content="{{ trans('locale.funds.4') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
                             </section>
@@ -119,7 +107,7 @@
                             <section class="step" data-step-title="The third">
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.5') }}</h4>
                                 <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
                                     <button data-content="{{ trans('locale.funds.6') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
                             </section>
@@ -127,7 +115,7 @@
                             <section class="step" data-step-title="The Fourth">
                                 <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.7') }}</h4>
                                 <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="yes btn btn-success">{{ trans('locale.yes') }}</button>
+                                    <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
                                     <button data-content="{{ trans('locale.funds.8') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
                                 </div>
                             </section>
@@ -149,7 +137,7 @@
                                     </label>
                                 </div>
                                 <div class="row center mt-30">
-                                    <button type="button" onclick="submit_test()" class="yes btn btn-success">{{ trans('locale.finish') }}</button>
+                                    <button type="button" onclick="submit_test()" class="yes btn btn-primary">{{ trans('locale.finish') }}</button>
                                 </div>
                             </section>
                         </form>

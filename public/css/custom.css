@@ -247,12 +247,12 @@
     }
 }
 
-.social_media {
-    /*text-align: right*/
-}
-
 .social_media a {
     margin-left: 15px
+}
+
+.social_media a:first-child{
+    margin-left: 0px
 }
 
 a.language{
