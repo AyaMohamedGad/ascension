@@ -13,6 +13,8 @@
         }
         .item .col-xs-4{
             height: 240px;
+            display: flex;
+            align-items: center;
         }
         .item img{
             text-align: center;
