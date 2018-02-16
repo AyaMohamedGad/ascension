@@ -23,7 +23,7 @@ return [
     "information_system" => "Information System",
     "feasibility_studies" => "Feasibility Studies",
     "business_advisory" => "Business Advisory",
-    "national_fund" => "National Fund",
+    "national_fund" => "National Funds",
     "about_us" => "About Us",
     "careers" => "Careers",
     "contacts" => "Contact us",
@@ -197,11 +197,11 @@ return [
         "9" => ", to check if your university is accredited.",
         "10" => "",
         "11" => "An evaluation of your certificate must be made in approved institutes by your state to count your total credit hours. We recommend to make the evaluation with NASBA International Evaluation Services (NIES) if your state in NIES list:",
-        "12" => "Generally, 1 year of working experience (full time) is required in the accouting or  auditing fields (Could be before or after you take the exam).",
+        "12" => "Generally, 1 year of working experience (full time) is required in the accounting or  auditing fields (Could be before or after you take the exam).",
         "13" => "To get a full understanding of the new CPA exam, Please review the \"Candidate Bulletin\" by AICPA & NASBA here:"
     ],
     "cpa_enroll" => [
-        "new_1" => "Choose a state or an skjdhaskjd to apply for the CPA",
+        "new_1" => "Choose a state or a jurisdiction to apply for the CPA",
         "1" => "To ease the process of applying and paying fees, we in Ascension prefer that international candidates apply with those available on NASBA online application sysetem.",
         "2" => "Requirements vary by state/jurisdiction, please read & understand carefully your state requirements before choosing.",
         "3" => "Once your application has been evaluated, you will be contacted by your Board of Accountancy or its designated agent. It takes usually 4-6 weeks for the evaluation.",
@@ -393,7 +393,7 @@ return [
     ],
     "cfa_enroll" => [
         "1" => "Create an account with the CFA institute and follow their instructions:",
-        "2" => "After they approve your account, you can start registring for the exam.",
+        "2" => "After they approve your account, you can start registration for the exam.",
         "3" => "A one-time program enrollment fee of $450 is required when you register for the first time",
         "4" => "The exam fee depends on the date you register for the exam**:",
         "5" => "Early registration $650",
@@ -409,9 +409,9 @@ return [
         "1" => "The duration of each of the 3 CFA levels  is 6 hours (3 hours in the morning and 3 hours in the afternoon session).",
         "2" => "However, they differ in the structure and number of questions.",
         "3" => "Level I: 240 independent MCQs (120 in the morning and 120 in the afternoon session).",
-        "4" => "Level II: 20 item sets, each consist of 6 related MCQs (10 sets in the morining and 10 in the afternoon session).",
+        "4" => "Level II: 20 item sets, each consist of 6 related MCQs (10 sets in the morning and 10 in the afternoon session).",
         "5" => "Level III: 8-12 essay questions in the morning session and 10 case studies with 6 MSQs each in the afternoon session.",
-        "6" => "Results of Level I exam is typically released within 60 days. Same goes usually with the Level II exam. Level III exam results Results are typically released within 90 days due to the inclusion of the essay questions."
+        "6" => "Results of Level I exam is typically released within 60 days. Same goes usually with the Level II exam. Level III exam results are typically released within 90 days due to the inclusion of the essay questions."
     ],
     "cfa_pass" => [
         "1" => "Once you pass all the levels, you have to accumlate 4 year of relevant working experience to obtain the charter. The experience can be gained before or after taking the exam.",
@@ -453,7 +453,7 @@ return [
         "7" => "Accounting for Non Accountants",
         "8" => "Advanced Financial Accounting",
         "9" => "Advanced Managerial & Costing Accounting",
-        "10" => "New Methods & Approches in Managerial Accounting",
+        "10" => "New Methods & Approaches in Managerial Accounting",
         "11" => "Preparing Operational & Capital Budget",
         "12" => "Performance Measurement KPI's",
         "13" => "Financial Reports Analysis",
@@ -522,7 +522,7 @@ return [
     "fund" => [
         "1" => "The Fund",
         "2" => "Benefits",
-        "3" => "Eligiablity",
+        "3" => "Eligibility",
         "4" => "Required Documents",
         "the_fund" => [
             "1" => "In April 2013, the Government has enacted law number 98 of 2013 to establish a National Fund for SME Development (the “SME Fund”). The law is intended to help the country make a major stride in the efforts to support the youth, combat unemployment, and enable the private sector to drive economic growth. As an independent public corporation, with a total capital of KD 2 billion, the SME Fund will finance up to 80% of capital for feasible small and medium projects submitted by Kuwaiti Citizens. The National Fund for SME Development focus on building an inclusive, collaborative, and innovative ecosystem for entrepreneurs to lay the foundation for economic opportunities in the State of Kuwait."
@@ -535,7 +535,7 @@ return [
             "5" => "Interest-free financing, only administrative fees 2% per annum"
         ],
         "eligiablity" => [
-            "1" => "If you are a Kuwaiti citizen and your age is greater than 21 years, then you can get financing from the Fund up to KD 400,000, according to some achievable conditions as follows:",
+            "1" => "If you are a Kuwaiti citizen and above 21, then you can get financing from the Fund up to KD 400,000, according to some achievable conditions as follows:",
             "2" => "If you are an oil sector employee:",
             "3" => "You can apply, and if your project is approved, you must be completely free to manage your project, You may obtain a free to work leave permission from the employer for a maximum period of 3 years but you should getting approval from oil sector officals.",
             "4" => "If you are a civil servant:",
@@ -563,11 +563,11 @@ return [
         "1" => "Are you eligible for a loan ?",
         "2" => "Start your assessment",
         "3" => "Are you Kuwaiti ?",
-        "4" => "Sorry you are not eligible to get a lone since you are not Kuwaiti",
-        "5" => "Are you above 21 years old ?",
-        "6" => "Sorry you are not eligible to get loan since you age is less than 21 years old, once you become 21 years old you can get unlimited loan",
-        "7" => "Can you manage at least 10% of the cost of the project ?",
-        "8" => "Sorry you are not eligible to get loan because the national fund has one condition, you must manage at least 10 % from your own sources and 10% from national banks",
+        "4" => "Eligible to get a loan since you are not Kuwaiti",
+        "5" => "Are you over 21 ?",
+        "6" => "Sorry you are not eligible to get a loan since your age is less than 21. Once you turn 21 you will be eligible for an unlimited loan",
+        "7" => "Can you manage at least 10% of the project’s cost ?",
+        "8" => "Sorry, you are not eligible to get a loan, because the National Fund has a condition that you must manage at least 10% of the cost from your own sources and the rest 90% are from the national banks",
         "9" => "What is your job status ?",
         "10" => "Retired",
         "11" => "Governmental Employee",
@@ -583,7 +583,6 @@ return [
     "copyrights" => "Copyright © All Rights Reserved For Ascension",
     "coming_soon" => "Coming Soon",
     "of" => "Of"
-
 
 
 ];
