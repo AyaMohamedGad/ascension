@@ -270,7 +270,7 @@ a.language{
 
 .social_media i,
 .social_media a {
-    color: #092b67;
+    color: #0054a4;
 }
 
 .social_media .language{
@@ -584,12 +584,12 @@ a.language{
     min-height: 210px;
 }
 .arrow_content ul li{
-    color: #092b67;
+    color: #0054a4;
     list-style: none;
     margin-bottom: 10px;
 }
 .arrow_content ul li i{
-    color: #092b67;
+    color: #0054a4;
 }
 .business{
     margin-top: 20px;
@@ -983,7 +983,7 @@ body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
 }
 
 #videoPlayBtn:hover {
-    background-color: #092b67;
+    background-color: #0054a4;
     border: 0;
     box-shadow: 1px 2px 22px #000;
 }

@@ -9,7 +9,7 @@
 </div>
 <header id="style-1">
     <a href="{{ route('HomePage') }}">
-        <img width="90%" class="mt-10 center" src="{{ asset('images/logo.png') }}" alt="{{ trans('ascension') }}">
+        <img width="90%" class="mt-70 center" src="{{ asset('images/logo.png') }}" alt="{{ trans('ascension') }}">
     </a>
     <nav id="main-nav">
         <ul class="option-set clearfix" data-option-key="filter">

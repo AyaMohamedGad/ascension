@@ -19,7 +19,7 @@
                 <img class="center wow bounceInUp" src="{{ asset('images/course_bg.jpg') }}">
                 <div class="content wow bounceInUp">
                     <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cpa') }} <span>{{ trans('locale.mark') }}</span></p>
-                    <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cpa_word') }}</p>
+                    <p class="wow bounceInDown" data-wow-delay=".8s" data-typer-targets="{{ trans('locale.cpa_word') }}"></p>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <div class="row mt-20">
+        <div class="row mt-20 ml-30">
             <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cpa') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
@@ -641,4 +641,7 @@
 
 @section('scripts')
     {!! Html::script('js/cpa.js') !!}
+    <script type="text/javascript">
+        $('[data-typer-targets]').typer();
+    </script>
 @stop

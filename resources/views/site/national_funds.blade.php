@@ -74,7 +74,7 @@
                     <div class="col-sm-6 mb-20">
                         <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p>{{ trans('locale.fund.the_fund.1') }}</p>
+                    <p style="margin-top: 200px;">{{ trans('locale.fund.the_fund.1') }}</p>
                 </div>
 
                 <div class="col-sm-12 data two hidden">

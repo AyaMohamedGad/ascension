@@ -19,7 +19,7 @@
                 <img class="center wow bounceInUp" src="{{ asset('images/cma.jpg') }}" >
                 <div class="content wow bounceInUp">
                     <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cma') }} <span>{{ trans('locale.mark') }}</span></p>
-                    <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cma_word') }}</p>
+                    <p class="wow bounceInDown" data-typer-targets="{{ trans('locale.cma_word') }}" data-wow-delay=".8s"></p>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
         </div>
         <div style="display: none;" id="locale" data-attr="{{app()->getLocale()}}"></div>
 
-        <div class="row mt-20">
+        <div class="row mt-20 ml-30">
             <h3 class="bordered_title wow shake ml-10">{{ trans('locale.become_cma') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>
@@ -395,4 +395,7 @@
 
 @section('scripts')
     {!! Html::script('js/cma.js') !!}
+    <script type="text/javascript">
+        $('[data-typer-targets]').typer();
+    </script>
 @stop
