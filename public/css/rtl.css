@@ -365,3 +365,6 @@ p.paginate {
 .fund_head img{
     float: right !important;
 }
+.fund_head img{
+    margin-left: 0 !important;
+}

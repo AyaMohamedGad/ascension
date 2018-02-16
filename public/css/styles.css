@@ -2174,6 +2174,7 @@ ul li a.active.sub-nav-toggle {
 
 .fixing {
     position: relative;
+    padding: 0;
 }
 
 .fixing div {
@@ -3086,6 +3087,7 @@ a.ps_close:hover {
     -webkit-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+    padding: 0;
 }
 
 .pricingtable .content {
