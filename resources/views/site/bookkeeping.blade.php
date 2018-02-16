@@ -89,7 +89,7 @@
             padding-left: 20px;
         }
         .pricingtable {
-            min-height: 725px;
+            min-height: 725px !important;
             margin: auto 2%;
         }
     </style>
