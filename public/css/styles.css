@@ -3266,7 +3266,8 @@ p.paginate {
 
 .lSSlideWrapper {
     max-width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    direction: ltr;
 }
 
 .lSSlideWrapper .lSSlide {
