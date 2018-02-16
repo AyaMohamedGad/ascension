@@ -135,7 +135,7 @@
                 </div> -->
             </div>
 
-            <div class="col-sm-12 experts">
+            <div class="col-sm-12 experts mb-50">
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_experts') }}</h4>
                 <div class="col-sm-12">
                     <div style="margin-bottom:10px;" class="col-sm-6 col-xs-12 opened">

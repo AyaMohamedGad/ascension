@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12">
+        <div class="col-sm-12 mb-50">
             <ul class="mt-40 ch-grid">
                 <li class="wow fadeInDown" data-wow-delay=".3s">
                     <div class="ch-item ch-img-1">

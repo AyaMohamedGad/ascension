@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <div class="tab-content mt-20">
+        <div class="tab-content mt-20 mb-50">
             <div class="col-sm-12">
                 <div class="col-sm-6 wow fadeInLeft">
                     <div class="ers">

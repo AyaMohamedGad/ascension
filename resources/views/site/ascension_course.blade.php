@@ -70,7 +70,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12 mt-20">
+        <div class="col-sm-12 mt-20 mb-50">
             <h4 class="page_head mb-30 center">{{ trans('locale.courses_title') }}</h4>
             <ul class="nav nav-tabs courses_tabs" role="tablist">
                 <li class="col-sm-4 active"><a data-toggle="tab" role="tab" href="#finance">{{ trans('locale.accounting_finance') }}</a></li>

@@ -25,7 +25,7 @@
 
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
-        <div class="tab-content mt-20">
+        <div class="tab-content mt-20 mb-50">
             <div class="information fixing wow bounceInUp">
                 <img class="for_desk" src="{{ asset('images/funds.jpg') }}">
                 <div>

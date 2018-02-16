@@ -110,7 +110,7 @@
                      src="{{ asset('images/arrow_wht.png') }}">
             </div>
         </div>
-        <div class="tab-content mt-20 wow bounceInUp" style="display: flow-root">
+        <div class="tab-content mt-20 mb-50 wow bounceInUp" style="display: flow-root">
             <div class="col-sm-12 fixing">
                 <img class="for_desk" src="{{ asset('images/bookkeeping.png') }}">
                 <div>

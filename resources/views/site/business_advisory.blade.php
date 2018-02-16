@@ -155,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 mb-30">
+                <div class="col-sm-12 mb-60">
                     <div class="col-xs-12 col-sm-3">
                         <div class="arrow_content blue_p">
                             <ul>
