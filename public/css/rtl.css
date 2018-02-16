@@ -31,8 +31,8 @@ header, h1#logo{
     float: right;
 }
 a.language {
-    margin: 0 4% 0;
-    float: left;
+    margin: 0 4% 0 0;
+    float: left !important;
 }
 .header_normal_cover{
     padding: 0 25px 0 0;
@@ -336,4 +336,27 @@ i.fa{
 
 p.paginate{
     left: 60px;
+}
+.language{
+    margin-left: 0;
+}
+.footer{
+    left: auto;
+    right: 260px;
+}
+p.paginate {
+    right: 60px;
+    left: auto;
+}
+.fixing{
+    padding: 0;
+}
+.pricingtable {
+    padding: 0;
+}
+.fund_head h4{
+    float: right !important;
+}
+.fund_head img{
+    float: right !important;
 }
