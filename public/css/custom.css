@@ -315,11 +315,20 @@ a.language{
     font-weight: bold;
 }
 
-.banner .first, .banner .third{
-    right: 0;
-    text-align: right;
+.banner .first{
+    left: 50%;
     padding: 5% 5% 0;
     z-index: 100000;
+    float: right;
+    width: 100%;
+}
+
+.banner .third{
+    left: 14%;
+    padding: 2% 5% 0;
+    z-index: 100000;
+    float: right;
+    width: 78%;
 }
 
 .banner .second{
