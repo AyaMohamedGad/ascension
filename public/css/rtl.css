@@ -355,8 +355,8 @@ p.paginate {
     padding: 0;
 }
 .fund_head h4{
-    float: right;
+    float: right !important;
 }
 .fund_head img{
-    float: right;
+    float: right !important;
 }
