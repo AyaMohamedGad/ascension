@@ -2229,7 +2229,7 @@ ul li a.active.sub-nav-toggle {
     background-image: url('../images/56_s.jpg');
     background-size: cover;
     background-position: center center;
-    height: 500px;
+    height: 580px;
 }
 
 .ch-grid:after,
@@ -2310,7 +2310,7 @@ ul li a.active.sub-nav-toggle {
     padding: 10px 5px;
     font-style: italic;
     margin: 0 5px;
-    font-size: 14px;
+    font-size: 15.5px;
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0.2s;
     -moz-transition: all 0.4s ease-in-out 0.2s;
@@ -3161,6 +3161,7 @@ a.ps_close:hover {
     bottom: 0;
     left: 260px;
     width: 81%;
+    z-index: 2000;
 }
 
 .footer .col-sm-12 {
@@ -3600,4 +3601,7 @@ p.paginate {
     cursor: -o-grabbing;
     cursor: -ms-grabbing;
     cursor: grabbing
+}
+.tab-content{
+    padding-bottom: 50px;
 }

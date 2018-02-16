@@ -45,7 +45,7 @@
                     {{--</div>--}}
                 {{--</div>--}}
 
-                <div class="col-sm-12" style="padding:0">
+                <div class="col-sm-12" style="padding-left:25px;">
                     <div class="mt-30 mb-30 col-sm-4 pricingtable one featured">
                         <div class="top">
                             <h2>1</h2>
