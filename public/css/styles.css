@@ -1826,7 +1826,7 @@ h1 .circle-anim:after {
     height: 100vh;
     width: 100vw;
     background-color: #fff;
-    z-index: 100;
+    z-index: 10000;
     position: fixed;
     top: 0;
     left: 0
@@ -3604,4 +3604,7 @@ p.paginate {
 }
 .tab-content{
     padding-bottom: 50px;
+}
+.language{
+    margin-right: 0;
 }
