@@ -10,12 +10,6 @@
             color: #fff;
             letter-spacing: 2px;
         }
-        .fund_head img{
-            float: left;
-            margin-left: -20%;
-            margin-top: -4%;
-            width: 150px;
-        }
         .col-sm-6 iframe{
             border: 2px solid #092b67;
             border-radius: 30px;

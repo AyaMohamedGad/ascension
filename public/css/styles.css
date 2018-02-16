@@ -2461,6 +2461,13 @@ ul li a.active.sub-nav-toggle {
     transform-origin: 50% 0
 }
 
+.fund_head img{
+    float: left;
+    margin-left: -20%;
+    margin-top: -4%;
+    width: 150px;
+}
+
 @-moz-keyframes ringing {
     0% {
         -moz-transform: rotate(-15deg)
