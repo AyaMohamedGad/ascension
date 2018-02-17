@@ -74,6 +74,15 @@
                 </div>
 
                 <div class="col-sm-12 data two hidden">
+                    <div class="fund_head col-sm-6">
+                        <h4>{{ trans('locale.fund.2') }}</h4>
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                    </div>
+                    <div class="col-sm-6 mb-20">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <p>{{ trans('locale.fund.benefits.1') }}</p>
                     <p>1- {{ trans('locale.fund.benefits.2') }}</p>
                     <p>2- {{ trans('locale.fund.benefits.3') }}</p>
@@ -82,6 +91,15 @@
                 </div>
 
                 <div class="col-sm-12 data three hidden">
+                    <div class="fund_head col-sm-6">
+                        <h4>{{ trans('locale.fund.3') }}</h4>
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                    </div>
+                    <div class="col-sm-6 mb-20">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <p>{{ trans('locale.fund.eligiablity.1') }}</p>
                     <div class="half" style="width: 100%">
                         <form id="myWizard" type="get" action="" class="form-horizontal">
@@ -141,6 +159,15 @@
                 </div>
 
                 <div class="col-sm-12 data four hidden">
+                    <div class="fund_head col-sm-6">
+                        <h4>{{ trans('locale.fund.4') }}</h4>
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                        <img src="{{ asset('images/fund_arrow.png') }}">
+                    </div>
+                    <div class="col-sm-6 mb-20">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <p>{{ trans('locale.fund.required_documents.1') }}</p>
                     <p>1- {{ trans('locale.fund.required_documents.2') }}</p>
                     <p>2- {{ trans('locale.fund.required_documents.3') }}</p>
