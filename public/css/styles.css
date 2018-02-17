@@ -376,14 +376,15 @@ h2 i {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     z-index: 1001;
     left: 10px;
-    top: 10px
+    top: 10px;
+    margin: 35px 0 0 5px;
 }
 
 #menu-button .cursor {
     display: block;
     height: auto;
     cursor: pointer;
-    padding: 16px 16px 14px 16px
+    padding: 5px 0
 }
 
 #nav-button {
