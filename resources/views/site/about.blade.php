@@ -70,13 +70,13 @@
                             <div class="item active">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/4.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/5.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/3.jpg') }}" class="img-responsive">
                                         </div>
                                     </div>
@@ -85,13 +85,13 @@
                             <div class="item">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/6.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/9.png') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/7.png') }}" class="img-responsive">
                                         </div>
                                     </div>
@@ -100,13 +100,13 @@
                             <div class="item">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/1.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/2.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-sm-12 col-xs-12 col-lg-4">
+                                        <div class="col-sm-4 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/10.jpeg') }}" class="img-responsive">
                                         </div>
                                     </div>
@@ -138,14 +138,14 @@
             <div class="col-sm-12 experts mb-50">
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_experts') }}</h4>
                 <div class="col-sm-12">
-                    <div style="margin-bottom:10px;" class="col-sm-6 col-xs-12 opened">
+                    <div style="margin-bottom:10px;" class="col-sm-6 opened">
                     <img src="{{ asset('images/expert1.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert1') }}</h4>
                         <a href="#" class="open" id="expert1">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                    <div class="col-sm-6 expert1 details">
+                    <div class="col-xs-6 expert1 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
@@ -154,14 +154,14 @@
                 </div>
 
                 <div class="col-sm-12">
-                    <div style="margin-bottom:10px;" class="col-sm-6 col-xs-12 opened">
+                    <div style="margin-bottom:10px;" class="col-xs-6 opened">
                     <img src="{{ asset('images/expert2.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert2') }}</h4>
                         <a href="#" class="open" id="expert2">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                    <div class="col-sm-6 expert2 details">
+                    <div class="col-xs-6 expert2 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>
@@ -170,14 +170,14 @@
                 </div>
 
                 <div class="col-sm-12">
-                    <div style="margin-bottom:10px;" class="col-sm-6 col-xs-12 opened">
+                    <div style="margin-bottom:10px;" class="col-xs-6 opened">
                     <img src="{{ asset('images/expert3.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert3') }}</h4>
                         <a href="#" class="open" id="expert3">{{ trans('locale.read_more') }}</a>
                     </div>
                 </div>
-                    <div class="col-sm-6 expert3 details">
+                    <div class="col-xs-6 expert3 details">
                     <p><strong>{{ trans('locale.years_of_experience') }}: </strong>{{ trans('locale.ten_years') }}</p>
                     <p><strong>{{ trans('locale.qualifications') }}: </strong>{{ trans('locale.qualification_content') }}</p>
                     <p><strong>{{ trans('locale.major') }}: </strong>{{ trans('locale.accounting') }}</p>

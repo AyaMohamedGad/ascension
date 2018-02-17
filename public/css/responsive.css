@@ -348,4 +348,7 @@ padding:11px 25px 0px;
 	.table td {
 		white-space: normal !important;
 	}
+	.experts .details{
+		min-height: auto;
+	}
 }
