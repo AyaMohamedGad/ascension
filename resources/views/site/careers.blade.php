@@ -3,21 +3,12 @@
 @section('title', trans('locale.careers'))
 
 @section('content')
-    <div class="container careers clearfix" data-ref="mixitup-container">
-        <div class="header_normal_cover wow fadeInLeft">
-            <h2 class="header">{{ trans('locale.careers') }}</h2>
-            <div class="arrows_header">
-                <img class="arrow_one wow rotateInDownRight" data-wow-delay=".2s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_two wow rotateInUpLeft" data-wow-delay=".3s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_three wow rotateInUpRight" data-wow-delay=".4s" src="{{ asset('images/arrow_wht.png') }}">
-                <img class="arrow_four wow rotateInDownLeft" data-wow-delay=".5s" src="{{ asset('images/arrow_wht.png') }}">
-            </div>
-        </div>
+    <div class="container career clearfix" data-ref="mixitup-container">
         <div class="tab-content mt-20 information">
-            <div class="col-sm-12 fixing wow bounceInUp">
+            <div class="information fixing wow bounceInUp">
                 <img src="{{ asset('images/careers.png') }}">
                 <div>
-                    <p></p>
+                    <p class="center">{{ trans('locale.careers') }}</p>
                 </div>
             </div>
         </div>

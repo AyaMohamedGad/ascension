@@ -3073,7 +3073,7 @@ a.ps_close:hover {
 .top h2 {
     color: #fff;
     text-align: center;
-    font: 300 22px/50px Helvetica, Verdana, sans-serif;
+    font: 300 17.5px/50px Helvetica, Verdana, sans-serif;
     letter-spacing: 0.5px;
     padding-top: 5px;
 }
@@ -3625,6 +3625,6 @@ p.paginate {
     opacity: 1;
 }
 
-.careers .tab-content {
+.career .tab-content {
     padding-bottom: 0;
 }
