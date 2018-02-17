@@ -135,10 +135,10 @@
                 </div> -->
             </div>
 
-            <div class="col-sm-12 experts mb-50">
+            <div class="col-sm-12 experts mb-50" style="display: inline-block;">
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn" data-wow-duration="1s"></i> {{ trans('locale.our_experts') }}</h4>
                 <div class="col-sm-12">
-                    <div style="margin-bottom:10px;" class="col-sm-6 opened">
+                    <div style="margin-bottom:10px;" class="col-xs-6 opened">
                     <img src="{{ asset('images/expert1.png') }}">
                     <div class="name">
                         <h4>{{ trans('locale.expert1') }}</h4>
