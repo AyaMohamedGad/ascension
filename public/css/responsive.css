@@ -167,6 +167,9 @@ input, textarea {
 .height-500 {
 	height: 450px;
 }
+	.banner .first {
+	    left: 29%;
+	}	
 }
 
 
