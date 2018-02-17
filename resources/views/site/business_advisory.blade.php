@@ -46,7 +46,7 @@
                 {{--</div>--}}
 
                 <div class="col-sm-12" style="padding-left:25px;">
-                    <div class="mt-30 mb-30 col-sm-4 pricingtable one">
+                    <div class="mt-30 mb-30 col-sm-4 pricingtable one wow bounceInLeft">
                         <div class="top">
                             <h2>1</h2>
                         </div>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-30 col-sm-4 pricingtable five">
+                    <div class="mt-30 col-sm-4 pricingtable three wow bounceInRight">
                         <div class="top">
                             <h2>3</h2>
                         </div>

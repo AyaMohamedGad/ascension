@@ -118,7 +118,7 @@
             {{--</div>--}}
 
             <div class="col-sm-12">
-                <div class="mt-30 col-sm-4 pricingtable one">
+                <div class="mt-30 col-sm-4 pricingtable one wow bounceInLeft">
                     <div class="top">
                         <h2>{{ trans('locale.bookkeeping') }}</h2>
                     </div>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="mt-30 col-sm-4 pricingtable two featured">
+                <div class="mt-30 col-sm-4 pricingtable two featured ">
                     <div class="top">
                         <h2>{{ trans('locale.bookkeeping_paragraph.3') }}</h2>
                     </div>
@@ -137,7 +137,7 @@
                     </div>
                 </div>
 
-                <div class="mt-30 col-sm-4 pricingtable three">
+                <div class="mt-30 col-sm-4 pricingtable three wow bounceInRight">
                     <div class="top">
                         <h2>{{ trans('locale.bookkeeping_paragraph.5') }}</h2>
                     </div>
