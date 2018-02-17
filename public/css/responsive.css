@@ -260,7 +260,7 @@ padding:11px 25px 0px;
 		background-image: none;
 	}
 	.ch-grid li {
-	    width: 100%;
+	    width: 100% !important;
 	    height: 100%;
 		background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(47,105,167,1) 18%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
 		background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(47,105,167,1) 18%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -269,7 +269,7 @@ padding:11px 25px 0px;
 	}
 
 	.ch-grid{
-		height: 550px;
+		height: 700px !important;
 	}
 	.ch-info i {
 		font-size: 40px;
@@ -278,7 +278,7 @@ padding:11px 25px 0px;
 		font-size: 18px;
 	}
 	.ch-info p{
-		font-size: 17px;
+		font-size: 17px !important;
 	}
 
 	.flipbook-viewport {
@@ -307,8 +307,45 @@ padding:11px 25px 0px;
 		height: auto;
 		position: relative;
 		margin-top: -91%;
+		min-height: 300px;
 	}
+	.national .fixing div{
+		min-height: 350px;
+	}
+
 	.information div p:first-child{
 		text-align: center;
+	}
+	#style-1{
+		opacity: 0;
+	}
+	.information .fixing img {
+		height: 300px;
+	}
+	.information .fixing div {
+		margin-top: -78%;
+		height: 300px;
+	}
+	.top h2{
+		font: 300 18px/50px Helvetica, Verdana, sans-serif;
+	}
+	.fund_head img {
+		margin-left: -33%;
+		margin-bottom: 20px;
+	}
+	.top-left-contact {
+		padding: 15px 0;
+	}
+	.top-left-contact-left {
+		 border-right: 0;
+	}
+	.business .green p, .business .orange p, .business .yellow p, .business .blue p{
+		font-size: 25px;
+	}
+	.business img{
+		width:100%;
+	}
+	.table td {
+		white-space: normal !important;
 	}
 }

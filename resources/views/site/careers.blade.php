@@ -3,7 +3,7 @@
 @section('title', trans('locale.careers'))
 
 @section('content')
-    <div class="container clearfix" data-ref="mixitup-container">
+    <div class="container careers clearfix" data-ref="mixitup-container">
         <div class="header_normal_cover wow fadeInLeft">
             <h2 class="header">{{ trans('locale.careers') }}</h2>
             <div class="arrows_header">

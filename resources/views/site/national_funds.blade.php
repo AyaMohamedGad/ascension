@@ -18,7 +18,7 @@
 @stop
 
 @section('content')
-    <div class="container clearfix" data-ref="mixitup-container">
+    <div class="container clearfix national" data-ref="mixitup-container">
         <div class="tab-content mt-20 mb-50">
             <div class="information fixing wow bounceInUp">
                 <img class="for_desk" src="{{ asset('images/funds.jpg') }}">
@@ -27,8 +27,8 @@
                 </div>
             </div>
 
-            <div class="funds">
-                <div class="row mb-20 mt-10">
+            <div class="col-sm-12 funds">
+                <div class="mb-20 mt-10">
                     <div class="col-sm-3 active" id="one">
                         <div class="img_container">
                             <img src="{{ asset('images/national_fund.png') }}" alt="{{ trans('locale.fund.1') }}">
@@ -68,7 +68,9 @@
                     <div class="col-sm-6 mb-20">
                         <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p style="margin-top: 200px;">{{ trans('locale.fund.the_fund.1') }}</p>
+                    <div class="col-sm-12">
+                        <p>{{ trans('locale.fund.the_fund.1') }}</p>
+                    </div>
                 </div>
 
                 <div class="col-sm-12 data two hidden">

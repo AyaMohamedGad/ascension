@@ -11,7 +11,7 @@
         .col-sm-6 img{
             width: 100%;
         }
-        .item .col-xs-4{
+        .item .col-sm-12 col-xs-12 col-lg-4{
             height: 240px;
             display: flex;
             align-items: center;
@@ -70,13 +70,13 @@
                             <div class="item active">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/4.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/5.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/3.jpg') }}" class="img-responsive">
                                         </div>
                                     </div>
@@ -85,13 +85,13 @@
                             <div class="item">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/6.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/9.png') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/7.png') }}" class="img-responsive">
                                         </div>
                                     </div>
@@ -100,13 +100,13 @@
                             <div class="item">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/1.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/2.jpg') }}" class="img-responsive">
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="col-sm-12 col-xs-12 col-lg-4">
                                             <img src="{{ asset('images/clients/10.jpeg') }}" class="img-responsive">
                                         </div>
                                     </div>

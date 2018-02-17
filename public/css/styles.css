@@ -1929,7 +1929,7 @@ h1 .circle-anim:after {
 }
 
 .header_normal_cover {
-    background-color: #505969;
+    background-color: #0054a4;
     height: 110px;
     background-size: 100% 100%;
     padding-left: 25px
@@ -3064,7 +3064,7 @@ a.ps_close:hover {
 /*Top Bar*/
 .top {
     height: 65px;
-    background: #6f7175;
+    background: #B578AA;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
     border-radius: 10px 10px 0 0;
@@ -3130,7 +3130,7 @@ a.ps_close:hover {
     -o-transform: scale(1.05, 1.1);
     -ms-transform: scale(1.05, 1.1);
     transform: scale(1.05, 1.1);
-    z-index: 1000;
+    z-index: 998;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3187,11 +3187,11 @@ a.ps_close:hover {
 }
 
 .information div p:first-child {
-    font-size: 60px;
+    font-size: 45px;
     padding-top: 5%;
 }
 
-.information div p {
+.information .fixing div p {
     font-size: 30px;
     padding-top: 10%;
 }
@@ -3619,4 +3619,12 @@ p.paginate {
 }
 .language{
     margin-right: 0;
+}
+
+.pushed-left #style-1{
+    opacity: 1;
+}
+
+.careers .tab-content {
+    padding-bottom: 0;
 }
