@@ -12,15 +12,15 @@
             margin: 20px 5%;
         }
         .nav-tabs, .nav-tabs>li>a:hover{
-            border-bottom-color: #092b67;
+            border-bottom-color: #0054a4;
         }
         .nav-tabs>li{
             text-align: center;
         }
         .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
             color: #fff;
-            background-color: #092b67;
-            border-color: #092b67;
+            background-color: #0054a4;
+            border-color: #0054a4;
             -webkit-transition: all 0.4s ease-in-out;
             -moz-transition: all 0.4s ease-in-out;
             -o-transition: all 0.4s ease-in-out;
@@ -30,8 +30,8 @@
         .nav-tabs>li>a {
             font-size: 17px;
             background: #ececec;
-            color: #092b67;
-            border-bottom-color: #092b67;
+            color: #0054a4;
+            border-bottom-color: #0054a4;
         }
         .nav-tabs>li>a:hover {
             background: rgba(9, 43, 103, 0.5);
@@ -48,11 +48,11 @@
         .tab-content li {
             font-size: 16px;
             line-height: 25px;
-            color: #092b67;
+            color: #0054a4;
         }
         .tab-content li i{
             font-size: 10px;
-            color: #092b67;
+            color: #0054a4;
             vertical-align: middle;
         }
     </style>

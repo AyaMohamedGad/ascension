@@ -8,7 +8,7 @@
             position:relative;
             margin: 0 40px 20px;
             text-align: center;
-            border: 2px solid #092b67;
+            border: 2px solid #0054a4;
             min-height: 230px;
             border-radius: 5px;
             padding-bottom: 15px;
@@ -20,7 +20,7 @@
             vertical-align: middle;
         }
         .col-sm-3 h4 {
-            border-bottom: 2px solid #092b67;
+            border-bottom: 2px solid #0054a4;
             width: 100%;
             padding-bottom: 10px;
         }
@@ -42,7 +42,7 @@
             transform: scale(0);
             -webkit-backface-visibility: hidden;
             position: absolute;
-            background: #092b67;
+            background: #0054a4;
             width: 100%;
             height: 100%;
             opacity: 0;
@@ -73,7 +73,7 @@
             right: -45px;
             top: 30%;
             font-size: 80px;
-            color: #092b67;
+            color: #0054a4;
         }
         .content p{
             font-size: 17px;

@@ -50,7 +50,7 @@ th {
 }
 
 .aligncenter {
-    margin: 20px auto 0;
+    margin: 5px auto 0;
     width: 85%;
     /*height: 268px;*/
 }
@@ -1470,114 +1470,114 @@ ul.pagination li a.active:hover {
     color: #555 !important
 }
 
-.price-table {
-    text-align: center;
-    padding: 0 35px 35px;
-    margin: 15px 0;
-    width: 100%;
-    border: 2px solid #f2f2f2;
-    position: relative;
-    z-index: 1
-}
+/*.price-table {*/
+    /*text-align: center;*/
+    /*padding: 0 35px 35px;*/
+    /*margin: 15px 0;*/
+    /*width: 100%;*/
+    /*border: 2px solid #f2f2f2;*/
+    /*position: relative;*/
+    /*z-index: 1*/
+/*}*/
 
-.price-table h3 {
-    padding-bottom: 10px
-}
+/*.price-table h3 {*/
+    /*padding-bottom: 10px*/
+/*}*/
 
-.price-table p.price {
-    font-size: 60px;
-    color: #2b2b2b;
-    margin-left: -10px;
-    font-weight: 400;
-    padding-top: 15px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-family: "Oswald", Arial, Helvetica, sans-serif;
-    letter-spacing: -2px
-}
+/*.price-table p.price {*/
+    /*font-size: 60px;*/
+    /*color: #2b2b2b;*/
+    /*margin-left: -10px;*/
+    /*font-weight: 400;*/
+    /*padding-top: 15px;*/
+    /*margin-bottom: 0;*/
+    /*padding-bottom: 0;*/
+    /*font-family: "Oswald", Arial, Helvetica, sans-serif;*/
+    /*letter-spacing: -2px*/
+/*}*/
 
-.price-table p.price span {
-    font-size: 18px;
-    display: inline-block;
-    padding-top: 20px;
-    padding-right: 5px;
-    font-weight: 400;
-    vertical-align: top
-}
+/*.price-table p.price span {*/
+    /*font-size: 18px;*/
+    /*display: inline-block;*/
+    /*padding-top: 20px;*/
+    /*padding-right: 5px;*/
+    /*font-weight: 400;*/
+    /*vertical-align: top*/
+/*}*/
 
-.price-table.highlighted p.price {
-    font-size: 68px
-}
+/*.price-table.highlighted p.price {*/
+    /*font-size: 68px*/
+/*}*/
 
-.price-table.highlighted p.price span {
-    padding-top: 25px
-}
+/*.price-table.highlighted p.price span {*/
+    /*padding-top: 25px*/
+/*}*/
 
-.price-table.highlighted h4 {
-    font-size: 28px
-}
+/*.price-table.highlighted h4 {*/
+    /*font-size: 28px*/
+/*}*/
 
-.line-through {
-    text-decoration: line-through;
-    color: #bbb
-}
+/*.line-through {*/
+    /*text-decoration: line-through;*/
+    /*color: #bbb*/
+/*}*/
 
-.price-table .price-details {
-    padding: 5px 0;
-    display: block
-}
+/*.price-table .price-details {*/
+    /*padding: 5px 0;*/
+    /*display: block*/
+/*}*/
 
-.price-table .heading:after {
-    background: #fff;
-    bottom: -5px;
-    content: "";
-    height: 12px;
-    left: 50%;
-    margin-left: -6px;
-    position: absolute;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    width: 12px
-}
+/*.price-table .heading:after {*/
+    /*background: #fff;*/
+    /*bottom: -5px;*/
+    /*content: "";*/
+    /*height: 12px;*/
+    /*left: 50%;*/
+    /*margin-left: -6px;*/
+    /*position: absolute;*/
+    /*-webkit-transform: rotate(45deg);*/
+    /*-moz-transform: rotate(45deg);*/
+    /*-o-transform: rotate(45deg);*/
+    /*transform: rotate(45deg);*/
+    /*width: 12px*/
+/*}*/
 
-.price-table .heading:before {
-    background: none repeat scroll 0 0 #f2f2f2;
-    bottom: -7px;
-    content: "";
-    height: 12px;
-    left: 50%;
-    position: absolute;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    width: 12px;
-    margin-left: -6px
-}
+/*.price-table .heading:before {*/
+    /*background: none repeat scroll 0 0 #f2f2f2;*/
+    /*bottom: -7px;*/
+    /*content: "";*/
+    /*height: 12px;*/
+    /*left: 50%;*/
+    /*position: absolute;*/
+    /*-webkit-transform: rotate(45deg);*/
+    /*-moz-transform: rotate(45deg);*/
+    /*-o-transform: rotate(45deg);*/
+    /*transform: rotate(45deg);*/
+    /*width: 12px;*/
+    /*margin-left: -6px*/
+/*}*/
 
-.price-table .heading {
-    padding: 10px 0 12px;
-    margin-top: 20px;
-    position: relative;
-    color: #2b2b2b;
-    border-bottom: 2px solid #f2f2f2
-}
+/*.price-table .heading {*/
+    /*padding: 10px 0 12px;*/
+    /*margin-top: 20px;*/
+    /*position: relative;*/
+    /*color: #2b2b2b;*/
+    /*border-bottom: 2px solid #f2f2f2*/
+/*}*/
 
-.price-table.highlighted .heading:before {
-    background: none repeat scroll 0 0 #2b2b2b
-}
+/*.price-table.highlighted .heading:before {*/
+    /*background: none repeat scroll 0 0 #2b2b2b*/
+/*}*/
 
-.price-table.highlighted .heading {
-    border-bottom: 2px solid #2b2b2b
-}
+/*.price-table.highlighted .heading {*/
+    /*border-bottom: 2px solid #2b2b2b*/
+/*}*/
 
-.price-table .heading p.small {
-    padding-top: 5px;
-    margin-bottom: -5px;
-    position: relative
-}
+/*.price-table .heading p.small {*/
+    /*padding-top: 5px;*/
+    /*margin-bottom: -5px;*/
+    /*position: relative*/
+/*}*/
 
 .round-arrow-wrapper {
     width: 48px;
@@ -1826,14 +1826,14 @@ h1 .circle-anim:after {
     height: 100vh;
     width: 100vw;
     background-color: #fff;
-    z-index: 10000;
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: 0
 }
 
 .logo_pic1 {
-    z-index: 1000;
+    z-index: 10000;
     width: 300px;
     transform: rotateY(0deg);
     display: table;
@@ -1844,7 +1844,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic2 {
-    z-index: 1000;
+    z-index: 10000;
     width: 300px;
     display: table;
     margin: 0 auto;
@@ -1856,7 +1856,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic3 {
-    z-index: 1000;
+    z-index: 10000;
     width: 300px;
     display: none;
     margin: 0 auto;
@@ -1866,7 +1866,7 @@ h1 .circle-anim:after {
 }
 
 .logo_pic4 {
-    z-index: 1000;
+    z-index: 10000;
     width: 300px;
     display: none;
     margin: 0 auto;
@@ -1884,7 +1884,7 @@ h1 .circle-anim:after {
 }
 
 .h3_name {
-    z-index: 1000;
+    z-index: 10000;
     width: 300px;
     /*display: none;*/
     margin: 0 auto;
@@ -2318,6 +2318,7 @@ ul li a.active.sub-nav-toggle {
     -o-transition: all 0.4s ease-in-out 0.2s;
     -ms-transition: all 0.4s ease-in-out 0.2s;
     transition: all 0.4s ease-in-out 0.2s;
+    text-transform: none;
 }
 
 .ch-info i {
@@ -3078,7 +3079,7 @@ a.ps_close:hover {
 
 /*Shape*/
 .pricingtable {
-    min-height: 545px !important;
+    min-height: 605px !important;
     padding: 0 !important;
     background: #f3f3f3;
     -webkit-border-radius: 10px;
@@ -3170,7 +3171,7 @@ a.ps_close:hover {
     bottom: 0;
     left: 260px;
     width: 81%;
-    z-index: 2000;
+    z-index: 999;
 }
 
 .footer .col-sm-12 {

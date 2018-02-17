@@ -5,10 +5,10 @@
 @section('styles')
     <style>
         h5{
-            color: #092b67 !important;
+            color: #0054a4 !important;
         }
         iframe{
-            border: 2px solid #092b67 !important;
+            border: 2px solid #0054a4 !important;
             border-radius: 10px;
         }
         h5.col-sm-5, h5.col-sm-7{

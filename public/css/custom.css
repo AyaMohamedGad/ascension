@@ -318,7 +318,7 @@ a.language{
 .banner .first{
     left: 50%;
     padding: 5% 5% 0;
-    z-index: 100000;
+    z-index: 10000;
     float: right;
     width: 100%;
 }
@@ -326,7 +326,7 @@ a.language{
 .banner .third{
     left: 14%;
     padding: 2% 5% 0;
-    z-index: 100000;
+    z-index: 10000;
     float: right;
     width: 78%;
 }

@@ -46,7 +46,7 @@
                 {{--</div>--}}
 
                 <div class="col-sm-12" style="padding-left:25px;">
-                    <div class="mt-30 mb-30 col-sm-4 pricingtable one featured">
+                    <div class="mt-30 mb-30 col-sm-4 pricingtable one">
                         <div class="top">
                             <h2>1</h2>
                         </div>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-30 col-sm-4 pricingtable two">
+                    <div class="mt-30 col-sm-4 pricingtable two featured">
                         <div class="top">
                             <h2>2</h2>
                         </div>

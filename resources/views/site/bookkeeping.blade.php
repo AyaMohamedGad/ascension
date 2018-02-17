@@ -8,7 +8,7 @@
             position: relative;
             margin: 0 40px 20px;
             text-align: center;
-            border: 2px solid #092b67;
+            border: 2px solid #0054a4;
             min-height: 230px;
             border-radius: 5px;
             padding-bottom: 15px;
@@ -22,7 +22,7 @@
         }
 
         .col-sm-2 h4 {
-            border-bottom: 2px solid #092b67;
+            border-bottom: 2px solid #0054a4;
             width: 100%;
             padding-bottom: 10px;
         }
@@ -46,7 +46,7 @@
             transform: scale(0);
             -webkit-backface-visibility: hidden;
             position: absolute;
-            background: #092b67;
+            background: #0054a4;
             width: 100%;
             height: 100%;
             opacity: 0;
@@ -80,7 +80,7 @@
             right: -45px;
             top: 30%;
             font-size: 80px;
-            color: #092b67;
+            color: #0054a4;
         }
 
         .content p {
@@ -90,7 +90,6 @@
         }
         .pricingtable {
             min-height: 725px !important;
-            margin: auto 2%;
         }
     </style>
 @stop
@@ -111,7 +110,7 @@
             </div>
         </div>
         <div class="tab-content mt-20 mb-50 wow bounceInUp" style="display: flow-root">
-            <div class="col-sm-12 fixing">
+            <div class="col-sm-12 mb-50 fixing">
                 <img class="for_desk" src="{{ asset('images/bookkeeping.png') }}">
                 <div>
                     <p>{{ trans('locale.bookkeeping_paragraph.1') }}</p>
@@ -132,8 +131,8 @@
                 {{--<p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>--}}
             {{--</div>--}}
 
-            <div class="col-sm-12" style="padding:0">
-                <div class="mt-30 col-sm-5 pricingtable one">
+            <div class="col-sm-12">
+                <div class="mt-30 col-sm-6 pricingtable one">
                     <div class="top">
                         <h2>{{ trans('locale.bookkeeping_paragraph.3') }}</h2>
                     </div>
@@ -143,7 +142,7 @@
                 </div>
 
                 {{--<div class="featured_together">--}}
-                    <div class="mt-30 col-sm-6 pricingtable two">
+                    <div class="mt-30 col-sm-6 pricingtable two featured">
                         <div class="top">
                             <h2>{{ trans('locale.bookkeeping_paragraph.5') }}</h2>
                         </div>
@@ -156,7 +155,7 @@
                 {{--</div>--}}
             </div>
 
-            <div class="col-sm-12">
+            <div class="col-sm-12 mt-30">
                 <ul class="mt-40 ch-grid">
                     <li class="wow fadeInDown" data-wow-delay=".3s">
                         <div class="ch-item ch-img-1">

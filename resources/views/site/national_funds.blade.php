@@ -11,7 +11,7 @@
             letter-spacing: 2px;
         }
         .col-sm-6 iframe{
-            border: 2px solid #092b67;
+            border: 2px solid #0054a4;
             border-radius: 30px;
         }
     </style>
