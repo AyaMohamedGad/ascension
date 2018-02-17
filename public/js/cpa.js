@@ -11,6 +11,7 @@ var initiate = function(locale){
     $('.flipbook').turn({
         // Height
         height: 500,
+        width: 900,
         // Elevation
         elevation: 50,
         page: 2,

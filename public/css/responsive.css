@@ -13,6 +13,14 @@
 	#style-1{
 	    left: 5%;
 	}
+	#book_tabs>div>.nav-tabs-right
+	{
+		margin-right: 60px;
+	}
+
+	#book_tabs{
+		margin-left: 100px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -80,6 +88,9 @@ h1#logo {
 .client {
 	width: 33.33333%;
 }
+.flipbook-viewport {
+	    overflow:auto;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -185,6 +196,10 @@ padding:11px 25px 0px;
 
 
 @media all and (max-width: 720px){
+	#book_tabs>div>.nav-tabs-right, #book_tabs>div>.nav-tabs-left{
+		display: none;
+	}
+
     .logo_pic1, .logo_pic2, .logo_pic3, .logo_pic4 {
         width: 100px;
     }
@@ -268,7 +283,7 @@ padding:11px 25px 0px;
 
 	.flipbook-viewport {
 	    overflow:auto;
-	    width: 240%;
+	    /*width: 240%;*/
 	}
 
 	.right_tab {
