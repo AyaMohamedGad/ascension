@@ -3628,3 +3628,8 @@ p.paginate {
 .career .tab-content {
     padding-bottom: 0;
 }
+
+.bordered{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
