@@ -7,4 +7,8 @@
         <i class="fa fa-calendar"></i> Courses' Time</a>
     <a href="{{ route('PhotoGalleryIndex') }}" class="btn btn-white btn-primary {{ Request::is('administration/photo_gallery*') ? 'active' : '' }}">
         <i class="fa fa-image"></i> Photo Gallery</a>
+    <a href="{{ route('PartnerIndex') }}" class="btn btn-white btn-primary {{ Request::is('administration/partner*') ? 'active' : '' }}">
+        <i class="fa fa-user"></i> Partners</a>
+    <a href="{{ route('ExpertsIndex') }}" class="btn btn-white btn-primary {{ Request::is('administration/expert*') ? 'active' : '' }}">
+        <i class="fa fa-user"></i> Experts</a>
 </div>

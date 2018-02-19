@@ -43,9 +43,22 @@ Route::group(['prefix' => 'administration', 'middleware' => 'auth'], function ()
     Route::post('/new/create', 'NewsController@create')->name('CreateNew');
     Route::get('/new/delete/{id}', 'NewsController@delete')->name('DeleteNew');
 
+    // experts
+    Route::get('/expert', 'ExpertController@index')->name('ExpertsIndex');
+    Route::get('/expert/view/{id}', 'ExpertController@view')->name('ViewExpert');
+    Route::get('/expert/edit/{id}', 'ExpertController@edit')->name('EditExpert');
+    Route::put('/expert/update/{id}', 'ExpertController@update')->name('UpdateExpert');
+    Route::get('/expert/add', 'ExpertController@add')->name('AddExpert');
+    Route::post('/expert/create', 'ExpertController@create')->name('CreateExpert');
+    Route::get('/expert/delete/{id}', 'ExpertController@delete')->name('DeleteExpert');
+
     // photo gallery
     Route::get('/photo_gallery', 'GalleryController@index')->name('PhotoGalleryIndex');
     Route::post('/photo_gallery/update', 'GalleryController@update')->name('UpdatePhotoGallery');
+
+    // partners
+    Route::get('/partner', 'PartnerController@index')->name('PartnerIndex');
+    Route::post('/partner/update', 'PartnerController@update')->name('UpdatePartner');
 
     // courses' time
     Route::get('/course', 'CourseController@index')->name('CoursesIndex');

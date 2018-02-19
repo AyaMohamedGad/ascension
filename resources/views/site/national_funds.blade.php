@@ -83,11 +83,13 @@
                     <div class="col-sm-6 mb-20">
                         <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p>{{ trans('locale.fund.benefits.1') }}</p>
+                    <div class="col-sm-12">
+                        <p>{{ trans('locale.fund.benefits.1') }}</p>
                     <p>1- {{ trans('locale.fund.benefits.2') }}</p>
                     <p>2- {{ trans('locale.fund.benefits.3') }}</p>
                     <p>3- {{ trans('locale.fund.benefits.4') }}</p>
                     <p>4- {{ trans('locale.fund.benefits.5') }}</p>
+                    </div>
                 </div>
 
                 <div class="col-sm-12 data three hidden">
@@ -100,61 +102,63 @@
                     <div class="col-sm-6 mb-20">
                         <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p>{{ trans('locale.fund.eligiablity.1') }}</p>
-                    <div class="half" style="width: 100%">
-                        <form id="myWizard" type="get" action="" class="form-horizontal">
-                            <section class="step" data-step-title="The first">
-                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.1') }}</h4>
-                                <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="wow rotateInDownRight yes btn btn-primary">{{ trans('locale.funds.2') }}</button>
-                                </div>
-                            </section>
+                    <div class="col-sm-12">
+                        <p>{{ trans('locale.fund.eligiablity.1') }}</p>
+                        <div class="half" style="width: 100%">
+                            <form id="myWizard" type="get" action="" class="form-horizontal">
+                                <section class="step" data-step-title="The first">
+                                    <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.1') }}</h4>
+                                    <div class="row center mt-30">
+                                        <button type="button" onclick="gotonext()" class="wow rotateInDownRight yes btn btn-primary">{{ trans('locale.funds.2') }}</button>
+                                    </div>
+                                </section>
 
-                            <section class="step" data-step-title="The second">
-                                <h4 style="text-align: center" class="mb-20">{{ trans('locale.funds.3') }}</h4>
-                                <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
-                                    <button data-content="{{ trans('locale.funds.4') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                                </div>
-                            </section>
+                                <section class="step" data-step-title="The second">
+                                    <h4 style="text-align: center" class="mb-20">{{ trans('locale.funds.3') }}</h4>
+                                    <div class="row center mt-30">
+                                        <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
+                                        <button data-content="{{ trans('locale.funds.4') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                    </div>
+                                </section>
 
-                            <section class="step" data-step-title="The third">
-                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.5') }}</h4>
-                                <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
-                                    <button data-content="{{ trans('locale.funds.6') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                                </div>
-                            </section>
+                                <section class="step" data-step-title="The third">
+                                    <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.5') }}</h4>
+                                    <div class="row center mt-30">
+                                        <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
+                                        <button data-content="{{ trans('locale.funds.6') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                    </div>
+                                </section>
 
-                            <section class="step" data-step-title="The Fourth">
-                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.7') }}</h4>
-                                <div class="row center mt-30">
-                                    <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
-                                    <button data-content="{{ trans('locale.funds.8') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
-                                </div>
-                            </section>
+                                <section class="step" data-step-title="The Fourth">
+                                    <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.7') }}</h4>
+                                    <div class="row center mt-30">
+                                        <button type="button" onclick="gotonext()" class="yes btn btn-primary">{{ trans('locale.yes') }}</button>
+                                        <button data-content="{{ trans('locale.funds.8') }}" class="no btn btn-danger">{{ trans('locale.no') }}</button>
+                                    </div>
+                                </section>
 
-                            <section class="step" data-step-title="The Fifth">
-                                <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.9') }}</h4>
-                                <div class="row center mt-30">
-                                    <label class="radio-inline">
-                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.1') }}" value="one" name="optradio">{{ trans('locale.funds.10') }}
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.9') }}" value="two" name="optradio">{{ trans('locale.funds.11') }}
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.7') }}" value="three" name="optradio">{{ trans('locale.funds.12') }}
-                                    </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" data-content="{{ trans('locale.fund.eligiablity.13') }}" value="four" name="optradio">{{ trans('locale.funds.13') }}
-                                    </label>
-                                </div>
-                                <div class="row center mt-30">
-                                    <button type="button" onclick="submit_test()" class="yes btn btn-primary">{{ trans('locale.finish') }}</button>
-                                </div>
-                            </section>
-                        </form>
+                                <section class="step" data-step-title="The Fifth">
+                                    <h4 style="text-align: center" class="mb-20 mt-40">{{ trans('locale.funds.9') }}</h4>
+                                    <div class="row center mt-30">
+                                        <label class="radio-inline">
+                                            <input type="radio" data-content="{{ trans('locale.fund.eligiablity.1') }}" value="one" name="optradio">{{ trans('locale.funds.10') }}
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" data-content="{{ trans('locale.fund.eligiablity.9') }}" value="two" name="optradio">{{ trans('locale.funds.11') }}
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" data-content="{{ trans('locale.fund.eligiablity.7') }}" value="three" name="optradio">{{ trans('locale.funds.12') }}
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" data-content="{{ trans('locale.fund.eligiablity.13') }}" value="four" name="optradio">{{ trans('locale.funds.13') }}
+                                        </label>
+                                    </div>
+                                    <div class="row center mt-30">
+                                        <button type="button" onclick="submit_test()" class="yes btn btn-primary">{{ trans('locale.finish') }}</button>
+                                    </div>
+                                </section>
+                            </form>
+                        </div>
                     </div>
                 </div>
 
@@ -168,11 +172,13 @@
                     <div class="col-sm-6 mb-20">
                         <iframe width="100%" height="200" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    <p>{{ trans('locale.fund.required_documents.1') }}</p>
-                    <p>1- {{ trans('locale.fund.required_documents.2') }}</p>
-                    <p>2- {{ trans('locale.fund.required_documents.3') }}</p>
-                    <p>{{ trans('locale.fund.required_documents.4') }}</p>
-                    <p>{{ trans('locale.fund.required_documents.5') }}</p>
+                    <div class="col-sm-12">
+                        <p>{{ trans('locale.fund.required_documents.1') }}</p>
+                        <p>1- {{ trans('locale.fund.required_documents.2') }}</p>
+                        <p>2- {{ trans('locale.fund.required_documents.3') }}</p>
+                        <p>{{ trans('locale.fund.required_documents.4') }}</p>
+                        <p>{{ trans('locale.fund.required_documents.5') }}</p>
+                    </div>
                 </div>
             </div>
         </div>

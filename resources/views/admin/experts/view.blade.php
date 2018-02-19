@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'View New')
+@section('title', 'View Expert')
 
 @section('styles')
     <style>
@@ -18,7 +18,7 @@
     <div class="page-content">
         <div class="col-md-12">
             <div class="page-header">
-                <h1><i class="menu-icon fa fa-image"></i> {{ $theNew->translations()->where('language', 'en')->pluck('title')->first() }}</h1>
+                <h1><i class="menu-icon fa fa-image"></i> {{ $theExpert->translations()->where('language', 'en')->pluck('title')->first() }}</h1>
             </div>
         </div>
 
@@ -27,18 +27,9 @@
                 <div class="col-xs-12 col-sm-3 center">
                     <div>
                         <div class="profile-picture">
-                            <img id="avatar" class="editable img-responsive" alt="Image" src="{{ asset('images/news/' . $theNew->image) }}" />
+                            <img id="avatar" class="editable img-responsive" alt="Image" src="{{ asset('images/experts/' . $theExpert->image) }}" />
                         </div>
                         <div class="space-10"></div>
-                    </div>
-                </div>
-
-                <div class="profile-user-info profile-user-info-striped">
-                    <div class="profile-info-row">
-                        <div class="profile-info-name">Date</div>
-                        <div class="profile-info-value">
-                            <span class="editable">{{ $theNew->date }}</span>
-                        </div>
                     </div>
                 </div>
 
@@ -48,14 +39,14 @@
                         <div class="profile-info-row">
                             <div class="profile-info-name">Title</div>
                             <div class="profile-info-value">
-                                <span class="editable">{{ $theNew->translations()->where('language', 'en')->pluck('title')->first() }}</span>
+                                <span class="editable">{{ $theExpert->translations()->where('language', 'en')->pluck('title')->first() }}</span>
                             </div>
                         </div>
 
                         <div class="profile-info-row">
                             <div class="profile-info-name">Description</div>
                             <div class="profile-info-value">
-                                <span class="editable">{!! $theNew->translations()->where('language', 'en')->pluck('description')->first() !!}</span>
+                                <span class="editable">{!! $theExpert->translations()->where('language', 'en')->pluck('description')->first() !!}</span>
                             </div>
                         </div>
                     </div>
@@ -68,14 +59,14 @@
                         <div class="profile-info-row">
                             <div class="profile-info-name">Title</div>
                             <div class="profile-info-value">
-                                <span class="editable">{{ $theNew->translations()->where('language', 'ar')->pluck('title')->first() }}</span>
+                                <span class="editable">{{ $theExpert->translations()->where('language', 'ar')->pluck('title')->first() }}</span>
                             </div>
                         </div>
 
                         <div class="profile-info-row">
                             <div class="profile-info-name">Description</div>
                             <div class="profile-info-value">
-                                <span class="editable">{!! $theNew->translations()->where('language', 'ar')->pluck('description')->first() !!}</span>
+                                <span class="editable">{!! $theExpert->translations()->where('language', 'ar')->pluck('description')->first() !!}</span>
                             </div>
                         </div>
                     </div>

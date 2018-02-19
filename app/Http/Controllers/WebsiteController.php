@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Expert;
+use App\Partner;
 use Illuminate\Http\Request;
 use App\Course;
 use App\News;
@@ -56,7 +58,20 @@ class WebsiteController extends Controller
     }
 
     public function about(){
-        return view('site.about');
+        $all = array();
+        $partners = Partner::orderBy('id')->get();
+        $count = 0;
+        foreach ($partners as $key => $partner){
+            if($key % 3 == 0){
+                $count++;
+            }
+            $all[$count][] = $partner->image;
+        }
+        $partners = $all;
+        $experts = Expert::with(['translations' => function ($q) {
+            $q->where('language', app()->getLocale());
+        }])->get();
+        return view('site.about', compact('partners', 'experts'));
     }
 
     public function contact(){

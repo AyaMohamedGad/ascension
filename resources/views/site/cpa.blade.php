@@ -16,7 +16,7 @@
     <div class="container clearfix cpa_page" data-ref="mixitup-container">
         <div class="tab-content row" style="visibility: hidden">
             <div class="cpa col-sm-12">
-                <img class="center wow bounceInUp" src="{{ asset('images/course_bg.jpg') }}">
+                <img class="center wow bounceInUp" src="{{ asset('images/cpa.jpg') }}">
                 <div class="content wow bounceInUp">
                     <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cpa') }} <span>{{ trans('locale.mark') }}</span></p>
                     <p class="wow bounceInDown" data-wow-delay=".8s" data-typer-targets="{{ trans('locale.cpa_word') }}"></p>

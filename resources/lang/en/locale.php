@@ -580,7 +580,7 @@ return [
     "finish" => "Finish",
     "select_first" => "Please Select First",
     "back" => "Back",
-    "copyrights" => "Copyright © All Rights Reserved For Ascension",
+    "copyrights" => "Copyright © All Rights Reserved For",
     "coming_soon" => "Coming Soon",
     "of" => "Of"
 

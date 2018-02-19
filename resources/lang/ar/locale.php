@@ -580,7 +580,7 @@ return [
     "close" => "غلق",
     "select_first" => "من فضلك إختر أولاً",
     "back" => "رجوع",
-    "copyrights" => "Copyright © جميع الحقوق محفوظة اسينشن",
+    "copyrights" => "Copyright © جميع الحقوق محفوظة",
     "coming_soon" => "قريباً",
     "of" => "من"
 

@@ -3641,3 +3641,14 @@ p.paginate {
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
+.footer a{
+    color: #0054a4;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+.experts img{
+    width: 100%;
+}
