@@ -22,7 +22,7 @@
 
         @if(count($thenew->translations) > 0)
             <div class="tab-content row wow bounceInUp">
-                <div class="tab-content mt-20">
+                <div class="col-sm-12 mt-20">
                     <div class="col-sm-4 row wow bounceInUp">
                         <img class="center" src="{{ asset('images/news/' . $thenew->image) }}" >
                     </div>
