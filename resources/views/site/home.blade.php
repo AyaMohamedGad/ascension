@@ -32,7 +32,7 @@
     <div class="container home">
         <div class="banner">
             <div class="video-container clearfix full-width" data-ref="mixitup-container">
-                <video width="100%" height="500" autoplay="autoplay" loop>
+                <video id="video" width="100%" height="500" autoplay="autoplay" loop>
                     <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
                     <source src="{{ asset('videos/home.webm') }}" type="video/webm" />
                 </video>
@@ -111,6 +111,11 @@
     {{ Html::script('js/logo_animation.js') }}
     {{ Html::script('js/lightslider.min.js') }}
     <script type="text/javascript">
+        var video = document.getElementById('video');
+        setTimeout(function(){
+            video.play()
+        }, 5200);
+
         jQuery(function(){
             jQuery("a.vp-a").YouTubePopUp();
         });

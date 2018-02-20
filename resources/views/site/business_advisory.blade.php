@@ -136,11 +136,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="orange col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="orange col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="4s">
                         <p>{{ trans('locale.accounting') }}</p>
                         <img class="orange_arrow" src="{{ asset('images/orange_arrow.png') }}">
                     </div>
-                    <div class="green col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="green col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="4s">
                         <p>{{ trans('locale.human_resources') }}</p>
                         <img class="green_arrow" src="{{ asset('images/green_arrow.png') }}">
                     </div>
@@ -166,11 +166,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="blue col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="blue col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="4s">
                         <p>{{ trans('locale.financial_evaluations') }}</p>
                         <img class="blue_arrow" src="{{ asset('images/blue_arrow.png') }}">
                     </div>
-                    <div class="yellow col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="3s">
+                    <div class="yellow col-xs-12 col-sm-3 wow rotateIn" data-wow-duration="4s">
                         <p>{{ trans('locale.other') }}</p>
                         <img class="yellow_arrow" src="{{ asset('images/yellow_arrow.png') }}">
                     </div>
