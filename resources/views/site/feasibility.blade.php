@@ -104,8 +104,8 @@
 @stop
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
-        <div class="tab-content mt-20 information">
-            <div class="fixing wow bounceInUp">
+        <div class="tab-content mt-20">
+            <div class="information fixing wow bounceInUp">
                 <img src="{{ asset('images/feasibility_study.png') }}">
                 <div>
                     <p class="center">{{ trans('locale.feasibility_study') }}</p>
