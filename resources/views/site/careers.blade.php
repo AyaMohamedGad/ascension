@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="container career clearfix" data-ref="mixitup-container">
-        <div class="tab-content mt-20 information">
+        <div class="tab-content mt-20">
             <div class="information fixing wow bounceInUp">
                 <img src="{{ asset('images/careers.png') }}">
                 <div>

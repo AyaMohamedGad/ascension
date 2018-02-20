@@ -25,8 +25,8 @@
 @section('content')
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="tab-content mt-20 wow fadeInDown" wow-data-offset="200">
-            <div class="mb-30 information">
-                <div class="fixing wow bounceInUp">
+            <div class="mb-30">
+                <div class="information fixing wow bounceInUp">
                     <img src="{{ asset('images/business.jpg') }}">
                     <div>
                         <p class="center">{{ trans('locale.business_advisory') }}</p>
