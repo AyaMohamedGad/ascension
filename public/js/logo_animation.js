@@ -50,9 +50,8 @@ else{
   $( ".logo_pic2" )
   .delay(2200)
   .animate({
-      left: "2%",
+      right: "73.5%",
       top: "80px",
-      width: "24%",
       opacity: "0.5",
       transform: "scaleX(-1)"
         }, 1000);
