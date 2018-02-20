@@ -9,14 +9,26 @@ $('.logo_pic1').animate({  borderSpacing: -540 }, {
     duration:1000
 },'linear');
 
+var width = window.innerWidth;
 
-$( ".logo_pic2" )
-.delay(1000)
-.animate({
-    opacity: 1,
-    top: "25%",
-    left: "41.65%"
-      }, 700);
+if(width > 768){
+  $( ".logo_pic2" )
+  .delay(1000)
+  .animate({
+      opacity: 1,
+      top: "25%",
+      left: "41.65%"
+        }, 700);
+}
+else{
+  $( ".logo_pic2" )
+  .delay(1000)
+  .animate({
+      opacity: 1,
+      top: "4%",
+      left: "41.65%"
+        }, 700);
+}
 
 
 // $( ".logo_pic3" ).slideUp( 300 ).delay(1000).fadeIn(1000);

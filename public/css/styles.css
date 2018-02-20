@@ -3167,6 +3167,10 @@ a.ps_close:hover {
         width: 40%;
         margin-left: 4%;
     }
+
+    .logo_pic1, .logo_pic2, .logo_pic3, .logo_pic4, .name_container{
+        top: 4%;
+    }
 }
 
 @media only screen and (max-width: 620px) {
