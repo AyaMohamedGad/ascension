@@ -3154,10 +3154,6 @@ a.ps_close:hover {
         transform: scale(1, 1);
     }
 
-    .pricingtable {
-        margin: 10px;
-    }
-
     .pricingtable.three p {
         padding: 10px;
     }
@@ -3166,6 +3162,10 @@ a.ps_close:hover {
 @media only screen and (max-width: 768px) {
     #container {
         width: 700px;
+    }
+    .social_media .right-align{
+        width: 40%;
+        margin-left: 4%;
     }
 }
 

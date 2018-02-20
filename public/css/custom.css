@@ -324,11 +324,11 @@ a.language{
 }
 
 .banner .third{
-    left: 14%;
+    left: 3%;
     padding: 2% 5% 0;
     z-index: 10000;
     float: right;
-    width: 78%;
+    width: 86%;
 }
 
 .banner .second{
