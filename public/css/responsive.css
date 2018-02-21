@@ -91,6 +91,10 @@
 .flipbook-viewport {
 	    overflow:auto;
 	}
+
+	.right-align {
+	    width: 50%;
+	}
 }
 
 /* Small Devices, Tablets */

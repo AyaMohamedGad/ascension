@@ -593,6 +593,7 @@ a.language{
 }
 .business{
     margin-top: 20px;
+    overflow: hidden;
 }
 .business .col-sm-12 .col-xs-3:first-child,
 .business .col-sm-12 .col-xs-3:last-child{
