@@ -395,3 +395,10 @@ p.paginate {
         border-left: 0;
     }
 }
+
+@media (max-width: 768px) and (min-width: 10px){
+    .fund_head img {
+        margin-right: -24%;
+        width: 92px;
+    }
+}

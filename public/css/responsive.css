@@ -324,9 +324,12 @@ padding:11px 25px 0px;
 		height: 300px;
 	}
 	.information .fixing div, .information.fixing div {
-		margin-top: -87%;
+		margin-top: -91%;
 		height: 300px;
 	}
+    .tab-content h4 {
+        font-size: 18px;
+    }
 	.top h2{
 		font: 300 18px/50px Helvetica, Verdana, sans-serif;
 	}
@@ -365,7 +368,7 @@ padding:11px 25px 0px;
         padding: 0;
     }
     .fund_head img {
-        margin-left: -42%;
+        margin-left: -46%;
     }
 }
 
