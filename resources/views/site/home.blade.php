@@ -32,7 +32,7 @@
     <div class="container home">
         <div class="banner">
             <div class="video-container clearfix full-width" data-ref="mixitup-container">
-                <video id="video" width="100%" height="500" autoplay="autoplay" loop>
+                <video id="video" width="100%" height="500" autoplay="autoplay" loop muted>
                     <source src="{{ asset('videos/home.mp4') }}" type="video/mp4" />
                     <source src="{{ asset('videos/home.webm') }}" type="video/webm" />
                 </video>
