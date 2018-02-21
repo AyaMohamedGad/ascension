@@ -324,17 +324,6 @@ a.language {
         padding-right: 0px !important;
     }
 }
-
-@media all and (max-width: 768px) and (min-width: 10px){
-    #content{
-        padding-right: 0px;
-    }
-
-    header, h1#logo{
-        left: 0 !important;
-        right: auto;
-    }
-}
 i.fa{
     margin-left: 5px;
 }
@@ -378,4 +367,31 @@ p.paginate {
 .fund_head h4{
     margin-right: 0;
     margin-left: 50px;
+}
+
+@media all and (max-width: 768px) and (min-width: 10px){
+    #content{
+        padding-right: 0px;
+    }
+
+    header, h1#logo{
+        left: 0 !important;
+        right: auto;
+    }
+    .footer{
+        right: 0 !important;
+    }
+    a.language{
+        margin: 0 10% 0 0;
+        float: right !important;
+    }
+    .cpa .content{
+        margin-left: 0;
+    }
+    .fund_head img {
+        margin-right: -44%;
+    }
+    .top-left-contact-left {
+        border-left: 0;
+    }
 }
