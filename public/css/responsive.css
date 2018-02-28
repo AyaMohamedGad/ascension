@@ -6,6 +6,13 @@
 }
 }
 
+
+@media only screen and (min-width: 1450px) {
+	.container{
+		width: 1200px;
+	}
+}
+
 @media only screen and (min-width: 1600px) {
 	.container {
 		width: 1280px;
@@ -21,6 +28,7 @@
 	#book_tabs{
 		margin-left: 100px;
 	}
+
 }
 
 /* Large Devices, Wide Screens */

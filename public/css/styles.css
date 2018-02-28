@@ -95,7 +95,8 @@ html {
 
 body {
     font-size: 15px;
-    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: 'Patua One', cursive;
+
     color: #555;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
@@ -338,7 +339,8 @@ h3 {
 }
 
 .tab-content h4 {
-    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: 'Patua One', cursive;
+
     font-size: 24px;
     line-height: 1.25;
     letter-spacing: -.5px
@@ -1103,6 +1105,10 @@ a.circled:hover i.fa {
 
 .contact-page .icons {
     margin-top: 30px
+}
+
+.contact_gif{
+    padding-right: 0px;
 }
 
 .images {
@@ -2228,7 +2234,7 @@ ul li a.active.sub-nav-toggle {
     display: block;
     text-align: center;
     width: 100%;
-    background-image: url('../images/block.jpg');
+    background-image: url('../images/business_financial.jpg');
     background-size: cover;
     background-position: center center;
     height: 580px;
@@ -2419,8 +2425,11 @@ ul li a.active.sub-nav-toggle {
     padding-left: 0 !important;
 }
 
-.cpa_page .times .col-sm-6:last-child {
-    background: url('../images/border.png');
+.cpa_page .times .col-sm-5:last-child {
+    background-color: #3292ba;
+    border: 3px solid #ffffff;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     background-repeat: no-repeat;
     background-size: 75% 100%;
     background-position: center center;
@@ -2430,27 +2439,28 @@ ul li a.active.sub-nav-toggle {
     color: #fff;
     font-size: 19px;
     letter-spacing: 1px;
+    margin-top:20px;
 }
 
-.cpa_page .times .col-sm-6 li i {
+.cpa_page .times .col-sm-5 li i {
     font-size: 10px;
     color: #fff;
 }
 
-.cpa_page .times .col-sm-6 li {
+.cpa_page .times .col-sm-5 li {
     color: #fff;
 }
 
-.cpa_page .times .col-sm-6 li {
+.cpa_page .times .col-sm-5 li {
     line-height: 35px;
 }
 
-.cpa_page .times .col-sm-6 h4 {
+.cpa_page .times .col-sm-5 h4 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
 }
 
-.cpa_page .times .col-sm-6 h4 i {
+.cpa_page .times .col-sm-5 h4 i {
     color: #fff;
 }
 
@@ -2663,7 +2673,7 @@ a.ps_close:hover {
     /*background-repeat: no-repeat;*/
     /*background-size: 100% 100%;*/
     text-align: center;
-    height: 335px;
+    height: 450px;
     padding: 0 !important;
 }
 
@@ -2699,7 +2709,8 @@ a.ps_close:hover {
     color: #0054a4;
     font-style: italic;
     letter-spacing: 1px;
-    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: 'Patua One', cursive;
+
 }
 
 .cpa_content .half {
@@ -2732,7 +2743,7 @@ a.ps_close:hover {
     letter-spacing: 1px;
 }
 
-.cpa_content .tab-content {
+.cpa_content .tab-content, .cma_content .tab-content, .cfa_content .tab-content, .cia_content .tab-content {
     height: 0;
     overflow: hidden;
     background: #fff;
@@ -2747,11 +2758,7 @@ a.ps_close:hover {
 }
 
 .cpa_content input:checked ~ .tab-content {
-
     height: 100%;
-    -webkit-transition: all .35s ease-in-out;
-    -o-transition: all .35s ease-in-out;
-    transition: all .35s ease-in-out;
 }
 
 .cpa_content label::after {
@@ -2798,7 +2805,8 @@ h5 a:hover, p a:hover {
 
 h5.ordinary {
     color: #0054a4;
-    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: 'Patua One', cursive;
+
 }
 
 .experts .col-sm-4 {
@@ -3098,6 +3106,7 @@ a.ps_close:hover {
     -moz-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
     padding: 0;
+    animation-duration: 2s !important;
 }
 
 .pricingtable .content {
@@ -3192,7 +3201,7 @@ a.ps_close:hover {
     width: 100%;
     text-align: center;
     margin: 25px 0 0 0 !important;
-    padding: 15px;
+    padding: 5px;
     border-top: 2px solid #ccc;
     color: #0054a4;
     position: static;
@@ -3200,7 +3209,9 @@ a.ps_close:hover {
 
 .information div p:first-child {
     font-size: 45px;
-    padding-top: 5%;
+    padding-top: 20%;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #000000d1;
 }
 
 .information .fixing div p {
@@ -3627,7 +3638,7 @@ p.paginate {
     cursor: grabbing
 }
 .tab-content{
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 .language{
     margin-right: 0;
@@ -3659,4 +3670,12 @@ p.paginate {
 
 .fund_head h4{
     margin-right: 35px;
+}
+
+.ers_sec0{
+    padding-left:0px;
+}
+
+.ers_sec{
+    padding-right:0px;
 }

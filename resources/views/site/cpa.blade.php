@@ -28,7 +28,7 @@
             <div class="col-sm-6 wow fadeInLeft video">
                 <iframe width="90%" height="250" src="https://www.youtube.com/embed/TJEN0rfGMDM?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-6 wow fadeInRight">
+            <div class="col-sm-offset-1 col-sm-5 wow fadeInRight">
                 <h4><i class="fa fa-bell wow tada" data-wow-iteration="100" data-wow-delay=".25s"></i> {{ trans('locale.upcoming_cpa_courses') }}</h4>
                 <ul>
                     <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cpa->reg)) }}</li>

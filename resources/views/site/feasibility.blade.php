@@ -106,7 +106,7 @@
     <div class="container clearfix" data-ref="mixitup-container">
         <div class="tab-content mt-20">
             <div class="information fixing wow bounceInUp">
-                <img src="{{ asset('images/feasibility_study.png') }}">
+                <img style="height: 150%;" src="{{ asset('images/feasibility_study.png') }}">
                 <div>
                     <p class="center">{{ trans('locale.feasibility_study') }}</p>
                 </div>

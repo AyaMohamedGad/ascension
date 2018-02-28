@@ -369,6 +369,18 @@ p.paginate {
     margin-left: 50px;
 }
 
+.contact_gif{
+    padding-left: 0px;
+}
+
+.ers_sec0{
+    padding-right:0px;
+}
+
+.ers_sec{
+    padding-left:0px;
+}
+
 @media all and (max-width: 768px) and (min-width: 10px){
     #content{
         padding-right: 0px;

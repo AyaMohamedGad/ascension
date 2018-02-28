@@ -580,7 +580,7 @@ return [
     "finish" => "Finish",
     "select_first" => "Please Select First",
     "back" => "Back",
-    "copyrights" => "Copyright © All Rights Reserved For",
+    "copyrights" => "© Ascension Consulting & Training Company",
     "coming_soon" => "Coming Soon",
     "of" => "Of"
 

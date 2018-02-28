@@ -51,13 +51,37 @@ $('.logo_pic1')
 
 if(locale == 'en'){
   if(width > 900){
-    $( ".logo_pic2" )
-    .delay(2200)
-    .animate({
-        left: "73.5%",
-        top: "80px",
-        opacity: "0.5"
-          }, 1000);
+
+    if(width > 900 && width < 1400){
+
+      $( ".logo_pic2" )
+      .delay(2200)
+      .animate({
+          left: "73.5%",
+          top: "80px",
+          opacity: "0.5"
+            }, 1000);
+    }
+
+    else if(width < 1550){
+      $( ".logo_pic2" )
+      .delay(2200)
+      .animate({
+          left: "77%",
+          top: "80px",
+          opacity: "0.5"
+            }, 1000);
+    }
+
+    else if(width < 1800){
+      $( ".logo_pic2" )
+      .delay(2200)
+      .animate({
+          left: "76%",
+          top: "80px",
+          opacity: "0.5"
+            }, 1000);
+    }
   }
   else{
     $( ".logo_pic2" )
@@ -71,15 +95,39 @@ if(locale == 'en'){
   }
 }
 else{
-  if(width>900){
-    $( ".logo_pic2" )
-  .delay(2200)
-  .animate({
-      right: "73.5%",
-      top: "80px",
-      opacity: "0.5",
-      transform: "scaleX(-1)"
-        }, 1000);
+
+  if(width > 900){
+
+    if(width > 900 && width < 1400){
+
+      $( ".logo_pic2" )
+      .delay(2200)
+      .animate({
+          right: "73.5%",
+          top: "80px",
+          opacity: "0.5"
+            }, 1000);
+    }
+
+    else if(width < 1550){
+      $( ".logo_pic2" )
+      .delay(2200)
+      .animate({
+          right: "77%",
+          top: "80px",
+          opacity: "0.5"
+            }, 1000);
+    }
+
+    else if(width < 1800){
+      $( ".logo_pic2" )
+      .delay(2200)
+      .animate({
+          right: "76%",
+          top: "80px",
+          opacity: "0.5"
+            }, 1000);
+    }
   }
   else{
     $( ".logo_pic2" )
@@ -93,6 +141,78 @@ else{
         }, 1000);
   }
 }
+
+$( window ).resize(function() {
+  var width = $( window ).width();
+  if(locale == 'en'){
+  if(width > 900){
+
+    if(width > 900 && width < 1400){
+
+      $( ".logo_pic2" )
+      .animate({
+          left: "73.5%",
+            }, 1000);
+    }
+
+    else if(width < 1550){
+      $( ".logo_pic2" )
+      .animate({
+          left: "77%",
+            }, 1000);
+    }
+
+    else if(width < 1800){
+      $( ".logo_pic2" )
+      .animate({
+          left: "76%",
+            }, 1000);
+    }
+  }
+  else{
+    $( ".logo_pic2" )
+    .animate({
+        left: "73.5%",
+        width: "24%"
+          }, 1000);
+  }
+}
+else{
+
+  if(width > 900){
+
+    if(width > 900 && width < 1400){
+
+      $( ".logo_pic2" )
+      .animate({
+          right: "73.5%",
+            }, 1000);
+    }
+
+    else if(width < 1550){
+      $( ".logo_pic2" )
+      .animate({
+          right: "77%",
+            }, 1000);
+    }
+
+    else if(width < 1800){
+      $( ".logo_pic2" )
+      .animate({
+          right: "76%",
+            }, 1000);
+    }
+  }
+  else{
+    $( ".logo_pic2" )
+  .animate({
+      right: "73.5%",
+      transform: "scaleX(-1)",
+      width: "24%"
+        }, 1000);
+  }
+}
+});
 
 // $( ".logo_pic3" ).slideDown( 300 ).delay(1500).fadeOut();
 

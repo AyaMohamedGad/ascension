@@ -81,49 +81,49 @@
             <div class="tab-content">
                 <div id="finance" class="tab-pane fade in active">
                     <ul>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.1') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.2') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.3') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.4') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.5') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.6') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.7') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.8') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.9') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.10') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.11') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.12') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.13') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.14') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.15') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.accounting_courses.16') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.1') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.2') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.3') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.4') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.5') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.6') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.7') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.8') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.9') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.10') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.11') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.12') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.13') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.14') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.15') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.accounting_courses.16') }}</li>
                     </ul>
                 </div>
                 <div id="business" class="tab-pane fade">
                     <ul>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.1') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.2') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.3') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.4') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.5') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.6') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.7') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.8') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.9') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.10') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.11') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.business_courses.12') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.1') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.2') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.3') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.4') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.5') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.6') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.7') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.8') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.9') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.10') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.11') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.business_courses.12') }}</li>
                     </ul>
                 </div>
                 <div id="hr_man" class="tab-pane fade">
                     <ul>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.hd_courses.1') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.hd_courses.2') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.hd_courses.3') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.hd_courses.4') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.hd_courses.5') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.hd_courses.6') }}</li>
-                        <li><i class="fa fa-circle-o wow rotateIn" data-wow-duration="2s" data-wow-iteration="infinite"></i> {{ trans('locale.hd_courses.7') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.hd_courses.1') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.hd_courses.2') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.hd_courses.3') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.hd_courses.4') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.hd_courses.5') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.hd_courses.6') }}</li>
+                        <li><i class="fa fa-circle-o"></i> {{ trans('locale.hd_courses.7') }}</li>
                     </ul>
                 </div>
             </div>

@@ -34,7 +34,7 @@
         </div>
 
         <div class="tab-content mt-20 mb-50">
-            <div class="col-sm-12">
+            <div class="col-sm-12" style="padding: 0px;">
                 <div class="col-sm-8">
                     <div class="row">
                         <div class="col-sm-12 mb-30 top-left-contact wow fadeInDown">
@@ -60,8 +60,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInRight">
-                    <img src="{{ asset('images/contact.gif') }}">
+                <div class="col-sm-4 wow fadeInRight contact_gif">
+                    <img src="{{ asset('images/contact.gif') }}" style="border-radius: 15px;">
                 </div>
             </div>
         </div>

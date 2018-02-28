@@ -28,7 +28,7 @@
             <div class="col-sm-6 col-xs-12 wow fadeInLeft video">
                 <iframe width="90%" height="250" src="https://www.youtube.com/embed/sJTAWW9xABg?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-6 col-xs-12 wow fadeInRight">
+            <div class="col-sm-offset-1 col-sm-5 col-xs-12 wow fadeInRight">
                 <h4><i class="fa fa-bell wow tada" data-wow-iteration="100" data-wow-delay=".25s"></i> {{ trans('locale.upcoming_cia_courses') }}</h4>
                 <ul>
                     <li><i class="fa fa-circle-o"></i> <strong>{{ trans('locale.reg') }}: </strong> {{ date('d-m-Y', strtotime($cia->reg)) }}</li>
@@ -327,7 +327,7 @@
             <div class="cpa_content mt-40">
                 <div class="half">
                     <div class="tab">
-                        <input id="tab-one" checked="checked" type="checkbox" name="tabs">
+                        <input id="tab-one" type="checkbox" name="tabs">
                         <label for="tab-one">{{ trans('locale.cia_exam.1') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-12">

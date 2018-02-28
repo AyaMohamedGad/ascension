@@ -203,14 +203,15 @@
     </div>
 
     <div class="modal fade error" id="myModalFinal" role="dialog">
-        <div class="modal-dialog">
+        <div class="modal-dialog" style="margin-top: 10%;">
             <div class="modal-content">
-                <div class="modal-body">
-                    <div class="alert alert-success">
-                        <p style="text-transform: none;" id="content_modal_final"></p>
+                <div class="modal-body alert alert-success" style="margin-bottom: 0px;">
+                <i class="fa fa-pencil-square-o center" style="color:green; font-size: 50px;"></i>
+                    <div class="">
+                        <p style="text-transform: none; text-align: center; color: #464646;" id="content_modal_final"></p>
                     </div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer" style=" background-color: #f5f5f5; border-radius: 0px 0 10px 10px;">
                     <button type="button" class="btn btn-default" data-dismiss="modal">{{ trans('locale.close') }}</button>
                 </div>
             </div>

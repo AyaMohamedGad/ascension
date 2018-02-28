@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,600,400italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     @if(app()->getLocale() == 'ar')
         {!! Html::style('css/rtl.css') !!}
         <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css" rel="stylesheet" type="text/css" />

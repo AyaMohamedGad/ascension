@@ -14,8 +14,8 @@
         </div>
 
         <div class="col-sm-12 mt-20 mb-50 wow bounceInUp careers">
-            <p>{{ trans('locale.careers_text.1') }}</p>
-            <p>{{ trans('locale.careers_text.2') }} <a href="mailto:{{trans('locale.careers_text.2')}}">{{ trans('locale.careers_text.email') }}</a></p>
+            <p style="text-transform: capitalize;">{{ trans('locale.careers_text.1') }}</p>
+            <p style="text-transform: capitalize;">{{ trans('locale.careers_text.2') }} <a href="mailto:{{trans('locale.careers_text.2')}}">{{ trans('locale.careers_text.email') }}</a></p>
         </div>
     </div>
 @stop
