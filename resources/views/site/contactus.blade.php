@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 wow fadeInRight contact_gif">
+                <div class="col-sm-4 wow fadeInRight contact_gif mb-40">
                     <img src="{{ asset('images/contact.gif') }}" style="border-radius: 15px;">
                 </div>
             </div>

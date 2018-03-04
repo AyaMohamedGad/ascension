@@ -1826,7 +1826,7 @@ h1 .circle-anim:after {
 }
 
 .ers_sec img {
-    min-height: 375px
+    min-height: 350px;
 }
 
 .bg_logo {
@@ -2322,7 +2322,7 @@ ul li a.active.sub-nav-toggle {
     padding: 10px 5px;
     font-style: italic;
     margin: 0 5px;
-    font-size: 15.5px;
+    font-size: 14px;
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0.2s;
     -moz-transition: all 0.4s ease-in-out 0.2s;
@@ -2440,6 +2440,7 @@ ul li a.active.sub-nav-toggle {
     font-size: 19px;
     letter-spacing: 1px;
     margin-top:20px;
+    margin-left: 73px;
 }
 
 .cpa_page .times .col-sm-5 li i {
@@ -3216,7 +3217,7 @@ a.ps_close:hover {
 
 .information .fixing div p {
     font-size: 30px;
-    padding-top: 10%;
+    padding-top: 14%;
 }
 
 .careers {
@@ -3678,4 +3679,8 @@ p.paginate {
 
 .ers_sec{
     padding-right:0px;
+}
+
+.times .video{
+    height: auto;
 }

@@ -9,9 +9,9 @@
                 <img class="for_desk" src="{{ asset('images/information.png') }}">
                 <div>
                     <p class="center">{{ trans('locale.information_system') }}</p>
-                    <p class="center">{{ trans('locale.coming_soon') }}...</p>
                 </div>
             </div>
+            <p class="center" style="font-size: 20px;">{{ trans('locale.coming_soon') }}...</p>
         </div>
     </div>
 @stop
