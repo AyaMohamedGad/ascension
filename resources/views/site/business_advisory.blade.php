@@ -56,7 +56,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-30 col-sm-4 pricingtable two featured">
+                    <div class="mt-30 col-sm-4 pricingtable two featured wow fadeInUp">
                         <div class="top">
                             <h2>2</h2>
                         </div>

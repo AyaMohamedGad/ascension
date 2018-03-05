@@ -332,7 +332,7 @@
             <div class="cpa_content mt-40">
                 <div class="half">
                     <div class="tab">
-                        <input id="tab-one" checked="checked" type="checkbox" name="tabs">
+                        <input id="tab-one" type="checkbox" name="tabs">
                         <label for="tab-one">{{ trans('locale.auditing_attestation') }}</label>
                         <div class="tab-content">
                             <div class="col-sm-6">
@@ -627,7 +627,7 @@
             </div>
         </div>
 
-        <div class="col-sm-12">
+        <div class="col-sm-12 mb-50">
             <h3 class="bordered_title wow shake">{{ trans('locale.cpa_old') . ' ' . trans('locale.vs') . ' ' . trans('locale.new_exam') }} : </h3>
             <span class="divider wow pulse" data-wow-duration=3s" data-wow-iteration="infinite"></span>
             <span class="clear"></span>

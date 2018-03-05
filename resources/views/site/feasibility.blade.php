@@ -94,7 +94,7 @@
         }
 
         .ch-grid li {
-            width: calc(100% / 3.03);
+            width: calc(100% / 3.022);
         }
 
         .ch-info h3 {
