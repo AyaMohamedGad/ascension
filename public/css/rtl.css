@@ -444,6 +444,14 @@ p.paginate {
     margin-left: 15px;
 }
 
+@media (min-width: 768px){
+    .col-sm-offset-1 {
+        margin-right: 0.333333%;
+    }
+}
+h3{
+    font-size: 33px;
+}
 .pushed-left #content, .pushed-left #header, .pushed-left #footer, .pushed-left #background-color, .pushed-left h1#logo {
      -webkit-transform: translate3d(-260px, 0, 0); 
     transform: translate3d(-260px, 0, 0);
