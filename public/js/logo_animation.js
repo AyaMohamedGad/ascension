@@ -103,7 +103,7 @@ else{
       $( ".logo_pic2" )
       .delay(2200)
       .animate({
-          right: "73.5%",
+          right: "75%",
           top: "80px",
           opacity: "0.5"
             }, 1000);
@@ -113,7 +113,7 @@ else{
       $( ".logo_pic2" )
       .delay(2200)
       .animate({
-          right: "77%",
+          right: "78.3%",
           top: "80px",
           opacity: "0.5"
             }, 1000);
@@ -123,7 +123,7 @@ else{
       $( ".logo_pic2" )
       .delay(2200)
       .animate({
-          right: "75%",
+          right: "76%",
           top: "80px",
           opacity: "0.5"
             }, 1000);
@@ -133,7 +133,7 @@ else{
     $( ".logo_pic2" )
   .delay(2200)
   .animate({
-      right: "73.5%",
+      right: "75%",
       top: "3.2%",
       opacity: "0.5",
       transform: "scaleX(-1)",
@@ -185,28 +185,28 @@ else{
 
       $( ".logo_pic2" )
       .animate({
-          right: "73.5%",
+          right: "75%",
             }, 1000);
     }
 
     else if(width < 1550){
       $( ".logo_pic2" )
       .animate({
-          right: "77%",
+          right: "78.3%",
             }, 1000);
     }
 
     else if(width < 1800){
       $( ".logo_pic2" )
       .animate({
-          right: "75%",
+          right: "76%",
             }, 1000);
     }
   }
   else{
     $( ".logo_pic2" )
   .animate({
-      right: "73.5%",
+      right: "75%",
       transform: "scaleX(-1)",
       width: "24%"
         }, 1000);
