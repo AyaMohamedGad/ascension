@@ -22,8 +22,8 @@
             </div>
         </div>
 
-        <div class="tab-content mt-20 mb-50">
-            <div class="col-sm-6 wow ers_sec0 fadeInLeft">
+        <div class="tab-content mt-20">
+            <div class="col-sm-6 wow ers_sec0 fadeInLeft mb-50">
                 <div class="ers">
                     <p>{{ trans('locale.ers_paragraph.1') }}</p>
                     <p>{{ trans('locale.ers_paragraph.2') }}</p>

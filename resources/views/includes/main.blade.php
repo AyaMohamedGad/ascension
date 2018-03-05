@@ -21,7 +21,7 @@
             @include('includes.top')
             @yield('content')
             <div class="footer">
-                <div class="col-sm-12">{{ trans('locale.copyrights') }} <br> Developed by <a target="_blank" href="http://www.amtechnology-eg.com">Am Technology</a> {{ date('Y') }}</div>
+                <div class="col-sm-12">{{ trans('locale.copyrights') }} {{ date('Y') }}<br> Developed by <a target="_blank" href="http://www.amtechnology-eg.com">Am Technology</a></div>
             </div>
         </div>
         @include('includes.footer')

@@ -233,7 +233,7 @@ a.language {
 }
 
 #book_tabs>div>.nav-tabs-right {
-    z-index: 9999; 
+    z-index: 9999;
   float: left;
   border-bottom: 0;
   margin-left: -65px;
@@ -416,4 +416,23 @@ p.paginate {
     .tab-content h4 {
         font-size: 19px;
     }
+}
+
+.header span.er{
+    text-decoration: none;
+}
+.pricingtable p{
+    font-size: 14px;
+    text-align: center;
+}
+.contacts .col-sm-4 img{
+    height: 555px;
+}
+
+.social_media a:last-child {
+    margin-left: 0px;
+}
+
+.social_media a:first-child {
+    margin-left: 15px;
 }

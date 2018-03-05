@@ -1831,6 +1831,7 @@ h1 .circle-anim:after {
 
 .ers_sec img {
     min-height: 350px;
+    border-radius: 60px;
 }
 
 .bg_logo {
@@ -2324,7 +2325,6 @@ ul li a.active.sub-nav-toggle {
 .ch-info p {
     color: #fff;
     padding: 10px 5px;
-    font-style: italic;
     margin: 0 5px;
     font-size: 14px;
     opacity: 0;
@@ -2678,7 +2678,7 @@ a.ps_close:hover {
     /*background-repeat: no-repeat;*/
     /*background-size: 100% 100%;*/
     text-align: center;
-    height: 450px;
+    height: 335px;
     padding: 0 !important;
 }
 
@@ -3085,7 +3085,7 @@ a.ps_close:hover {
 /*Top Bar*/
 .top {
     height: 65px;
-    background: #B578AA;
+    background: #b18349;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
     border-radius: 10px 10px 0 0;
@@ -3214,7 +3214,7 @@ a.ps_close:hover {
 
 .information div p:first-child {
     font-size: 45px;
-    padding-top: 20%;
+    padding-top: 15%;
     font-weight: 700;
     text-shadow: 2px 2px 8px #000000d1;
 }
