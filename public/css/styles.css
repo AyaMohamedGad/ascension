@@ -95,12 +95,16 @@ html {
 
 body {
     font-size: 15px;
-    font-family: 'Patua One', cursive;
+    font-family: 'TeXGyreAdventorRegular';
 
     color: #555;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased
+}
+
+p{
+    font-family: 'MuseoSans', sans-serif;
 }
 
 a {
@@ -339,7 +343,7 @@ h3 {
 }
 
 .tab-content h4 {
-    font-family: 'Patua One', cursive;
+    font-family: 'TeXGyreAdventorRegular';
 
     font-size: 24px;
     line-height: 1.25;
@@ -2710,7 +2714,7 @@ a.ps_close:hover {
     color: #0054a4;
     font-style: italic;
     letter-spacing: 1px;
-    font-family: 'Patua One', cursive;
+    font-family: 'TeXGyreAdventorRegular';
 
 }
 
@@ -2806,7 +2810,7 @@ h5 a:hover, p a:hover {
 
 h5.ordinary {
     color: #0054a4;
-    font-family: 'Patua One', cursive;
+    font-family: 'TeXGyreAdventorRegular';
 
 }
 
