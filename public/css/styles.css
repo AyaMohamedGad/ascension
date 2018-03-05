@@ -3111,7 +3111,7 @@ a.ps_close:hover {
     -moz-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
     padding: 0;
-    animation-duration: 2s !important;
+    animation-duration: 3s !important;
 }
 
 .pricingtable .content {
