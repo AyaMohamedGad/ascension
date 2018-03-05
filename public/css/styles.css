@@ -2712,10 +2712,8 @@ a.ps_close:hover {
 
 .bordered_title {
     color: #0054a4;
-    font-style: italic;
     letter-spacing: 1px;
     font-family: 'TeXGyreAdventorRegular';
-
 }
 
 .cpa_content .half {
@@ -3687,4 +3685,7 @@ p.paginate {
 
 .times .video{
     height: auto;
+}
+.nav-tabs>li.active>a{
+    min-height: 70px;
 }
