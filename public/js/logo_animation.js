@@ -77,7 +77,7 @@ if(locale == 'en'){
       $( ".logo_pic2" )
       .delay(2200)
       .animate({
-          left: "76%",
+          left: "75%",
           top: "80px",
           opacity: "0.5"
             }, 1000);
@@ -123,7 +123,7 @@ else{
       $( ".logo_pic2" )
       .delay(2200)
       .animate({
-          right: "76%",
+          right: "75%",
           top: "80px",
           opacity: "0.5"
             }, 1000);
@@ -165,7 +165,7 @@ $( window ).resize(function() {
     else if(width < 1800){
       $( ".logo_pic2" )
       .animate({
-          left: "76%",
+          left: "75%",
             }, 1000);
     }
   }
@@ -199,7 +199,7 @@ else{
     else if(width < 1800){
       $( ".logo_pic2" )
       .animate({
-          right: "76%",
+          right: "75%",
             }, 1000);
     }
   }
