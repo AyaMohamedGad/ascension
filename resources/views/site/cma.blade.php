@@ -45,7 +45,7 @@
         </div>
 
         <div class="row mt-50 mb-50" id="book_tabs">
-            <div class="col-xs-11 ml-40 mr-40" data-wow-delay="0.5s" data-wow-duration="2s">
+            <div class="col-xs-11 ml-60 mr-40" data-wow-delay="0.5s" data-wow-duration="2s">
                 <ul class="nav nav-tabs-left">
                     <li class="active qualify_tab">
                         <a href="#a" data-toggle="tab" onclick="qualify_click()"><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{ trans('locale.qualify') }}</a>
