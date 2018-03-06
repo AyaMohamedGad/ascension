@@ -67,7 +67,7 @@ if(locale == 'en'){
       $( ".logo_pic2" )
       .delay(2200)
       .animate({
-          left: "77%",
+          left: "76%",
           top: "80px",
           opacity: "0.5"
             }, 1000);
@@ -123,7 +123,7 @@ else{
       $( ".logo_pic2" )
       .delay(2200)
       .animate({
-          right: "76%",
+          right: "77%",
           top: "80px",
           opacity: "0.5"
             }, 1000);
@@ -158,7 +158,7 @@ $( window ).resize(function() {
     else if(width < 1550){
       $( ".logo_pic2" )
       .animate({
-          left: "77%",
+          left: "76%",
             }, 1000);
     }
 

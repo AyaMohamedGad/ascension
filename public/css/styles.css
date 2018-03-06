@@ -3086,7 +3086,7 @@ a.ps_close:hover {
 /*Top Bar*/
 .top {
     height: 65px;
-    background: #b18349;
+    background: #B578AA;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
     border-radius: 10px 10px 0 0;
@@ -3687,6 +3687,6 @@ p.paginate {
 .times .video{
     height: auto;
 }
-.nav-tabs>li.active>a{
+.courses_tabs li a{
     min-height: 70px;
 }

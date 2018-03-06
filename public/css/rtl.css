@@ -452,7 +452,49 @@ p.paginate {
 h3{
     font-size: 33px;
 }
-.pushed-left #content, .pushed-left #header, .pushed-left #footer, .pushed-left #background-color, .pushed-left h1#logo {
+.cpa_page .times .col-sm-5:last-child{
+    margin-left: 0;
+    margin-right: 73px;
+}
+.contact_gif {
+    padding-left: 0 !important;
+}
+p {
+    font-family: inherit;
+}
+.careers p{
+    font-size: 18px;
+}
+.information .fixing div p{
+    font-size: 35px;
+}
+
+@media only screen and (min-width: 1450px) {
+    #book_tabs>div>.nav-tabs-right{
+        margin-left:0;
+    }
+    #book_tabs>div>.nav-tabs-left {
+        margin-right: 1%;
+    }
+    .footer {
+        width: 85%;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 0;
+    }
+    #book_tabs>div>.nav-tabs-right{
+        margin-left: -3%;
+    }
+    #book_tabs>div>.nav-tabs-left {
+        margin-right: -2%;
+    }
+    .video{
+        height: 400px;
+    }
+}.pushed-left #content, .pushed-left #header, .pushed-left #footer, .pushed-left #background-color, .pushed-left h1#logo {
      -webkit-transform: translate3d(-260px, 0, 0); 
     transform: translate3d(-260px, 0, 0);
 }
