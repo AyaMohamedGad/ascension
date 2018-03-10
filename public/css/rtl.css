@@ -327,6 +327,9 @@ a.language {
     #content {
         padding-right: 0px !important;
     }
+    #menu-button {
+        right: 10px;
+    }
 }
 i.fa{
     margin-left: 5px;
@@ -439,4 +442,9 @@ p.paginate {
 
 .social_media a:first-child {
     margin-left: 15px;
+}
+
+.pushed-left #content, .pushed-left #header, .pushed-left #footer, .pushed-left #background-color, .pushed-left h1#logo {
+     -webkit-transform: translate3d(-260px, 0, 0); 
+    transform: translate3d(-260px, 0, 0);
 }

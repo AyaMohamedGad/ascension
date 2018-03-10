@@ -117,7 +117,7 @@
                 {{--<p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>--}}
             {{--</div>--}}
 
-            <div class="col-sm-12">
+            <!-- <div class="col-sm-12">
                 <div class="mt-30 col-md-4 col-sm-6 pricingtable one wow bounceInLeft">
                     <div class="top">
                         <h2>{{ trans('locale.bookkeeping') }}</h2>
@@ -147,7 +147,7 @@
                         <p>{{ trans('locale.bookkeeping_paragraph.8') }}</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-sm-12 mt-30">
                 <ul class="mt-40 ch-grid">

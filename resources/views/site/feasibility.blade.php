@@ -95,6 +95,7 @@
 
         .ch-grid li {
             width: calc(100% / 3.03);
+            overflow: hidden;
         }
 
         .ch-info h3 {

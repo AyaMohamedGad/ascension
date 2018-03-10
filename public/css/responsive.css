@@ -43,6 +43,7 @@
 		min-height: 100%;
 		height: auto;
 		padding-top: 53px;
+		z-index: 0;
 	}
 	#background-color {
 		background: #fff;
