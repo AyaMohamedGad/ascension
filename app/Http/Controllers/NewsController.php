@@ -147,7 +147,7 @@ class NewsController extends Controller
         $theNew = new News();
         $file = $request->image;
         $filename = Carbon::now()->timestamp . '.' . $file->getClientOriginalExtension();
-        $path = public_path('images/news/');
+        $path = 'images/news/';
         $file->move($path, $filename);
         $theNew->image = $filename;
         $theNew->date = $request->date ? $request->date : Carbon::now();
@@ -188,7 +188,7 @@ class NewsController extends Controller
         if(isset($request->image)){
             $file = $request->image;
             $filename = Carbon::now()->timestamp . '.' . $file->getClientOriginalExtension();
-            $path = public_path('images/news/');
+            $path = 'images/news/';
             $file->move($path, $filename);
             $theNew->image = $filename;
         }

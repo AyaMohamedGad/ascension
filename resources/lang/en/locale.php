@@ -596,7 +596,8 @@ return [
     "back" => "Back",
     "copyrights" => "© Ascension Consulting & Training Company",
     "coming_soon" => "Coming Soon",
-    "of" => "Of"
+    "of" => "Of",
+    "new_date" => "New Date"
 
 
 ];

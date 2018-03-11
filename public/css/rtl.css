@@ -502,3 +502,11 @@ p {
 #news-carousel .news-carousel .row .col-md-3{
     padding-right: 0px !important;
 }
+
+.item h3{
+    font-size: 22px;
+    line-height: 30px;
+}
+.carousel-inner>.item{
+    min-height: 275px;
+}

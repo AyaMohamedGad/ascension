@@ -3700,3 +3700,6 @@ p.paginate {
 #news-carousel .news-carousel .row .col-md-3{
     padding-left: 0px !important;
 }
+.single_new h2.header{
+    max-width: 87%;
+}
