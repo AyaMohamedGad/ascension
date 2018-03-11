@@ -498,3 +498,12 @@ p {
      -webkit-transform: translate3d(-260px, 0, 0); 
     transform: translate3d(-260px, 0, 0);
 }
+
+
+.item h3{
+    font-size: 22px;
+    line-height: 30px;
+}
+.carousel-inner>.item{
+    min-height: 275px;
+}

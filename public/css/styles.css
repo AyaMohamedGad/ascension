@@ -3690,3 +3690,6 @@ p.paginate {
 .courses_tabs li a{
     min-height: 70px;
 }
+.single_new h2.header{
+    max-width: 87%;
+}

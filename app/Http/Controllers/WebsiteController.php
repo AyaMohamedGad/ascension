@@ -104,6 +104,9 @@ class WebsiteController extends Controller
         $thenew = News::with(['translations' => function ($q) {
             $q->where('language', app()->getLocale());
         }])->find($id);
+        if(!$thenew){
+            return redirect()->route('HomePage');
+        }
         return view('site.indv_new', compact('thenew'));
     }
 
