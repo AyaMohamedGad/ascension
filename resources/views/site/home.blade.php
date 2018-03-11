@@ -81,12 +81,16 @@
 
         <div class="row mt-150 mb-70">
             <div class="col-sm-6 video mb-50">
-                <img class="no-float bordered wptn-img aligncenter wp-image-5128 size-full" src="{{ asset('images/video.jpg') }}" alt="youtube popup">
-                    <a class="vp-a" href="https://www.youtube.com/watch?v=L5s0ERQt8ek" target="_blank" rel="nofollow">
+                <video width="100%" height="100%" controls poster="{{ asset('images/poster.jpg') }}">
+                    <source src="{{ asset('videos/Home_Video.mp4') }}" type="video/mp4">
+                    <source src="{{ asset('videos/Home_Video.webm') }}" type="video/webm">
+                </video>
+                <!-- <img class="no-float bordered wptn-img aligncenter wp-image-5128 size-full" src="{{ asset('images/video.jpg') }}" alt="youtube popup">
+                    <a class="vp-a" href="{{ asset('videos/home.mp4') }}" target="_blank" rel="nofollow">
                         <button id="videoPlayBtn" type="button" class="btn btn-default btn-circle btn-xl">
                         <i id="faPlay" style="color: white; font-size: 50px; transition: none; line-height: 50px; border-width: 0px; margin: 0px 3px; padding: 0px; letter-spacing: 0px; font-weight: 400;" class="fa fa-play"></i>
                     </button>
-                </a>
+                </a> -->
             </div>
 
             <div class="col-sm-6">

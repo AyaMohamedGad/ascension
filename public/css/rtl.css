@@ -498,3 +498,7 @@ p {
      -webkit-transform: translate3d(-260px, 0, 0); 
     transform: translate3d(-260px, 0, 0);
 }
+
+#news-carousel .news-carousel .row .col-md-3{
+    padding-right: 0px !important;
+}

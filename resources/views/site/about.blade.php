@@ -51,7 +51,13 @@
                 <h4 class="page_head"><i class="fa fa-circle wow rotateIn"
                                          data-wow-duration="1s"></i> {{ trans('locale.our_values') }}</h4>
                 <div class="col-sm-4 wow rotateInUpLeft">
-                    <img class="wow pulse" data-wow-duration="3s" src="{{ asset('images/about.png') }}">
+                    @if(app()->getLocale() == 'ar')
+                        <img class="wow pulse" data-wow-duration="3s" src="{{ asset('images/about1.png') }}">
+                    @endif
+                    @if(app()->getLocale() == 'en')
+                        <img class="wow pulse" data-wow-duration="3s" src="{{ asset('images/about2.png') }}">
+                    @endif
+                    
                 </div>
                 <div class="col-sm-8">
                     <ul class="small_arrow">

@@ -48,30 +48,40 @@
                 <div class="col-sm-12" style="padding-left:25px;">
                     <div class="mt-30 mb-30 col-sm-4 pricingtable one wow bounceInLeft">
                         <div class="top">
-                            <h2>1</h2>
+                            <h2>{{  trans('locale.business_advisory_paragraph.17') }}</h2>
                         </div>
                         <div class="content">
                             <p>{{ trans('locale.business_advisory_paragraph.1') }}</p>
-                            <p><strong>{{ trans('locale.business_advisory_paragraph.2') }}</strong> {{  trans('locale.business_advisory_paragraph.3') }}</p>
+                            <!-- <p><strong>{{ trans('locale.business_advisory_paragraph.2') }}</strong> {{  trans('locale.business_advisory_paragraph.3') }}</p> -->
                         </div>
                     </div>
 
                     <div class="mt-30 col-sm-4 pricingtable two featured wow fadeInUp">
                         <div class="top">
-                            <h2>2</h2>
+                            <h2>{{  trans('locale.business_advisory_paragraph.18') }}</h2>
                         </div>
                         <div class="content">
                             <p>{{ trans('locale.business_advisory_paragraph.4') }}</p>
-                            <p><strong>{{ trans('locale.business_advisory_paragraph.5') }}</strong> {{  trans('locale.business_advisory_paragraph.6') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.5') }}</p> 
+                            <p>{{  trans('locale.business_advisory_paragraph.6') }}</p>
                         </div>
                     </div>
 
                     <div class="mt-30 col-sm-4 pricingtable three wow bounceInRight">
                         <div class="top">
-                            <h2>3</h2>
+                            <h2>{{  trans('locale.business_advisory_paragraph.19') }}</h2>
                         </div>
                         <div class="content">
                             <p>{{ trans('locale.business_advisory_paragraph.7') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.8') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.9') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.10') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.11') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.12') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.13') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.14') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.15') }}</p>
+                            <p>{{ trans('locale.business_advisory_paragraph.16') }}</p>
                         </div>
                     </div>
                 </div>

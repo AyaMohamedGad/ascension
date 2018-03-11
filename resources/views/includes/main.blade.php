@@ -13,7 +13,7 @@
 @include('includes.header')
 @include('site.popups')
 <body>
-    <div>
+    <div style="height: 100%;">
         @yield('logo')
         @include('includes.sidebar')
         <div id="content">
