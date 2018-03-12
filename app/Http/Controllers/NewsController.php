@@ -88,13 +88,6 @@ class NewsController extends Controller
                 'displayName' => 'Title',
                 'display' => true
             ];
-            $columns[] = (object)[
-                'name' => 'description',
-                'lang' => $key,
-                'search' => true,
-                'displayName' => 'Description',
-                'display' => true
-            ];
         }
         $columns[] = (object)[
             'name' => 'date',
