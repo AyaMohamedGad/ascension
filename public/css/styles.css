@@ -145,7 +145,6 @@ p {
     -webkit-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
     position: relative;
-    text-transform: uppercase;
     color: #0054a4
 }
 
@@ -2926,7 +2925,7 @@ a.ps_close:hover {
 }
 
 .home .video {
-    /*height: 325px;*/
+    height: 445px;
 }
 
 .keeping {
@@ -3103,7 +3102,7 @@ a.ps_close:hover {
 
 /*Shape*/
 .pricingtable {
-    min-height: 605px !important;
+    min-height: 815px !important;
     padding: 0 !important;
     background: #f3f3f3;
     -webkit-border-radius: 10px;
@@ -3196,9 +3195,9 @@ a.ps_close:hover {
 }
 
 .footer{
-    bottom: 0;
-    left: 260px;
     z-index: 999;
+    position: relative;
+    margin-top: 50px;
 }
 
 .footer .col-sm-12 {
@@ -3209,12 +3208,14 @@ a.ps_close:hover {
     padding: 5px;
     border-top: 2px solid #ccc;
     color: #0054a4;
-    position: static;
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
 }
 
 .information div p:first-child {
     font-size: 60px;
-    padding-top: 25%;
+    padding-top: 16%;
     font-weight: 700;
     text-shadow: 2px 2px 8px #000000d1;
 }
@@ -3702,4 +3703,8 @@ p.paginate {
 }
 .single_new h2.header{
     max-width: 87%;
+}
+
+.item img{
+    margin-top: 20px;
 }

@@ -18,7 +18,7 @@
             <div class="cpa col-sm-12">
                 <img class="center wow bounceInUp" src="{{ asset('images/cia.jpg') }}" >
                 <div class="content wow bounceInUp">
-                    <p class="wow bounceInDown" data-wow-delay=".8s">{{ trans('locale.cia') }} <span>{{ trans('locale.mark') }}</span></p>
+                    <p class="wow bounceInDown" data-wow-delay=".8s">@if(app()->getLocale()=='en'){{ trans('locale.cia') }} <span>{{ trans('locale.mark') }}</span>@else  <span>{{ trans('locale.mark') }}</span> {{ trans('locale.cia') }} @endif</p>
                     <p class="wow bounceInDown" data-wow-delay=".8s" data-typer-targets="{{ trans('locale.cia_word') }}"></p>
                 </div>
             </div>

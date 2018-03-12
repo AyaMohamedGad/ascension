@@ -201,13 +201,7 @@ a.language {
 .newsticker li{
     text-align: right;
 }
-.news .col-md-3{
-    padding-right:0 !important;
-}
-.news .col-md-3 img{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+
 #news-carousel .carousel-indicators {
     right: 20%;
 }
@@ -347,10 +341,6 @@ p.paginate{
 .language{
     margin-left: 0;
 }
-.footer{
-    left: auto;
-    right: 260px;
-}
 p.paginate {
     right: 60px;
     left: auto;
@@ -373,7 +363,7 @@ p.paginate {
 
 .fund_head h4{
     margin-right: 0;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .contact_gif{
@@ -508,5 +498,10 @@ p {
     line-height: 30px;
 }
 .carousel-inner>.item{
-    min-height: 275px;
+    min-height: 200px;
+}
+
+.footer .col-sm-12{
+    left: auto;
+    right:0px;
 }
