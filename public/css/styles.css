@@ -1918,7 +1918,7 @@ h1 .circle-anim:after {
     overflow: hidden;
     max-width: 7em;
     white-space: nowrap;
-    color: #002060;
+    color: #0054a4;
     animation: loading 8s linear;
     -webkit-animation: loading 8s linear;
 }
