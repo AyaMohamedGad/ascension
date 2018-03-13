@@ -8,10 +8,10 @@ html *{
     direction: rtl;
 }
 
-header, h1#logo{
+/*header, h1#logo{
     right: 0;
     left: auto;
-}
+}*/
 
 #content{
     padding-right: 260px;
@@ -321,9 +321,9 @@ a.language {
     #content {
         padding-right: 0px !important;
     }
-    #menu-button {
+    /*#menu-button {
         right: 10px;
-    }
+    }*/
 }
 i.fa{
     margin-left: 5px;
@@ -383,10 +383,10 @@ p.paginate {
         padding-right: 0px;
     }
 
-    header, h1#logo{
+    /*header, h1#logo{
         left: 0 !important;
         right: auto;
-    }
+    }*/
     .footer{
         right: 0 !important;
     }
@@ -484,10 +484,11 @@ p {
     .video{
         height: 400px;
     }
-}.pushed-left #content, .pushed-left #header, .pushed-left #footer, .pushed-left #background-color, .pushed-left h1#logo {
+}
+/*.pushed-left #content, .pushed-left #header, .pushed-left #footer, .pushed-left #background-color, .pushed-left h1#logo {
      -webkit-transform: translate3d(-260px, 0, 0); 
     transform: translate3d(-260px, 0, 0);
-}
+}*/
 
 #news-carousel .news-carousel .row .col-md-3{
     padding-right: 0px !important;

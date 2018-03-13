@@ -345,12 +345,12 @@ padding:11px 25px 0px;
 		height: 350px;
 	}
 	
-	.fixing div{
+	/*.fixing div{
 		height: auto;
 		position: relative;
 		margin-top: -91%;
 		min-height: 300px;
-	}
+	}*/
 
 	.information div p:first-child{
 		text-align: center;
@@ -362,10 +362,10 @@ padding:11px 25px 0px;
 	.information .fixing img , .information.fixing img {
 		height: 300px;
 	}
-	.information .fixing div, .information.fixing div {
+	/*.information .fixing div, .information.fixing div {
 		margin-top: -91%;
 		height: 300px;
-	}
+	}*/
     .tab-content h4 {
         font-size: 18px;
     }

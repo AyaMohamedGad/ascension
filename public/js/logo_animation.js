@@ -88,7 +88,7 @@ if(locale == 'en'){
     .delay(2200)
     .animate({
         left: "73.5%",
-        top: "3.2%",
+        top: "7.5%",
         opacity: "0.5",
         width: "24%"
           }, 1000);
@@ -134,7 +134,7 @@ else{
   .delay(2200)
   .animate({
       right: "75%",
-      top: "3.2%",
+      top: "7.5%",
       opacity: "0.5",
       transform: "scaleX(-1)",
       width: "24%"
